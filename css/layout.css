@@ -1,0 +1,267 @@
+/* @override 
+	http://0.0.0.0:4000/css/layout.css
+*/
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+sup {
+	font-size:xx-small;
+	vertical-align:super
+}
+
+.date {
+	color: #898989;
+	text-transform: uppercase;
+	font: normal 11px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.end-of-post {
+	height: 20px;
+}
+
+.masthead {
+	padding-bottom: 25px;
+	padding-top: 20px;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: "Georgia", "Times New Roman", serif;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.masthead a, a:visited{
+	border-bottom-style: none;
+	
+}
+
+.masthead a:hover{
+	border-bottom-style: none;
+	color: #eb521f;
+}
+
+
+/* dividers (|) in masthead */
+.mastdiv{
+	color: #d1d1d1;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.sean{
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-weight: bold;
+	border-bottom: 0px solid #dfdfdf;
+	margin-bottom: 12px;
+	color: #353535;
+}
+
+.sean a, a:visited{
+	color: #353535;
+}
+
+.contactsub a, a:visited {
+	color: #898989;
+}
+
+.contactsub {
+	color: #898989;
+	font: normal 11px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+	padding-bottom: 18px;
+	text-transform: uppercase;
+	color: #a3a3a3;
+	padding-top: 11px;
+	border-top: 1px solid #dfdfdf;
+	margin-top: 40px;
+ 	font-size: 15px;
+}
+
+.footer a, a:visited {
+	color: #a3a3a3;
+	border-bottom-style: none;
+}
+
+.footer a:hover{
+	border-bottom-style: none;
+	color: #eb521f;
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* CV */
+/*lists*/
+dt {
+	position: relative;
+	left: 0;
+	top: 20px;
+	color: #626262;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 57px;
+}
+
+dd {
+	border-left: 1px solid #dfdfdf;
+	padding: 0 0 0 9px;
+	margin: -5px 0 0 58px;
+}   
+
+dl {
+	margin-bottom: 20px;
+} 
+
+img {
+	border: 1px solid #ccc;
+}  
+
+img.bigpicture {
+	margin-left: -210px;
+}
+
+.headshot {
+	margin-left: 0px;
+	float: right;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+h1 a.link {
+  	border: none;
+	font-size: 16px;
+	color: #474747;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+h1 a.link:hover{
+  	color: #eb3808;
+	background-color: #ededed;
+	border-bottom-style: none;
+}
+
+
+div.postlinkcontent {
+	font-size: 15px;
+	line-height: 21px;
+	color: #373737;
+	
+}
+
+.postlinkperma {
+	font-size: 16px;
+	margin-left: 6px;
+	color: #474747;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+/* #Code block formatting */
+pre {
+  /*width: 500px;*/
+  white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+  white-space: -pre-wrap; /* Opera */
+  white-space: -o-pre-wrap; /* Opera */
+  white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+  word-wrap: break-word; /* IE 5.5+ */
+}
+
+
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #52595d;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/*code {*/
+  /*padding: 2px 4px;*/
+  /*color: #52595d;*/
+  /*background-color: #f9f9f9;*/
+  /*border: 1px solid #ccc;*/
+  /*white-space: nowrap;*/
+/*}*/
+pre {
+  display: block;
+  padding: 7.5px;
+  margin: 0 0 18px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
