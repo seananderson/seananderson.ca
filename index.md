@@ -100,7 +100,7 @@ Download a copy of my CV ([PDF][cv-pdf], [markdown][cv-md]). My [Google Scholar 
 2011
 :    **Anderson, S.C.**, J. Mills Flemming, R. Watson, H.K. Lotze. Rapid
      global expansion of invertebrate fisheries: trends, drivers, and
-     ecosystem effects. PLoS ONE. 6(3): e14735.
+     ecosystem effects. PLOS ONE. 6(3): e14735.
      <http://dx.doi.org/10.1371/journal.pone.0014735>
 
 2008
@@ -110,17 +110,23 @@ Download a copy of my CV ([PDF][cv-pdf], [markdown][cv-md]). My [Google Scholar 
      <http://dx.doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
      Eighth most-read CJFAS article in 2008.
 
-# Submitted manuscripts #
+# Manuscripts in review #
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
-     Quantifying metapopulation portfolio effects. Submitted with revisions to
-     Methods in Ecology and Evolution.
+     Quantifying metapopulation portfolio effects. Completing minor revisions 
+     for Methods in Ecology and Evolution.
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
-     Submitted to Ecology.
+     In review at Ecology.
+
+2013
+:    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
+     Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
+     performance of grizzly bear management in British Columbia, Canada. 
+     In review at PLOS ONE.
 
 # Awards and scholarships #
 2014
