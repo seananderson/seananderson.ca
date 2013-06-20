@@ -1,0 +1,245 @@
+% Sean Anderon, 2012, sean@seananderson.ca
+\documentclass{tufte-handout}
+\usepackage{geometry} 
+\geometry{letterpaper}
+\usepackage{graphicx}
+\usepackage{Sweave} 
+\usepackage{url} 
+\urlstyle{rm} 
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+\bibliographystyle{apalike}   
+\usepackage{booktabs}
+
+\title{Lecture 9: An introduction to ggplot2}
+\author{Sean C. Anderson}
+
+\begin{document}
+\maketitle
+
+<<echo = false, results = hide>>=
+library(ggplot2)
+@
+
+% Components
+% 
+% Data
+% Geometric object (geom) Statistical transformation (stat) Scales
+% Coordinate system
+% (plus Position adjustment, facetting)
+
+% Previous description is a bit of a simplification
+% Actually have: defaults + layers + scales + coordinate system
+% Layer = data + mapping + geom + stat + position
+
+\section{The ggplot philosophy: rapid data exploration}
+\texttt{ggplot2} is an R package that implements Wilkinson's Grammar of
+Graphics.\sidenote{Wilkinson, L. (2005). \textit{The Grammar of Graphics}. Springer, 2\textsuperscript{2nd} edition.} Hadley Wickham wrote the package as a chapter of his PhD thesis. Many people now participate in developing the package.
+
+The emphasis of \texttt{ggplot} is on rapid exploration of data, and especially high-dimensional data. Think of base graphics functions as drawing with data. You have complete control over every pixel in a plot (once you learn the arcane world of \texttt{par}) but it can take a lot of time and code to produce a complex plot.
+
+Although \texttt{ggplot} can be fully customized, I find it reaches a point of diminishing returns. I tend to use \texttt{ggplot} and base graphics for what they excel at: \texttt{ggplot} for rapid data exploration and base graphics for polished and fully-customized plots for publication.
+
+The idea is simple: good graphical displays data require rapid iteration and lots of exploration. If it takes you hours to code a plot in base graphics, you're unlikely to throw it out and try something else. If it takes you hours to code a plot in base graphics, you're unlikely to explore other ways of visualizing the data or all the dimensions of the data.
+
+% \section{Why ggplot?}
+% 
+% OK, so \texttt{ggplot} lets you visualize data quickly.
+% 
+% \begin{enumerate}
+%   \item Automatic assignment of colours, sizes
+%   \item Automatic creation of legends
+%   \item Complex figures with one line of code
+% \end{enumerate}
+
+%More thought, less coding
+
+\section{qplot vs.\ ggplot}     
+There are two main plotting functions in the \texttt{ggplot2} package: \texttt{qplot} and \texttt{ggplot}. \texttt{qplot} is short for ``quick plot'' and is made to mimic the format of \texttt{plot} from base R. \texttt{qplot} requires less syntax for many common tasks, but has limitations --- it's essentially a wrapper for \texttt{ggplot}. The \texttt{ggplot} function itself isn't complicated and will work in all cases. I prefer to work with just the \texttt{ggplot} syntax and will focus on it here.
+
+\section{Basics of the grammar}
+Let's look at some illustrative \texttt{ggplot} code:
+
+<<echo = true, fig = true, height = 4, width = 8>>=
+ d <- data.frame(x = c(1:10, 1:10), y = runif(20), 
+                 group1 = rep(gl(2, 5, labels = c("a", "b")), 2), 
+                 group2 = gl(2, 10))
+ ggplot(d) + geom_point(aes(x, y, colour = group1)) + facet_grid(~group2)
+@
+
+The basic format in this example is:
+
+\begin{enumerate}
+  \item \texttt{ggplot()}: start a \texttt{ggplot} object and specify the data
+  \item \texttt{geom\_point()}: we want a scatter plot; this is called a \texttt{geom}
+  \item \texttt{aes()}: specifies the ``aesthetic'' elements; a legend is automatically created
+  \item \texttt{facet\_grid()}: specifies the panel layout
+\end{enumerate}
+
+There are also statistics, scales, and annotation options, among others.
+% plot = data + aesthetics + geoms + facets + scales + statistics + annotation
+At a minimum, you must specify the data, some aesthetics, and a geom. I will elaborate on these below. Yes, \texttt{ggplot} combines elements with \texttt{+} symbols!\sidenote{This may seem non-standard, although it has the advantage of allowing \texttt{ggplot} plots to be proper R objects, which can modified, inspected, and re-used.}
+
+\section{Geoms}
+\texttt{geom} refers to a geometric object. It determines the ``shape'' of the plot elements. Some common geoms:
+
+\begin{tabular}{llll}
+  \toprule
+  \texttt{geom} & description \\
+ \midrule
+ \texttt{geom\_point} & Points, e.g.\ a scatterplot\\
+ \texttt{geom\_line} & Lines\\
+ \texttt{geom\_ribbon} & Ribbons, y range with continuous x values\\
+ \texttt{geom\_polygon} & Polygon, a filled path\\
+ \texttt{geom\_pointrange} & Vertical line with a point in the middle\\ % todo - flip axes
+ \texttt{geom\_linerange} & An interval represented by a vertical line\\
+ \texttt{geom\_path} & Connect observations in original order\\
+ \texttt{geom\_histogram} & Histograms \\
+ \texttt{geom\_text} & Textual annotations\\
+ \texttt{geom\_violin} & Violin plot\\
+ \texttt{geom\_map} & Polygons from a map\\
+\bottomrule
+\end{tabular}
+
+\section{Aesthetics}
+Aesthetics refer to the attributes of the data you want to display. They map the data to an attribute (such as the size or shape of a symbol) and generate an appropriate legend. Aesthetics are specified with the \texttt{aes} function.
+
+As an example, the aesthetics available for \texttt{geom\_point} are: \texttt{x}, \texttt{y}, \texttt{alpha}, \texttt{colour}, \texttt{fill}, \texttt{shape}, and \texttt{size}.\sidenote{Note that \texttt{ggplot} tries to accommodate the user who's never ``suffered'' through base graphics before by using intuitive terms like \texttt{colour}, \texttt{size}, and \texttt{linetype}, but \texttt{ggplot} will also accept terms such as \texttt{col}, \texttt{cex}, and \texttt{lty}.} Read the help files to see the aesthetic options for the geom you're using. They're generally self explanatory.
+
+Aesthetics can be specified within the data function or within a geom. If they're specified within the data function then they apply to all geoms you specify.
+
+Note the important difference between specifying characteristics like colour and shape inside or outside the \texttt{aes} function --- those inside the \texttt{aes} function are assigned the colour or shape automatically based on the data. If characteristics like colour or shape are defined outside the \texttt{aes} function, then the characteristic is not mapped to data. Example:
+
+<<echo = true, fig = true, height = 4, width = 6>>=
+library(ggplot2)
+ggplot(mpg, aes(cty, hwy)) + geom_point(aes(colour = class))
+@
+
+<<echo = true, fig = true, height = 4, width = 6>>=
+ggplot(mpg, aes(cty, hwy)) + geom_point(colour = "red")
+@
+
+\section{Small multiples}
+In \texttt{ggplot} parlance, small multiples are referred to as facets. There are two kinds: \texttt{facet\_wrap} and \texttt{facet\_grid}.
+This is where \texttt{ggplot} really shines.
+
+<<echo = true, fig = true, height = 5, width = 6.5>>=
+ggplot(mpg, aes(cty, hwy)) + geom_point() + facet_wrap(~class)
+@
+
+\clearpage
+<<echo = true, fig = true, height = 3, width = 8>>=
+ ggplot(mpg, aes(cty, hwy)) + geom_point() + facet_grid(year~class)
+@
+
+\texttt{face\_wrap} plots the panels in the order of the factor levels. When it gets to the end of a column it wraps to the next column. You can specify the number of columns and rows with \texttt{nrow} and \texttt{ncol}. \texttt{facet\_grid} lays out the panels in a grid with an explicit x and y position.
+
+By default all x and y axes will be shared among panels. You could, for example, specify ``free'' y axes with \texttt{face\_wrap(scales = "free\_y")}.
+
+% advantages
+% automatic assignment and legend for "aesthetics"
+% 
+% discrete vs. continuous variables
+% 
+% experiment with aesthetics 
+
+% todo \sidenote{Use with \texttt{axis\_flip} if you want horizontal lines with a point in the middle.}
+
+% position
+% jitter
+% dodge
+
+% \section{stats}
+% stat\_smooth
+% 
+% \section{coordinate systems}
+% coord\_flip
+% Flipped cartesian coordinates.
+% 
+% \section{position adjustments}
+% dodge jitter
+
+% binwidth for histograms
+
+% \texttt{coord\_cartesian} vs zooming with xlim, ylim
+
+% combining geoms with qplot
+
+\section{Themes}
+A useful theme built into \texttt{ggplot} is \texttt{theme\_bw}:
+<<echo = true, fig = true, height = 2.5, width = 4.5>>=
+dsamp <- diamonds[sample(nrow(diamonds), 1000), ]
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_bw()
+@
+
+A powerful aspect of \texttt{ggplot} is that you can write your own themes. This feature of \texttt{ggplot} was recently expanded substantially, and I imagine we'll see more themes developed and shared in the future. See the \texttt{ggthemes} package for some examples.\sidenote{Install the R package from:\\ \url{https://github.com/jrnold/ggthemes}}
+
+\clearpage
+A Tufte-like theme:
+<<echo = true, fig = true, height = 2.5, width = 4.5>>=
+library("ggthemes")
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + geom_rangeframe() +
+ theme_tufte()
+@
+
+Just what you wanted:
+<<echo = true, fig = true, height = 2.5, width = 5>>=
+qplot(carat, price, data = dsamp, colour = cut) + theme_excel2003() +
+ scale_colour_excel2003()
+@
+
+You can customize just about every aspect of a \texttt{ggplot} plot. We won't get into that today.
+
+\section{ggplot's dirty little secret}
+\begin{enumerate}
+  \item \texttt{ggplot} is easy to learn, however \ldots
+  \item you need to be a data-manipulation ninja to effectively use it
+\end{enumerate}
+
+With base plot, you can work with almost any data structure you'd like providing you can write the code to work with it. \texttt{ggplot} requires you to think carefully about the data structure and then write one line of code.
+
+\texttt{ggplot} works with ``long'' format data with each aesthetic or facet variable in its own column.  So, for example, if we wanted a panel for each level of a factor called ``fishstock'' then we'd need a column named ``fishstock'' with all the different values of ``fishstock'' in that column.
+
+With the \texttt{reshape} and \texttt{plyr} packages you can get almost any dataset into shape for \texttt{ggplot} in a few lines. Sometimes this will take some serious thought.
+
+\section{Help}
+The R help files were notoriously bad but are rapidly improving.  
+
+The best (and nearly essential) help source is the website.\sidenote{\url{http://docs.ggplot2.org/}} There's also an active \texttt{ggplot} discussion group.\sidenote{\url{http://groups.google.com/group/ggplot2}} 
+\texttt{ggplot} is heavily featured on stackoverflow.\sidenote{\url{http://stackoverflow.com/questions/tagged/ggplot2}} 
+
+Hadley wrote a book on \texttt{ggplot}. It's quite thorough but doesn't feature some of the newer additions to \texttt{ggplot}.
+
+\section{Random tips}
+
+\begin{description}
+  \item[Jittering and statistics] \hfill \\
+    \texttt{ggplot2} has lots of built in niceties like automatic position jittering and the addition of basic statistical models to your plots. Have a look through the website.
+  \item[Axis labels] \hfill \\
+    \texttt{xlab("Your x-axis label")}
+  \item[Suppressing the legend] \hfill \\ 
+    \texttt{theme(legend.position = "none")}
+  \item[Exploiting the object-oriented nature of \texttt{ggplot2}] \hfill \\
+    Save the basic plot to an object and then experiment with different aesthetics, geoms, and theme adjustments.
+<<<echo = true, figure = false>>=
+ p <- ggplot(d) + geom_point(aes(x, y, colour = group1)) 
+ p <- p + facet_grid(~group2)
+@
+  \item[Horizontal error bars]\hfill \\  
+    Say you want to make a coefficient plot with the coefficients down the y-axis. You can either build the plot piece by piece with points and segments, or you can use \texttt{point\_range()} and then rotate the axes with \texttt{+ coord\_flip()}.
+  \item[Axis limits and zooming] \hfill \\
+    \texttt{ggplot2} has two ways of adjusting the axis limits: \texttt{+ xlim(2, 5)} will ``cut'' the data at \texttt{2} and \texttt{5} and plot the data. \texttt{coord\_cartesian(xlim = c(2, 5))} will zoom in on the plot while retaining the original data. This will, for example, affect colour scales.
+  \item[Displaying and saving ggplot2 plots] \hfill \\
+    If \texttt{ggplot2} plots are generated in a function, they will be need to be wrapped in \texttt{print()} to display. There is a convenience function \texttt{ggsave("filename.pdf")}, which will save the last plot to a pdf and guess at reasonable dimensions. You can, of course specify which plot to save and the dimensions of the pdf. You can also use all the same methods of saving \texttt{ggplot2} plots that you can use for base graphics.
+\end{description}
+
+% \bibliography{/Users/seananderson/Dropbox/tex/jshort.bib,/Users/seananderson/Dropbox/tex/ref.bib}
+\end{document}
+
+% Change legend label: + labs(colour = "My Custom Legend")
+% Hide all legends: + opts(legend.position = "none")
+% Angle axis labels: opts(axis.text.x = theme text(angle = 45, hjust = 1, colour
+% = "grey50")
+% Reorder factors: Attributes$Dexterity <- factor(Attributes$Dexterity, levels =
+% c("Low", "Mid", "Hi"))

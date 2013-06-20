@@ -5,9 +5,9 @@ title: Colophon
 
 <img src="/images/sean_anderson_106x150.jpg" alt="Sean C. Anderson" width="106px" height="150px" class="headshot"/>
 
-I generate seananderson.ca with [jekyll.rb] on [github]. [Typekit] provides web fonts. I write the site content in the [Maruku] version of [Markdown].
+I generate seananderson.ca with [jekyll.rb]. [Typekit] provides web fonts. I write the site content in the [Maruku] version of [Markdown].
 
-I designed the current version of seananderson.ca around the [Skeleton] CSS framework using [MacVim], [Sublime Text], [CSSEdit], and [xScope]. You can find other applications I use on my [iusethis account].
+I designed the current version of seananderson.ca around the [Skeleton] CSS framework using [MacVim], [CSSEdit], and [xScope]. You can find other applications I use on my [iusethis account].
 
 I occasionally [post photos][my flickr] to [Flickr]. It's been a while.
 

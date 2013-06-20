@@ -1,0 +1,11 @@
+_site
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.docx
+index.tex
+makejekyll2.sh
+.dropbox
+id\_dsa.pub

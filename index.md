@@ -3,8 +3,23 @@ layout: default
 title: seananderson.ca
 ---
 
+The thoughtful visual display of quantitative data can powerfully inform
+conservation ecology.
 
-# Education
+My Ph.D. research is focussed on applying economic portfolio and financial-
+risk theory to ecological systems to gain insight into the relationships
+between biological diversity, population stability, and extinction risk. I am
+co-advised by [Nick Dulvy](http://www.dulvy.com/) and [Andy Cooper](http://www.rem.sfu.ca/people/faculty/cooper/).
+
+My broader research interests include species' extinction risk,
+large-scale fisheries' development patterns, and assessing the global
+status of data-poor fisheries.
+
+Download a copy of my CV ([PDF][cv-pdf], [markdown][cv-md]). My [Google Scholar citations][citations].
+
+
+
+# Education #
 
 2011--13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
@@ -38,7 +53,9 @@ title: seananderson.ca
 :    B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo, Waterloo,
      Canada Transferred to Dalhousie University in 2004.
 
-# Publications
+
+# Publications #
+
 2012
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
      Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple
@@ -93,7 +110,21 @@ title: seananderson.ca
      <http://dx.doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
      Eighth most-read CJFAS article in 2008.
 
-# Awards and scholarships
+# Submitted manuscripts #
+
+2013
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
+     Quantifying metapopulation portfolio effects. Submitted with revisions to
+     Methods in Ecology and Evolution.
+
+2013
+:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
+     negative impacts of rapid pond drying for three amphibian species.
+     Submitted to Ecology.
+
+# Awards and scholarships #
+2014
+:    Graduate Fellowship, Simon Fraser University
 
 2012--13
 :    [Canadian Fulbright Scholar award][Fulbright] to the University of
@@ -127,12 +158,19 @@ title: seananderson.ca
 :    Dean's Entrance Scholarship, University of Waterloo
 
 
-# Invited talks and conference presentations
+# Invited talks and conference presentations #
+
+2013
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. False prophets: The
+     challenges of quantifying ecological portfolios ([slides][2013 PE
+     safs]), Quantitative Seminar, School of Aquatic and Fishery
+     Sciences, University of Washington, Seattle, WA, United States.
+
 2012
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy.  False prophets: The
      ecological portfolio effect overestimates the benefit of diversity. Branch
-     Lab, School of Aquatic and Fishery Sciences, University of Washington, Seattle,
-     WA, United States.
+     Lab, School of Aquatic and Fishery Sciences, University of
+     Washington, Seattle, WA, United States.
 
 2012
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Metapopulation dynamics and
@@ -168,17 +206,17 @@ title: seananderson.ca
      Departmental Seminar, Biology Department, Dalhousie University, Canada.
 
 
-# Contract employment
+# Contract employment #
 
 2011--13
-:    Database management and data analyses for the project *Global Shark
-     Abundance Baselines* (Hopkins Marine Station, Stanford University, CA,
-     United States) with F. Micheli, F. Ferretti, N.K. Dulvy, H.K. Lotze, and B.
-     Worm.
+:    Database management, data analysis, and visualization for the
+     project *Global Shark Abundance Baselines* (Hopkins Marine Station,
+     Stanford University, CA, United States) with F. Micheli, F.
+     Ferretti, N.K. Dulvy, H.K. Lotze, and B. Worm.
 
 2010
-:    Assessment of Arctic surfclam on Banquereau Bank using industry collected
-     data for Clearwater Seafoods, Bedford, NS, Canada.
+:    Assessment of Arctic surfclam on Banquereau Bank using industry
+     collected data for Clearwater Seafoods, Bedford, NS, Canada.
 
 2010
 :    Modelling length-frequency distribution changes of Atlantic halibut for
@@ -187,7 +225,7 @@ title: seananderson.ca
      Dartmouth, NS, Canada.
 
 
-# Working groups and workshops
+# Working groups and workshops #
 
 2011--13
 :    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
@@ -217,11 +255,21 @@ title: seananderson.ca
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
 
-# Selected courses and training
+# Selected courses and training #
 
 Present
-:    Proficient in statistical analyses and data management using R, WinBUGS,
-     Sweave, LaTeX, Perl, PostgreSQL, Git.
+:    Proficient in statistical analyses and data management using R,
+     WinBUGS, JAGS, Sweave, knitr, LaTeX, Perl, PostgreSQL, Git.
+
+2013
+:    Quantitative Modelling in Ecosystem Based Management, R. Hilborn,
+     School of Aquatic and Fishery Sciences, University of Washington
+     (auditing).
+
+2013
+:    Applied Time Series Analysis; E. Holmes, M. Scheuerell, and E.
+     Ward; School of Aquatic and Fishery Sciences; University of
+     Washington (audited).
 
 2012
 :   Numerical Computing for the Natural Resources, Dr. A.E. Punt, School of
@@ -235,10 +283,6 @@ Present
 2011
 :    Presenting Data and Information, Edward Tufte, Seattle, WA, United States.
 
-2010
-:    State-Space Models for Ecologists, Dr. I.D. Jonsen, Department of Biology,
-     Dalhousie University (audited).
-
 2009
 :    Technical Expertise in Stock Assessment: Model Fitting and Interpretation
      by Dr. C. Needle, chair of the International Council for the Exploration
@@ -249,21 +293,19 @@ Present
 :    Data Analysis, Dr. J. Mills Flemming, Department of Mathematics &
      Statistics, Dalhousie University (audited).
 
-2008
-:    Evolutionary Ecology of Fisheries Resources, Dr. D.P. Swain,
-     Department of Fisheries and Oceans, Dalhousie University (audited).
+# Teaching #
 
-
-# Teaching
 2012
-:    Introduction to ggplot2. Lecture for FISH 507H: Beautiful Graphics in R,
-     School of Aquatic and Fishery Sciences, University of Washington, Seattle,
-     WA, United States
+:    Introduction to ggplot2. ([notes][2012 ggplot2 notes],
+     [slides][2012 ggplot2 slides]) Lecture for FISH 507H: Beautiful
+     Graphics in R, School of Aquatic and Fishery Sciences, University
+     of Washington, Seattle, WA, United States
 
 2012
 :    Workshop on the R package plyr. ([notes][2012 plyr notes],
-     [slides][2012 plyr slides], [examples][2012 plyr examples]) Branch Lab, School of Aquatic and Fishery
-     Sciences, University of Washington, Seattle, WA, United States
+     [slides][2012 plyr slides], [examples][2012 plyr examples]) Branch
+     Lab, School of Aquatic and Fishery Sciences, University of
+     Washington, Seattle, WA, United States
 
 2011
 :    Multipanel plotting in R with base graphics.
@@ -287,33 +329,46 @@ Present
 2007--08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
 
-# Reviews
+# Reviews #
+
 Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
 Journal of Tropical Biology and Conservation, Journal of Environmental
 Management, Aquatic Conservation
 
 
-[Phillis:2012:MPC]: http://seananderson.ca/papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf
+[Phillis:2012:MPC]: papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf
 [Anderson:2012:AGM]: http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref
-[Anderson:2011:SEG]: http://seananderson.ca/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
-[Anderson:2011:CVE]: http://seananderson.ca/papers/Anderson_etal_2011_BioScience_with_supplement.pdf
-[Anderson:2008:EKB]: http://seananderson.ca/papers/Anderson_etal_2008_knowledge.pdf
+[Anderson:2011:SEG]: papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
+[Anderson:2011:CVE]: papers/Anderson_etal_2011_BioScience_with_supplement.pdf
+[Anderson:2008:EKB]: papers/Anderson_etal_2008_knowledge.pdf
 
-[MSc:Thesis]: http://seananderson.ca/papers/Anderson_MSc_2010.pdf
-[HSc:Thesis]: http://seananderson.ca/papers/Anderson_HSc_2006.pdf
+[MSc:Thesis]: papers/Anderson_MSc_2010.pdf
+[HSc:Thesis]: papers/Anderson_HSc_2006.pdf
 
-[2011 multipanel notes]: http://seananderson.ca/courses/11-multipanel/multipanel.pdf
-[2011 multipanel slides]: http://seananderson.ca/courses/11-multipanel/multipanel-slides.pdf
+[2011 multipanel notes]: courses/11-multipanel/multipanel.pdf
+[2011 multipanel slides]: courses/11-multipanel/multipanel-slides.pdf
 
-[2011 RIntro notes]: http://seananderson.ca/courses/11-rintro/RIntro.pdf
-[2011 RIntro code]: http://seananderson.ca/courses/11-rintro/RIntro.R
+[2011 RIntro notes]: courses/11-rintro/RIntro.pdf
+[2011 RIntro code]: courses/11-rintro/RIntro.R
 
-[2011 plyr notes]: http://seananderson.ca/courses/11-plyr/plyr.pdf
-[2011 plyr slides]: http://seananderson.ca/courses/11-plyr/plyr-slides.pdf
+[2011 plyr notes]: courses/11-plyr/plyr.pdf
+[2011 plyr slides]: courses/11-plyr/plyr-slides.pdf
 
-[2012 plyr notes]: http://seananderson.ca/courses/12-plyr/plyr_2012.pdf
-[2012 plyr slides]: http://seananderson.ca/courses/12-plyr/plyr_2012_slides.pdf
-[2012 plyr examples]: http://seananderson.ca/courses/12-plyr/plyr_2012_examples.html
+[2012 plyr notes]: courses/12-plyr/plyr_2012.pdf
+[2012 plyr slides]: courses/12-plyr/plyr_2012_slides.pdf
+[2012 plyr examples]: courses/12-plyr/plyr_2012_examples.html
+
+[2012 ggplot2 slides]: courses/12-ggplot2/ggplot2_slides_with_examples.pdf
+[2012 ggplot2 notes]: courses/12-ggplot2/ggplot2_notes.pdf
+
+[2013 PE safs]: talks/2013/PE_SAFS_quantsem.pdf
+
+[cv-pdf]: AndersonCV.pdf
+[cv-md]: AndersonCV.txt
 
 [Fulbright]: http://www.fulbright.ca/programs/canadian-students/2012-2013-canadian-fulbright-students.html
 [Governor General award]: http://goo.gl/nA1zE
+
+[citations]: http://scholar.google.ca/citations?view_op=list_works&hl=en&user=AGSviU8AAAAJ
+
+

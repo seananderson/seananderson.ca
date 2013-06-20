@@ -1,0 +1,55 @@
+## same axes
+par(xpd = NA)
+par(mfrow = c(2, 3))
+par(mar = c(0, 0, 0, 0))
+par(oma = c(4, 4, 0.5, 0.5))
+for (i in 1:6) {
+  plot(1, axes = FALSE, xlab = "", ylab = "")
+  box(col = "grey60")
+  if (i %in% c(4, 5, 6)) 
+    axis(1, col = "grey60")
+  if (i %in% c(1, 4)) 
+    axis(2, col = "grey60", las = 1)
+  mtext(letters[i], side = 3, adj = 0.1, line = -2)
+}
+mtext("X axis", side = 1, line = 2.2, outer = TRUE)
+mtext("Y axis", side = 2, line = 2.2, outer = TRUE)
+
+## separate y-axes
+par(xpd = NA)
+par(mfrow = c(2, 3))
+par(mar = c(0, 3, 0, 0))
+par(oma = c(4, 2, 0.5, 0.5))
+for (i in 1:6) {
+  plot(rnorm(40), axes = FALSE, xlab = "", ylab = "", ylim = c(-3, 3.5))
+  box(col = "grey60")
+  if (i %in% c(4, 5, 6)) axis(1, col = "grey60")
+  axis(2, col = "grey60", las = 1)
+  mtext(letters[i], side = 3, adj = 0.1, line = -2)
+}
+mtext("X axis", side = 1, line = 2.2, outer = TRUE)
+mtext("Y axis", side = 2, line = 0.5, outer = TRUE)
+
+## layout()
+pdf("example-with-layout.pdf", width = 5, height = 3.5)
+layout(rbind(c(1, 1), c(2, 3)))
+layout.show(3)
+par(mar = c(2, 4, 1, 1))
+par(oma = c(2, 2, 0, 0))
+par(cex = 0.7)
+plot(1)
+plot(1)
+plot(1)
+dev.off()
+
+## split.screen()
+m <- rbind(c(0.15, 0.2, 0.15, 1), c(0.22, 1, 0.15, 1))
+split.screen(m)
+screen(1)
+par(mar = c(0, 0, 0, 0), oma = c(0, 0, 0, 0))
+plot(1)
+screen(2)
+par(mar = c(0, 0, 0, 0), oma = c(0, 0, 0, 0))
+plot(1, axes = TRUE, yaxt = "n")
+close.screen(all = TRUE)
+       

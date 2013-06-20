@@ -1,0 +1,152 @@
+% Sean Anderson, 2011, sean@seananderson.ca
+\documentclass[12pt]{article}
+\usepackage{geometry} 
+\geometry{letterpaper}
+\usepackage{graphicx}
+\usepackage{Sweave} 
+\usepackage{url}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[pdftex,colorlinks=true,urlcolor=MidnightBlue]{hyperref}
+\usepackage{booktabs}
+\usepackage{listings}
+
+\title{A quick introduction to plyr}
+\author{Sean Anderson}
+%\date{}
+
+\setlength\parskip{0.1in}
+\setlength\parindent{0in}
+
+\begin{document}
+\maketitle
+
+<<echo = false, results = hide>>=
+library(plyr)
+@
+
+What is \texttt{plyr}? It's a bundle of awesomeness (i.e.\ an R package) that makes it simple to split apart data, do stuff to it, and mash it back together. This is a common data manipulation step. 
+
+Or, from the documentation:
+
+``\texttt{plyr} is a set of tools that solves a common set of problems: you need to break a big problem down into manageable pieces, operate on each pieces and then put all the pieces back together. It's already possible to do this with split and the apply functions, but \texttt{plyr} just makes it all a bit easier\ldots''
+
+This is a very quick introduction to \texttt{plyr}. For more details have a look at the \texttt{plyr} site: \url{http://had.co.nz/plyr/} and particularly Hadley Wickham's introductory guide \emph{The split-apply-combine strategy for data analysis}.
+
+\url{http://had.co.nz/plyr/plyr-intro-090510.pdf}
+
+\section{Why use \texttt{apply} functions instead of \texttt{for} loops?}
+\begin{enumerate}
+  \item the code is cleaner -- easier to code and read, and less error prone because:
+    \begin{enumerate}
+  \item you don't have to deal with subsetting
+  \item you don't have to deal with saving your results
+    \end{enumerate}
+  \item apply functions are often faster, sometimes dramatically 
+\end{enumerate}
+
+\section{Why use \texttt{plyr} over base \texttt{apply} functions?}
+\begin{enumerate}
+  \item \texttt{plyr} has a common syntax --- easier to remember
+  \item \texttt{plyr} requires less code since it takes care of the input and output format
+  \item \texttt{plyr} can be run in parallel --- faster
+\end{enumerate}
+
+\section{The basic idea behind apply functions}
+\texttt{apply} functions work by applying a function to a set of values and returning the output in some format. Here's about as simple an example as possible:
+
+<<<echo = true>>=
+y <- c(1, 2, 3)
+f <- function(x) x^2
+sapply(y, f)
+@
+Here, I have applied the function \texttt{f} to the values of \texttt{y}. Note that the \texttt{sapply} function was unnecessary here. This would have been better done in a vectorized format. If \texttt{y} was large, and the function more complex, the vectorized format could be noticeably faster. 
+<<<echo = true>>=
+f(y)
+@
+But, it isn't always possible (or easy) to vectorize a function, particularly when you're dealing with groupings of data as in the following examples.
+
+\section{\texttt{plyr} basics}
+\texttt{plyr} builds on the built in \texttt{apply} functions by giving you control over the input and output formats and keeping the syntax consistent across all variations. It also adds some niceties like error processing, parallel processing, and progress bars.
+
+The basic format is 2 letters followed by  \texttt{ply()}. The first letter refers to the format in and the second to the format out.
+
+The 3 main letters are: 
+\begin{enumerate}
+  \item \texttt{d} = data frame
+  \item \texttt{a} = array (includes matrices)
+  \item \texttt{l} = list
+\end{enumerate}
+
+So, \texttt{ddply} means: take a data frame, split it up, do something to it, and return a data frame. I find I use this the majority of the time since I often work with data frames. 
+
+\texttt{ldply} means: take a list, split it up, do something to it, and return a data frame. This extends to all combinations. The columns are the input formats and the rows are the output format: 
+
+\begin{tabular}{llll}
+  \toprule
+ & data frame & list & array\\
+ \midrule
+ data frame & \texttt{ddply} & \texttt{ldply} & \texttt{adply}\\
+ list & \texttt{dlply} & \texttt{llply} & \texttt{alply}\\
+ array & \texttt{daply} & \texttt{laply} & \texttt{aaply}\\
+\bottomrule
+\end{tabular}
+
+I've ignored a couple other format options. One that you might find useful is the underscore (\texttt{\_}) which will throw away the output (e.g.,\ \texttt{d\_ply()}). This can be useful when plotting.
+
+\section{A general example with \texttt{plyr}}
+Let's take a simple example. Take a data frame, split it up (by \texttt{year}), calculate the coefficient of variation of the \texttt{count}, and return a data frame. This could easily be done on one line, but I'm expanding it here to show the format a more complex function could take.
+<<echo = true>>=
+set.seed(1)
+d <- data.frame(year = rep(2000:2002, each = 3), count = round(runif(9, 0, 20)))
+print(d)
+library(plyr)
+ddply(d, "year", function(x) {
+  mean.count <- mean(x$count)
+  sd.count <- sd(x$count)
+  cv <- sd.count/mean.count
+  data.frame(cv.count = cv)
+})
+@
+
+\section{\texttt{transform} and \texttt{summarise}} 
+It is often convenient to use these functions within \texttt{plyr}. \texttt{transform} acts as it would normally as the base R function and modifies an existing data frame. \texttt{summarise} creates a new (usually) condensed data frame.
+<<echo = true>>=
+ddply(d, "year", summarise, mean.count = mean(count))
+ddply(d, "year", transform, total.count = sum(count))
+@
+
+%\section{Common usage examples}
+%You can use \texttt{plyr} to plot data by throwing away the ouput with an underscore (\texttt{\_}). This is a bit cleaner than a for loop since you don't have to subset the data manually. Often you'd be better off using a grid graphics package for this such as \texttt{ggplot2} or \texttt{lattice}, but here's an example:
+%
+%<<echo = true, fig = true, height = 2, width = 5>>=
+%par(mfrow = c(1, 3), mar = c(2, 2, 1, 1), oma = c(3, 3, 0, 0))
+%d_ply(d, "year", summarise, hist(count, main = unique(year)))
+%mtext("count", side = 1, outer = TRUE, line = 1)
+%mtext("frequency", side = 2, outer = TRUE, line = 1)
+%@
+
+
+\section{Other useful options}
+\subsection{Dealing with errors}
+You can use the \texttt{failwith} function to control how errors are dealt with.
+<<echo = true>>=
+f <- function(x) if (x == 1) stop("Error!") else 1
+safe.f <- failwith(NA, f, quiet = TRUE)
+#llply(1:2, f)
+llply(1:2, safe.f)
+@
+
+\subsection{Parallel processing}
+In conjunction with \texttt{doMC} (or \texttt{doSMP} on Windows) you can run your function separately on each core of your computer. On a dual core machine this could double your speed in some situations. Set \texttt{.parallel = TRUE}.
+<<<echo = true>>=
+  x <- c(1:10)
+  wait <- function(i) Sys.sleep(0.1)
+  system.time(llply(x, wait))
+  system.time(sapply(x, wait))
+  
+  library(doMC)
+  registerDoMC(2) 
+  system.time(llply(x, wait, .parallel = TRUE))
+@
+
+\end{document}

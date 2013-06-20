@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist[description]{font=\normalfont\small,leftmargin=46pt,style=nextline}
+\usepackage{titlesec}
+\usepackage{url}
+\urlstyle{rm}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[xetex,colorlinks=true,urlcolor=MidnightBlue]{hyperref}
+\usepackage{datetime}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\newdateformat{headerdate}{\monthname[\THEMONTH] \THEYEAR}
+\lhead{\textit{Sean C. Anderson, \headerdate\today}}
+\rhead{\thepage}
+
+\renewcommand{\headrulewidth}{0mm}
+
+\titleformat{\section}
+  {\bf\Large}{\thesection}{0pt}{}
+\titlespacing{\section}{0pt}{8pt}{2.5pt}
+
+\titleformat{\subsection}
+  {\bf\large}{\thesubsection}{0pt}{}
+\titlespacing{\subsection}{0pt}{8pt}{1.5pt}
+
+\setlength{\parindent}{0pt}
+  
+\geometry{letterpaper}
+
+\textheight 21.75cm
+\setcounter{secnumdepth}{0}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setsansfont{Calibri}
+\setmonofont{Inconsolata}
+\setmainfont{Linux Libertine}
+\setmainfont{Minion Pro}
+
+%\titleformat*{\section}{\Large\bfseries\sffamily}
+%\titleformat*{\subsection}{\large\sc\sffamily}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+\begin{spacing}{1}
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \textbf{Sean Charles Anderson}}\\
+\vspace{2.8mm}
+Simon Fraser University, Biological Sciences\\
+Burnaby, BC, Canada, V5A 1S6\\
+%1-778-782-3989 (w) ~1-604-354-6472 (h)\\
+sean@seananderson.ca\\
+\end{center}
+\vspace{0.15mm}
+
+\input{cv-body.tex}
+
+\end{spacing}
+\end{document}
+

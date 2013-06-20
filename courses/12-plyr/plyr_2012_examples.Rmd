@@ -1,0 +1,60 @@
+# plyr examples
+
+Let's load plyr and the data:
+
+```{r}
+library(plyr)
+load("imdb.rda")
+```
+
+Let's start with a basic example. How does the mean movie length change through time?
+
+```{r}
+x0 <- ddply(imdb, "year", summarize, mean.length = mean(length, na.rm = TRUE))
+plot(x0)
+```
+
+We can also look at the mean length by genre and year. We can work group by multiple columns using the c("column1", "column2") format.
+
+```{r}
+ x1 <- ddply(imdb, c("genre", "year"), summarize, mean.length = mean(length, na.rm = TRUE))
+
+par(mfrow = c(5,5), mar = c(0,1.2,0,1), oma = c(3,3,1,1), cex = 0.6)
+d_ply(x1, "genre", transform, {
+  plot(year, mean.length, type = "l", xaxt = "n", xlim = c(1920, 2011))
+  mtext(unique(genre), line = -1.5)
+})
+```
+
+What if we wanted to detrend each time series with a linear model?
+
+```{r}
+x2 <- ddply(subset(x1, !is.na(mean.length)), "genre", transform, residual = residuals(lm(mean.length~year)))
+head(x2)
+```
+
+How about running a regression of movie length and rating for each year and storing the models?
+
+```{r}
+x3 <- dlply(subset(imdb, year > 1950 & genre != "Short"), "year", function(x) 
+  lm(length~imdb_rating, data = x))
+x3[[1]]
+```
+
+Now what if we wanted to extract the slopes and their confidence intervals from those models and return them in a data frame? You might want to step into the function with browser() to help write the code.
+
+```{r}
+x4 <- ldply(x3, function(x) {
+      est <- coef(x)[2]
+      ci <- confint(x)
+      ci.l <- ci[2, 1]
+      ci.u <- ci[2, 2]
+      data.frame(est, ci.l, ci.u)
+})
+library(ggplot2)
+ggplot(subset(imdb, year >= 1990 & genre != "Short"), aes(imdb_rating, length)) + geom_point(alpha = 0.05) + facet_wrap(~year) + stat_smooth(method = "lm")
+par(mfrow = c(1, 1))
+with(x4, plot(year, est, ylim = c(min(ci.l), max(ci.u))))
+d_ply(x4, "year", transform, segments(year, ci.l, year, ci.u))
+```
+

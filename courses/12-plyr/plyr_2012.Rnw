@@ -1,0 +1,225 @@
+% Sean Anderson, 2011-12, sean@seananderson.ca
+\documentclass[12pt]{article}
+\usepackage{geometry} 
+\geometry{letterpaper}
+\usepackage{graphicx}
+\usepackage{Sweave} 
+\usepackage{url}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[pdftex,colorlinks=true,urlcolor=MidnightBlue]{hyperref}
+\usepackage{booktabs}
+\usepackage{listings}
+
+\title{A quick introduction to plyr}
+\author{Sean Anderson}
+
+\setlength\parskip{0.1in}
+\setlength\parindent{0in}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\maketitle
+
+<<echo = false, results = hide>>=
+library(plyr)
+@
+
+\texttt{plyr} is an R package that makes it simple to split data apart, do stuff to it, and mash it back together. This is a common data-manipulation step. Importantly, \texttt{plyr} makes it easy to control the input and output data format from a syntactically consistent set of functions.
+
+Or, from the documentation:
+
+``\texttt{plyr} is a set of tools that solves a common set of problems: you need to break a big problem down into manageable pieces, operate on each pieces and then put all the pieces back together. It's already possible to do this with split and the apply functions, but \texttt{plyr} just makes it all a bit easier\ldots''
+
+This is a very quick introduction to \texttt{plyr}. For more details see Hadley Wickham's introductory guide \emph{\href{http://www.jstatsoft.org/v40/i01}{The split-apply-combine strategy for data analysis}} (2011, Journal of Statistical Software, Vol 40). There's quite a bit of discussion online in general, and especially on \href{http://stackoverflow.com/questions/tagged/plyr}{stackoverflow.com}.
+
+
+\section{Why use \texttt{apply} functions instead of \texttt{for}  loops?}
+
+\begin{enumerate}
+  \item The code is cleaner (once you're familiar with the concept). The code can be easier to code and read, and less error prone because:
+    \begin{enumerate}
+  \item you don't have to deal with subsetting
+  \item you don't have to deal with saving your results
+    \end{enumerate}
+  \item Apply functions can be faster than for loops, sometimes dramatically.
+\end{enumerate}
+
+\section{Why use \texttt{plyr} over base \texttt{apply} functions?}
+
+\begin{enumerate}
+  \item \texttt{plyr} has a common syntax --- easier to remember
+  \item \texttt{plyr} requires less code since it takes care of the input and output format
+  \item \texttt{plyr} can easily be run in parallel --- faster
+\end{enumerate}
+
+\section{\texttt{plyr} basics}
+
+\texttt{plyr} builds on the built-in \texttt{apply} functions by giving you control over the input and output formats and keeping the syntax consistent across all variations. It also adds some niceties like error processing, parallel processing, and progress bars.
+
+The basic format is 2 letters followed by  \texttt{ply()}. The first letter refers to the format in and the second to the format out.
+
+The 3 main letters are: 
+\begin{enumerate}
+  \item \texttt{d} = data frame
+  \item \texttt{a} = array (includes matrices)
+  \item \texttt{l} = list
+\end{enumerate}
+
+So, \texttt{ddply} means: take a data frame, split it up, do something to it, and return a data frame. I find I use this the majority of the time since I often work with data frames. 
+
+\texttt{ldply} means: take a list, split it up, do something to it, and return a data frame. This extends to all combinations. The columns are the input formats and the rows are the output format: 
+
+\begin{tabular}{llll}
+  \toprule
+ & data frame & list & array\\
+ \midrule
+ data frame & \texttt{ddply} & \texttt{ldply} & \texttt{adply}\\
+ list & \texttt{dlply} & \texttt{llply} & \texttt{alply}\\
+ array & \texttt{daply} & \texttt{laply} & \texttt{aaply}\\
+\bottomrule
+\end{tabular}
+
+I've ignored some less common format options:
+
+\begin{enumerate}
+  \item \texttt{m} = multi-argument function input
+  \item \texttt{r} = replicate a function \texttt{n} times.
+  \item \texttt{\_} = throw away the output
+\end{enumerate}
+
+For plotting, you might find the underscore (\texttt{\_}) option useful. It will do something with the data (say add line segments to a plot) and then throw away the output (e.g.,\ \texttt{d\_ply()}). 
+
+\section{Base R \texttt{apply} functions and \texttt{plyr}}
+
+\texttt{plyr} provides a consistent and easy-to-work-with format for \texttt{apply} functions with control over the input and output formats. Some of the functionality can be duplicated with base R functions (but with less consistent syntax). Also, few R \texttt{apply} functions work directly with data frames as input and output and data frames are a common object class to work with.
+
+Base R \texttt{apply} functions (from a presentation given by Hadley):
+
+\begin{tabular}{lllll}
+\toprule
+ & array & data frame & list & nothing\\
+\midrule
+array & \texttt{apply} & . & . & .\\
+data frame & . & \texttt{aggregate} & \texttt{by} & .\\
+list & \texttt{sapply} & . & \texttt{lapply} & .\\
+n replicates & \texttt{replicate} & . & \texttt{replicate} & .\\
+function arguments & \texttt{mapply} & . & \texttt{mapply} & .\\
+\bottomrule
+\end{tabular}
+
+\section{A general example with \texttt{plyr}}
+
+Let's take a simple example. Take a data frame, split it up (by \texttt{year}), calculate the coefficient of variation of the \texttt{count}, and return a data frame. This could easily be done on one line, but I'm expanding it here to show the format a more complex function could take.
+
+<<echo = true>>=
+set.seed(1)
+d <- data.frame(year = rep(2000:2002, each = 3), 
+count = round(runif(9, 0, 20)))
+print(d)
+library(plyr)
+ddply(d, "year", function(x) {
+  mean.count <- mean(x$count)
+  sd.count <- sd(x$count)
+  cv <- sd.count/mean.count
+  data.frame(cv.count = cv)
+})
+@
+
+\section{\texttt{transform} and \texttt{summarise}} 
+
+It is often convenient to use these functions within \texttt{plyr}. \texttt{transform} acts as it would normally as the base R function and modifies an existing data frame. \texttt{summarise} creates a new (usually) condensed data frame.
+
+<<echo = true>>=
+ddply(d, "year", summarise, mean.count = mean(count))
+ddply(d, "year", transform, total.count = sum(count))
+@
+
+Bonus function: \texttt{mutate}. \texttt{mutate} works like \texttt{transform} but lets you build on columns you build. 
+
+<<echo = true>>=
+ddply(d, "year", mutate, mu = mean(count), sigma = sd(count), 
+  cv = sigma/mu)
+@
+
+\section{Plotting with \texttt{plyr}}
+
+You can use \texttt{plyr} to plot data by throwing away the output with an underscore (\texttt{\_}). This is a bit cleaner than a for loop since you don't have to subset the data manually.
+
+<<echo = true, fig = true, height = 2, width = 5>>=
+par(mfrow = c(1, 3), mar = c(2, 2, 1, 1), oma = c(3, 3, 0, 0))
+d_ply(d, "year", transform, plot(count, main = unique(year), type = "o"))
+mtext("count", side = 1, outer = TRUE, line = 1)
+mtext("frequency", side = 2, outer = TRUE, line = 1)
+@
+
+\section{Nested chunking of the data}
+The basic syntax can be easily extended to break apart the data based on multiple columns:
+
+<<echo = true>>=
+baseball.dat <- subset(baseball, year > 2000) # data from the plyr package
+x <- ddply(baseball.dat, c("year", "team"), summarize,
+  homeruns = sum(hr))
+head(x)
+@
+
+\section{Other useful options}
+\subsection{Dealing with errors}
+
+You can use the \texttt{failwith} function to control how errors are dealt with.
+
+<<echo = true>>=
+f <- function(x) if (x == 1) stop("Error!") else 1
+safe.f <- failwith(NA, f, quiet = TRUE)
+#llply(1:2, f)
+llply(1:2, safe.f)
+@
+
+\subsection{Parallel processing}
+
+In conjunction with \texttt{doMC} (or \texttt{doSMP} on Windows) you can run your function separately on each core of your computer. On a dual core machine this could double your speed in some situations. Set \texttt{.parallel = TRUE}.
+
+<<<echo = true>>=
+  x <- c(1:10)
+  wait <- function(i) Sys.sleep(0.1)
+  system.time(llply(x, wait))
+  system.time(sapply(x, wait))
+  
+  library(doMC)
+  registerDoMC(2) 
+  system.time(llply(x, wait, .parallel = TRUE))
+@
+
+\section{So, why would I \textit{not} want to use \texttt{plyr}?}
+
+\texttt{plyr} can be slow --- particularly if you are working with very large datasets that involve a lot of subsetting. Hadley is working on this and recent development versions of \texttt{plyr} run much faster.
+
+It's important to remember that typically the speed that you can write code and understand it later is the rate-limiting step.
+
+Three faster options:
+
+(1) Use a base R apply function:
+
+<<<echo = true>>=
+system.time(ddply(baseball, "id", summarize, length(year)))
+system.time(tapply(baseball$year, baseball$id, function(x) length(x)))
+@
+
+(2) Use an immutable data frame. An immutable data frame (\texttt{idata.frame}) returns pointers to the original object when subset instead of creating a copy of itself each time. This is often the rate-limiting step in an apply function. 
+
+<<<echo = true>>=
+system.time(ddply(idata.frame(baseball), "id", summarize, length(year)))
+@
+
+(3) Use the \texttt{data.table} package:
+
+<<<echo = true>>=
+library(data.table)
+dt <- data.table(baseball, key="id")
+system.time(dt[, length(year), by=list(id)])
+@
+
+The next version of \texttt{plyr} lets you work with objects of class \texttt{data.table}: 
+
+\url{https://gist.github.com/4007552}
+
+\end{document}

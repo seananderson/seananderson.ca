@@ -27,7 +27,7 @@ And wherever you want to start the line numbers in your document add:
 
 Now we'll set up two new commands in the preamble. First, create a new command to label your changes:
 
-    \newcommand{\r}[1]{\label{#1}\linelabel{#1}}
+    \newcommand{\R}[1]{\label{#1}\linelabel{#1}}
 
 Then, create a new command to cross-reference your changes:
 
@@ -35,7 +35,7 @@ Then, create a new command to cross-reference your changes:
 
 Now, say you wanted to revise a sentence to deal with Reviewer comment A1. You can just add something like this within the manuscript:
 
-    \r{A1} A sentenced we have revised...
+    \R{A1} A sentenced we have revised...
 
 In the reply document, you can reference this change like this::
  
@@ -45,4 +45,4 @@ Now, when you compile your document, this will get converted to:
 
     We have revised the text. Please see page 3, line 23.
 
-And as you modify your manuscript the page and line numbers will update.
+And as you modify your manuscript, the page and line numbers will update.
