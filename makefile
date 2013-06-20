@@ -20,7 +20,7 @@ local:
 
 remote:
 	jekyll
-	syncjekyll
+	./syncjekyll
 
 clean:
 	rm -rf *.log *.bbl *.blg *.out *.toc *.aux *.fdb_latexmk *.fls
