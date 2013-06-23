@@ -3,8 +3,8 @@ layout: default
 title: seananderson.ca
 ---
 
-
-Hi, I'm Sean. I believe that the thoughtful visual display of  data can powerfully inform conservation ecology. 
+<br />
+Hi, I'm Sean. I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology. 
 I work with biologists and fisheries scientists to develop [data visualizations](/portfolio.html) that tell compelling stories. 
 
 <img src="images/sean_anderson_400x568.jpg" alt="Sean C. Anderson" width="200" height="284" class="headshot"/>
@@ -13,7 +13,7 @@ I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fr
 
 I [teach workshops](/cv.html#teaching) on data visualization and manipulation for scientists. I also develop a number of R packages. With collaborators, I'm developing packages to run fisheries simulations with [Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio effects ([ecofolio]), simulate salmon metapopulation portfolios (metafolio), and perform meta-analysis that is robust to correlated effect sizes ([robustmeta]). 
 
-I completed an M.Sc. at [Dalhousie University][dal] working on trends, drivers, and ecosystem effects of expanding global invertebrate fisheries. In particular, I focussed on [patterns of serial exploitation in global sea cucumber fisheries][doi], which was [featured in the journal Science][sciencemag]. My thesis won the [Canadian Governor General's Gold Medal][gg] as the top-ranked M.Sc. thesis at Dalhousie University in Engineering and Natural Sciences.
+I completed an M.Sc. at [Dalhousie][dal] with [Dr. Heike Lotze] working on trends, drivers, and ecosystem effects of expanding global invertebrate fisheries. In particular, we focussed on [patterns of serial exploitation in global sea cucumber fisheries][doi] and our paper was [featured in the journal Science][sciencemag]. My thesis won the [Canadian Governor General's Gold Medal][gg] as the top-ranked M.Sc. thesis at Dalhousie University in Engineering and Natural Sciences.
 
 I'm [a bit nuts][github 4] about using the right tool for the job and I love to share my passion for these tools. I'm an avid user of the programming languages R, Markdown, LaTeX, Knitr, and Sweave. I'm also a [Vim] devotee and manage my work in [Git on Github][my github]. I [generate this site with Jekyll](/colophon.html).
 
@@ -29,3 +29,4 @@ I'm [a bit nuts][github 4] about using the right tool for the job and I love to 
 [nefsc]: http://nft.nefsc.noaa.gov/Stock_Synthesis_3.htm
 [sciencemag]: http://www.sciencemag.org/content/331/6014/129.1.full
 [sfu]: http://sfu.ca
+[Dr. Heike Lotze]: http://lotzelab.biology.dal.ca/

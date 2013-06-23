@@ -3,7 +3,8 @@ layout: default
 title: seananderson.ca
 ---
 
-In addition to the HTML version of my CV below, you can download a copy as a [PDF][cv-pdf] or in [Markdown][cv-md]. [My Google Scholar citations][citations].
+# Academic CV #
+In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-pdf] or in [Markdown][cv-md]. [My Google Scholar citations][citations].
 
 
 # Education #

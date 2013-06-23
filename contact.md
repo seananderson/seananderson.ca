@@ -3,12 +3,10 @@ layout: default
 title: Contact
 ---
 
-Email\: sean<span style="display:none">ignorethis</span>@seananderson.ca<br />
-Twitter\: [sean_anderson](https://twitter.com/sean_anderson)<br />
-<!--Flickr\: [seananderson](http://flickr.com/photos/seananderson)-->
+# Contact Information #
 
-Sean C. Anderson<br />
-Simon Fraser University<br />
-Department of Biological Sciences<br />
-Burnaby BC, V5A 1S6<br />
-Canada
+<img src="/images/sean_anderson_olympics.jpg" alt="Sean C. Anderson" width="580" height="348" class="headshot"/>
+
+
+Please feel free to email me at sean<span style="display:none">ignorethis</span>@seananderson.ca. You can also find me on Twitter at [sean_anderson](https://twitter.com/sean_anderson). 
+

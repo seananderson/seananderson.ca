@@ -3,7 +3,7 @@ layout: default
 title: Colophon
 ---
 
-<!--<img src="/images/sean_anderson_106x150.jpg" alt="Sean C. Anderson" width="106px" height="150px" class="headshot"/>-->
+# Colophon #
 
 How do I generate seananderson.ca? Well, this gets geeky. 
 
