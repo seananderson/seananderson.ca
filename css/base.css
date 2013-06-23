@@ -1,6 +1,7 @@
 /* @override 
 	http://0.0.0.0:4000/css/base.css
 	http://seananderson.ca/css/base.css
+	http://localhost:4000/css/base.css
 */
 
 /*
@@ -57,8 +58,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 17px/24px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #121212;
+		font: 20px/29px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #080808;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 }
@@ -73,7 +74,7 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited { font-weight: inherit;
 	border-bottom-style: none; color: #353535;
 }
-	h1 { font-size: 22px; line-height: 31px; text-transform: uppercase; 
+	h1 { font-size: 26px; line-height: 33px; text-transform: uppercase; 
 }
 	h2 { font-size: 15px; line-height: 20px; text-transform: uppercase;}
 	h3 { font-size: 14px; line-height: 20px; text-transform: uppercase;}
@@ -102,10 +103,10 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #4c4c4c; text-decoration: none; outline: 0;
+	a, a:visited, a:focus { color: #3562A1; text-decoration: none; outline: 0;
 	border-bottom: 1px solid #cdcdcd;
 }
-	a:hover, a:focus { color: #eb3808;
+	a:hover { color: #3562A1;
 	background-color: #ededed;
 	border-bottom-style: none;
 }
@@ -113,7 +114,7 @@
 	border-bottom-style: none; 
 	color: #eb3808;
 	}
-
+	
 	p a, p a:visited { line-height: inherit; }
 
 

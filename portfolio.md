@@ -3,8 +3,9 @@ layout: default
 title: Data Visualization Portfolio
 ---
 
-## Academic Figures
-![](/figures/Harnik-etal-2012-TREE.png)
+
+# Academic Figures
+{% lightbox /figures/Harnik-etal-2012-TREE-small.png, /figures/Harnik-etal-2012-TREE.png, Title of Image, Alt Title %}
 Figure 2 in Harnik et al. In press, Trends in Ecology and Evolution.
 
 ![](/figures/ddt-ts5.png)
