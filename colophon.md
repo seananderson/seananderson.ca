@@ -3,21 +3,25 @@ layout: default
 title: Colophon
 ---
 
-<img src="/images/sean_anderson_106x150.jpg" alt="Sean C. Anderson" width="106px" height="150px" class="headshot"/>
+# Colophon #
 
-I generate seananderson.ca with [jekyll.rb]. [Typekit] provides web fonts. I write the site content in the [Maruku] version of [Markdown].
+How do I generate seananderson.ca? Well, this gets geeky. 
 
-I designed the current version of seananderson.ca around the [Skeleton] CSS framework using [MacVim], [CSSEdit], and [xScope]. You can find other applications I use on my [iusethis account].
+The back end is a series of plain-text [Markdown] files and the static site generator, [Jekyll]. I provide pleasing-to-the-eye fonts with [Typekit]. I write my [CV](/cv.html) in [Pandoc] Markdown and create the synchronized HTML and PDF versions with a combination of [XeLaTeX] and a [Makefile]. 
 
-I occasionally [post photos][my flickr] to [Flickr]. It's been a while.
+I develop this site locally and synchronize to a [Linode] server using [rsync]. I also maintain a copy of this entire site in a [public GitHub repository][github repo], if you feel like poking around.
 
-I frequently add [web bookmarks][my pinboard] to [pinboard.in].
+I designed the layout around the [Skeleton] CSS framework using [MacVim], [CSSEdit], and [xScope]. I now swear by the [Text Triumvirate] of [zsh], [Vim], and [tmux]... in [iTerm2] of course. I warned you this was going to get geeky. Font? Usually Menlo 14pt. Theme? [Solarized] light or dark. You can find other applications I use on my [iusethis account].
+
+<!--I occasionally [post photos][my flickr] to [Flickr]. -->
+
+<!--I frequently add [web bookmarks][my pinboard] to [pinboard.in].-->
 
 [CSSEdit]: http://macrabbit.com/
 [xScope]: http://iconfactory.com/software/xscope
 [iusethis account]: http://osx.iusethis.com/user/sean_
 [github]: http://github.com/
-[jekyll.rb]: http://jekyllrb.com/
+[Jekyll]: http://jekyllrb.com/
 [typekit]: https://typekit.com
 [MacVim]: http://code.google.com/p/macvim/
 [Sublime Text]: http://www.sublimetext.com/
@@ -28,3 +32,16 @@ I frequently add [web bookmarks][my pinboard] to [pinboard.in].
 [my pinboard]: http://pinboard.in/u:seananderson
 [Flickr]: http://flickr.com/
 [my flickr]: http://flickr.com/photos/seananderson
+[Pandoc]: http://johnmacfarlane.net/pandoc/
+[XeLaTeX]: https://github.com/seananderson/seananderson.github.com/blob/master/AndersonCV.tex
+[Makefile]: https://github.com/seananderson/seananderson.github.com/blob/master/makefile
+[github repo]: https://github.com/seananderson/seananderson.github.com
+[rsync]: https://github.com/seananderson/seananderson.github.com/blob/master/syncjekyll
+
+[Linode]: http://www.linode.com/?r=b679b2fb740948a30f90e35cd99f8f38b9ced103
+[Text Triumvirate]: http://www.drbunsen.org/the-text-triumvirate/
+[zsh]: http://www.zsh.org/
+[vim]: http://www.vim.org/
+[tmux]: http://tmux.sourceforge.net/
+[iterm2]: http://www.iterm2.com/
+[Solarized]: http://ethanschoonover.com/solarized

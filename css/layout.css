@@ -1,5 +1,6 @@
 /* @override 
 	http://0.0.0.0:4000/css/layout.css
+	http://localhost:4000/css/layout.css
 */
 
 /*
@@ -21,6 +22,7 @@
 /* #Site Styles
 ================================================== */
 
+
 sup {
 	font-size:xx-small;
 	vertical-align:super
@@ -37,24 +39,26 @@ sup {
 }
 
 .masthead {
-	padding-bottom: 25px;
+	padding-bottom: 12px;
+	margin-bottom: 22px;
 	padding-top: 20px;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 18px;
 	font-family: "Georgia", "Times New Roman", serif;
 	text-transform: uppercase;
 	text-align: left;
-}
+	border-bottom: 1px solid #ededed;
+	}
 
-.masthead a, a:visited{
+.masthead a, .masthead a:visited{
 	border-bottom-style: none;
-	
+	color: #080808;
 }
 
-.masthead a:hover{
+/*.masthead a:hover{
 	border-bottom-style: none;
 	color: #eb521f;
-}
+}*/
 
 
 /* dividers (|) in masthead */
@@ -66,18 +70,18 @@ sup {
 
 .sean{
 	padding-bottom: 5px;
-	font-size: 22px;
+	font-size: 26px;
 	font-weight: bold;
 	border-bottom: 0px solid #dfdfdf;
 	margin-bottom: 12px;
 	color: #353535;
 }
 
-.sean a, a:visited{
+.sean a, .sean a:visited{
 	color: #353535;
 }
 
-.contactsub a, a:visited {
+.contactsub a, .contactsub a:visited {
 	color: #898989;
 }
 
@@ -89,21 +93,21 @@ sup {
 .footer {
 	padding-bottom: 18px;
 	text-transform: uppercase;
-	color: #a3a3a3;
+	color: #828282;
 	padding-top: 11px;
-	border-top: 1px solid #dfdfdf;
+	border-top: 1px solid #ededed;
 	margin-top: 40px;
- 	font-size: 15px;
+ 	font-size: 18px;
 }
 
-.footer a, a:visited {
-	color: #a3a3a3;
+.footer a, .footer a:visited {
+	color: #828282;
 	border-bottom-style: none;
 }
 
 .footer a:hover{
 	border-bottom-style: none;
-	color: #eb521f;
+	color: #828282;
 }
 
 
@@ -115,9 +119,9 @@ sup {
 dt {
 	position: relative;
 	left: 0;
-	top: 20px;
+	top: 25px;
 	color: #626262;
-	font-size: 14px;
+	font-size: 15px;
 	text-transform: uppercase;
 	width: 57px;
 }
@@ -125,11 +129,12 @@ dt {
 dd {
 	border-left: 1px solid #dfdfdf;
 	padding: 0 0 0 9px;
-	margin: -5px 0 0 58px;
+	margin: -5px 0 0 63px;
 }   
 
 dl {
 	margin-bottom: 20px;
+	margin-top: -20px;
 } 
 
 img {
@@ -141,16 +146,18 @@ img.bigpicture {
 }
 
 .headshot {
-	margin-left: 0px;
-	float: right;
-	margin-left: 20px;
-	border: 1px solid #ccc;
-	margin-top: 5px;
+	float: left;
+	margin: 0px 30px 10px 0px;
+}
+
+h1 {
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 h1 a.link {
   	border: none;
-	font-size: 16px;
+	font-size: 18px;
 	color: #474747;
 	border-bottom: 1px solid #cdcdcd;
 }
@@ -163,8 +170,8 @@ h1 a.link:hover{
 
 
 div.postlinkcontent {
-	font-size: 15px;
-	line-height: 21px;
+	font-size: 18px;
+	line-height: 24px;
 	color: #373737;
 	
 }
@@ -226,9 +233,9 @@ pre {
 
 code,
 pre {
-  padding: 0 3px 2px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  padding: 0 0 2px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 14px;
   color: #52595d;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -237,16 +244,15 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/*code {*/
-  /*padding: 2px 4px;*/
-  /*color: #52595d;*/
-  /*background-color: #f9f9f9;*/
-  /*border: 1px solid #ccc;*/
-  /*white-space: nowrap;*/
-/*}*/
+code {
+  color: #52595d;
+  background-color: #eaeaea;
+  border: 1px solid #d3d3d3;
+  white-space: nowrap;
+	padding: 6px;
+}
 pre {
   display: block;
-  padding: 7.5px;
   margin: 0 0 18px;
   font-size: 13px;
   line-height: 20px;
@@ -255,8 +261,6 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -264,4 +268,3 @@ pre {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-

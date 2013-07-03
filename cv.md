@@ -1,15 +1,12 @@
-# Sean Charles Anderson #
-
-Simon Fraser University, Biological Sciences
-Burnaby, BC, Canada, V5A 1S6
-Email: sean at seananderson.ca
 ---
 layout: default
 title: seananderson.ca
 ---
 
 # Academic CV #
-In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-pdf] or in [Markdown][cv-md]. [My Google Scholar citations][citations].
+In addition to the HTML version of my CV, you can download a copy as
+a [PDF][cv-pdf] or in [Markdown][cv-md]. 
+[My Google Scholar citations][citations].
 
 
 # Education #
@@ -17,13 +14,16 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
 2011--13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
      Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper
+     <br />
      Canadian Fulbright Scholar to the University of Washington in 2012--13
 
 2010
 :    M.Sc. Biology, Dalhousie University, Halifax, Canada
+     <br />
      Thesis title: Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries. Supervisor: Dr. Heike K. Lotze.
      ([PDF][MSc:Thesis])
+     <br />
      Canadian [Governor General's Academic Gold Medal][Governor General award]
      for the top-ranked Master's Natural Sciences and Engineering thesis at
      Dalhousie University in 2010
@@ -31,10 +31,12 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
 2004--07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
      Canada
+     <br />
      Thesis title: How sustainable are emerging low-trophic level fisheries
      on the Scotian Shelf? Supervisors: Dr. Heike K. Lotze and
      Dr. Ransom A. Myers.
      ([PDF][HSc:Thesis])
+     <br />
      First Class Honours & Environmental Programmes Honour Society Medal
 
 2001--03
@@ -44,12 +46,18 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
 
 # Publications #
 
+2013
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
+     Quantifying metapopulation portfolio effects. In press at Methods
+     in Ecology and Evolution.
+
 2012
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
      Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple
      pathways to conservation success. Conservation Letters. Early view online.
      <http://dx.doi.org/10.1111/j.1755-263X.2012.00294.x>. (\**Authors
      contributed equally, listed in reverse alphabetical order*)
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
 2012
 :    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan,
@@ -57,6 +65,7 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
      O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient
      and modern seas. Trends in Ecology and Evolution. 27(11): 608--617.
      <http://dx.doi.org/10.1016/j.tree.2012.07.010>.
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.tree.2012.07.010"></div>
 
 2012
 :    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global
@@ -90,6 +99,7 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
      global expansion of invertebrate fisheries: trends, drivers, and
      ecosystem effects. PLOS ONE. 6(3): e14735.
      <http://dx.doi.org/10.1371/journal.pone.0014735>
+     [Recommended on F1000Prime.](http://f1000.com/prime/9542957)
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, and N.L. Shackell. Evaluating the
@@ -99,11 +109,6 @@ In addition to the HTML version of my CV, you can download a copy as a [PDF][cv-
      Eighth most-read CJFAS article in 2008.
 
 # Manuscripts in review #
-
-2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
-     Quantifying metapopulation portfolio effects. Completing minor revisions 
-     for Methods in Ecology and Evolution.
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
