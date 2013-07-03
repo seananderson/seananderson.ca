@@ -8,7 +8,7 @@ Hi, I'm Sean. I believe that the thoughtful visual display of data and statistic
 
 <img src="images/sean_anderson_400x568.jpg" alt="Sean C. Anderson" width="200" height="284" class="headshot"/>
 
-I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the [Earth to Oceans group][earth2ocean]. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
+I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the [Earth to Oceans group][earth2ocean], Vancouver, Canada. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
 
 I [teach workshops](/cv.html#teaching) on data visualization and manipulation for scientists. I also develop a number of R packages. With collaborators, I'm developing packages to run fisheries simulations with [Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio effects ([ecofolio]), simulate salmon metapopulation portfolios (metafolio), and perform meta-analysis that is robust to correlated effect sizes ([robustmeta]). 
 
