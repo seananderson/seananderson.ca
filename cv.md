@@ -52,6 +52,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      pathways to conservation success. Conservation Letters. Early view online.
      <http://dx.doi.org/10.1111/j.1755-263X.2012.00294.x>. (\**Authors
      contributed equally, listed in reverse alphabetical order*)
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
 2012
 :    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan,
@@ -59,6 +60,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient
      and modern seas. Trends in Ecology and Evolution. 27(11): 608--617.
      <http://dx.doi.org/10.1016/j.tree.2012.07.010>.
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.tree.2012.07.010"></div>
 
 2012
 :    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global
@@ -92,6 +94,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      global expansion of invertebrate fisheries: trends, drivers, and
      ecosystem effects. PLOS ONE. 6(3): e14735.
      <http://dx.doi.org/10.1371/journal.pone.0014735>
+     [Recommended on F1000Prime.](http://f1000.com/prime/9542957)
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, and N.L. Shackell. Evaluating the
