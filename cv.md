@@ -46,6 +46,11 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications #
 
+2013
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
+     Quantifying metapopulation portfolio effects. In press at Methods
+     in Ecology and Evolution.
+
 2012
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
      Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple
@@ -104,11 +109,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Eighth most-read CJFAS article in 2008.
 
 # Manuscripts in review #
-
-2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
-     Quantifying metapopulation portfolio effects. Completing minor revisions 
-     for Methods in Ecology and Evolution.
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
