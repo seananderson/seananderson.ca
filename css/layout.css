@@ -119,9 +119,9 @@ sup {
 dt {
 	position: relative;
 	left: 0;
-	top: 20px;
+	top: 25px;
 	color: #626262;
-	font-size: 14px;
+	font-size: 15px;
 	text-transform: uppercase;
 	width: 57px;
 }
@@ -129,7 +129,7 @@ dt {
 dd {
 	border-left: 1px solid #dfdfdf;
 	padding: 0 0 0 9px;
-	margin: -5px 0 0 58px;
+	margin: -5px 0 0 63px;
 }   
 
 dl {
