@@ -1,7 +1,7 @@
----
-layout: default
-title: Data Visualization Portfolio
----
+<!------->
+<!--layout: default-->
+<!--title: Data Visualization Portfolio-->
+<!------->
 
 
 # Academic Figures
