@@ -13,30 +13,25 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2011--13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
-     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper
-     <br />
+     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper  
      Canadian Fulbright Scholar to the University of Washington in 2012--13
 
 2010
-:    M.Sc. Biology, Dalhousie University, Halifax, Canada
-     <br />
+:    M.Sc. Biology, Dalhousie University, Halifax, Canada  
      Thesis title: Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries. Supervisor: Dr. Heike K. Lotze.
-     ([PDF][MSc:Thesis])
-     <br />
+     ([PDF][MSc:Thesis])  
      Canadian [Governor General's Academic Gold Medal][Governor General award]
      for the top-ranked Master's Natural Sciences and Engineering thesis at
      Dalhousie University in 2010
 
 2004--07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
-     Canada
-     <br />
+     Canada  
      Thesis title: How sustainable are emerging low-trophic level fisheries
      on the Scotian Shelf? Supervisors: Dr. Heike K. Lotze and
      Dr. Ransom A. Myers.
-     ([PDF][HSc:Thesis])
-     <br />
+     ([PDF][HSc:Thesis])  
      First Class Honours & Environmental Programmes Honour Society Medal
 
 2001--03
@@ -122,6 +117,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      In review at PLOS ONE.
 
 # Awards and scholarships #
+
 2014
 :    Graduate Fellowship, Simon Fraser University
 
