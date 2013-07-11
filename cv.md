@@ -43,8 +43,10 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
-     Quantifying metapopulation portfolio effects. In press at Methods
-     in Ecology and Evolution.
+     Quantifying metapopulation portfolio effects. Methods in Ecology and
+     Evolution. Early view online.
+     <http://dx.doi.org/10.1111/2041-210X.12093>. 
+     ([preprint PDF][Anderson:2013:QMP], [ecofolio R package][ecofolio github])
 
 2012
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
@@ -117,6 +119,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      In review at PLOS ONE.
 
 # Awards and scholarships #
+2014
+:    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in 
+     Marine Sciences
 
 2014
 :    Graduate Fellowship, Simon Fraser University
@@ -331,6 +336,8 @@ Journal of Tropical Biology and Conservation, Journal of Environmental
 Management, Aquatic Conservation
 
 
+[Anderson:2013:QMP]: papers/Anderson_etal_2013_ecological_prophets.pdf
+[ecofolio github]: https://github.com/seananderson/ecofolio 
 [Phillis:2012:MPC]: papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf
 [Anderson:2012:AGM]: http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref
 [Anderson:2011:SEG]: papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
