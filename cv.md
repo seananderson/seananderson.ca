@@ -46,6 +46,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Quantifying metapopulation portfolio effects. Methods in Ecology and
      Evolution. Early view online. <http://dx.doi.org/10.1111/2041-210X.12093>.  
      ([preprint PDF][Anderson:2013:QMP], [ecofolio R package][ecofolio github])
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
 2012
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.

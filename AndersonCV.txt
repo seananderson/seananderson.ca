@@ -45,6 +45,7 @@ Publications
     <http://dx.doi.org/10.1111/2041-210X.12093>.\
      ([preprint PDF](papers/Anderson_etal_2013_ecological_prophets.pdf),
     [ecofolio R package](https://github.com/seananderson/ecofolio))
+    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
 2012
 :   Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*,
