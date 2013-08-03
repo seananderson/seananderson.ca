@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/css2.1/base.css */
+
 /* @override 
 	http://0.0.0.0:4000/css/base.css
 	http://seananderson.ca/css/base.css
@@ -58,7 +60,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 20px/29px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 18px/29px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #080808;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;

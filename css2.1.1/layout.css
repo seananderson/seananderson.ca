@@ -1,6 +1,4 @@
-/* @override 
-	http://localhost:4000/css2.1/layout.css
-*/
+/* @override http://localhost:4000/css2.1/layout.css */
 
 /*
 * Skeleton V1.2
@@ -120,7 +118,7 @@ dt {
 	left: 0;
 	top: 25px;
 	color: #626262;
-	font-size: 15px;
+	font-size: 13px;
 	text-transform: uppercase;
 	width: 57px;
 }
