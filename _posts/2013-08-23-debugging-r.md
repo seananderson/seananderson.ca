@@ -187,11 +187,11 @@ dump the whole workspace into a file with `save.image()`.
 
 # Summary
 
-Hopefully you find these debugging options useful. With practice debugging
+Hopefully you find these debugging strategies useful. With practice debugging
 small R functions should become easier than debugging a large chunk of global
-code. Many of the strategies serve a similar purpose. As a result, you may
+code. Many of the options serve a similar purpose. As a result, you may
 choose to become familiar with one or two of them. Just keep the other
-strategies in your debugging toolbox for you're stuck. Often approaching the
+strategies in your debugging toolbox for when you're stuck. Often approaching the
 same problem from multiple angles is just what you need to understand the
 problem and find a solution.
 
