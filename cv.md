@@ -110,13 +110,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
-     In review at Ecology.
+     In revision for Ecology.
 
 2013
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
      performance of grizzly bear management in British Columbia, Canada. 
-     In review at PLOS ONE.
+     In revision for PLOS ONE.
 
 # Awards and scholarships #
 2014

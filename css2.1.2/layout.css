@@ -1,6 +1,4 @@
-/* @override 
-	http://localhost:4000/css2.1.1/layout.css
-*/
+/* @override http://localhost:4000/css2.1.1/layout.css */
 
 /*
 * Skeleton V1.2
@@ -232,27 +230,28 @@ pre {
 
 code,
 pre {
-  padding: 0 0 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
-  color: #52595d;
+  color: #353535;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  background-color: #f1f1f1;
+  padding: 2px 1px;
 }
 code {
-  color: #52595d;
-  background-color: #eaeaea;
-  border: 1px solid #d3d3d3;
-  white-space: nowrap;
-	padding: 6px;
+  color: #353535;
+  /*background-color: #eaeaea;*/
+  border: 0px solid #d3d3d3;
+  white-space: wrap;
+	/*padding: 6px;*/
 }
 pre {
+  background-color: #f1f1f1;
   display: block;
-  margin: 0 0 18px;
   font-size: 13px;
   line-height: 20px;
   word-break: break-all;
@@ -265,4 +264,6 @@ pre {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  margin: 0 0 18px;
+  padding: 10px 10px 10px 20px;
 }
