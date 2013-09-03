@@ -3,13 +3,15 @@ layout: default
 title: seananderson.ca
 ---
 
-# Academic CV #
+# Academic CV
+
 In addition to the HTML version of my CV, you can download a copy as
 a [PDF][cv-pdf] or in [Markdown][cv-md]. 
 [My Google Scholar citations][citations].
 
 
-# Education #
+
+# Education
 
 2011--13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
@@ -39,7 +41,12 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Canada Transferred to Dalhousie University in 2004.
 
 
-# Publications #
+# Publications
+
+2013
+:    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
+     The 'Research Derby': A pressure cooker for creative collaborative
+     science. In press at Ideas in Ecology and Evolution.
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
@@ -105,7 +112,23 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      <http://dx.doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
      Eighth most-read CJFAS article in 2008.
 
-# Manuscripts in review #
+# Manuscripts in review
+
+2013
+:    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten, 
+     **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero, 
+     M. Muradian, C. Szuwalski, C. Cunningham, and A. Punt
+     Time-varying natural mortality in fisheries stock assessment models:
+     identifying a default approach.
+     In review at ICES Journal of Marine Science.
+
+2013
+:    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
+     F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
+     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt
+     The importance of length and age composition data in statistical
+     catch-at-age models for marine species.
+     In review at ICES Journal of Marine Science.
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
@@ -118,7 +141,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      performance of grizzly bear management in British Columbia, Canada. 
      In revision for PLOS ONE.
 
-# Awards and scholarships #
+# Awards and scholarships
+
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in 
      Marine Sciences
@@ -158,7 +182,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Dean's Entrance Scholarship, University of Waterloo
 
 
-# Invited talks and conference presentations #
+# Invited talks and conference presentations
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. False prophets: The
@@ -206,7 +230,11 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Departmental Seminar, Biology Department, Dalhousie University, Canada.
 
 
-# Contract employment #
+# Contract employment
+
+2013
+:    Co-developed a set of global fisheries-status maps based
+     on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
 
 2011--13
 :    Database management, data analysis, and visualization for the
@@ -225,7 +253,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Dartmouth, NS, Canada.
 
 
-# Working groups and workshops #
+# Working groups and workshops
 
 2011--13
 :    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
@@ -255,7 +283,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
 
-# Selected courses and training #
+# Selected courses and training
 
 Present
 :    Proficient in statistical analyses and data management using R,
@@ -264,7 +292,7 @@ Present
 2013
 :    Quantitative Modelling in Ecosystem Based Management, R. Hilborn,
      School of Aquatic and Fishery Sciences, University of Washington
-     (auditing).
+     (audited).
 
 2013
 :    Applied Time Series Analysis; E. Holmes, M. Scheuerell, and E.
@@ -293,7 +321,10 @@ Present
 :    Data Analysis, Dr. J. Mills Flemming, Department of Mathematics &
      Statistics, Dalhousie University (audited).
 
-# Teaching #
+# Teaching
+2013
+:    Instructor for "Data wrangling and visualization in R", a graduate-level
+     course at Simon Fraser University, Burnaby, BC, Canada.
 
 2012
 :    Introduction to ggplot2. ([notes][2012 ggplot2 notes],
@@ -329,7 +360,7 @@ Present
 2007--08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
 
-# Reviews #
+# Reviews
 
 Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
 Journal of Tropical Biology and Conservation, Journal of Environmental
