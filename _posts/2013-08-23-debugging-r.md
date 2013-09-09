@@ -5,19 +5,18 @@ published: true
 ---
 
 Knowing how to debug functions is a critical skill if you want to work
-proficiently in R. In my experience, the typical graduate student R user isn't
-aware of many of the debugging options in R. Maybe this partly stems from how
-the typical R user learns R. At least for graduate students, users often
-attend some introductory course or work their way through some introductory
-book. These courses or books typically touch on using functions in R but don't
-go into great detail (but see Hadley Wickham's upcoming book [Advanced R
-programming][]). These R users then develop their own expertise.
+proficiently in R. In my experience, the many graduate student R users aren't
+aware of many R debugging options. Maybe this stems from how many people learn
+R. Many attend an introductory course or work their way through a
+introductory book. These courses or books typically touch on using functions
+in R but don't go into detail (but see Hadley Wickham's upcoming book
+[Advanced R programming][]). These R users then develop their own expertise.
 
 However, one of the insidious elements of self-teaching a programming
 language is that if a problem isn't obvious then it's hard to seek a
 solution. In the context of debugging, I'd bet that many users, and in
 particular those not familiar with other high-level programming languages,
-just don't know how much easier their R coding lives could be. 
+don't know how much easier their R coding lives could be. 
 
 Read on for an introduction to the basic R debugging strategies that every
 user should be familiar with. To paraphrase Hadley from a talk he gave in
@@ -33,7 +32,7 @@ only as part of a complete debugging toolbox.
 ## Trial and error
 
 See an error. Guess the solution. Run the code again. A fast solution for
-errors with obvious solutions. But if the solution was obvious we wouldn't be
+simple errors. But if the solution was obvious we wouldn't be
 talking about debuggers, right?
 
 ## Make your function global
