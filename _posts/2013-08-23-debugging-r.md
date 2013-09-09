@@ -5,9 +5,9 @@ published: true
 ---
 
 Knowing how to debug functions is a critical skill if you want to work
-proficiently in R. In my experience, the many graduate student R users aren't
-aware of many R debugging options. Maybe this stems from how many people learn
-R. Many attend an introductory course or work their way through a
+proficiently in R. In my experience, many graduate student R users aren't
+aware of the debugging options. Maybe this stems from how many people learn
+R. They attend an introductory course or work their way through a
 introductory book. These courses or books typically touch on using functions
 in R but don't go into detail (but see Hadley Wickham's upcoming book
 [Advanced R programming][]). These R users then develop their own expertise.
