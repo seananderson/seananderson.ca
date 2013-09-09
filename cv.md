@@ -42,6 +42,12 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 
 # Publications
+2013
+:    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
+     Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
+     performance of grizzly bear management in British Columbia, Canada. 
+     In press at PLOS ONE.
+
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
@@ -134,12 +140,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
      In revision for Ecology.
-
-2013
-:    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
-     Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
-     performance of grizzly bear management in British Columbia, Canada. 
-     In revision for PLOS ONE.
 
 # Awards and scholarships
 
