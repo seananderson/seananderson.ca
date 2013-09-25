@@ -6,7 +6,7 @@ title: seananderson.ca
 # Academic CV
 
 In addition to the HTML version of my CV, you can download a copy as
-a [PDF][cv-pdf] or in [Markdown][cv-md]. 
+a [PDF][cv-pdf] or in [Markdown][cv-md].
 [My Google Scholar citations][citations].
 
 
@@ -15,25 +15,25 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2011--13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
-     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper  
+     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in 2012--13
 
 2010
-:    M.Sc. Biology, Dalhousie University, Halifax, Canada  
+:    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Thesis title: Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries. Supervisor: Dr. Heike K. Lotze.
-     ([PDF][MSc:Thesis])  
+     ([PDF][MSc:Thesis])\
      Canadian [Governor General's Academic Gold Medal][Governor General award]
      for the top-ranked Master's Natural Sciences and Engineering thesis at
      Dalhousie University in 2010
 
 2004--07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
-     Canada  
+     Canada\
      Thesis title: How sustainable are emerging low-trophic level fisheries
      on the Scotian Shelf? Supervisors: Dr. Heike K. Lotze and
      Dr. Ransom A. Myers.
-     ([PDF][HSc:Thesis])  
+     ([PDF][HSc:Thesis])\
      First Class Honours & Environmental Programmes Honour Society Medal
 
 2001--03
@@ -43,9 +43,14 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications
 2013
+:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
+     negative impacts of rapid pond drying for three amphibian species.
+     In press at Ecology.
+
+2013
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
-     performance of grizzly bear management in British Columbia, Canada. 
+     performance of grizzly bear management in British Columbia, Canada.
      In press at PLOS ONE.
 
 
@@ -57,7 +62,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
      Quantifying metapopulation portfolio effects. Methods in Ecology and
-     Evolution. Early view online. <http://dx.doi.org/10.1111/2041-210X.12093>.  
+     Evolution. Early view online. <http://dx.doi.org/10.1111/2041-210X.12093>.
      ([preprint PDF][Anderson:2013:QMP], [ecofolio R package][ecofolio github])
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
@@ -121,9 +126,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2013
-:    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten, 
-     **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero, 
-     M. Muradian, C. Szuwalski, C. Cunningham, and A. Punt
+:    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
+     **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero,
+     M. Muradian, C. Szuwalski, C. Cunningham, A. Punt
      Time-varying natural mortality in fisheries stock assessment models:
      identifying a default approach.
      In review at ICES Journal of Marine Science.
@@ -136,15 +141,10 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      catch-at-age models for marine species.
      In review at ICES Journal of Marine Science.
 
-2013
-:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
-     negative impacts of rapid pond drying for three amphibian species.
-     In revision for Ecology.
-
 # Awards and scholarships
 
 2014
-:    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in 
+:    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
      Marine Sciences
 
 2014
@@ -344,7 +344,7 @@ Present
      Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC, Canada.
 
 2011
-:    A brief introduction to R. 
+:    A brief introduction to R.
      ([notes][2011 RIntro notes], [workshop code][2011 RIntro code]).
      Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC, Canada.
 
@@ -368,7 +368,7 @@ Management, Aquatic Conservation
 
 
 [Anderson:2013:QMP]: papers/Anderson_etal_2013_ecological_prophets.pdf
-[ecofolio github]: https://github.com/seananderson/ecofolio 
+[ecofolio github]: https://github.com/seananderson/ecofolio
 [Phillis:2012:MPC]: papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf
 [Anderson:2012:AGM]: http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref
 [Anderson:2011:SEG]: papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
