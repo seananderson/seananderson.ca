@@ -72,7 +72,7 @@ Publications
     Favaro. Multiple pathways to conservation success. Conservation
     Letters. 6(2): 98-106.
     <http://doi.org/10.1111/j.1755-263X.2012.00294.x>.
-    ([PDF](http://seananderson.ca/papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf))
+    ([PDF](http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf))
     (\**Authors contributed equally, listed in reverse alphabetical
     order*)
     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>

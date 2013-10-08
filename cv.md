@@ -374,7 +374,6 @@ Management, Aquatic Conservation
 [Anderson:2013:QMP]: http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets.pdf
 [Anderson:2013:QMP:SOM]: http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets_SOM.pdf
 [ecofolio github]: https://github.com/seananderson/ecofolio
-[Phillis:2012:MPC]: http://seananderson.ca/papers/Phillis_etal_2012_Multiple_Pathways_to_Conservation_Success_In_press.pdf
 [Anderson:2012:AGM]: http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref
 [Anderson:2011:SEG]: http://seananderson.ca/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
 [Anderson:2011:CVE]: http://seananderson.ca/papers/Anderson_etal_2011_BioScience_with_supplement.pdf
