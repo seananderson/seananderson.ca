@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Debugging R Functions
+subtitle: Solving problems with R code quickly.
 published: true
 ---
 

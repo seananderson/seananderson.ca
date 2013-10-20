@@ -1,6 +1,7 @@
 ---
 layout: post
-title: BibTeX Style Files for Ecology Journals
+title: Ecology BibTeX Style Files
+subtitle: A collection of BibTeX style files for ecology journals.
 published: true
 ---
 

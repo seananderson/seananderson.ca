@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Cross-referencing Revision Line Numbers in LaTeX
+title: Cross-Referencing Line Numbers in LaTeX
+subtitle: How to make writing reviewer response documents easier.
 published: true
 ---
 
