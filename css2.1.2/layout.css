@@ -1,4 +1,4 @@
-/* @override http://localhost:4000/css2.1.1/layout.css */
+/* @override http://localhost:4000/css2.1.2/layout.css */
 
 /*
 * Skeleton V1.2
@@ -27,8 +27,8 @@ sup {
 
 .date {
 	color: #898989;
-	text-transform: uppercase;
-	font: normal 11px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: none;
+	font-size: 11px;
 }
 
 .end-of-post {
@@ -41,9 +41,6 @@ sup {
 	padding-top: 20px;
 	font-weight: normal;
 	font-size: 18px;
-	font-family: "Georgia", "Times New Roman", serif;
-	text-transform: uppercase;
-	text-align: left;
 	border-bottom: 1px solid #ededed;
 	}
 
@@ -89,11 +86,11 @@ sup {
 
 .footer {
 	padding-bottom: 18px;
-	text-transform: uppercase;
+	text-transform: none;
 	color: #828282;
 	padding-top: 11px;
 	border-top: 1px solid #ededed;
-	margin-top: 40px;
+	margin-top: 5px;
  	font-size: 18px;
 }
 
@@ -119,7 +116,7 @@ dt {
 	top: 25px;
 	color: #626262;
 	font-size: 14px;
-	text-transform: uppercase;
+	text-transform: none;
 	width: 57px;
 }
 
@@ -135,7 +132,7 @@ dl {
 } 
 
 img {
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 }  
 
 img.bigpicture {
@@ -247,10 +244,17 @@ code {
   /*background-color: #eaeaea;*/
   border: 0px solid #d3d3d3;
   white-space: wrap;
-	/*padding: 6px;*/
 }
+
+h1 code {
+	font-size: 23px;
+}
+h2 code {
+	font-size: 16px;
+}
+
 pre {
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
   display: block;
   font-size: 13px;
   line-height: 20px;
@@ -266,4 +270,45 @@ pre {
   border-radius: 4px;
   margin: 0 0 18px;
   padding: 10px 10px 10px 20px;
+}
+ 
+.archive-title {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+
+.archive-subtitle {
+	color: #858585;
+	font-style: italic;
+	margin-top: -18px;
+}
+
+li.blog-archive {
+	padding-bottom: 20px;
+}
+
+ul {
+	margin-left: 0;
+	list-style-type: none;
+}
+
+ol, table {
+	margin-bottom: 20px;
+}
+
+.post-title {
+	font-size: 42px;
+	line-height: 54px;
+}
+
+
+td, th {
+	
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+th {
+	border-bottom: 1px solid #c5c5c5;
 }
