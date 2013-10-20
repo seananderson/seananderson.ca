@@ -19,31 +19,45 @@ This solution assumes that your reply document is being written at the end of yo
 
 First of all, you'll need to set up page-wise line numbers. Add the `lineno` package to the preamble:
 
-    \usepackage[pagewise]{lineno}
+```tex
+\usepackage[pagewise]{lineno}
+```
 
 
 And wherever you want to start the line numbers in your document add:
 
-    \linenumbers
+```tex
+\linenumbers
+```
 
 Now we'll set up two new commands in the preamble. First, create a new command to label your changes:
 
-    \newcommand{\R}[1]{\label{#1}\linelabel{#1}}
+```tex
+\newcommand{\R}[1]{\label{#1}\linelabel{#1}}
+```
 
 Then, create a new command to cross-reference your changes:
 
-    \newcommand{\lr}[1]{page~\pageref{#1}, line~\lineref{#1}}
+```tex
+\newcommand{\lr}[1]{page~\pageref{#1}, line~\lineref{#1}}
+```
 
 Now, say you wanted to revise a sentence to deal with Reviewer comment A1. You can just add something like this within the manuscript:
 
-    \R{A1} A sentenced we have revised...
+```tex
+\R{A1} A sentenced we have revised...
+```
 
 In the reply document, you can reference this change like this::
  
-    We have revised the text. Please see \lr{A1}.
+```tex
+We have revised the text. Please see \lr{A1}.
+```
 
 Now, when you compile your document, this will get converted to:
 
-    We have revised the text. Please see page 3, line 23.
+```tex
+We have revised the text. Please see page 3, line 23.
+```
 
 And as you modify your manuscript, the page and line numbers will update.
