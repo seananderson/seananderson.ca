@@ -41,12 +41,16 @@ talking about debuggers, right?
 Turn the arguments of a function into global objects. Step through the code
 and figure out the problem. For example, turn this:
 
-    f <- function(x = 1) x * 2
+```r
+f <- function(x = 1) x * 2
+```
 
 into this:
 
-    x <- 1
-    x * 2
+```r
+x <- 1
+x * 2
+ ```
 
 This strategy breaks down for functions that receive many arguments. It also
 creates many global objects that match function arguments names, which can
@@ -68,29 +72,34 @@ them to deduce the cause of a problem.
 The following set of functions and options can dramatically improve your
 ability to solve complicated coding problems.
 
-## traceback()
+## `traceback()`
 
 When you encounter an error, your first course of action should be to run the
 function `traceback()`. `traceback()` will list the chain of functions that
 led to the error. This might be enough to figure out the solution and if not
 you'll at least get a good idea of which function to debug.
 
-## browser()
+## `browser()`
 
 Similar to Portlandia's "[Put a bird on it][]", my go-to solution when I'm
 debugging a function is to "Put a `browser()` on it". 
 
 To use `browser()` you add the line `browser()` somewhere in your function. For example:
 
-    times_two <- function(x) {
-      browser()
-      x * 2
-    }
+```r
+times_two <- function(x) {
+  browser()
+  x * 2
+}
+```
 
 When you call the function you'll pop out in the function wherever you put
 the `browser()` statement and have access to the local workspace:
 
-    > times_two(5)
+```r
+times_two(5)
+```
+
     Called from: times_two()
     Browse[1]> 
 
@@ -110,7 +119,9 @@ need to, just keep track of what function you're inside.
 
 If you set the following option before calling your function:
 
-    options(error = recover)
+```r
+options(error = recover)
+```
 
 then the R console will pop out in debugging mode when it encounters an
 error. This is equivalent to placing a `browser()` statement at precisely the
@@ -119,7 +130,9 @@ location where the error occurs.
 If the problem is associated with a warning instead of an error, then you can
 also set the following option so that the debugger will start on warnings:
 
-    options(warn = 2)
+```r
+options(warn = 2)
+```
 
 ## Debugging installed packages
 
@@ -156,29 +169,40 @@ and optionally let the function continue.
 Let's start with a simple function that throws an error if the input value is
 1 and prints the input value otherwise:
 
-    f <- function(x) {
-      if(x == 1) {
-        stop("x cannot equal 1")
-      } else {
-        print(x)
-      }
-    }
+```r
+f <- function(x) {
+  if(x == 1) {
+    stop("x cannot equal 1")
+  } else {
+    print(x)
+  }
+}
+```
 
 If we feed this function values of 1 and 2 then the function will stop with an error:
 
-    > y <- sapply(1:3, function(i) f(i))
+```r
+y <- sapply(1:3, function(i) f(i))
+```
+
     Error in f(i) : x cannot equal 1
 
 We can use `try()` to capture the error message but continue running the function:
 
-    > y <- sapply(1:3, function(i) try(f(i)))
-    > y
+```r
+y <- sapply(1:3, function(i) try(f(i)))
+y
+```
+
     [1] "Error in f(i) : x cannot equal 1\n" "2" "3"
 
 Alternatively, we could use `tryCatch()` to do something when we get an error. Here, we'll return an NA value:
 
-    y <- sapply(1:3, function(i) tryCatch(f(i), error = function(e) NA))
-    > y
+```r
+y <- sapply(1:3, function(i) tryCatch(f(i), error = function(e) NA))
+y
+```
+
     [1] NA  2  3
 
 You could run any simple function you'd like on an error to figure out what's
