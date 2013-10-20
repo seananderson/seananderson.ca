@@ -4,7 +4,7 @@ title: seananderson.ca
 ---
 
 <br />
-Hi, I'm Sean. I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology. I work with biologists and fisheries scientists to develop data visualizations that tell compelling stories. 
+I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology. I work with biologists and fisheries scientists to develop data visualizations that tell compelling stories. 
 
 <img src="images/sean_anderson_olymp_headshot.jpg" alt="Sean C. Anderson" width="265" height="330" class="headshot"/>
 
