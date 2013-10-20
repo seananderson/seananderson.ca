@@ -1,17 +1,12 @@
     destination: ./_site
-    auto:        false
     lsi:         false
-    server_port: 4000
+    port:        4000
     pygments:    true
-    markdown:    maruku
     permalink:   date
     name: Sean Anderson
     description: Web log by Sean Anderson
     url: http://seananderson.ca/blog.html
     safe: true
-    maruku:
-      use_tex:   false
-      use_divs:  false
-      png_dir:   images/latex
-      png_url:   /images/latex
-
+    markdown: redcarpet
+    redcarpet:
+      extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
