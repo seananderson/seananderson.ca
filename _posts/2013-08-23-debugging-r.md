@@ -72,14 +72,14 @@ them to deduce the cause of a problem.
 The following set of functions and options can dramatically improve your
 ability to solve complicated coding problems.
 
-## `traceback()`
+## traceback
 
 When you encounter an error, your first course of action should be to run the
 function `traceback()`. `traceback()` will list the chain of functions that
 led to the error. This might be enough to figure out the solution and if not
 you'll at least get a good idea of which function to debug.
 
-## `browser()`
+## browser
 
 Similar to Portlandia's "[Put a bird on it][]", my go-to solution when I'm
 debugging a function is to "Put a `browser()` on it". 
