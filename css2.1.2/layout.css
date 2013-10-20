@@ -28,7 +28,8 @@ sup {
 .date {
 	color: #898989;
 	text-transform: none;
-	font-size: 11px;
+	font-size: 14px;
+	line-height: 0;
 }
 
 .end-of-post {
@@ -215,45 +216,53 @@ div.postlinkcontent {
 */
 
 /* #Code block formatting */
+
 pre {
   /*width: 500px;*/
   white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
   white-space: -pre-wrap; /* Opera */
   white-space: -o-pre-wrap; /* Opera */
   white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
-  word-wrap: break-word; /* IE 5.5+ */
+  word-wrap: break-word;
+	margin-bottom: 20px;
+	border: 1px solid #e6e6e6;
+	line-height: 20px;
+  line-height: 20px;
+	padding-left: 12px;
+	border-left: 7px solid #dadada;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 
 code,
 pre {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 14px;
-  color: #353535;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background-color: #f1f1f1;
-  padding: 2px 1px;
+	font: 15px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
+	background-color: #f3f3f3;
+
 }
-code {
+
+li code, table code, h1 code, h2 code, p code {
   color: #353535;
-  /*background-color: #eaeaea;*/
-  border: 0px solid #d3d3d3;
   white-space: wrap;
+  border: 1px solid #e6e6e6;
+  padding: 1px 2px;
 }
 
 h1 code {
-	font-size: 23px;
+	font-size: 22px;
 }
 h2 code {
 	font-size: 16px;
 }
 
-pre {
+/*pre {
   background-color: #f4f4f4;
   display: block;
   font-size: 13px;
@@ -270,7 +279,7 @@ pre {
   border-radius: 4px;
   margin: 0 0 18px;
   padding: 10px 10px 10px 20px;
-}
+}*/
  
 .archive-title {
 	font-weight: bold;
@@ -300,6 +309,7 @@ ol, table {
 .post-title {
 	font-size: 36px;
 	line-height: 54px;
+	padding-top: 0;
 }
 
 
