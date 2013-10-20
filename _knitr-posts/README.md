@@ -12,4 +12,4 @@ To re-create a single post, for example `2013-10-19-reshape.Rmd`, run:
 make post file=2013-10-19-reshape.Rmd
 ```
 
-The `makefile` runs `knit` for all necessary `.Rmd` files, directs the Markdown output to the `../_posts`` folder, and directs the figure output to the `../knitr-figs/` folder.
+The `makefile` runs `knit` for all necessary `.Rmd` files, directs the Markdown output to the `../_posts` folder, and directs the figure output to the `../knitr-figs/` folder.
