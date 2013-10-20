@@ -61,11 +61,11 @@ it up, do something to it, and return a data frame. This extends to all
 combinations. In the following table, the columns are the input formats
 and the rows are the output format:
 
-object type| data frame | list    | array
------------|------------|---------|--------
-data frame | `ddply`    | `ldply` | `adply`
-list       | `dlply`    | `llply` | `alply`
-array      | `daply`    | `laply` | `aaply`
+object type |data frame  |list     |array
+------------|------------|---------|--------
+data frame  | `ddply`    | `ldply` | `adply`
+list        | `dlply`    | `llply` | `alply`
+array       | `daply`    | `laply` | `aaply`
 
 I’ve ignored some less common format options:
 
