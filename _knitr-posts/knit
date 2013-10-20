@@ -1,0 +1,22 @@
+#!/usr/bin/Rscript
+
+library(knitr)
+opts_chunk$set(tidy = FALSE, comment = "#", message = FALSE, fig.path =
+  "../knitr-figs/")
+infile <- commandArgs(trailingOnly=TRUE)[1]
+
+if(infile == "knit-all-posts") {
+  print("knitting all posts")
+  infiles <- list.files(pattern = "*.Rmd")
+  sapply(infiles, function(x) {
+    print(paste("knitting", x))
+    base_file <- sub("\\.Rmd", "", x)
+    knit(x, output = paste0("../_posts/", base_file, ".md"))
+    system(paste0("perl -p -i -e \"s/\\.\\.\\/knitr-figs/\\/knitr-figs/\" ../_posts/", base_file, ".md"))
+  })
+} else {
+  base_file <- sub("\\.Rmd", "", infile)
+  print(paste("knitting", (infile)))
+  knit(infile, output = paste0("../_posts/", base_file, ".md"))
+  system(paste0("perl -p -i -e \"s/\\.\\.\\/knitr-figs/\\/knitr-figs/\" ../_posts/", base_file, ".md"))
+}
