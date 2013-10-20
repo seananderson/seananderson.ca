@@ -2,7 +2,7 @@
 layout: post
 title: Automating Jekyll with Dropbox and incron
 link: http://tedkulp.com/2011/05/22/automating-jekyll-builds/
-published: true
+published: false
 ---
 
 After many failed attempts, this post by Ted Kulp helped me solve all the

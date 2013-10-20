@@ -2,7 +2,7 @@
 layout: post
 title: Nineteenth Century Statistical Atlases
 link: http://www.handsomeatlas.com/
-published: true
+published: false
 ---
 
 Jonathan Soma:

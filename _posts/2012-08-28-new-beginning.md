@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Beginning
+published: false
 ---
 
 Alright. I'm convinced. Good writing is essential to academic success. More accurately, good writing is essential to most forms of *life* success. Many bright people say it takes a lot of practice to get good at something and writing is no different. And so, here I am starting a new version of seananderson.ca. A version where I am encouraged to write.
