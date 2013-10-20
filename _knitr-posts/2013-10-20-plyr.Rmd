@@ -196,10 +196,10 @@ llply(1:2, safe.f)
 Parallel processing
 -------------------
 
-In conjunction with `doMC` (or `doSMP` on Windows) you can run your
-function separately on each core of your computer. On a dual core
-machine this could double your speed in some situations. Set
-`.parallel = TRUE`.
+In conjunction with a package such as `doParallel` you can run your function
+separately on each core of your computer. On a dual core machine this make
+your code up to twice as fast. Simply register the cores and then set
+`.parallel = TRUE`. Look at the `elapsed` time in these examples:
 
 
 ```{r}
@@ -215,8 +215,8 @@ system.time(sapply(x, wait))
 
 
 ```{r}
-library(doMC)
-registerDoMC(2)
+library(doParallel)
+registerDoParallel(cores = 2)
 system.time(llply(x, wait, .parallel = TRUE))
 ```
 
