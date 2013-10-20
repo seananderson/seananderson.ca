@@ -135,20 +135,25 @@ Manuscripts in review
 =====================
 
 2013
+:   Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up
+    forces interact at thermal range extremes on American lobster. In
+    review at Ecology Letters.
+
+2013
 :   Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A.
     Whitten, **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro,
     J. Valero, M. Muradian, C. Szuwalski, C. Cunningham, A. Punt
     Time-varying natural mortality in fisheries stock assessment models:
-    identifying a default approach. In review at ICES Journal of Marine
-    Science.
+    identifying a default approach. In revision for ICES Journal of
+    Marine Science.
 
 2013
 :   Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
     F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt The
     importance of length and age composition data in statistical
-    catch-at-age models for marine species. In review at ICES Journal of
-    Marine Science.
+    catch-at-age models for marine species. In revision for ICES Journal
+    of Marine Science.
 
 Awards and scholarships
 =======================
