@@ -9,21 +9,16 @@ cv:
 	latexmk AndersonCV.tex
 	pandoc cv-body.md -o cv-body-clean.md
 	cat cv-header.txt cv-body-clean.md > AndersonCV.txt
-	rm cv-body.md # cleanup
-	rm cv-body.tex # cleanup
-	rm cv-body-clean.md # cleanup
-	rm *.log *.out *.aux *.fdb_latexmk *.fls # cleanup TeX
+	rm cv-body.md
+	rm cv-body.tex
+	rm cv-body-clean.md
+	rm *.log *.out *.aux *.fdb_latexmk *.fls
 
 server:
-	jekyll --server
+	jekyll serve
 
 server-auto:
-	jekyll --server --auto
+	jekyll serve --watch
 
 local:
-	jekyll
-
-remote:
-	jekyll
-	./syncjekyll
-
+	jekyll build
