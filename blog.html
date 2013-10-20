@@ -3,25 +3,12 @@ layout: default
 title: seananderson.ca
 ---
 
-{% for post in site.posts limit:10 %}
-
-<!-- <h1>
-    <a href="{{ post.url }}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>
-</h1> -->
-
-{% if post.link %}
-  <h1><a href="{{ post.link }}" class="link">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a> <a class="postlinkperma" href="{{ post.url }}" title="Permament URL to this link post">&#8258;</a></h1>
-  <div class="postlinkcontent">
-  {{ post.content }}
-</div>
-{% else %}
-<span class="date">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
-  <h1><a href="{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-  {{ post.content }}
-{% endif %}
-
-<div class="end-of-post">
-  </div>
-{% endfor %}
-
-
+<br />
+<ul>
+  {% for post in site.posts %}
+    <li class="blog-archive">
+    <p><a class="archive-title" href="{{ post.url }}">{{ post.title }}</a></p>
+    <p class="archive-subtitle">{{ post.subtitle }}</p>
+    </li>
+  {% endfor %}
+</ul>
