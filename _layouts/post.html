@@ -4,13 +4,13 @@ blog: true
 ---
 
 {% if page.link %}
-  <h1><a class="post-title" href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+  <h1 class="post-title"><a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
   <div class="postlinkcontent">
  {{ content }}
 </div>
 {% else %}
 <span class="date">{{ page.date | date: '%B' }} {{ page.date | date: '%e' }}, {{ page.date | date: '%Y' }}</span>
-  <h1><a class="post-title" href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+  <h1 class="post-title"><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
   {{ content }}
 {% endif %}
 
