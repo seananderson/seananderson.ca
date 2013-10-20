@@ -1,12 +1,14 @@
-<!------->
-<!--layout: default-->
-<!--title: Data Visualization Portfolio-->
-<!------->
+---
+layout: default
+title: Data Visualization Portfolio
+---
 
 
 # Academic Figures
-{% lightbox /figures/Harnik-etal-2012-TREE-small.png, /figures/Harnik-etal-2012-TREE.png, Title of Image, Alt Title %}
 Figure 2 in Harnik et al. In press, Trends in Ecology and Evolution.
+
+<a href="figures/Harnik-etal-2012-TREE.png" data-lightbox="roadtrip"><img src="figures/Harnik-etal-2012-TREE-small.png" alt="TREE figure"></img></a>
+
 
 ![](/figures/ddt-ts5.png)
 Figure 3 in Phillis et al. In press, Conservation Letters.
