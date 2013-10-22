@@ -1,4 +1,4 @@
-/* @override http://localhost:4000/css2.1.2/layout.css */
+/* @override http://localhost:4000/css2.1.3/layout.css */
 
 /*
 * Skeleton V1.2
@@ -321,4 +321,8 @@ td, th {
 
 th {
 	border-bottom: 1px solid #c5c5c5;
+}
+
+.portfolio-fig  {
+	border: 1px solid #c0c0c0;
 }
