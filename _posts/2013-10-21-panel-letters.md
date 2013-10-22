@@ -15,19 +15,37 @@ Cole Monnahan writes:
 > ```
 >
 > which works great for a topleft position. But for bottomright it isn't
-> right. I can adapt it to:
->
-> ```
-> add.label2 <- function(label, position="topleft", ...) legend(x=position,
-> legend=label, bty='n', ...)
-> ```
->
-> and that works great, but then doesn't work for topleft!
+> right. I can adapt, and that works great, but then it doesn't
+> work for topleft!
 >
 > There has got to be a non-hack way to do this simple (and common) task. 
 
 I'd never thought of using `legend()` for that purpose, but that's a neat
-hack.
+hack. If you wanted to stick with `legend()`, you could just
+pass the position to the function:
+
+
+```r
+add_label_legend <- function(pos = "topleft", label, ...) {
+  legend(pos, label, bty = "n", ...)
+}
+
+par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  add_label_legend("topleft", paste0("(", letters[i], ")"))
+  add_label_legend("topright", paste0("(", letters[i], ")"))
+  add_label_legend("bottomright", paste0("(", letters[i],
+      ")"))
+  add_label_legend("bottomleft", paste0("(", letters[i], ")"))
+}
+```
+
+![plot of chunk panel_letters5](/knitr-figs/panel_letters5.png) 
+
+
+But, you don't get a lot of control over precisely how the
+label is positioned.
 
 I tend to use `mtext()` for quick cases where the labels are all the same
 width. For example if they're single letters, then you can align the labels
@@ -61,7 +79,7 @@ for(i in 1:2) {
 ![plot of chunk panel_letters2](/knitr-figs/panel_letters2.png) 
 
 
-And we can use `text()` combined with `par("usr")` to align these labels.
+You can use `text()` combined with `par("usr")` to align these labels.
 `par("usr")` gives us the coordinates of the plotting region in the order `x1,
 x2, y1, y2`. Therefore, we can do the following to place the labels 2% over
 from the left and 7% down from the top:
