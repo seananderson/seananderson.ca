@@ -1,8 +1,3 @@
----
-layout: default
-title: seananderson.ca
----
-
 # Academic CV
 
 In addition to the HTML version of my CV, you can download a copy as

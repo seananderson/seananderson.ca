@@ -1,7 +1,7 @@
 all:	server-auto
 
 cv:
-	tail +12 cv.md > cv-body.md
+	tail +9 cv-pandoc.md > cv-body.md
 	pandoc -S cv-body.md -o cv-body.tex
 	perl -p -i -e "s/~/\\\ /g" cv-body.tex
 	perl -p -i -e "s/M.Sc./M.Sc.\\\/g" cv-body.tex 
@@ -13,6 +13,11 @@ cv:
 	rm cv-body.tex
 	rm cv-body-clean.md
 	rm *.log *.out *.aux *.fdb_latexmk *.fls
+	# and pre-process the HTML with pandoc
+	# because redcarpet markdown doesn't do definition lists
+	pandoc -S cv-pandoc.md -o cv-temp.html
+	cat cv-pandoc-header.md cv-temp.html > cv.html
+	rm cv-temp.html
 
 server:
 	jekyll serve
