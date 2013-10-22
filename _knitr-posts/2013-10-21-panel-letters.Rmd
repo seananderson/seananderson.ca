@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labelling Plot Panels
+title: Labelling Panels in R
 subtitle: Strategies for placing letters in figure panels.
 ---
 
