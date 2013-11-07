@@ -1,4 +1,4 @@
-/* @override http://localhost:4000/css2.1.3/layout.css */
+/* @override http://localhost:4000/css2.1.4/layout.css */
 
 /*
 * Skeleton V1.2
@@ -123,8 +123,8 @@ dt {
 
 dd {
 	border-left: 1px solid #dfdfdf;
+	margin: -5px 0 -15px 63px;
 	padding: 0 0 0 9px;
-	margin: -5px 0 0 63px;
 }   
 
 dl {
