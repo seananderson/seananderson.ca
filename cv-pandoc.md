@@ -37,17 +37,21 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 
 # Publications
-
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
      In press at Ecology. <http://doi.org/10.1890/13-0916.1>.
+     <!--<div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>-->
+     <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
+     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
+     alt="Access the recommendation on F1000Prime" id="bg" /></a>
 
 2013
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
      performance of grizzly bear management in British Columbia, Canada.
-     In press at PLOS ONE.
+     PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041> 
+     <!--<div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>-->
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
@@ -111,27 +115,29 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    **Anderson, S.C.**, J. Mills Flemming, R. Watson, H.K. Lotze. Rapid
      global expansion of invertebrate fisheries: trends, drivers, and
      ecosystem effects. PLOS ONE. 6(3): e14735.
-     <http://doi.org/10.1371/journal.pone.0014735>
-     [Recommended on F1000Prime.](http://f1000.com/prime/9542957)
+     <http://doi.org/10.1371/journal.pone.0014735>\
+     <a href="http://f1000.com/prime/9542957?bd=1" target="_blank"><img
+     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
+     alt="Access the recommendation on F1000Prime" id="bg" /></a>
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, and N.L. Shackell. Evaluating the
      knowledge base for expanding low-trophic-level fisheries in Atlantic
-     Canada. Can. J. Fish. Aquat. Sci. 65(12): 2553–2571.
-     <http://doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
+     Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12):
+     2553–2571. <http://doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
      Eighth most-read CJFAS article in 2008.
 
 # Manuscripts in review
 
 2013
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces
-     interact at thermal range extremes on American lobster. In review at
-     Ecology Letters.
+:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, S.C. Anderson.
+     Observer aging and long-term avian survey data quality
+     In revision for Ecology and Evolution.
 
 2013
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
      **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero,
-     M. Muradian, C. Szuwalski, C. Cunningham, A. Punt
+     M. Muradian, C. Szuwalski, C. Cunningham, A. Punt.
      Time-varying natural mortality in fisheries stock assessment models:
      identifying a default approach.
      In revision for ICES Journal of Marine Science.
@@ -139,7 +145,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
      F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
-     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt
+     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
      The importance of length and age composition data in statistical
      catch-at-age models for marine species.
      In revision for ICES Journal of Marine Science.
