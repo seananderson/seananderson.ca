@@ -332,9 +332,11 @@ Present
 
 # Teaching
 2013
-:    Instructor for "Data wrangling and visualization in R", a graduate-level
-     course at Simon Fraser University, Burnaby, BC, Canada. 
-     <https://github.com/seananderson/datawranglR>
+:    Instructor for BISC-888-1: Data Wrangling and Visualization in R, 
+     a graduate-level course at Simon Fraser University, Burnaby, BC, 
+     Canada. Co-developed curriculum and developed lectures, exercises, notes,
+     and assignments for three of six classes.
+     <https://github.com/seananderson/datawranglR> (see classes 03, 04, 05)
 
 2012
 :    Introduction to ggplot2. ([notes][2012 ggplot2 notes],
