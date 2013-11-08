@@ -51,7 +51,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
      performance of grizzly bear management in British Columbia, Canada.
      PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041> 
-     <!--<div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>-->
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
