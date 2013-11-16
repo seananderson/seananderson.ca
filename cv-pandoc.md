@@ -41,7 +41,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
      In press at Ecology. <http://doi.org/10.1890/13-0916.1>.\
-     <!--<div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>-->
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
      <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
      src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
      alt="Access the recommendation on F1000Prime" id="bg" /></a>
