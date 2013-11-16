@@ -67,7 +67,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      [Supporting Information][Anderson:2013:QMP:SOM])
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
-2012
+2013
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
      Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple
      pathways to conservation success. Conservation Letters. 6(2): 98-106.
