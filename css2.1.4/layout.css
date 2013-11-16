@@ -325,4 +325,11 @@ th {
 
 .portfolio-fig  {
 	border: 1px solid #c0c0c0;
+	margin-bottom: -20px;
 }
+
+.caption {
+	margin-bottom: 40px;
+}
+
+
