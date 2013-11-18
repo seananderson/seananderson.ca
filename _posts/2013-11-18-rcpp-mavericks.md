@@ -56,9 +56,8 @@ one()
 
 You should also now be able to install from source `R` packages that use C++, such as [dplyr](https://github.com/hadley/dplyr), also known as `plyr` 2.0.
 
-`dplyr` is a great example of what's possible with a little C++. I finally got to play with `dplyr` last week. `dplyr` sliced, diced, and manipulated 16 million rows of data in about 4 seconds. `plyr` took approximately... far longer than I was willing to wait around and see. `dplyr` makes me excited about the future of data manipulation in `R`.
-
 ```r
 devtools::install_github("dplyr")
 ```
 
+`dplyr` is a great example of what's possible with a little C++. I finally got to play with `dplyr` last week. `dplyr` sliced, diced, and manipulated 16 million rows of data in about 4 seconds. `plyr` took approximately... far longer than I was willing to wait around and see. `dplyr` makes me excited about the future of data manipulation in `R`.
