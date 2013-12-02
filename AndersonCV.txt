@@ -320,36 +320,36 @@ Present
     WinBUGS, JAGS, Sweave, knitr, LaTeX, Perl, PostgreSQL, Git.
 
 2013
-:   Quantitative Modelling in Ecosystem Based Management, R. Hilborn,
+:   Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
     School of Aquatic and Fishery Sciences, University of Washington
     (audited).
 
 2013
-:   Applied Time Series Analysis; E. Holmes, M. Scheuerell, and E. Ward;
-    School of Aquatic and Fishery Sciences; University of Washington
+:   Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E. Ward;
+    School of Aquatic and Fishery Sciences, University of Washington
     (audited).
 
 2012
-:   Numerical Computing for the Natural Resources, Dr. A.E. Punt, School
+:   Numerical Computing for the Natural Resources. Dr. A.E. Punt, School
     of Aquatic and Fishery Sciences, University of Washington (audited).
 
 2012
 :   Risk Assessment and Decision Analysis for Management of Natural
-    Resources, Dr. R.M. Peterman, School of Resource and Environmental
+    Resources. Dr. R.M. Peterman, School of Resource and Environmental
     Management, Simon Fraser University.
 
 2011
-:   Presenting Data and Information, Edward Tufte, Seattle, WA, United
+:   Presenting Data and Information. Edward Tufte, Seattle, WA, United
     States.
 
 2009
 :   Technical Expertise in Stock Assessment: Model Fitting and
-    Interpretation by Dr. C. Needle, chair of the International Council
+    Interpretation. Dr. C. Needle, chair of the International Council
     for the Exploration of the Sea working group on methods of fish
     stock assessment, Dalhousie University.
 
 2008
-:   Data Analysis, Dr. J. Mills Flemming, Department of Mathematics &
+:   Data Analysis. Dr. J. Mills Flemming, Department of Mathematics &
     Statistics, Dalhousie University (audited).
 
 Teaching
@@ -359,7 +359,7 @@ Teaching
 :   Instructor for BISC-888-1: Data Wrangling and Visualization in R, a
     graduate-level course at Simon Fraser University, Burnaby, BC,
     Canada. Co-developed curriculum and developed lectures, exercises,
-    notes, and assignments for three of six classes.
+    notes, and assignments for three of six two-hour classes.
     <https://github.com/seananderson/datawranglR> (see classes 03, 04,
     05)
 
