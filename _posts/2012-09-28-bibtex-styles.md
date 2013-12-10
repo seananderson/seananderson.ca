@@ -10,6 +10,7 @@ I posted some [BibTeX style files] to GitHub. I generated these files over the y
 I haven't tested these style files extensively, but they met my needs writing manuscripts for these journals. They have mostly been tested with journal articles, technical reports, and books.
 
 So far, I have posted styles for these journals:
+
 - [BioScience](https://github.com/seananderson/bst/blob/master/bioscience.bst)
 - [Canadian Journal of Fisheries and Aquatic Sciences](https://github.com/seananderson/bst/blob/master/cjfas.bst)
 - [ICES Journal of Marine Science](https://github.com/seananderson/bst/blob/master/icesjms.bst)
@@ -17,7 +18,7 @@ So far, I have posted styles for these journals:
 - [Methods in Ecology and Evolution](https://github.com/seananderson/bst/blob/master/mee.bst)
 - [Trends in Ecology and Evolution](https://github.com/seananderson/bst/blob/master/tree.bst)
 
-If I can save one person from having to answer another ~99 questions from makebst.tex, posting these will be a success. 
+If I can save one person from having to answer another ~99 questions from makebst.tex, posting these will be a success.
 
 We could use a better repository of existing .bst files.
 
