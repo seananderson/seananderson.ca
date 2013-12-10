@@ -10,25 +10,25 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2011–13
 :    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
-     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper  
+     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in 2012–13
 
 2010
-:    M.Sc. Biology, Dalhousie University, Halifax, Canada  
+:    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Thesis title: Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries. Supervisor: Dr. Heike K. Lotze.
-     ([PDF][MSc:Thesis])  
+     ([PDF][MSc:Thesis])\
      Canadian [Governor General's Academic Gold Medal][Governor General award]
      for the top-ranked Master's Natural Sciences and Engineering thesis at
      Dalhousie University in 2010
 
 2004–07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
-     Canada  
+     Canada\
      Thesis title: How sustainable are emerging low-trophic level fisheries
      on the Scotian Shelf? Supervisors: Dr. Heike K. Lotze and
      Dr. Ransom A. Myers.
-     ([PDF][HSc:Thesis])  
+     ([PDF][HSc:Thesis])\
      First Class Honours & Environmental Programmes Honour Society Medal
 
 2001–03
@@ -50,13 +50,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
      performance of grizzly bear management in British Columbia, Canada.
-     PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041> 
+     PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041>
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
      The 'Research Derby': A pressure cooker for creative collaborative
-     science. Ideas in Ecology and Evolution. 6: 40-46. 
+     science. Ideas in Ecology and Evolution. 6: 40-46.
      <http://doi.org/10.4033/iee.2013.6.9.n>
 
 2013
@@ -71,8 +71,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*, **S.C.
      Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple
      pathways to conservation success. Conservation Letters. 6(2): 98-106.
-     <http://doi.org/10.1111/j.1755-263X.2012.00294.x>. 
-     ([PDF][Phillis:2012:MPC]) 
+     <http://doi.org/10.1111/j.1755-263X.2012.00294.x>.
+     ([PDF][Phillis:2012:MPC])
      (\**Authors contributed equally, listed in reverse alphabetical order*)
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
@@ -130,7 +130,12 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2013
-:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, S.C. Anderson.
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
+     ss3sim: An R package for fisheries stock assessment simulation with Stock
+     Synthesis. Submitted to PLOS ONE.
+
+2013
+:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
      Observer aging and long-term avian survey data quality
      In revision for Ecology and Evolution.
 
@@ -332,8 +337,8 @@ Present
 
 # Teaching
 2013
-:    Instructor for BISC-888-1: Data Wrangling and Visualization in R, 
-     a graduate-level course at Simon Fraser University, Burnaby, BC, 
+:    Instructor for BISC-888-1: Data Wrangling and Visualization in R,
+     a graduate-level course at Simon Fraser University, Burnaby, BC,
      Canada. Co-developed curriculum and developed lectures, exercises, notes,
      and assignments for three of six two-hour classes.
      <https://github.com/seananderson/datawranglR> (see classes 03, 04, 05)
