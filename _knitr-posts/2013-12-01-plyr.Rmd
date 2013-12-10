@@ -5,7 +5,7 @@ subtitle: An introduction to the plyr R package.
 published: true
 ---
 
-*Along with my [earlier post](http://localhost:4000/2013/10/19/reshape.html) on the `reshape2` package, I will continue to post my course notes from Data Wrangling and Visualization in R, a graduate-level course I co-taught last semester at Simon Fraser University.*
+*Along with my [earlier post](http://seananderson.ca/2013/10/19/reshape.html) on the `reshape2` package, I will continue to post my course notes from Data Wrangling and Visualization in R, a graduate-level course I co-taught last semester at Simon Fraser University.*
 
 `plyr` is an `R` package that makes it simple to split data apart, do
 stuff to it, and mash it back together. This is a common
@@ -241,7 +241,7 @@ system.time(ddply(baseball, "id", summarize, length(year)))
 
 
 ```{r}
-system.time(tapply(baseball$year, baseball$id, 
+system.time(tapply(baseball$year, baseball$id,
   function(x) length(x)))
 ```
 
