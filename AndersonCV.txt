@@ -144,7 +144,12 @@ Manuscripts in review
 =====================
 
 2013
-:   Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, S.C. Anderson.
+:   **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L.
+    Valero. ss3sim: An R package for fisheries stock assessment
+    simulation with Stock Synthesis. Submitted to PLOS ONE.
+
+2013
+:   Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
     Observer aging and long-term avian survey data quality In revision
     for Ecology and Evolution.
 
