@@ -132,12 +132,15 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. Submitted to PLOS ONE.
+     Synthesis. In review.
+     [Manuscript preprint](https://dl.dropboxusercontent.com/u/254940/ss3sim-ms.pdf),
+     [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
+     [R package](https://github.com/seananderson/ss3sim).
 
 2013
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
-     Observer aging and long-term avian survey data quality
-     In revision for Ecology and Evolution.
+     Observer aging and long-term avian survey data quality.
+     Submitted to Ecology and Evolution.
 
 2013
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
@@ -244,103 +247,21 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Departmental Seminar, Biology Department, Dalhousie University, Canada.
 
 
-# Contract employment
-
-2013
-:    Co-developed a set of global fisheries-status maps based
-     on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
-
-2011–13
-:    Database management, data analysis, and visualization for the
-     project *Global Shark Abundance Baselines* (Hopkins Marine Station,
-     Stanford University, CA, United States) with F. Micheli, F.
-     Ferretti, N.K. Dulvy, H.K. Lotze, and B. Worm.
-
-2010
-:    Assessment of Arctic surfclam on Banquereau Bank using industry
-     collected data for Clearwater Seafoods, Bedford, NS, Canada.
-
-2010
-:    Modelling length-frequency distribution changes of Atlantic halibut for
-     NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population Ecology
-     Division, Bedford Institute of Oceanography, Fisheries and Oceans,
-     Dartmouth, NS, Canada.
-
-
-# Working groups and workshops
-
-2011–13
-:    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
-     Group *Determinants of Extinction in Ancient and Modern Seas* led by
-     Paul Harnik, Seth Finnegan, and Rowan Lockwood.
-     ([URL](http://www.nescent.org/science/awards_summary.php?id=256))
-
-2010
-:    Atlantic Halibut Assessment Science Peer Review Meeting, Fisheries and
-     Oceans, Dartmouth, NS, Canada.
-
-2007–09
-:    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
-     Barbara, CA) Distributed Graduate Seminar, in association with the
-     Working Group *Finding Common Ground in Marine Conservation and
-     Management* led by Ray Hilborn and Boris Worm.
-     ([URL](http://www.nceas.ucsb.edu/projects/12307))
-
-2008
-:    Workshop on Canadian Science and Management Strategies for Sea Cucumber
-     (*Cucumaria frondosa*), Fisheries and Oceans, Dartmouth, NS, Canada
-     (work presented *in absentia*).
-
-2007
-:    Workshop on Canadian Science and Management Strategies for Atlantic
-     Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
-     ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
-
-
-# Selected courses and training
-
-Present
-:    Proficient in statistical analyses and data management using R,
-     WinBUGS, JAGS, Sweave, knitr, LaTeX, Perl, PostgreSQL, Git.
-
-2013
-:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
-     School of Aquatic and Fishery Sciences, University of Washington
-     (audited).
-
-2013
-:    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
-     Ward; School of Aquatic and Fishery Sciences, University of
-     Washington (audited).
-
-2012
-:   Numerical Computing for the Natural Resources. Dr. A.E. Punt, School of
-    Aquatic and Fishery Sciences, University of Washington (audited).
-
-2012
-:    Risk Assessment and Decision Analysis for Management of Natural
-     Resources. Dr. R.M. Peterman, School of Resource and Environmental
-     Management, Simon Fraser University.
-
-2011
-:    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
-
-2009
-:    Technical Expertise in Stock Assessment: Model Fitting and Interpretation.
-     Dr. C. Needle, chair of the International Council for the Exploration
-     of the Sea working group on methods of fish stock assessment, Dalhousie
-     University.
-
-2008
-:    Data Analysis. Dr. J. Mills Flemming, Department of Mathematics &
-     Statistics, Dalhousie University (audited).
-
 # Teaching
+
+2013
+:    Two-part workshop on data manipulation for Stats Beerz and Earth
+     to Oceans groups at Simon Fraser University with approximately 25 participants.
+     An introduction to plyr, advanced concepts with plyr and function debugging,
+     and a brief introduction to dplyr.
+     <https://github.com/seananderson/talks/tree/master/plyr-statsbeerz>
+
 2013
 :    Instructor for BISC-888-1: Data Wrangling and Visualization in R,
      a graduate-level course at Simon Fraser University, Burnaby, BC,
-     Canada. Co-developed curriculum and developed lectures, exercises, notes,
-     and assignments for three of six two-hour classes.
+     Canada with approximately 20 participants. Co-developed curriculum and
+     developed lectures, exercises, notes, and assignments for three of six
+     two-hour classes.
      <https://github.com/seananderson/datawranglR> (see classes 03, 04, 05)
 
 2012
@@ -376,6 +297,101 @@ Present
 
 2007–08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
+
+
+# Contract employment
+
+2013
+:    Co-developed a set of global fisheries-status maps based
+     on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
+     ([URL](https://depts.washington.edu/ramlegac/))
+
+2011–13
+:    Database management, data analysis, and visualization for the
+     project *Global Shark Abundance Baselines* (Hopkins Marine Station,
+     Stanford University, CA, United States) with F. Micheli, F.
+     Ferretti, N.K. Dulvy, H.K. Lotze, and B. Worm.
+
+2010
+:    Assessment of Arctic surfclam on Banquereau Bank using industry
+     collected data for Clearwater Seafoods, Bedford, NS, Canada.
+
+2010
+:    Modelling length-frequency distribution changes of Atlantic halibut for
+     NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population Ecology
+     Division, Bedford Institute of Oceanography, Fisheries and Oceans,
+     Dartmouth, NS, Canada.
+
+
+
+# Working groups and workshops
+
+2011–13
+:    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
+     Group *Determinants of Extinction in Ancient and Modern Seas* led by
+     Paul Harnik, Seth Finnegan, and Rowan Lockwood.
+     ([URL](http://www.nescent.org/science/awards_summary.php?id=256))
+
+2010
+:    Atlantic Halibut Assessment Science Peer Review Meeting, Fisheries and
+     Oceans, Dartmouth, NS, Canada.
+
+2007–09
+:    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
+     Barbara, CA) Distributed Graduate Seminar, in association with the
+     Working Group *Finding Common Ground in Marine Conservation and
+     Management* led by Ray Hilborn and Boris Worm.
+     ([URL](http://www.nceas.ucsb.edu/projects/12307))
+
+2008
+:    Workshop on Canadian Science and Management Strategies for Sea Cucumber
+     (*Cucumaria frondosa*), Fisheries and Oceans, Dartmouth, NS, Canada
+     (work presented *in absentia*).
+
+2007
+:    Workshop on Canadian Science and Management Strategies for Atlantic
+     Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
+     ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
+
+
+# Selected courses and training
+
+Present
+:    Proficient in statistical analyses and data management using R, Sweave,
+     knitr, LaTeX, Git. Working knowledge of C++, Rcpp, ADMB, JAGS, Stan, and
+     PostgreSQL.
+
+2013
+:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
+     School of Aquatic and Fishery Sciences, University of Washington
+     (audited).
+
+2013
+:    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
+     Ward; School of Aquatic and Fishery Sciences, University of
+     Washington (audited).
+
+2012
+:   Numerical Computing for the Natural Resources. Dr. A.E. Punt, School of
+    Aquatic and Fishery Sciences, University of Washington (audited).
+
+2012
+:    Risk Assessment and Decision Analysis for Management of Natural
+     Resources. Dr. R.M. Peterman, School of Resource and Environmental
+     Management, Simon Fraser University.
+
+2011
+:    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
+
+2009
+:    Technical Expertise in Stock Assessment: Model Fitting and Interpretation.
+     Dr. C. Needle, chair of the International Council for the Exploration
+     of the Sea working group on methods of fish stock assessment, Dalhousie
+     University.
+
+2008
+:    Data Analysis. Dr. J. Mills Flemming, Department of Mathematics &
+     Statistics, Dalhousie University (audited).
 
 # Reviews
 
