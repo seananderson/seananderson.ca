@@ -140,7 +140,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
      Observer aging and long-term avian survey data quality.
-     Submitted to Ecology and Evolution.
+     In review.
 
 2013
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
@@ -148,7 +148,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      M. Muradian, C. Szuwalski, C. Cunningham, A. Punt.
      Time-varying natural mortality in fisheries stock assessment models:
      identifying a default approach.
-     In revision for ICES Journal of Marine Science.
+     In review.
 
 2013
 :    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
@@ -156,7 +156,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
      The importance of length and age composition data in statistical
      catch-at-age models for marine species.
-     In revision for ICES Journal of Marine Science.
+     In review.
 
 # Awards and scholarships
 
