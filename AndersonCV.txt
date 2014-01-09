@@ -146,8 +146,8 @@ Manuscripts in review
 2013
 :   **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L.
     Valero. ss3sim: An R package for fisheries stock assessment
-    simulation with Stock Synthesis. In review. [Manuscript
-    preprint](https://dl.dropboxusercontent.com/u/254940/ss3sim-ms.pdf),
+    simulation with Stock Synthesis. In review. [arXiv
+    preprint](http://arxiv.org/abs/1312.6450),
     [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
     [R package](https://github.com/seananderson/ss3sim).
 
