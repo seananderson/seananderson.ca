@@ -133,7 +133,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
      Synthesis. In review.
-     [Manuscript preprint](https://dl.dropboxusercontent.com/u/254940/ss3sim-ms.pdf),
+     [arXiv preprint](http://arxiv.org/abs/1312.6450),
      [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
      [R package](https://github.com/seananderson/ss3sim).
 
