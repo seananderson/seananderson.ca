@@ -254,7 +254,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      to Oceans groups at Simon Fraser University with approximately 25 participants.
      An introduction to plyr, advanced concepts with plyr and function debugging,
      and a brief introduction to dplyr.
-     <https://github.com/seananderson/talks/tree/master/plyr-statsbeerz>
+     <https://github.com/seananderson/plyr-statsbeerz>
 
 2013
 :    Instructor for BISC-888-1: Data Wrangling and Visualization in R,
