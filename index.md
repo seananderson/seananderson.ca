@@ -3,14 +3,13 @@ layout: default
 title: seananderson.ca
 ---
 
-<br />
-I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology. I work with biologists and fisheries scientists to develop data visualizations that tell compelling stories. 
+
+I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology.
+I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the [Earth to Oceans group][earth2ocean], Vancouver, Canada. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
 
 <img src="images/sean_anderson_olymp_headshot.jpg" alt="Sean C. Anderson" width="265" height="330" class="headshot"/>
 
-I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the [Earth to Oceans group][earth2ocean], Vancouver, Canada. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
-
-I [teach workshops](/cv.html#teaching) on data visualization and manipulation for scientists. I also develop a number of R packages. With collaborators, I'm developing packages to run fisheries simulations with [Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio effects ([ecofolio]), simulate salmon metapopulation portfolios (metafolio), and perform meta-analysis that is robust to correlated effect sizes ([robustmeta]). 
+I [teach workshops](/cv.html#teaching) on data visualization and manipulation for scientists. I also develop a number of R packages. With collaborators, I'm developing packages to run fisheries simulations with [Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio effects ([ecofolio]), simulate salmon metapopulation portfolios (metafolio), and perform meta-analysis that is robust to correlated effect sizes ([robustmeta]).
 
 I completed an M.Sc. at [Dalhousie][dal] with [Dr. Heike Lotze] working on trends, drivers, and ecosystem effects of expanding global invertebrate fisheries. In particular, we focussed on [patterns of serial exploitation in global sea cucumber fisheries][doi] and our paper was [featured in the journal Science][sciencemag]. My thesis won the [Canadian Governor General's Gold Medal][gg] as the top-ranked M.Sc. thesis at Dalhousie University in Engineering and Natural Sciences.
 

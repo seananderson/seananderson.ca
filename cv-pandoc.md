@@ -37,6 +37,14 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 
 # Publications
+2014
+:    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
+     F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
+     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
+     The importance of length and age composition data in statistical
+     age-structured models for marine species.
+     In press at ICES Journal of Marine Science.
+
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
      negative impacts of rapid pond drying for three amphibian species.
@@ -129,33 +137,25 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Manuscripts in review
 
-2013
+2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. In review.
-     [arXiv preprint](http://arxiv.org/abs/1312.6450),
+     Synthesis. arXiv:1312.6450.
+     ([preprint](http://arxiv.org/abs/1312.6450),
      [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
-     [R package](https://github.com/seananderson/ss3sim).
+     [R package](https://github.com/seananderson/ss3sim))
 
-2013
+2014
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
      Observer aging and long-term avian survey data quality.
      In review.
 
-2013
+2014
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
      **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero,
      M. Muradian, C. Szuwalski, C. Cunningham, A. Punt.
      Time-varying natural mortality in fisheries stock assessment models:
      identifying a default approach.
-     In review.
-
-2013
-:    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
-     F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
-     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
-     The importance of length and age composition data in statistical
-     catch-at-age models for marine species.
      In review.
 
 # Awards and scholarships
