@@ -38,6 +38,11 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications
 2014
+:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
+     Observer aging and long-term avian survey data quality.
+     Accepted at Ecology and Evolution.
+
+2014
 :    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
      F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
      Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
@@ -144,11 +149,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      ([preprint](http://arxiv.org/abs/1312.6450),
      [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
      [R package](https://github.com/seananderson/ss3sim))
-
-2014
-:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
-     Observer aging and long-term avian survey data quality.
-     In review.
 
 2014
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
