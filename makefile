@@ -9,6 +9,7 @@ cv:
 	latexmk AndersonCV.tex
 	pandoc cv-body.md -o cv-body-clean.md
 	cat cv-header.txt cv-body-clean.md > AndersonCV.txt
+	perl -p -i -e "s/–/--/g" AndersonCV.txt
 	rm cv-body.md
 	rm cv-body.tex
 	rm cv-body-clean.md

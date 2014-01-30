@@ -8,11 +8,11 @@ Email: sean at seananderson.ca
 Education
 =========
 
-2011–13
+2011--13
 :   Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in
-    2012–13
+    2012--13
 
 2010
 :   M.Sc. Biology, Dalhousie University, Halifax, Canada\
@@ -23,7 +23,7 @@ Education
     Medal](http://goo.gl/nA1zE) for the top-ranked Master's Natural
     Sciences and Engineering thesis at Dalhousie University in 2010
 
-2004–07
+2004--07
 :   B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
     Canada\
      Thesis title: How sustainable are emerging low-trophic level
@@ -32,7 +32,7 @@ Education
     ([PDF](http://seananderson.ca/papers/Anderson_HSc_2006.pdf))\
      First Class Honours & Environmental Programmes Honour Society Medal
 
-2001–03
+2001--03
 :   B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo,
     Waterloo, Canada Transferred to Dalhousie University in 2004.
 
@@ -149,7 +149,7 @@ Publications
 :   **Anderson, S.C.**, H.K. Lotze, and N.L. Shackell. Evaluating the
     knowledge base for expanding low-trophic-level fisheries in Atlantic
     Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12):
-    2553–2571. <http://doi.org/10.1139/F08-156>.
+    2553--2571. <http://doi.org/10.1139/F08-156>.
     ([PDF](http://seananderson.ca/papers/Anderson_etal_2008_knowledge.pdf))
     Eighth most-read CJFAS article in 2008.
 
@@ -181,36 +181,36 @@ Awards and scholarships
 2014
 :   Graduate Fellowship, Simon Fraser University
 
-2012–13
+2012--13
 :   [Canadian Fulbright Scholar
     award](http://www.fulbright.ca/programs/canadian-students/2012-2013-canadian-fulbright-students.html)
-    to the University of Washington in 2012–13
+    to the University of Washington in 2012--13
 
 2011
 :   Canadian [Governor General's Academic Gold
     Medal](http://goo.gl/nA1zE) for the top-ranked Master's Natural
     Sciences and Engineering thesis at Dalhousie University in 2010
 
-2011–14
+2011--14
 :   Provost Prize of Distinction, Simon Fraser University
 
-2011–14
+2011--14
 :   Natural Sciences and Engineering Research Council of Canada
     Postgraduate Scholarship (Doctoral)
 
-2007–10
+2007--10
 :   Faculty Research Grant Scholarship, Dalhousie University
 
-2007–09
+2007--09
 :   Graduate Studies Scholarship, Dalhousie University
 
 2007
 :   Environmental Programmes Honour Society Medal, Dalhousie University
 
-2001–03
+2001--03
 :   Academic All-Canadian, University of Waterloo
 
-2001–02
+2001--02
 :   Dean's Entrance Scholarship, University of Waterloo
 
 Invited talks and conference presentations
@@ -322,11 +322,11 @@ Teaching
     Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC,
     Canada.
 
-2007–08
+2007--08
 :   Teaching Assistant, Organismal Biology and Ecology, Dalhousie
     University, two semesters (BIOL 1021).
 
-2007–08
+2007--08
 :   Teaching Assistant, Marine Mammology, Dalhousie University (BIOL
     4060).
 
@@ -338,7 +338,7 @@ Contract employment
     Legacy Stock Assessment Database for Dr. Ray Hilborn.
     ([URL](https://depts.washington.edu/ramlegac/))
 
-2011–13
+2011--13
 :   Database management, data analysis, and visualization for the
     project *Global Shark Abundance Baselines* (Hopkins Marine Station,
     Stanford University, CA, United States) with F. Micheli, F.
@@ -357,7 +357,7 @@ Contract employment
 Working groups and workshops
 ============================
 
-2011–13
+2011--13
 :   NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
     Group *Determinants of Extinction in Ancient and Modern Seas* led by
     Paul Harnik, Seth Finnegan, and Rowan Lockwood.
@@ -367,7 +367,7 @@ Working groups and workshops
 :   Atlantic Halibut Assessment Science Peer Review Meeting, Fisheries
     and Oceans, Dartmouth, NS, Canada.
 
-2007–09
+2007--09
 :   NCEAS (National Center for Ecological Analysis and Synthesis, Santa
     Barbara, CA) Distributed Graduate Seminar, in association with the
     Working Group *Finding Common Ground in Marine Conservation and
