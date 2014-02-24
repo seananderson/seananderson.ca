@@ -45,7 +45,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2014
 :    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
      F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
-     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, and A. Punt.
+     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, A. Punt.
      The importance of length and age composition data in statistical
      age-structured models for marine species.
      In press at ICES Journal of Marine Science.
@@ -105,7 +105,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      ([PDF][Anderson:2012:AGM])
 
 2011
-:    **Anderson, S.C.**, B.G. Farmer, F. Ferretti, A.L.S. Houde, and
+:    **Anderson, S.C.**, B.G. Farmer, F. Ferretti, A.L.S. Houde,
      J.A. Hutchings. Correlates of vertebrate extinction risk in Canada.
      BioScience. 61(7): 538-549. <http://doi.org/10.1525/bio.2011.61.7.8>.
      ([PDF][Anderson:2011:CVE])
@@ -134,7 +134,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      alt="Access the recommendation on F1000Prime" id="bg" /></a>
 
 2008
-:    **Anderson, S.C.**, H.K. Lotze, and N.L. Shackell. Evaluating the
+:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the
      knowledge base for expanding low-trophic-level fisheries in Atlantic
      Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12):
      2553–2571. <http://doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
@@ -145,10 +145,14 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. arXiv:1312.6450.
+     Synthesis. arXiv:1312.6450. In review.
      ([preprint](http://arxiv.org/abs/1312.6450),
      [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
-     [R package](https://github.com/seananderson/ss3sim))
+     [R package](https://github.com/ss3sim/ss3sim))
+
+2014
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper.
+     Portfolio conservation of metapopulations under climate change. In review.
 
 2014
 :    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
