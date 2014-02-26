@@ -38,6 +38,15 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications
 2014
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
+     ss3sim: An R package for fisheries stock assessment simulation with Stock
+     Synthesis. arXiv:1312.6450. Accepted at PLOS ONE.
+     ([preprint](http://arxiv.org/abs/1312.6450),
+     [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
+     [R package](http://cran.r-project.org/web/packages/ss3sim/index.html),
+     [code](https://github.com/ss3sim/ss3sim))
+
+2014
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
      Observer aging and long-term avian survey data quality.
      Accepted at Ecology and Evolution.
@@ -141,14 +150,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Eighth most-read CJFAS article in 2008.
 
 # Manuscripts in review
-
-2014
-:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
-     ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. arXiv:1312.6450. In review.
-     ([preprint](http://arxiv.org/abs/1312.6450),
-     [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
-     [R package](https://github.com/ss3sim/ss3sim))
 
 2014
 :    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper.
