@@ -8,8 +8,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Education
 
-2011–13
-:    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada
+2011–14
+:    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada\
      Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in 2012–13
 
@@ -38,9 +38,20 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications
 2014
+:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, 
+     **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R. Licandeo, 
+     M. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt.
+     Time-varying natural mortality in fisheries stock assessment models:
+     identifying a default approach.
+     Accepted at ICES Journal of Marine Science.
+     DOI: 10.1093/icesjms/fsu055.
+
+2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. arXiv:1312.6450. Accepted at PLOS ONE.
+     Synthesis. arXiv:1312.6450. 
+     Accepted at PLOS ONE. 
+     DOI: 10.1371/journal.pone.0092725.
      ([preprint](http://arxiv.org/abs/1312.6450),
      [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
      [R package](http://cran.r-project.org/web/packages/ss3sim/index.html),
@@ -52,12 +63,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Accepted at Ecology and Evolution.
 
 2014
-:    Ono, K., R. Licandeo, M. Muradian, C. Cunningham. **S.C. Anderson**,
-     F. Hurtado-Ferro, K.F. Johnson, C. McGilliard, C.C. Monnahan, C.
-     Szuwalski, J. Valero, K. Vert-pre, A. Whitten, A. Punt.
+:    Ono, K., R. Licandeo, M. Muradian, C.J. Cunningham. **S.C. Anderson**,
+     F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S.
+     Szuwalski, J.L. Valero, K.A. Vert-pre, A.R. Whitten, A.E. Punt.
      The importance of length and age composition data in statistical
      age-structured models for marine species.
      In press at ICES Journal of Marine Science.
+     <http://doi.org/10.1093/icesjms/fsu007>.
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
@@ -72,14 +84,14 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
      Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management:
      performance of grizzly bear management in British Columbia, Canada.
-     PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041>
+     PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041>.
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**.
      The 'Research Derby': A pressure cooker for creative collaborative
      science. Ideas in Ecology and Evolution. 6: 40-46.
-     <http://doi.org/10.4033/iee.2013.6.9.n>
+     <http://doi.org/10.4033/iee.2013.6.9.n>.
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
@@ -149,19 +161,12 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      2553–2571. <http://doi.org/10.1139/F08-156>. ([PDF][Anderson:2008:EKB])
      Eighth most-read CJFAS article in 2008.
 
-# Manuscripts in review
+<!--# Manuscripts in review-->
 
-2014
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper.
-     Portfolio conservation of metapopulations under climate change. In review.
+<!--2014-->
+<!--:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper.-->
+     <!--Portfolio conservation of metapopulations under climate change. In review.-->
 
-2014
-:    Johnson, K.F., C.C. Monnahan, C. McGilliard, K. Vert-pre, A. Whitten,
-     **S.C. Anderson**, K. Ono, R. Licandeo, F. Hurtado-Ferro, J. Valero,
-     M. Muradian, C. Szuwalski, C. Cunningham, A. Punt.
-     Time-varying natural mortality in fisheries stock assessment models:
-     identifying a default approach.
-     In review.
 
 # Awards and scholarships
 
@@ -362,9 +367,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Selected courses and training
 
 Present
-:    Proficient in statistical analyses and data management using R, Sweave,
-     knitr, LaTeX, Git. Working knowledge of C++, Rcpp, ADMB, JAGS, Stan, and
-     PostgreSQL.
+:    Proficient in statistical analysis and data management using R, JAGS, 
+     Sweave, knitr, LaTeX, and Git. Working knowledge of C++, Rcpp, ADMB, 
+     Stan, and PostgreSQL.
 
 2013
 :    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
