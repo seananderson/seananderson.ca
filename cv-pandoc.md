@@ -393,16 +393,6 @@ Present
 2011
 :    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
 
-2009
-:    Technical Expertise in Stock Assessment: Model Fitting and Interpretation.
-     Dr. C. Needle, chair of the International Council for the Exploration
-     of the Sea working group on methods of fish stock assessment, Dalhousie
-     University.
-
-2008
-:    Data Analysis. Dr. J. Mills Flemming, Department of Mathematics &
-     Statistics, Dalhousie University (audited).
-
 # Reviews
 
 Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
