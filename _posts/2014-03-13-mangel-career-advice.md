@@ -19,8 +19,9 @@ On setting rates: think of about 2000 hrs a year, take an equivalent position, a
 
 Develop a writing habit. E.g. 1 hr per day, 1 page, everyday. This is very hard, but important.
 
-Work on speeding up transitions between activities. E.g. maybe you go into a class less prepared to teach to avoid eating up time on the transition
-learn what is important to be done well, and things that just need to be done.
+Work on speeding up transitions between activities. E.g. maybe you go into a class less prepared to teach to avoid eating up time on the transition.
+
+Learn what is important to be done well, and what just needs to be done.
 
 Be proud of how hard you're not working — only James Watson wants to talk about how hard he's *not* working.
 
