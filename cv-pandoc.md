@@ -69,7 +69,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      The importance of length and age composition data in statistical
      age-structured models for marine species.
      In press at ICES Journal of Marine Science.
-     <http://doi.org/10.1093/icesjms/fsu007>.
+     <http://doi.org/10.1093/icesjms/fsu007>. ([PDF][Ono:2014:ILA])
 
 2013
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
@@ -399,6 +399,7 @@ Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
 Journal of Tropical Biology and Conservation, Journal of Environmental
 Management, Aquatic Conservation
 
+[Ono:2014:ILA]: http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf
 [Harnik:2012:EAM]: http://seananderson.ca/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf
 [Phillis:2012:MPC]: http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf
 [Anderson:2013:QMP]: http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets.pdf

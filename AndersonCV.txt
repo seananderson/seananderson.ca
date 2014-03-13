@@ -71,6 +71,7 @@ Publications
     statistical age-structured models for marine species. In press at
     ICES Journal of Marine Science.
     <http://doi.org/10.1093/icesjms/fsu007>.
+    ([PDF](http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf))
 
 2013
 :   O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming
