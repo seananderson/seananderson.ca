@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marc Mangel's scientific career advice
+title: Marc Mangel's Scientific Career Advice
 subtitle: Notes from a graduate student workshop
 published: true
 ---
