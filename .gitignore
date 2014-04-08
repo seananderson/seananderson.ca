@@ -11,3 +11,4 @@ id\_dsa.pub
 Icon*
 pre-papers/*
 *.synctex.gz
+_knitr-posts/cache/*
