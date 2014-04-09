@@ -160,7 +160,7 @@ plot(density(m_jags_sims$b), main = "")
 ![plot of chunk jags-gamma-density-b](/knitr-figs/jags-gamma-density-b.png) 
 
 
-We'll also calculate 95% credible intervals. We'll use HPD intervals ([highest probability denity](http://en.wikipedia.org/wiki/Credible_interval)):
+We'll also calculate 95% credible intervals. We'll use HPD intervals ([highest probability density](http://en.wikipedia.org/wiki/Credible_interval)):
 
 
 ```r
@@ -290,4 +290,4 @@ Although we call it a "log link", if we're working with the Gamma distribution d
 
 There are multiple ways to parameterize the Gamma distribution, so it's important to pay attention when moving between languages and functions.
 
-As with many optimization exercises, we can force a term (here `shape`) to be positive by fitting in log-space. Hence, using `logspace` and exponentiating within the optimization function for some of the examples. This creates a smooth likelihood or probability surface near the boundaries that optimization algorithms can better navigate.
+As with many optimization exercises, we can force a term (here `shape`) to be positive by fitting in log-space. Hence, using `logshape` and exponentiating within the optimization function for some of the examples. This creates a smooth likelihood or probability surface near the boundaries that optimization algorithms can better navigate.
