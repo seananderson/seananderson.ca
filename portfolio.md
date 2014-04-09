@@ -25,7 +25,7 @@ arrangement.</p>
 
 <p class="caption">An Instagram account. I wrote a series of R functions to
 read in the jpeg files, pick out the perceptually dominant colour hue, frame
-the photo in that hue, order the photos by to that hue, and create the
+the photo in that hue, order the photos by that hue, and create the
 plot.</p>
 
 # Academic Figures
