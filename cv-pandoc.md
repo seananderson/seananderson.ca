@@ -49,12 +49,14 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Time-varying natural mortality in fisheries stock assessment models:
      identifying a default approach.
      In press at ICES Journal of Marine Science.
-     DOI: 10.1093/icesjms/fsu055.
+     <http://dio.org/10.1093/icesjms/fsu055>.
+     ([PDF][Johnson:2014:TVN])
 
 2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero.
      ss3sim: An R package for fisheries stock assessment simulation with Stock
-     Synthesis. <http://doi.org/10.1371/journal.pone.0092725>.
+     Synthesis. PLOS ONE. 9(4): e92725.
+     <http://doi.org/10.1371/journal.pone.0092725>.
      ([vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
      [R package](http://cran.r-project.org/web/packages/ss3sim/index.html),
      [code](https://github.com/ss3sim/ss3sim))
@@ -399,6 +401,7 @@ Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
 Journal of Tropical Biology and Conservation, Journal of Environmental
 Management, Aquatic Conservation
 
+[Johnson:2014:TVN]: http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z
 [Ono:2014:ILA]: http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf
 [Harnik:2012:EAM]: http://seananderson.ca/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf
 [Phillis:2012:MPC]: http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf

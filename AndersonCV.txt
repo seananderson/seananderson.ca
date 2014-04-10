@@ -50,12 +50,13 @@ Publications
     Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E.
     Punt. Time-varying natural mortality in fisheries stock assessment
     models: identifying a default approach. In press at ICES Journal of
-    Marine Science. DOI: 10.1093/icesjms/fsu055.
+    Marine Science. <http://dio.org/10.1093/icesjms/fsu055>.
+    ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z))
 
 2014
 :   **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L.
     Valero. ss3sim: An R package for fisheries stock assessment
-    simulation with Stock Synthesis.
+    simulation with Stock Synthesis. PLOS ONE. 9(4): e92725.
     <http://doi.org/10.1371/journal.pone.0092725>.
     ([vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf),
     [R
