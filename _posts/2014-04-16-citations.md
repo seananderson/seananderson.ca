@@ -89,8 +89,8 @@ Use citation alerts. The Google Scholar ones are good. You set up search terms a
 
 Google Scholar is increasingly becoming the standard. It's a great place to start. Also see the "cited by" link for any given Google Scholar paper. Consider limiting the search results to recent years if you want to check for newer papers. Or limit the search results to older years if you want to find some of the foundational work.
 
-Install this "Scholarfy" bookmarklet:\
-<https://people.cam.cornell.edu/~jugander/scholarfy.html>.\
+Install this "Scholarfy" bookmarklet:
+<https://people.cam.cornell.edu/~jugander/scholarfy.html>.
 Then, when you've done a regular Google search for something, click the bookmarklet and it will transfer the search to Google Scholar.
 
 The Web of Science is probably the best high-quality search engine for science papers. Also see its "cited by" search option. Try sorting by descending citations to get a feeling for some of the main highly-cited papers on a topic. Also try sorting by published date to look for recent papers and find seminal papers on a topic.
