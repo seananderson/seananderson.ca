@@ -5,7 +5,7 @@ subtitle: Notes for a grad student publishing workshop
 published: true
 ---
 
-I wrote the following notes for a graduate student publishing workshop at Simon Fraser University organized by [Amanda Kissel](https://twitter.com/AKissecol). The accompanying slides are [here](https://dl.dropboxusercontent.com/u/254940/seananderson.ca/citations.pdf), although the notes are probably more useful than the slides on their own.
+I wrote the following notes for a graduate student publishing workshop at Simon Fraser University organized by [Amanda Kissel](https://twitter.com/AKissecol). 
 
 # When to cite
 
