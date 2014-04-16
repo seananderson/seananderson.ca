@@ -5,6 +5,8 @@ subtitle: Notes for a grad student publishing workshop
 published: true
 ---
 
+I wrote the following notes for a graduate student publishing workshop at Simon Fraser University. The accompanying slides are [here](https://dl.dropboxusercontent.com/u/254940/seananderson.ca/citations.pdf), although the notes are probably more useful than the slides on their own.
+
 # When to cite
 
 Opinions vary widely on when, where, and how often to cite and it's partly an art. With that in mind:
@@ -103,15 +105,10 @@ Increasingly, Twitter is a useful place to find papers of interest.
 
 Ezproxy! Use an Ezproxy bookmarklet. This is a bookmark in your browser with some Javascript in front of it to reload the current page through the university's proxy server. This lets you access anything the library has access to from off campus.
 
-<!--To create one, make a bookmark to anything at all. Call it something like `ezproxy`. Then edit the URL to your university's proxy server. For Simon Fraser University:  (delete the line break so it is all one line)-->
-
-  <!--javascript:u=window.location.href;window.location.href='http://'+u.substring-->
-  <!--(7,u.indexOf('/',8))+'.proxy.lib.sfu.ca/'+u.substr(u.indexOf('/',8)+1);-->
-
-Use this website to generate the bookmarklet for you:\
+Use this website to generate the bookmarklet for you:
 <http://wolstenhol.me/sites/projects/ezproxy/>
 
-Enter `http://proxy.lib.sfu.ca/login?url=` and click `Make bookmarklet!`. Then drag the button called `via EzProxy` to your bookmarks bar.
+You should be able to find the proxy URL on your university's website. For Simon Fraser University, enter `http://proxy.lib.sfu.ca/login?url=`. Then click `Make bookmarklet!` and drag the button called `via EzProxy` to your bookmarks bar.
 
 Now, when you're on a journal page you want to get access to, click the bookmark and enter your password. You'll only have to enter your password occasionally.
 
@@ -119,7 +116,7 @@ Now, when you're on a journal page you want to get access to, click the bookmark
 
 There are many different strategies for note taking. What's important is that you do take notes and that you have some sort of system so that you can quickly find them again.
 
-[Evernote](https://evernote.com) is a popular option.
+[Evernote](https://evernote.com) is a popular option. [nvALT](http://brettterpstra.com/projects/nvalt/) is another if you're on a Mac.
 
 Some citation managers will let you store your notes with your citations.
 
