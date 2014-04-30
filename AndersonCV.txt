@@ -40,8 +40,23 @@ Publications
 ============
 
 2014
+:   O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming
+    mediates negative impacts of rapid pond drying for three amphibian
+    species. Ecology. 95: 845-855. <http://doi.org/10.1890/13-0916.1>.
+    ([Cover
+    Article](http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf)).
+    <div class="altmetric-embed" data-badge-type="1"
+    data-doi="10.1890/13-0916.1">
+
+    </div>
+
+    <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
+     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
+     alt="Access the recommendation on F1000Prime" id="bg" /></a>
+
+2014
 :   Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
-    Observer aging and long-term avian survey data quality. Accepted at
+    Observer aging and long-term avian survey data quality. In press at
     Ecology and Evolution.
 
 2014
@@ -74,22 +89,15 @@ Publications
     ([PDF](http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf))
 
 2013
-:   O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming
-    mediates negative impacts of rapid pond drying for three amphibian
-    species. In press at Ecology. <http://doi.org/10.1890/13-0916.1>.\
-    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
-     
-    <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
-     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
-     alt="Access the recommendation on F1000Prime" id="bg" /></a>
-
-2013
 :   Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
     Reynolds, C.T. Darimont. Confronting uncertainty in wildlife
     management: performance of grizzly bear management in British
     Columbia, Canada. PLOS ONE. 8(11): e78041.
     <http://doi.org/10.1371/journal.pone.0078041>.
-    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
+    <div class="altmetric-embed" data-badge-type="1"
+    data-doi="10.1371/journal.pone.0078041">
+
+    </div>
 
 2013
 :   Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. The
@@ -105,7 +113,10 @@ Publications
     [ecofolio R package](https://github.com/seananderson/ecofolio),
     [Supporting
     Information](http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets_SOM.pdf))
-    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
+    <div class="altmetric-embed" data-badge-type="1"
+    data-doi="10.1111/2041-210X.12093">
+
+    </div>
 
 2013
 :   Phillis, C.C.\*, S.M. O'Regan\*, S.J. Green\*, J.E.B. Bruce\*,
@@ -116,7 +127,10 @@ Publications
     ([PDF](http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf))
     (\**Authors contributed equally, listed in reverse alphabetical
     order*)
-    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
+    <div class="altmetric-embed" data-badge-type="1"
+    data-doi="10.1111/j.1755-263X.2012.00294.x">
+
+    </div>
 
 2012
 :   Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S.
@@ -126,7 +140,10 @@ Publications
     Evolution. 27(11): 608-617.
     <http://doi.org/10.1016/j.tree.2012.07.010>.
     ([PDF](http://seananderson.ca/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf))
-    <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.tree.2012.07.010"></div>
+    <div class="altmetric-embed" data-badge-type="1"
+    data-doi="10.1016/j.tree.2012.07.010">
+
+    </div>
 
 2012
 :   **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing

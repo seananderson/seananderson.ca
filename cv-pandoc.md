@@ -38,9 +38,19 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Publications
 2014
+:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
+     negative impacts of rapid pond drying for three amphibian species.
+     Ecology. 95: 845-855. <http://doi.org/10.1890/13-0916.1>.
+     ([Cover Article][ecology-cover]).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
+     <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
+     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
+     alt="Access the recommendation on F1000Prime" id="bg" /></a>
+
+2014
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
      Observer aging and long-term avian survey data quality.
-     Accepted at Ecology and Evolution.
+     In press at Ecology and Evolution.
 
 2014
 :    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, 
@@ -69,15 +79,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      age-structured models for marine species.
      In press at ICES Journal of Marine Science.
      <http://doi.org/10.1093/icesjms/fsu007>. ([PDF][Ono:2014:ILA])
-
-2013
-:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates
-     negative impacts of rapid pond drying for three amphibian species.
-     In press at Ecology. <http://doi.org/10.1890/13-0916.1>.\
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
-     <a href="http://f1000.com/prime/718158688?bd=1" target="_blank"><img
-     src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif"
-     alt="Access the recommendation on F1000Prime" id="bg" /></a>
 
 2013
 :    Artelle K.A., **S.C. Anderson**, A.B. Cooper, Paul C. Paquet, J.D.
@@ -441,3 +442,5 @@ Management, Aquatic Conservation
 [Governor General award]: http://goo.gl/nA1zE
 
 [citations]: http://scholar.google.ca/citations?view_op=list_works&hl=en&user=AGSviU8AAAAJ
+
+[ecology-cover]: http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf
