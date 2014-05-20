@@ -1,0 +1,220 @@
+---
+layout: post
+title: Centering, Interactions, and Model Averaging
+subtitle: Why centering factor predictors can be important
+published: false
+---
+
+I've encountered a number of people wondering about centering and scaling predictors in the context of model averaging. Here, centering refers to subtracting the mean and scaling refers to dividing by some measure of variability ([usually one or two standard deviations](http://www.stat.columbia.edu/~gelman/research/published/standardizing7.pdf)).
+
+First of all, if you haven't already, go read the paper [Simple means to improve the interpretability of
+regression coefficients](http://doi.org/10.1111/j.2041-210X.2010.00012.x) by Holger Schielzeth. This paper is a wealth of useful information. The code I've included below is just a simulated example to demonstrate an aspect of this paper.
+
+Bottom line, if you are going to average coefficients across models with and without interactions you're going to get gibberish unless you center your predictors by subtracting the mean. This is true across continuous, binary, and multi-level factor predictors, although setting up centered factor predictors can take an extra step.
+
+Whether or not averaging coefficient values across models is a good idea is a separate topic that I won't get into here. Just realize that subscribing to the church of coefficient averaging is not the only way and there are also good arguments for three alternatives: maintaining multiple models, model selection (e.g. as often suggested in [Zuur's books](http://www.highstat.com/books.htm)), or, assuming reasonable power, fitting the most complicated model you can justify and interpret and drawing inference from that model (e.g. [Andrew Gelman](http://andrewgelman.com/2004/12/10/against_parsimo/)). After all, removing a predictor is equivalent to assuming the coefficient for that predictor is precisely zero, which is a strong assumption in itself. (This last philosophy often works best in Bayesian context where weakly informative priors are a possibility.)
+
+First, we'll simulate some data. `b0` is an intercept, `b1` a slope on a continuous predictor, `b2` a binary factor coefficient, and `b1.2` an interaction coefficient between `b1` and `b2`.
+
+```{r}
+set.seed(999)
+b0 <- 1.4 # intercept
+b1 <- 0.2 # continuous slope
+b2 <- 1.7 # factor level 1 coefficient
+b1.2 <- 0.5 # interaction between b1 and b2
+sigma <- 2.0 # residual standard deviation
+N <- 25 # number of data points
+
+x1 <- runif(N, 0, 20) # continuous predictor data
+x2 <- rbinom(N, size = 1, prob = 0.4) # binary predictor data
+
+# generate response data:
+y <- rnorm(N, mean = b0 +
+  b1 * x1 +
+  b2 * x2 +
+  x1 * x2 * b1.2,
+  sd = sigma)
+dat <- data.frame(x1, x2, y)
+head(dat)
+```
+
+Let's look at the data we created:
+
+```{r cent1, fig.width=6, fig.height=4}
+library(ggplot2)
+ggplot(dat, aes(x1, y, colour = as.factor(x2))) + geom_point()
+```
+
+Now, we'll fit a model with and without an interaction and look at the coefficients:
+
+```{r}
+m <- lm(y ~ x1 * x2, data = dat)
+m_no_inter <- lm(y ~ x1 + x2, data = dat)
+round(coef(m), 2)
+round(coef(m_no_inter), 2)
+```
+
+Notice how the main effects (everything except the interaction) change dramatically when the interaction is removed. This is because when the interaction is included the main effects are relevant to when the predictors are equal to 0. I.e. `x1 = 0` and the binary predictor `x2` is at its reference (0) level. But, when the interaction is excluded the main effects are relevant across all the values of the other predictors, or equivalently, their mean values. So, if we center, the main effects will represent the same thing in both cases:
+
+```{r}
+dat$x2_cent <- dat$x2 - mean(dat$x2)
+dat$x1_cent <- dat$x1 - mean(dat$x1)
+m_center <- lm(y ~ x1_cent * x2_cent, data = dat)
+m_center_no_inter <- lm(y ~ x1_cent + x2_cent,
+  data = dat)
+round(coef(m_center), 2)
+round(coef(m_center_no_inter), 2)
+```
+
+Notice that the intercept, `x1`, and `x2` coefficient estimates are now similar regardless of whether the interaction is included. Now, because we've centered the predictors, the predictors equal zero at their mean. So, the main effects are estimating approximately the same thing regardless of whether we include the interaction. In other words, adding the interaction adds more predictive information but doesn't modify the meaning of the main effects.
+
+# A 3-level factor example
+
+Now, let's repeat the above with a three-level factor predictor to make sure it's clear how it works.
+
+```{r}
+set.seed(999)
+b0 <- 1.4 # intercept
+b1 <- 0.2 # continuous slope
+b2 <- 1.7 # factor level 0-1 coefficient
+b3 <- 2.9 # factor level 0-2 coefficient
+b1.2 <- 0.5 # interaction between b1 and b2
+b1.3 <- 0.9 # interaction between b1 and b3
+sigma <- 2.0 # residual standard deviation
+N <- 30 # number of data points
+
+x1 <- runif(N, 0, 20) # continuous predictor data
+# 3-factor predictor data:
+f <- sample(c(1, 2, 3), N, replace = TRUE)
+
+x2 <- ifelse(f == 2, 1, 0)
+x3 <- ifelse(f == 3, 1, 0)
+
+y <- rnorm(N, mean = b0 +
+  b1 * x1 +
+  b2 * x2 +
+  b3 * x3 +
+  x1 * x2 * b1.2 +
+  x1 * x3 * b1.3,
+  sd = sigma)
+
+dat <- data.frame(x1, x2, x3, y,
+  f = as.factor(f))
+head(dat)
+```
+
+```{r cent2, fig.width=6, fig.height=4}
+ggplot(dat, aes(x1, y, colour = f)) + geom_point()
+```
+
+Now we'll fit the model. First with `factor()` notation:
+
+```{r}
+m2 <- lm(y ~ x1 * f, data = dat)
+round(coef(m2), 2)
+```
+
+And now with "dummy" variable notation. This will make centering in the next step easier:
+
+```{r}
+m2.1 <- lm(y ~ x1 * x2 + x1 * x3, data = dat)
+round(coef(m2.1), 2)
+```
+
+Notice we get the same estimates.
+
+Now, let's compare to a model without the interaction:
+
+```{r}
+m2.1_no_inter <- lm(y ~ x1 + x2 + x1 + x3, data = dat)
+round(coef(m2.1), 2)
+round(coef(m2.1_no_inter), 2)
+```
+
+Again, if we model averaged here across models with and without the interaction, we'd be getting gibberish.
+
+Now, we'll fit the same model with centered predictors:
+
+```{r}
+dat$x1_cent <- dat$x1 - mean(dat$x1)
+dat$x2_cent <- dat$x2 - mean(dat$x2)
+dat$x3_cent <- dat$x3 - mean(dat$x3)
+m2.2 <- lm(y ~ x1_cent * x2_cent + x1_cent * x3_cent, data = dat)
+m2.2_no_inter <- lm(y ~ x1_cent + x2_cent + x3_cent, data = dat)
+```
+
+Again, notice that the main effects stay fairly consistent regardless of whether we include the interaction because they are estimated across the centered three-level factor:
+
+```{r}
+round(coef(m2.2), 2)
+round(coef(m2.2_no_inter), 2)
+```
+
+You can see how this works across multiple model comparisons using the `MuMIn::dredge()` function on any one of the above models.
+
+So, *if* you're going to average across models with and without interactions, centering the predictors is important. Even if you're not going to be averaging or comparing coefficient values across models with and without interactions, centering predictors can be useful for computational and interpretation reasons, but that's a separate topic.
+
+# Plotting the predictions
+
+One more thing. Say we wanted to plot the predicted response from our model. This isn't quite as simple as normal once we've centered our predictors and coded the factor levels as centered dummy variable comparisons.
+
+We'll make predictions at each of the 3 levels. Note how we create these levels through the 3 valid combinations of our dummy variables. We can't just use `expand.grid()` and get all combinations of our dummy variables.
+
+```{r}
+x1_cent <- seq(-10, 10, length.out = 100)
+newdata1 <- data.frame(x1_cent = x1_cent,
+  x2_cent = min(dat$x2_cent), x3_cent = min(dat$x3_cent))
+newdata2 <- data.frame(x1_cent = x1_cent,
+  x2_cent = max(dat$x2_cent), x3_cent = min(dat$x3_cent))
+newdata3 <- data.frame(x1_cent = x1_cent,
+  x2_cent = min(dat$x2_cent), x3_cent = max(dat$x3_cent))
+newdata <- rbind(newdata1, newdata2, newdata3)
+```
+
+Now we make our predictions and plot the predictions:
+
+```{r cent3, fig.width=6, fig.height=5.5}
+newdata$pred <- predict(m2.2, newdata = newdata)
+with(dat, plot(x1_cent + mean(dat$x1), y, col = f))
+plyr::d_ply(newdata, "x2_cent", function(x) {
+  with(x, lines(x1_cent + mean(dat$x1), pred, col = "grey"))
+  })
+```
+
+```{r, echo=FALSE}
+# # Adjusting factor level references
+#
+# combine_coefs <- function(model, ref_coef, comp_coef) {
+#   if(class(model)[1] == "lme")
+#     x <- as.data.frame(summary(model)$tTable)
+#   if(class(model)[1] == "glm" | class(model)[1] == "lm") {
+#     x <- as.data.frame(summary(model)$coef)
+#     names(x)[c(1, 2)] <- c("Value", "Std.Error")
+#   }
+#   x$coef_name <- row.names(x)
+#   row.names(x) <- NULL
+#   base_coef <- x[x$coef_name == ref_coef, "Value"]
+#   base_se <- x[x$coef_name == ref_coef, "Std.Error"]
+#   comparison_coef <- x[x$coef_name == comp_coef, "Value"]
+#   comparison_se <- x[x$coef_name == comp_coef, "Std.Error"]
+#   combined_coef <- base_coef + comparison_coef
+#   combined_se <- sqrt(comparison_se^2 - base_se^2)
+#   data.frame(coef = combined_coef, se = combined_se)
+# }
+#
+# x2_coef <- combine_coefs(m2.2, ref_coef = "x1_cent", comp_coef = "x1_cent:x2_cent", unit_value = min(dat$x2_cent))
+# x3_coef <- combine_coefs(m2.2, ref_coef = "x1_cent", comp_coef = "x1_cent:x3_cent", unit_value = min(dat$x3_cent))
+#
+# newdata$pred <- predict(m2.2, newdata = newdata)
+# with(dat, plot(x1_cent + mean(dat$x1), y, col = f))
+# plyr::d_ply(newdata, "x2_cent", function(x) {
+#   with(x, lines(x1_cent + mean(dat$x1), pred, col = "lightgrey"))
+#   })
+#
+# # very roughly:
+# # see coef(m2.2)
+# abline(a = 3, b = 0.6684 + 0.567*-0.333 + 0.988 * -0.3) # 1st level
+# abline(a = 3, b = 0.6684 + 0.567*0.667 + 0.988 * -0.3) # 2nd level
+# abline(a = 3, b = 0.6684 + 0.567*-0.333 + 0.988 * 0.7) # 3rd level
+
+```
