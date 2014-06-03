@@ -16,7 +16,8 @@ Whether or not averaging coefficient values across models is a good idea is a se
 
 First, we'll simulate some data. `b0` is an intercept, `b1` a slope on a continuous predictor, `b2` a binary factor coefficient, and `b1.2` an interaction coefficient between `b1` and `b2`.
 
-```{r}
+
+```r
 set.seed(999)
 b0 <- 1.4 # intercept
 b1 <- 0.2 # continuous slope
@@ -38,33 +39,78 @@ dat <- data.frame(x1, x2, y)
 head(dat)
 ```
 
+```
+#       x1 x2      y
+# 1  7.781  1  9.832
+# 2 11.661  0  1.519
+# 3  1.893  1  2.656
+# 4 17.053  1 11.929
+# 5 15.735  0  4.294
+# 6  2.387  0  6.643
+```
+
+
 Let's look at the data we created:
 
-```{r cent1, fig.width=6, fig.height=4}
+
+```r
 library(ggplot2)
 ggplot(dat, aes(x1, y, colour = as.factor(x2))) + geom_point()
 ```
 
+![plot of chunk cent1](/knitr-figs/cent1.png) 
+
+
 Now, we'll fit a model with and without an interaction and look at the coefficients:
 
-```{r}
+
+```r
 m <- lm(y ~ x1 * x2, data = dat)
 m_no_inter <- lm(y ~ x1 + x2, data = dat)
 round(coef(m), 2)
+```
+
+```
+# (Intercept)          x1          x2       x1:x2 
+#        1.72        0.19        1.27        0.34
+```
+
+```r
 round(coef(m_no_inter), 2)
 ```
 
+```
+# (Intercept)          x1          x2 
+#        0.61        0.30        4.33
+```
+
+
 Notice how the main effects (everything except the interaction) change dramatically when the interaction is removed. This is because when the interaction is included the main effects are relevant to when the predictors are equal to 0. I.e. `x1 = 0` and the binary predictor `x2` is at its reference (0) level. But, when the interaction is excluded the main effects are relevant across all the values of the other predictors, or equivalently, their mean values. So, if we center, the main effects will represent the same thing in both cases:
 
-```{r}
+
+```r
 dat$x2_cent <- dat$x2 - mean(dat$x2)
 dat$x1_cent <- dat$x1 - mean(dat$x1)
 m_center <- lm(y ~ x1_cent * x2_cent, data = dat)
 m_center_no_inter <- lm(y ~ x1_cent + x2_cent,
   data = dat)
 round(coef(m_center), 2)
+```
+
+```
+#     (Intercept)         x1_cent         x2_cent x1_cent:x2_cent 
+#            5.07            0.31            4.48            0.34
+```
+
+```r
 round(coef(m_center_no_inter), 2)
 ```
+
+```
+# (Intercept)     x1_cent     x2_cent 
+#        4.96        0.30        4.33
+```
+
 
 Notice that the intercept, `x1`, and `x2` coefficient estimates are now similar regardless of whether the interaction is included. Now, because we've centered the predictors, the predictors equal zero at their mean. So, the main effects are estimating approximately the same thing regardless of whether we include the interaction. In other words, adding the interaction adds more predictive information but doesn't modify the meaning of the main effects.
 
@@ -72,7 +118,8 @@ Notice that the intercept, `x1`, and `x2` coefficient estimates are now similar 
 
 Now, let's repeat the above with a three-level factor predictor to make sure it's clear how it works.
 
-```{r}
+
+```r
 set.seed(999)
 b0 <- 1.4 # intercept
 b1 <- 0.2 # continuous slope
@@ -103,39 +150,84 @@ dat <- data.frame(x1, x2, x3, y,
 head(dat)
 ```
 
-```{r cent2, fig.width=6, fig.height=4}
+```
+#       x1 x2 x3      y f
+# 1  7.781  0  0  7.722 1
+# 2 11.661  0  0  4.935 1
+# 3  1.893  1  0  4.784 2
+# 4 17.053  1  0 17.198 2
+# 5 15.735  1  0 13.621 2
+# 6  2.387  0  1  2.698 3
+```
+
+
+
+```r
 ggplot(dat, aes(x1, y, colour = f)) + geom_point()
 ```
 
+![plot of chunk cent2](/knitr-figs/cent2.png) 
+
+
 Now we'll fit the model. First with `factor()` notation:
 
-```{r}
+
+```r
 m2 <- lm(y ~ x1 * f, data = dat)
 round(coef(m2), 2)
 ```
 
+```
+# (Intercept)          x1          f2          f3       x1:f2       x1:f3 
+#        2.68        0.18       -0.81       -0.04        0.57        0.99
+```
+
+
 And now with "dummy" variable notation. This will make centering in the next step easier:
 
-```{r}
+
+```r
 m2.1 <- lm(y ~ x1 * x2 + x1 * x3, data = dat)
 round(coef(m2.1), 2)
 ```
+
+```
+# (Intercept)          x1          x2          x3       x1:x2       x1:x3 
+#        2.68        0.18       -0.81       -0.04        0.57        0.99
+```
+
 
 Notice we get the same estimates.
 
 Now, let's compare to a model without the interaction:
 
-```{r}
+
+```r
 m2.1_no_inter <- lm(y ~ x1 + x2 + x1 + x3, data = dat)
 round(coef(m2.1), 2)
+```
+
+```
+# (Intercept)          x1          x2          x3       x1:x2       x1:x3 
+#        2.68        0.18       -0.81       -0.04        0.57        0.99
+```
+
+```r
 round(coef(m2.1_no_inter), 2)
 ```
+
+```
+# (Intercept)          x1          x2          x3 
+#       -2.48        0.71        4.85        8.95
+```
+
 
 Again, if we model averaged here across models with and without the interaction, we'd be getting gibberish.
 
 Now, we'll fit the same model with centered predictors:
 
-```{r}
+
+```r
 dat$x1_cent <- dat$x1 - mean(dat$x1)
 dat$x2_cent <- dat$x2 - mean(dat$x2)
 dat$x3_cent <- dat$x3 - mean(dat$x3)
@@ -143,12 +235,30 @@ m2.2 <- lm(y ~ x1_cent * x2_cent + x1_cent * x3_cent, data = dat)
 m2.2_no_inter <- lm(y ~ x1_cent + x2_cent + x3_cent, data = dat)
 ```
 
+
 Again, notice that the main effects stay fairly consistent regardless of whether we include the interaction because they are estimated across the centered three-level factor:
 
-```{r}
+
+```r
 round(coef(m2.2), 2)
+```
+
+```
+#     (Intercept)         x1_cent         x2_cent         x3_cent 
+#            9.09            0.67            4.87            9.86 
+# x1_cent:x2_cent x1_cent:x3_cent 
+#            0.57            0.99
+```
+
+```r
 round(coef(m2.2_no_inter), 2)
 ```
+
+```
+# (Intercept)     x1_cent     x2_cent     x3_cent 
+#        8.91        0.71        4.85        8.95
+```
+
 
 You can see how this works across multiple model comparisons using the `MuMIn::dredge()` function on any one of the above models.
 
@@ -160,7 +270,8 @@ One more thing. Say we wanted to plot the predicted response from our model. Thi
 
 We'll make predictions at each of the 3 levels. Note how we create these levels through the 3 valid combinations of our dummy variables. We can't just use `expand.grid()` and get all combinations of our dummy variables.
 
-```{r}
+
+```r
 x1_cent <- seq(-10, 10, length.out = 100)
 newdata1 <- data.frame(x1_cent = x1_cent,
   x2_cent = min(dat$x2_cent), x3_cent = min(dat$x3_cent))
@@ -171,9 +282,11 @@ newdata3 <- data.frame(x1_cent = x1_cent,
 newdata <- rbind(newdata1, newdata2, newdata3)
 ```
 
-Now we make our predictions and plot the predictions:
 
-```{r cent3, fig.width=6, fig.height=5.5}
+Now we make our predictions and plot the predictions. We'll undo the centering of the `x1` variable here by adding the mean of the original data:
+
+
+```r
 newdata$pred <- predict(m2.2, newdata = newdata)
 with(dat, plot(x1_cent + mean(dat$x1), y, col = f))
 plyr::d_ply(newdata, "x2_cent", function(x) {
@@ -181,40 +294,208 @@ plyr::d_ply(newdata, "x2_cent", function(x) {
   })
 ```
 
-```{r, echo=FALSE}
-# # Adjusting factor level references
-#
-# combine_coefs <- function(model, ref_coef, comp_coef) {
-#   if(class(model)[1] == "lme")
-#     x <- as.data.frame(summary(model)$tTable)
-#   if(class(model)[1] == "glm" | class(model)[1] == "lm") {
-#     x <- as.data.frame(summary(model)$coef)
-#     names(x)[c(1, 2)] <- c("Value", "Std.Error")
-#   }
-#   x$coef_name <- row.names(x)
-#   row.names(x) <- NULL
-#   base_coef <- x[x$coef_name == ref_coef, "Value"]
-#   base_se <- x[x$coef_name == ref_coef, "Std.Error"]
-#   comparison_coef <- x[x$coef_name == comp_coef, "Value"]
-#   comparison_se <- x[x$coef_name == comp_coef, "Std.Error"]
-#   combined_coef <- base_coef + comparison_coef
-#   combined_se <- sqrt(comparison_se^2 - base_se^2)
-#   data.frame(coef = combined_coef, se = combined_se)
-# }
-#
-# x2_coef <- combine_coefs(m2.2, ref_coef = "x1_cent", comp_coef = "x1_cent:x2_cent", unit_value = min(dat$x2_cent))
-# x3_coef <- combine_coefs(m2.2, ref_coef = "x1_cent", comp_coef = "x1_cent:x3_cent", unit_value = min(dat$x3_cent))
-#
-# newdata$pred <- predict(m2.2, newdata = newdata)
-# with(dat, plot(x1_cent + mean(dat$x1), y, col = f))
-# plyr::d_ply(newdata, "x2_cent", function(x) {
-#   with(x, lines(x1_cent + mean(dat$x1), pred, col = "lightgrey"))
-#   })
-#
-# # very roughly:
-# # see coef(m2.2)
-# abline(a = 3, b = 0.6684 + 0.567*-0.333 + 0.988 * -0.3) # 1st level
-# abline(a = 3, b = 0.6684 + 0.567*0.667 + 0.988 * -0.3) # 2nd level
-# abline(a = 3, b = 0.6684 + 0.567*-0.333 + 0.988 * 0.7) # 3rd level
+![plot of chunk cent3](/knitr-figs/cent3.png) 
+
+
+# Calculating slopes and standard errors at interaction levels
+
+Currently, our factor variable `f` has three levels. Our estimate `b1` represents the slope across the mean of the factors. However, we might want to present the slope with confidence intervals at each level of factor `f`. 
+
+Calculating the slope coefficients is fairly easy but the standard errors require a bit more math. The trick is to correctly combine the coefficient variances (or equivalently the squared standard errors) with the covariances between coefficients.
+
+The way we combine the standard errors is the same way we combine the standard deviation of any normal distributions. For the case:
 
 ```
+N1 ~ N(mu1, sigma1)
+N2 ~ N(mu2, sigma2)
+```
+
+where `mu` represents the mean, `sigma` represents the standard deviation, and `N` represents a normal distribution.
+
+We can calculate the combination of these two distributions multiplied by the constants `a` and `b` (which we'll call `N3`) as:
+
+```
+N3 = a * N1 + b * N2
+N3 ~ N(mu3, sigma3)
+mu3 = a * mu1 + b * mu2
+sigma3 = sqrt(a^2 * sigma1^2 + b^2 * sigma2^2 + 2 * ab * cov(ab))
+```
+
+First, to illustrate combining the coefficient means, here's an example plotting the predictions by specifying the intercept and slopes. The first line in each of these `abline` function calls represents the intercepts and each factor level and the second line represents the slopes. Notice how we get these slopes by turning the two indicator columns to low or high values.
+
+
+```r
+with(dat, plot(x1_cent, y, col = f))
+b <- coef(m2.2)
+se <- summary(m2.2)$coef[,2]
+# The intercept and slope for the first level of the factor f:
+abline(a = b[1] + b[3]*-0.333 + b[4] * -0.3, 
+  b = b[2] + b[5]*-0.333 + b[6] * -0.3, col = 1)
+# And the second level:
+abline(a = b[1] + b[3]*0.667 + b[4] * -0.3, 
+  b = b[2] + b[5]*0.667 + b[6] * -0.3, col = 2)
+# And the third:
+abline(a = b[1] + b[3]*-0.333 + b[4] * 0.7, 
+  b = b[2] + b[5]*-0.333 + b[6] * 0.7, col = 3)
+```
+
+![plot of chunk cent4](/knitr-figs/cent4.png) 
+
+
+Before we calculate the standard errors on the slope at the three factor levels let's return to a more straightforward parameterization so we know what we're aiming for. I'll re-write the model here for clarity:
+
+
+```r
+m2 <- lm(y ~ x1 * f, data = dat)
+b <- coef(m2)
+se <- summary(m2)$coef[,2]
+
+# Slopes:
+with(dat, plot(x1, y, col = f))
+abline(a = b[1], b = b[2], col = 1)
+abline(a = b[1] + b[3], b = b[2] + b[5], col = 2)
+abline(a = b[1] + b[4], b = b[2] + b[6], col = 3)
+```
+
+![plot of chunk cent5](/knitr-figs/cent5.png) 
+
+```r
+
+# SEs on those slopes:
+# (as in Schielzeth 2010 Methods Ecol. Evol.)
+se[2]
+```
+
+```
+#     x1 
+# 0.1115
+```
+
+```r
+sqrt(se[5]^2 - se[2]^2)
+```
+
+```
+#   x1:f2 
+# 0.09118
+```
+
+```r
+sqrt(se[6]^2 - se[2]^2)
+```
+
+```
+#  x1:f3 
+# 0.1117
+```
+
+
+Now, let's derive those same standard errors for the centered version. We'll start be extracting the standard errors and covariances of the coefficients. Then we'll combine them:
+
+
+```r
+se <- summary(m2.2)$coef[,2]
+x1x2_low <- min(dat$x2_cent)
+x1x2_high <- max(dat$x2_cent)
+x1x3_low <- min(dat$x3_cent)
+x1x3_high <- max(dat$x3_cent)
+vcov_x1_x1x2 <- vcov(m2.2)[5, 2]
+vcov_x1_x1x3 <- vcov(m2.2)[6, 2]
+vcov_x1x2_x1x3 <- vcov(m2.2)[6, 5]
+se_x1 <- se[2]
+se_x1x2 <- se[5]
+se_x1x3 <- se[6]
+```
+
+
+Standard error on the slope at the first factor level:
+
+
+```r
+as.numeric(
+sqrt(x1x2_low^2 * se_x1x2^2 + 
+     x1x3_low^2 * se_x1x3^2 +
+     se_x1^2 +
+     2 * x1x2_low * vcov_x1_x1x2 +
+     2 * x1x3_low * vcov_x1_x1x3 +
+     2 * x1x2_low * x1x3_low * vcov_x1x2_x1x3)
+)
+```
+
+```
+# [1] 0.1115
+```
+
+
+This matches the version from the uncentered model: 
+
+
+```r
+summary(m2)$coef[2,2] 
+```
+
+```
+# [1] 0.1115
+```
+
+
+And the second level:
+
+
+```r
+as.numeric(
+sqrt(x1x2_high^2 * se_x1x2^2 + 
+     x1x3_low^2 * se_x1x3^2 +
+     se_x1^2 +
+     2 * x1x2_high * vcov_x1_x1x2 +
+     2 * x1x3_low * vcov_x1_x1x3 +
+     2 * x1x2_high * x1x3_low * vcov_x1x2_x1x3)
+)
+```
+
+```
+# [1] 0.09118
+```
+
+
+And the third level:
+
+
+```r
+as.numeric(
+sqrt(x1x2_low^2 * se_x1x2^2 + 
+     x1x3_high^2 * se_x1x3^2 +
+     se_x1^2 +
+     2 * x1x2_low * vcov_x1_x1x2 +
+     2 * x1x3_high * vcov_x1_x1x3 +
+     2 * x1x2_low * x1x3_high * vcov_x1x2_x1x3)
+)
+```
+
+```
+# [1] 0.1117
+```
+
+
+Again, comparing to the uncentered version, they match:
+
+
+```r
+se <- summary(m2)$coef[,2]
+sqrt(se[5]^2 - se[2]^2)
+```
+
+```
+#   x1:f2 
+# 0.09118
+```
+
+```r
+sqrt(se[6]^2 - se[2]^2)
+```
+
+```
+#  x1:f3 
+# 0.1117
+```
+
