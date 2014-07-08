@@ -45,7 +45,7 @@ for(i in seq_len(length(d))) {
     vol_num_p <- ""
   }
 
-  if(vol_num_p != "" & vol_num_p != "In review" & vol_num_p != "In revision") {
+  if(vol_num_p != "" & !vol_num_p %in% c("In review", "In revision", "Submitted")) {
     main <- paste0(paste0(name0, ". ", x$title, ". ", x$journal, ". ", vol_num_p), ".")
   } else {
     main <-paste0(name0, ". ", x$title, ". ", vol_num_p, ".")
