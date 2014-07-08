@@ -12,3 +12,5 @@ Icon*
 pre-papers/*
 *.synctex.gz
 _knitr-posts/cache/*
+
+papers.md
