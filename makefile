@@ -28,3 +28,7 @@ server-auto:
 
 local:
 	jekyll build
+
+cleanbib:
+	bibtool refs.bib -s > refs2.bib
+	mv refs2.bib refs.bib
