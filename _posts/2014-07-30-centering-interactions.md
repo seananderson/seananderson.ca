@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Centering factor interactions
-subtitle: Why and how you must center interactions for model averaging
+subtitle: Why and how to center interactions for model averaging
 published: true
 ---
 
