@@ -2,7 +2,7 @@
 layout: post
 title: Centering factor interactions
 subtitle: Why and how you must center interactions for model averaging
-published: false
+published: true
 ---
 
 I've encountered a number of people wondering about centering and scaling predictors in the context of model averaging. Here, centering refers to subtracting the mean and scaling refers to dividing by some measure of variability ([usually one or two standard deviations](http://www.stat.columbia.edu/~gelman/research/published/standardizing7.pdf)).
@@ -49,7 +49,6 @@ head(dat)
 # 6  2.387  0  6.643
 ```
 
-
 Let's look at the data we created:
 
 
@@ -59,7 +58,6 @@ ggplot(dat, aes(x1, y, colour = as.factor(x2))) + geom_point()
 ```
 
 ![plot of chunk cent1](/knitr-figs/cent1.png) 
-
 
 Now, we'll fit a model with and without an interaction and look at the coefficients:
 
@@ -83,7 +81,6 @@ round(coef(m_no_inter), 2)
 # (Intercept)          x1          x2 
 #        0.61        0.30        4.33
 ```
-
 
 Notice how the main effects (everything except the interaction) change dramatically when the interaction is removed. This is because when the interaction is included the main effects are relevant to when the other predictors are equal to 0. I.e. `x1 = 0` or the binary predictor `x2` is at its reference `0` level. But, when the interaction is excluded the main effects are relevant when the other predictors are at their mean values. So, if we center, the main effects will represent the same thing in both cases:
 
@@ -110,7 +107,6 @@ round(coef(m_center_no_inter), 2)
 # (Intercept)     x1_cent     x2_cent 
 #        4.96        0.30        4.33
 ```
-
 
 Notice that the intercept, `x1`, and `x2` coefficient estimates are now similar regardless of whether the interaction is included. Now, because we've centered the predictors, the predictors equal zero at their mean. So, the main effects are estimating approximately the same thing regardless of whether we include the interaction. In other words, adding the interaction adds more predictive information but doesn't modify the meaning of the main effects.
 
@@ -165,13 +161,11 @@ head(dat)
 ```
 
 
-
 ```r
 ggplot(dat, aes(x1, y, colour = f)) + geom_point()
 ```
 
 ![plot of chunk cent2](/knitr-figs/cent2.png) 
-
 
 Now we'll fit the model. First with `factor()` notation:
 
@@ -186,7 +180,6 @@ t(round(coef(m2), 2))
 # [1,]        2.68 0.18 -0.81 -0.04  0.57  0.99
 ```
 
-
 And now with "dummy" variable notation. This will make centering in the next step easier:
 
 
@@ -199,7 +192,6 @@ t(round(coef(m2.1), 2))
 #      (Intercept)   x1    x2    x3 x1:x2 x1:x3
 # [1,]        2.68 0.18 -0.81 -0.04  0.57  0.99
 ```
-
 
 Notice we get the same estimates.
 
@@ -216,7 +208,6 @@ t(round(coef(m2.1_no_inter), 2))
 # [1,]       -2.48 0.71 4.85 8.95
 ```
 
-
 The main effects look dramatically different. Again, if we model averaged here across models with and without the interaction, we'd be getting gibberish.
 
 Now, we'll fit the same model with centered predictors:
@@ -231,7 +222,6 @@ m2.2 <- lm(y ~ x1_cent * x2_cent + x1_cent * x3_cent,
 m2.2_no_inter <- lm(y ~ x1_cent + x2_cent + x3_cent, 
   data = dat)
 ```
-
 
 Again, notice that the main effects stay fairly consistent regardless of whether we include the interaction because they are estimated across the centered three-level factor:
 
@@ -253,7 +243,6 @@ t(round(coef(m2.2_no_inter), 2)) # with interaction
 #      (Intercept) x1_cent x2_cent x3_cent
 # [1,]        8.91    0.71    4.85    8.95
 ```
-
 
 You can see how this works across multiple model comparisons using the `MuMIn::dredge()` function on any one of the above models.
 
@@ -277,7 +266,6 @@ newdata3 <- data.frame(x1_cent = x1_cent,
 newdata <- rbind(newdata1, newdata2, newdata3)
 ```
 
-
 Now we make our predictions and plot the predictions. We'll undo the centering of the `x1` variable here by adding the mean of the original data:
 
 
@@ -290,7 +278,6 @@ plyr::d_ply(newdata, "x2_cent", function(x) {
 ```
 
 ![plot of chunk cent3](/knitr-figs/cent3.png) 
-
 
 # Calculating slopes and standard errors at interaction levels
 
@@ -337,7 +324,6 @@ abline(a = b[1] + b[3]*-0.333 + b[4] * 0.7,
 
 ![plot of chunk cent4](/knitr-figs/cent4.png) 
 
-
 Before we calculate the standard errors on the slope at the three factor levels let's return to a more straightforward parameterization so we know what we're aiming for. I'll re-write the model here for clarity:
 
 
@@ -356,7 +342,6 @@ abline(a = b[1] + b[4], b = b[2] + b[6], col = 3)
 ![plot of chunk cent5](/knitr-figs/cent5.png) 
 
 ```r
-
 # SEs on those slopes:
 # (as in Schielzeth 2010 Methods Ecol. Evol.)
 se[2]
@@ -385,8 +370,7 @@ sqrt(se[6]^2 - se[2]^2)
 # 0.1117
 ```
 
-
-Now, let's derive those same standard errors for the centered version. We'll start be extracting the standard errors and covariances of the coefficients. Then we'll combine them:
+Now, let's derive those same standard errors for the centered version. We'll start be extracting the standard errors and covariances of the coefficients. Then we'll combine them. Although we could do this more elegantly, we'll write it out in full to make it obvious what's happening.
 
 
 ```r
@@ -402,7 +386,6 @@ se_x1 <- se[2]
 se_x1x2 <- se[5]
 se_x1x3 <- se[6]
 ```
-
 
 Standard error on the slope at the first factor level:
 
@@ -422,7 +405,6 @@ sqrt(x1x2_low^2 * se_x1x2^2 +
 # [1] 0.1115
 ```
 
-
 This matches the version from the uncentered model: 
 
 
@@ -433,7 +415,6 @@ summary(m2)$coef[2,2]
 ```
 # [1] 0.1115
 ```
-
 
 And the second level:
 
@@ -453,7 +434,6 @@ sqrt(x1x2_high^2 * se_x1x2^2 +
 # [1] 0.09118
 ```
 
-
 And the third level:
 
 
@@ -471,7 +451,6 @@ sqrt(x1x2_low^2 * se_x1x2^2 +
 ```
 # [1] 0.1117
 ```
-
 
 Again, comparing to the uncentered version, they match:
 
@@ -494,6 +473,5 @@ sqrt(se[6]^2 - se[2]^2)
 #  x1:f3 
 # 0.1117
 ```
-
 
 Whether or not you center your predictors, transforming your factor coefficient interactions like the above can be a powerful way of displaying data. For example see Figure 1 in [O'Regan et al. 2014, Ecology, 95(4)](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1) where we use this method to illustrate the effect of climate warming and drying on four responses across three amphibian species. Each panel represents a single model and we've adjusted the coefficients so that each effect is with respect to zero instead of with respect to another factor level. If this kind of presentation of the results is all you're after, then there's no need to center the factor levels. If, however, you also want to apply model averaging to coefficient values that include interactions, you will need to center your predictors and combine the coefficients as in the above example.

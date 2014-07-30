@@ -2,7 +2,7 @@
 layout: post
 title: Centering factor interactions
 subtitle: Why and how you must center interactions for model averaging
-published: false
+published: true
 ---
 
 I've encountered a number of people wondering about centering and scaling predictors in the context of model averaging. Here, centering refers to subtracting the mean and scaling refers to dividing by some measure of variability ([usually one or two standard deviations](http://www.stat.columbia.edu/~gelman/research/published/standardizing7.pdf)).
@@ -248,7 +248,7 @@ sqrt(se[5]^2 - se[2]^2)
 sqrt(se[6]^2 - se[2]^2)
 ```
 
-Now, let's derive those same standard errors for the centered version. We'll start be extracting the standard errors and covariances of the coefficients. Then we'll combine them:
+Now, let's derive those same standard errors for the centered version. We'll start be extracting the standard errors and covariances of the coefficients. Then we'll combine them. Although we could do this more elegantly, we'll write it out in full to make it obvious what's happening.
 
 ```{r}
 se <- summary(m2.2)$coef[,2]
