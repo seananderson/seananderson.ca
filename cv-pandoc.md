@@ -39,7 +39,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Publications
 
 2014
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. In press.
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. In press at Ecological Applications.
 
 2014
 :    Farmer, R.G., M.L. Leonard, J.E.M. Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)).
@@ -101,11 +101,10 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2014
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. In review.
-
+:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In review.
 
 2014
-:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In review.
+:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. In review.
 
 2014
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review.
@@ -120,7 +119,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Marine Sciences
 
 2014
-:    Graduate Fellowship, Simon Fraser University
+:    Graduate Fellowship (two semesters), Simon Fraser University
 
 2012–13
 :    [Canadian Fulbright Scholar award][Fulbright] to the University of
@@ -147,12 +146,25 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2007
 :    Environmental Programmes Honour Society Medal, Dalhousie University
 
-2001–03
-:    Academic All-Canadian, University of Waterloo
+# Software
 
-2001–02
-:    Dean's Entrance Scholarship, University of Waterloo
+2014
+:    **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B. Cooper.\
+     metafolio: Metapopulation simulations for conserving salmong
+     through portfolio optimization.
+     <http://cran.r-project.org/package=metafolio>
 
+2013
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero, C.J
+     Cunningham, F. Hurtado-Ferro, R. Licandeo, C.R. McGilliard, C.S.
+     Szuwalski, K.A. Vert-pre, A.R. Whitten. ss3sim: Fisheries stock
+     assessment simulation testing with Stock Synthesis.
+     <http://cran.r-project.org/package=ss3sim>
+
+2013
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. ecofolio: Tools to
+     quantify metapopulation portfolio effects.
+     <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
 
@@ -204,19 +216,31 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Teaching
 
+2013--14
+:    Organizer of Stats Beerz --- a statistical help group attended by graduate
+     students and postdocs primarily in the Earth to Oceans research group, but
+     also the wider SFU Biology and Geography Departments, and the School of
+     Resource and Environmental Management (REM).
+
+2014
+:    Developed self-directed lecture and exercises on ggplot2 for FISH 554:
+     Beautiful graphics in R, School of Aquatic and Fishery Sciences,
+     University of Washington, Seattle, WA, United States.\
+     <https://github.com/seananderson/ggplot2-FISH554>
+
 2013
 :    Two-part workshop on data manipulation for Stats Beerz and Earth
      to Oceans groups at Simon Fraser University with approximately 25 participants.
      An introduction to plyr, advanced concepts with plyr and function debugging,
-     and a brief introduction to dplyr.
+     and an introduction to dplyr.\
      <https://github.com/seananderson/plyr-statsbeerz>
 
 2013
 :    Instructor for BISC-888-1: Data Wrangling and Visualization in R,
      a graduate-level course at Simon Fraser University, Burnaby, BC,
      Canada with approximately 20 participants. Co-developed curriculum and
-     developed lectures, exercises, notes, and assignments for three of six
-     two-hour classes.
+     developed/delivered lectures, exercises, notes, and assignments for three of six
+     two-hour classes.\
      <https://github.com/seananderson/datawranglR> (see classes 03, 04, 05)
 
 2012
@@ -253,7 +277,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2007–08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
 
-
 # Contract employment
 
 2013
@@ -261,8 +284,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
      ([URL](https://depts.washington.edu/ramlegac/))
 
-2011–13
-:    Database management, data analysis, and visualization for the
+2011–12
+:    Database management for the
      project *Global Shark Abundance Baselines* (Hopkins Marine Station,
      Stanford University, CA, United States) with F. Micheli, F.
      Ferretti, N.K. Dulvy, H.K. Lotze, and B. Worm.
@@ -308,41 +331,11 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
-
-# Selected courses and training
-
-Present
-:    Proficient in statistical analysis and data management using R, JAGS, 
-     Sweave, knitr, LaTeX, and Git. Working knowledge of C++, Rcpp, ADMB, 
-     Stan, and PostgreSQL.
-
-2013
-:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
-     School of Aquatic and Fishery Sciences, University of Washington
-     (audited).
-
-2013
-:    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
-     Ward; School of Aquatic and Fishery Sciences, University of
-     Washington (audited).
-
-2012
-:   Numerical Computing for the Natural Resources. Dr. A.E. Punt, School of
-    Aquatic and Fishery Sciences, University of Washington (audited).
-
-2012
-:    Risk Assessment and Decision Analysis for Management of Natural
-     Resources. Dr. R.M. Peterman, School of Resource and Environmental
-     Management, Simon Fraser University.
-
-2011
-:    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
-
 # Reviews
 
-Reviewer for Ecology, Conservation Biology, Fish and Fisheries, International
-Journal of Tropical Biology and Conservation, Journal of Environmental
-Management, Aquatic Conservation
+Reviewer for Science, Ecology, Conservation Biology, Fish and Fisheries,
+International Journal of Tropical Biology and Conservation, Journal of
+Environmental Management, Endangered Species Research, Aquatic Conservation
 
 [Johnson:2014:TVN]: http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z
 [Ono:2014:ILA]: http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf
