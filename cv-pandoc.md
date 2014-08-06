@@ -282,7 +282,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2013
 :    Co-developed a set of global fisheries-status maps based
      on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
-     ([URL](https://depts.washington.edu/ramlegac/))
+     ([URL](http://ramlegacy.org/))
 
 2011–12
 :    Database management for the
