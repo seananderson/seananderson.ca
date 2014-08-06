@@ -280,9 +280,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Contract employment
 
 2013
-:    Co-developed a set of global fisheries-status maps based
-     on the RAM Legacy Stock Assessment Database for Dr. Ray Hilborn.
-     ([URL](http://ramlegacy.org/))
+:    Co-developed a set of maps showing trends in global fisheries status for
+     the front page of [ramlegacy.org](http://ramlegacy.org/), the RAM Legacy
+     Stock Assessment Database (for Dr. Ray Hilborn).
 
 2011–12
 :    Database management for the
