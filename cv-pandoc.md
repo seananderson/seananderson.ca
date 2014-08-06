@@ -122,8 +122,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Graduate Fellowship (two semesters), Simon Fraser University
 
 2012–13
-:    [Canadian Fulbright Scholar award][Fulbright] to the University of
-     Washington in 2012–13
+:    Canadian Fulbright Scholar award to the University of Washington in 2012–13
 
 2011
 :    Canadian [Governor General's Academic Gold Medal][Governor General award]
