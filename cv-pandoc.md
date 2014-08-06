@@ -150,7 +150,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2014
 :    **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B. Cooper.\
-     metafolio: Metapopulation simulations for conserving salmong
+     metafolio: Metapopulation simulations for conserving salmon
      through portfolio optimization.
      <http://cran.r-project.org/package=metafolio>
 

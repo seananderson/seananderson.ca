@@ -268,8 +268,8 @@ Software
 2014
 :   **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B.
     Cooper.\
-     metafolio: Metapopulation simulations for conserving salmong
-    through portfolio optimization.
+     metafolio: Metapopulation simulations for conserving salmon through
+    portfolio optimization.
     <http://cran.r-project.org/package=metafolio>
 
 2013
