@@ -42,7 +42,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. In press at Ecological Applications.
 
 2014
-:    Farmer, R.G., M.L. Leonard, J.E.M. Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)).
+:    Farmer, R.G., M.L. Leonard, J.E.M. Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1002/ece3.1101"></div>
 
 2014

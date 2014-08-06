@@ -49,6 +49,8 @@ Publications
     Observer aging and long-term avian survey data quality. Ecology and
     Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101>
     ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)).
+    [National Geographic news
+    story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
     <div class="altmetric-embed" data-badge-type="1"
     data-doi="10.1002/ece3.1101">
 
