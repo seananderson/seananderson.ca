@@ -113,7 +113,7 @@ Publications
 :   **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
     Quantifying metapopulation portfolio effects. Methods in Ecology and
     Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093>
-    ([PDF](http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets.pdf)).
+    ([PDF](http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
     <div class="altmetric-embed" data-badge-type="1"
     data-doi="10.1111/2041-210X.12093">
 
