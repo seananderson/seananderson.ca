@@ -102,8 +102,6 @@ Publications
 
     </div>
 
-    \
-
     <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2013
@@ -135,7 +133,7 @@ Publications
     </div>
 
 2013
-:   Phillis*, C.C., S.M. O'Regan*, S.J. Green*, J.E. Bruce*, **S.C.
+:   Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C.
     Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to
     conservation success. Conservation Letters. 6(2): 98--106.
     <http://doi.org/10.1111/j.1755-263X.2012.00294.x>
@@ -191,11 +189,10 @@ Publications
 
 2011
 :   **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Rapid
-    Global Expansion of Invertebrate Fisheries: Trends, Drivers, and
-    Ecosystem Effects. PLOS ONE. 6(3): e14735.
+    global expansion of invertebrate fisheries: trends, drivers, and
+    ecosystem effects. PLOS ONE. 6(3): e14735.
     <http://doi.org/10.1371/journal.pone.0014735>
-    ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).\
-
+    ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
     <a href="http://f1000.com/prime/http://f1000.com/prime/9542957?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008

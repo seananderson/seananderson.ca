@@ -57,7 +57,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2014
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)). [Cover Article](http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>\
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
      <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2013
@@ -72,7 +72,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
-:    Phillis*, C.C., S.M. O'Regan*, S.J. Green*, J.E. Bruce*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)). (\**Authors contributed equally, listed in reverse alphabetical order*).
+:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)). (\**Authors contributed equally, listed in reverse alphabetical order*).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
 2012
@@ -92,7 +92,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down interactions and temperature control of snow crab abundance in the northwest Atlantic Ocean. Marine Ecology Progress Series. 429: 169--183. <http://doi.org/10.3354/meps09081> ([PDF](http://www.int-res.com/articles/meps_oa/m429p169.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Rapid Global Expansion of Invertebrate Fisheries: Trends, Drivers, and Ecosystem Effects. PLOS ONE. 6(3): e14735. <http://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).\
+:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLOS ONE. 6(3): e14735. <http://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
      <a href="http://f1000.com/prime/http://f1000.com/prime/9542957?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008

@@ -78,7 +78,7 @@ for(i in seq_len(length(d))) {
 
   if(!is.null(x$f1000)) {
     main <- paste0(main,
-      "\\\n     <a href=\"http://f1000.com/prime/",
+      "\n     <a href=\"http://f1000.com/prime/",
       x$f1000,
       "\" target=\"_blank\"><img src=\"http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif\" id=\"bg\"/></a>")
   }
