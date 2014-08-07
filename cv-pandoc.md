@@ -13,7 +13,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in 2012–13
 
-2010
+2008--10
 :    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Thesis title: Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries. Supervisor: Dr. Heike K. Lotze.
