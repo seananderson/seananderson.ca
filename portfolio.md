@@ -36,7 +36,7 @@ plot.</p>
 
 <a href="figures/ram-biomass-map.png" data-lightbox="ram-biomass-map"><img  class="portfolio-fig" src="figures/ram-biomass-map-thumb.jpg" alt="Global fisheries biomass trends"></img></a>
 
-<p class="caption">Global trends in biomass of fisheries stocks. Developed with Cole Monnahan at the University of Washington for the <a href="https://depts.washington.edu/ramlegac/">RAM Legacy Stock Assessment Database</a>. The area of circles reflects the number of stock assessments for the region. The colour reflects the biomass relative to biomass at maximum sustainable yield. The horizontal lines show a reference of the mean historical biomass level.</p>
+<p class="caption">Global trends in biomass of fisheries stocks. Developed with Cole Monnahan at the University of Washington for the <a href="http://ramlegacy.org">RAM Legacy Stock Assessment Database</a>. The area of circles reflects the number of stock assessments for the region. The colour reflects the biomass relative to biomass at maximum sustainable yield. The horizontal lines show a reference of the mean historical biomass level.</p>
 
 <a href="figures/phillis-etal-ddt.png" data-lightbox="phillis-etal-2012"><img  class="portfolio-fig" src="figures/phillis-etal-ddt-thumb.png" alt="Phillis et al. 2012 DDT"></img></a>
 
