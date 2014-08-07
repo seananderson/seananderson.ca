@@ -11,13 +11,13 @@ I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fr
 
 I [teach workshops](/cv.html#teaching) on data visualization and manipulation for scientists. I also develop a number of R packages. With collaborators, I'm developing packages to run fisheries stock assessment simulations with [Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio effects ([ecofolio]), and simulate salmon metapopulation portfolios ([metafolio]).
 
-I completed an M.Sc. at [Dalhousie][dal] with [Dr. Heike Lotze] working on trends, drivers, and ecosystem effects of expanding global invertebrate fisheries. In particular, we focussed on [patterns of serial exploitation in global sea cucumber fisheries][doi] and our paper was [featured in the journal Science][sciencemag]. My thesis won the [Canadian Governor General's Gold Medal][gg] as the top-ranked M.Sc. thesis at Dalhousie University in Engineering and Natural Sciences.
+I completed an M.Sc. at [Dalhousie][dal] with [Dr. Heike Lotze] working on trends, drivers, and ecosystem effects of expanding global invertebrate fisheries. In particular, we focussed on [patterns of serial exploitation in global sea cucumber fisheries][cucdoi] and our paper was [featured in the journal Science][sciencemag]. My thesis won the [Canadian Governor General's Gold Medal][gg] as the top-ranked M.Sc. thesis at Dalhousie University in Engineering and Natural Sciences.
 
 I'm [a bit nuts][colophon] about using the right tool for the job and I love to share my passion for these tools. I'm an avid user of the programming languages R, Markdown, LaTeX, Knitr, and Sweave. I'm also a [Vim] devotee and manage my work in [Git on Github][my github]. I [generate this site with Jekyll](/colophon.html).
 
 [Vim]: http://en.wikipedia.org/wiki/Vim_(text_editor)
 [dal]: http://dal.ca/
-[doi]: http://dx.doi.org/10.1111/j.1467-2979.2010.00397.x
+[cucdoi]: http://dx.doi.org/10.1111/j.1467-2979.2010.00397.x
 [earth2ocean]: http://earth2ocean.org
 [gg]: http://www.gg.ca/honour.aspx?id=75057&t=1&;ln=Anderson
 [ss3sim]: http://cran.r-project.org/package=ss3sim
