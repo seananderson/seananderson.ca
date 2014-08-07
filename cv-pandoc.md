@@ -39,21 +39,21 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Publications
 
 2014
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. In press at Ecological Applications.
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. In press.
 
 2014
 :    Farmer, R.G., M.L. Leonard, J.E.M. Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1002/ece3.1101"></div>
 
 2014
-:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLOS ONE. 9(4): e92725. <http://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)).
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLOS ONE. 9(4): e92725. <http://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim), [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf)).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0092725"></div>
 
 2014
 :    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. In press. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
 
 2014
-:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical catch-at-age models for marine species. ICES Journal of Marine Science. In press. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf)).
+:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical catch-at-age models for marine species. ICES Journal of Marine Science. In press. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf)).
 
 2014
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)). [Cover Article](http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf).
@@ -64,7 +64,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Favaro, B., D.C. Braun, E. . Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <http://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
 
 2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
 2013
@@ -72,21 +72,21 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
-:    Phillis, C.C., S.M. O'Regan, S.J. Green, J.E. Bruce, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)).
+:    Phillis*, C.C., S.M. O'Regan*, S.J. Green*, J.E. Bruce*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)). (\**Authors contributed equally, listed in reverse alphabetical order*).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
 2012
-:    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient and modern seas. Trends in Ecology and Evolution. 27(11): 608--617. <http://doi.org/10.1016/j.tree.2012.07.010> ([PDF](http://seananderson.ca/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
+:    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient and modern seas. Trends in Ecology and Evolution. 27(11): 608--617. <http://doi.org/10.1016/j.tree.2012.07.010> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.tree.2012.07.010"></div>
 
 2012
 :    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global marine fishery status with a revised dynamic catch-based method and stock-assessment reference points. ICES Journal of Marine Science. 69(8): 1491--1500. <http://doi.org/10.1093/icesjms/fss105> ([PDF](http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref)).
 
 2011
-:    **Anderson, S.C.**, R.G. Farmer, F. Ferretti, A.L.S. Houde, J.A. Hutchings. Correlates of vertebrate extinction risk in Canada. BioScience. 61(7): 538--549. <http://doi.org/10.1525/bio.2011.61.7.8> ([PDF](http://seananderson.ca/papers/Anderson_etal_2011_BioScience_with_supplement.pdf)).
+:    **Anderson, S.C.**, R.G. Farmer, F. Ferretti, A.L.S. Houde, J.A. Hutchings. Correlates of vertebrate extinction risk in Canada. BioScience. 61(7): 538--549. <http://doi.org/10.1525/bio.2011.61.7.8> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_BioScience_with_supplement.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <http://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](http://seananderson.ca/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
+:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <http://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
 
 2011
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down interactions and temperature control of snow crab abundance in the northwest Atlantic Ocean. Marine Ecology Progress Series. 429: 169--183. <http://doi.org/10.3354/meps09081> ([PDF](http://www.int-res.com/articles/meps_oa/m429p169.pdf)).
@@ -96,7 +96,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      <a href="http://f1000.com/prime/http://f1000.com/prime/9542957?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <http://doi.org/10.1139/F08-156> ([PDF](http://seananderson.ca/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
+:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <http://doi.org/10.1139/F08-156> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
 
 # Manuscripts in review
 
@@ -369,7 +369,7 @@ Environmental Management, Endangered Species Research, Aquatic Conservation
 
 [2013 PE safs]: http://seananderson.ca/talks/2013/PE_SAFS_quantsem.pdf
 
-[cv-pdf]: http://seananderson.ca/AndersonCV.pdf
+[cv-pdf]: https://dl.dropboxusercontent.com/u/254940/AndersonCV.pdf
 [cv-md]: http://seananderson.ca/AndersonCV.txt
 
 [Fulbright]: http://www.fulbright.ca/programs/canadian-students/2012-2013-canadian-fulbright-students.html

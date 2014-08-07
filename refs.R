@@ -60,7 +60,7 @@ for(i in seq_len(length(d))) {
       main <- paste0(main, " ([PDF](", x$pdf, ")).")
     } else {
       main <- paste0(main,
-        " ([PDF](http://seananderson.ca/papers/", x$pdf, ")).")
+        " ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/", x$pdf, ")).")
     }
   }
 

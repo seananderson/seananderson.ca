@@ -19,6 +19,7 @@ cv:
 	pandoc -S cv-pandoc.md -o cv-temp.html
 	cat cv-pandoc-header.md cv-temp.html > cv.html
 	rm cv-temp.html
+	cp AndersonCV.pdf ~/Dropbox/public/AndersonCV.pdf
 
 server:
 	jekyll serve
