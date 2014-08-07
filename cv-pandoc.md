@@ -61,7 +61,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2013
-:    Favaro, B., D.C. Braun, E. . Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <http://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
+:    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <http://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
