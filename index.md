@@ -5,7 +5,7 @@ title: seananderson.ca
 
 
 I believe that the thoughtful visual display of data and statistical models can powerfully inform conservation ecology.
-I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the [Earth to Oceans group][earth2ocean], Vancouver, Canada. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
+I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at [Simon Fraser University][sfu] in the Earth to Oceans research group, Vancouver, Canada. I want to figure out how we can use tools from financial portfolio management to create stable and productive ecosystems. I also [work on topics](/cv.html#publications) ranging from species extinction risk to predator-prey-environment interactions to fisheries stock assessment.
 
 <img src="images/sean_anderson_olymp_headshot.jpg" alt="Sean C. Anderson" width="265" height="330" class="headshot"/>
 
