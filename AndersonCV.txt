@@ -433,8 +433,9 @@ Contract employment
     Worm.
 
 2010
-:   Assessment of Arctic surfclam on Banquereau Bank using industry
-    collected data for Clearwater Seafoods, Bedford, NS, Canada.
+:   Assessment of Arctic surfclam on Banquereau Bank using
+    industry-collected data for Clearwater Seafoods, Bedford, NS,
+    Canada.
 
 2010
 :   Modelling length-frequency distribution changes of Atlantic halibut

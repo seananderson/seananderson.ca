@@ -42,7 +42,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. In press.
 
 2014
-:    Farmer, R.G., M.L. Leonard, J.E.M. Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
+:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1002/ece3.1101"></div>
 
 2014
@@ -86,13 +86,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    **Anderson, S.C.**, R.G. Farmer, F. Ferretti, A.L.S. Houde, J.A. Hutchings. Correlates of vertebrate extinction risk in Canada. BioScience. 61(7): 538--549. <http://doi.org/10.1525/bio.2011.61.7.8> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_BioScience_with_supplement.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <http://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
+:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <http://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
 
 2011
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down interactions and temperature control of snow crab abundance in the northwest Atlantic Ocean. Marine Ecology Progress Series. 429: 169--183. <http://doi.org/10.3354/meps09081> ([PDF](http://www.int-res.com/articles/meps_oa/m429p169.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.M. Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLOS ONE. 6(3): e14735. <http://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
+:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLOS ONE. 6(3): e14735. <http://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
      <a href="http://f1000.com/prime/http://f1000.com/prime/9542957?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008
@@ -190,13 +190,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      University, Burnaby, BC, Canada.
 
 2009
-:    **Anderson, S.C.**, J. Mills Flemming, R. Watson, H.K. Lotze. Ecosystem
+:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Ecosystem
      impacts of the global expansion of invertebrate fisheries. International
      Oceans Past II Conference *Multidisciplinary Perspectives on the History
      and Future of Marine Animal Populations*. Vancouver, BC, Canada.
 
 2009
-:    **Anderson, S.C.**, J. Mills Flemming, R. Watson, H.K. Lotze. Global
+:    **Anderson, S.C.**, J.E Mills Flemming, R. Watson, H.K. Lotze. Global
      invertebrate fisheries: trends and consequences. NCEAS (National Center
      for Ecological Analysis and Synthesis) Working Group *Finding Common
      Ground in Marine Conservation and Management*. Santa Barbara, CA, USA.
@@ -290,8 +290,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      Ferretti, N.K. Dulvy, H.K. Lotze, and B. Worm.
 
 2010
-:    Assessment of Arctic surfclam on Banquereau Bank using industry
-     collected data for Clearwater Seafoods, Bedford, NS, Canada.
+:    Assessment of Arctic surfclam on Banquereau Bank using 
+     industry-collected data for Clearwater Seafoods, Bedford, NS, Canada.
 
 2010
 :    Modelling length-frequency distribution changes of Atlantic halibut for

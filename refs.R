@@ -1,9 +1,9 @@
+# TODO J.E.M. Flemming should be J.E. Mills Flemming
+# TODO J.E. Mills Flemming needs to be fixed throughout refs.bib too
+# TODO Earth2Oceans Derby needs to be mannually fixed
+
 library("bibtex")
 d <- read.bib("refs.bib")
-
-#str(x)
-
-#init <- list()
 
 ref <- list()
 
@@ -85,10 +85,6 @@ for(i in seq_len(length(d))) {
 
   main <- paste0(x$year, "\n:    ", main)
   ref[[i]] <- main
-
-
-
-
 }
 
 ref <- paste(ref, collapse = "\n\n")
