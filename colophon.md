@@ -8,7 +8,7 @@ title: Colophon
 How do I generate seananderson.ca? Well, this gets geeky. 
 
 The back end is a series of plain-text [Markdown] files and the static site
-generator, [Jekyll]. I host this site on [GitHub](http://github.com/). Feel
+generator [Jekyll]. I host this site on [GitHub](http://github.com/). Feel
 free to poke around the [public GitHub repository][github repo].  I provide
 pleasing-to-the-eye fonts with [Typekit]. I write my [CV](/cv.html) in
 [Pandoc] Markdown and create the synchronized HTML and PDF versions with a
@@ -19,10 +19,13 @@ code using the [knitr] package and a [Makefile][knitr-make].
 
 I designed the layout around the [Skeleton] CSS framework using [MacVim],
 [CSSEdit], and [xScope]. I now swear by the [Text Triumvirate] of [zsh],
-[Vim], and [tmux]... in [iTerm2] of course. I warned you this was going to get
-geeky. Font? Usually Menlo 14pt. Theme? [Solarized] light or dark. 
+[Vim], and [tmux]. In [iTerm2] of course. Font? Usually Menlo 14pt. 
+Theme? [Solarized] light or dark. 
+
 <!--You can find other applications I use on my [iusethis account].-->
+
 <!--I occasionally [post photos][my flickr] to [Flickr]. -->
+
 <!--I frequently add [web bookmarks][my pinboard] to [pinboard.in].-->
 
 [knitr]: http://yihui.name/knitr/
