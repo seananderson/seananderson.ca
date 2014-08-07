@@ -12,18 +12,24 @@ generator, [Jekyll]. I host this site on [GitHub](http://github.com/). Feel
 free to poke around the [public GitHub repository][github repo].  I provide
 pleasing-to-the-eye fonts with [Typekit]. I write my [CV](/cv.html) in
 [Pandoc] Markdown and create the synchronized HTML and PDF versions with a
-combination of [XeLaTeX] and a [Makefile].
+combination of [XeLaTeX] and a [Makefile]. I generate the list of papers in
+my CV with a [BibTeX file], a [short R script], and the 
+[bibtex][bibtex-package] R package. I generate blog posts that contain R
+code using the [knitr] package and a [Makefile][knitr-make].
 
 I designed the layout around the [Skeleton] CSS framework using [MacVim],
 [CSSEdit], and [xScope]. I now swear by the [Text Triumvirate] of [zsh],
 [Vim], and [tmux]... in [iTerm2] of course. I warned you this was going to get
-geeky. Font? Usually Menlo 14pt. Theme? [Solarized] light or dark. You can
-find other applications I use on my [iusethis account].
-
+geeky. Font? Usually Menlo 14pt. Theme? [Solarized] light or dark. 
+<!--You can find other applications I use on my [iusethis account].-->
 <!--I occasionally [post photos][my flickr] to [Flickr]. -->
-
 <!--I frequently add [web bookmarks][my pinboard] to [pinboard.in].-->
 
+[knitr]: http://yihui.name/knitr/
+[knitr-make]: https://github.com/seananderson/seananderson.github.com/tree/master/_knitr-posts
+[BibTeX file]: https://github.com/seananderson/seananderson.github.com/blob/master/refs.bib
+[short R script]: https://github.com/seananderson/seananderson.github.com/blob/master/refs.R
+[bibtex-package]: http://cran.r-project.org/web/packages/bibtex/index.html
 [CSSEdit]: http://macrabbit.com/
 [xScope]: http://iconfactory.com/software/xscope
 [iusethis account]: http://osx.iusethis.com/user/sean_
