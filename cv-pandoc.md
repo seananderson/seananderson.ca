@@ -107,7 +107,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 :    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In review at Science.
 
 2014
-:    Orzechowski, E.A., R. Lockwood, J. Byrnes, *S.C. Anderson*, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, and D.P. Tittensor. Ecological and environmental determinants of extinction risk in the marine fossil record. Submitted to Global Change Biology.
+:    Orzechowski, E.A., R. Lockwood, J. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, and D.P. Tittensor. Ecological and environmental determinants of extinction risk in the marine fossil record. Submitted to Global Change Biology.
 
 2014
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review at Proceedings of the Royal Society B.

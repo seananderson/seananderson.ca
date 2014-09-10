@@ -221,7 +221,7 @@ Manuscripts in review
     in the modern oceans. In review at Science.
 
 2014
-:   Orzechowski, E.A., R. Lockwood, J. Byrnes, *S.C. Anderson*, S.
+:   Orzechowski, E.A., R. Lockwood, J. Byrnes, **S.C. Anderson**, S.
     Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K.
     Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C.
     Simpson, and D.P. Tittensor. Ecological and environmental
