@@ -11,7 +11,7 @@ cv:
 	cat cv-header.txt cv-body-clean.md > AndersonCV.txt
 	perl -p -i -e "s/–/--/g" AndersonCV.txt
 	rm cv-body.md
-	rm cv-body.tex
+	#rm cv-body.tex
 	rm cv-body-clean.md
 	rm *.log *.out *.aux *.fdb_latexmk *.fls
 	# and pre-process the HTML with pandoc

@@ -104,7 +104,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2014
-:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In review at Science.
+:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In revision.
 
 2014
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review at Proceedings of the Royal Society B.
