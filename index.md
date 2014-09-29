@@ -11,7 +11,7 @@ I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at
 in the Earth to Oceans research group, 
 Vancouver, Canada. 
 
-<img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="331" class="headshot"/>
+<img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="321" class="headshot"/>
 
 My [research](/cv.html#publications) broadly spans the field of quantitative ecology across taxa (e.g. sea cucumbers, reef fish, salmon, moths, grizzly bears, amphibians), ecosystems (marine, freshwater, terrestrial), methods (empirical, theoretical, experimental), spatial scale (regional, national, global) and time periods (modern, historical, paleontological).
 In my thesis work, I am interested in how we can use tools from 
