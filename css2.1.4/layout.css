@@ -142,8 +142,16 @@ img.bigpicture {
 
 .headshot {
 	float: left;
-	margin: 8px 36px 10px 0px;
+	margin: 8px 30px 10px 0px;
 }
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+.headshot {
+	float: none;
+	margin: 8px 30px 10px 0px;
+}
+} 
 
 h1 {
 	padding-top: 12px;
