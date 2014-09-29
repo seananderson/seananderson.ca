@@ -10,13 +10,16 @@ I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at
 [Simon Fraser University][sfu] 
 in the Earth to Oceans research group, 
 Vancouver, Canada. 
-In my thesis work, I want to figure out how we can use tools from 
-financial portfolio management to create stable and productive ecosystems. 
-I also [work on topics](/cv.html#publications) ranging from 
-species extinction risk to predator-prey-environment interactions 
-to fisheries stock assessment.
 
-<img src="images/sean_anderson_olymp_headshot.jpg" alt="Sean C. Anderson" width="265" height="330" class="headshot"/>
+<img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="331" class="headshot"/>
+
+My [research](/cv.html#publications) broadly spans the field of quantitative ecology across taxa (e.g. sea cucumbers, reef fish, salmon, moths, grizzly bears, amphibians), ecosystems (marine, freshwater, terrestrial), methods (empirical, theoretical, experimental), spatial scale (regional, national, global) and time periods (modern, historical, paleontological).
+In my thesis work, I am interested in how we can use tools from 
+financial portfolio management to create stable and productive ecosystems. 
+
+<!--I also [work on topics](/cv.html#publications) ranging from -->
+<!--species extinction risk to predator-prey-environment interactions -->
+<!--to fisheries stock assessment.-->
 
 I [teach workshops](/cv.html#teaching) on data visualization and manipulation
 for scientists. I also develop a number of R packages. With collaborators, I'm
