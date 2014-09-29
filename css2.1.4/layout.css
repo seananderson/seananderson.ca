@@ -235,7 +235,6 @@ pre {
 	margin-bottom: 20px;
 	border: 1px solid #e6e6e6;
 	line-height: 20px;
-  line-height: 20px;
 	padding-left: 12px;
 	border-left: 7px solid #dadada;
 	padding-bottom: 10px;
@@ -251,9 +250,8 @@ pre {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-	font: 15px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
 	background-color: #f3f3f3;
-
+	font: 12px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 li code, table code, h1 code, h2 code, p code {
@@ -261,6 +259,7 @@ li code, table code, h1 code, h2 code, p code {
   white-space: wrap;
   border: 1px solid #e6e6e6;
   padding: 1px 2px;
+	font-size: 15px;
 }
 
 h1 code {
