@@ -1,17 +1,17 @@
 # TODO J.E.M. Flemming should be J.E. Mills Flemming
 # TODO J.E. Mills Flemming needs to be fixed throughout refs.bib too
-# TODO Earth2Oceans Derby needs to be mannually fixed
+# TODO Earth2Oceans Derby needs to be manually fixed
 
 library("bibtex")
 d <- read.bib("refs.bib")
 
 ref <- list()
 
-for(i in seq_len(length(d))) {
+for(i in seq_along(d)) {
   name <- list()
   x <- d[[i]]
   # authors:
-  for(j in seq_len(length(x$author))) {
+  for(j in seq_along(x$author)) {
     init <- paste0(paste(substr(x$author$given[[j]], 1, 1), collapse = "."), ".")
     family <- x$author$family[[j]]
     if(j == 1) {
