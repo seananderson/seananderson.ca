@@ -12,6 +12,9 @@ Icon*
 pre-papers/*
 *.synctex.gz
 _knitr-posts/cache/*
-
-papers.md
 AndersonCV.pdf
+*.o
+*.so
+*.cpp
+.Rproj.user/
+papers.md
