@@ -125,16 +125,16 @@ dd {
 	border-left: 1px solid #dfdfdf;
 	margin: -5px 0 -15px 63px;
 	padding: 0 0 0 9px;
-}   
+}
 
 dl {
 	margin-bottom: 20px;
 	margin-top: -20px;
-} 
+}
 
 img {
 	border: 0px solid #ccc;
-}  
+}
 
 img.bigpicture {
 	margin-left: -210px;
@@ -151,7 +151,7 @@ img.bigpicture {
 	float: none;
 	margin: 8px 30px 10px 0px;
 }
-} 
+}
 
 h1 {
 	padding-top: 12px;
@@ -176,7 +176,7 @@ div.postlinkcontent {
 	font-size: 18px;
 	line-height: 24px;
 	color: #373737;
-	
+
 }
 
 .postlinkperma {
@@ -251,7 +251,7 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 	background-color: #f3f3f3;
-	font: 12px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
+	font: 13px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 li code, table code, h1 code, h2 code, p code {
@@ -287,7 +287,7 @@ h2 code {
   margin: 0 0 18px;
   padding: 10px 10px 10px 20px;
 }*/
- 
+
 .archive-title {
 	font-weight: bold;
 	font-size: 26px;
@@ -321,7 +321,7 @@ ol, table {
 
 
 td, th {
-	
+
 	padding-right: 10px;
 	padding-left: 10px;
 }
