@@ -5,7 +5,7 @@
     permalink:   date
     name: Sean Anderson
     description: Web log by Sean Anderson
-    url: http://seananderson.ca/blog.html
+    url: http://seananderson.ca
     safe: true
     markdown: redcarpet
     redcarpet:
