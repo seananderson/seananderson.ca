@@ -39,6 +39,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Publications
 
 2014
+:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. In press at ICES Journal of Marine Science.
+
+2014
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Accepted with minor revisions at Journal of Animal Ecology.
 
 2014
@@ -108,9 +111,6 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 2014
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review at Proceedings of the Royal Society B.
-
-2014
-:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. In review at ICES Journal of Marine Science.
 
 # Awards and scholarships
 
