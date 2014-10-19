@@ -233,12 +233,12 @@ pre {
   white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
   word-wrap: break-word;
 	margin-bottom: 20px;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #d8d8d8;
 	line-height: 20px;
-	padding-left: 12px;
-	border-left: 7px solid #dadada;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-left: 10px;
+	/*border-left: 0px solid #dadada;*/
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 
@@ -251,15 +251,15 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 	background-color: #f3f3f3;
-	font: 13px/22px Menlo, Monaco, Consolas, "Courier New", monospace;
+	font: 14px/22px Inconsolata, Monaco, Consolas, "Courier New", monospace;
 }
 
 li code, table code, h1 code, h2 code, p code {
   color: #353535;
   white-space: wrap;
-  border: 1px solid #e6e6e6;
-  padding: 1px 2px;
-	font-size: 15px;
+  padding: 2px 2px;
+  font-size: 14px;
+  background-color: #f9f9f9;
 }
 
 h1 code {
