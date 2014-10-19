@@ -56,7 +56,8 @@ Publications
 :   **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B.
     Cooper. Portfolio conservation of metapopulations under climate
     change. Ecological Applications. In press.
-    <http://doi.org/10.1890/14-0266.1>.
+    <http://doi.org/10.1890/14-0266.1>
+    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf)).
 
 2014
 :   Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
