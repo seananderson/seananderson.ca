@@ -11,5 +11,3 @@ title: Contact
 Please feel free to email me at sean<span style="display:none">ignorethis</span>@seananderson.ca. 
 
 You can also find me on Twitter at [sean_anderson](https://twitter.com/sean_anderson). 
-
-
