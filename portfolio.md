@@ -3,6 +3,8 @@ layout: default
 title: Data Visualization Portfolio
 ---
 
+# Selected academic figures
+
 <a href="figures/harnik-etal-tree.png" data-lightbox="harnik-etal-2012"><img  class="portfolio-fig" src="figures/harnik-etal-tree-thumb.png" alt="Harnik et al. 2012 TREE"></img></a>
 
 <p class="caption">A summary of all known marine extinction risk data across ancient, historical, and modern times <a href="http://doi.org/10.1016/j.tree.2012.07.010">(Figure 2 in Harnik et al. 2013 TREE)</a>. I created this figure over the span of a year and hundreds of iterations with a NESCent working group on extinction risk in ancient and modern seas. A modified version was also used in a book chapter by <a href="http://www.sinauer.com/media/wysiwyg/samples/MCEC_Ch08.pdf">Lotze and McClenachan (2013)</a>. I drew some of the silhouettes on the on the left of the figure and obtained others from purchased stock images. The misaligned taxonomic labels on the left were due to an unfortunate last minute edit by the journal.</p>
