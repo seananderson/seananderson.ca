@@ -21,6 +21,12 @@ cv:
 	rm cv-temp.html
 	cp AndersonCV.pdf ~/Dropbox/public/AndersonCV.pdf
 
+docx:
+	pandoc -S -s cv-pandoc.md -o anderson-cv.docx
+
+latex2rtf:
+	latex2rtf AndersonCV.tex
+
 server:
 	jekyll serve
 
