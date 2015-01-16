@@ -106,10 +106,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Manuscripts in review
 
-2014
-:    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In revision. (\*Authors contributed equally).
+2015
+:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Determinants of extinction selectivity over the last 500 million years: a meta-analysis of marine bivalves and gastropods. Submitted.
 
-2014
+2015
+:    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In review. (\*Authors contributed equally).
+
+2015
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In revision.
 
 # Awards and scholarships
