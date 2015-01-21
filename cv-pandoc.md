@@ -117,6 +117,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Awards and scholarships
 
+2015
+:    David H. Smith Conservation Research Fellowship
+
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
      Marine Sciences
