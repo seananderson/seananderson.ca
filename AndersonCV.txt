@@ -42,7 +42,7 @@ Publications
 2014
 :   Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**,
     C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C.
-    Monahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E.
+    Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E.
     Punt. Looking in the rear-view mirror: bias and retrospective
     patterns in integrated, age-structured stock assessment models. ICES
     Journal of Marine Science. In press.
@@ -230,7 +230,7 @@ Manuscripts in review
     Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C.
     Simpson, D.P. Tittensor. Determinants of extinction selectivity over
     the last 500 million years: a meta-analysis of marine bivalves and
-    gastropods. Submitted.
+    gastropods. In revision.
 
 2015
 :   Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P.
