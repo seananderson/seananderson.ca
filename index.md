@@ -6,15 +6,15 @@ title: seananderson.ca
 I believe that the thoughtful visual display of data and statistical models can
 powerfully inform conservation ecology and help us 
 understand the ecological risks associated with human activities.
-I'm a Ph.D. Candidate and Fulbright Scholar in quantitative ecology at 
-[Simon Fraser University][sfu] 
-in the Earth to Oceans research group, 
-Vancouver, Canada. 
+I'm a postdoctoral researcher with [Dr. Andrew Cooper](http://www.rem.sfu.ca/people/faculty/cooper/) 
+in the [School of Resource and Environmental Management](http://www.rem.sfu.ca/)
+at [Simon Fraser University][sfu], Vancouver, Canada. 
+Later in 2015 I will begin a [David H. Smith Conservation Research Fellowship](http://www.conbio.org/mini-sites/smith-fellows) at the University of Washington and Northwest Fisheries Science Center.
 
 <img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="321" class="headshot"/>
 
 My [research](/cv.html#publications) broadly spans the field of quantitative ecology across taxa (e.g. sea cucumbers, reef fish, salmon, moths, grizzly bears, amphibians), ecosystems (marine, freshwater, terrestrial), methods (empirical, theoretical, experimental), spatial scale (regional, national, global) and time periods (modern, historical, paleontological).
-In my thesis work, I am interested in how we can use tools from 
+In my PhD thesis work, I considered how we can use tools from 
 financial portfolio management to create stable and productive ecosystems. 
 
 <!--I also [work on topics](/cv.html#publications) ranging from -->
