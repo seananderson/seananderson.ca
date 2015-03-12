@@ -1,7 +1,7 @@
     destination: ./_site
     lsi:         false
     port:        4000
-    pygments:    true
+    highlighter:  'pygments'
     permalink:   date
     name: Sean Anderson
     description: Web log by Sean Anderson
