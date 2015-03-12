@@ -1,0 +1,148 @@
+---
+layout: post
+title: "Overdispersion and Poisson GLMs"
+subtitle: "Is mean equals variance enough?"
+published: false
+---
+
+> One assumption of Poisson regression is that mean(Y)≈var(Y).
+> 
+> I have two count datasets with means = 1.16 x & 1.37 x variance,
+> respectively. I am attempting to use a Poisson regression (lme4 package). I
+> have many zeroes, but no values >5 (histograms are below).
+> 
+> An AICc comparison between the global model with Poisson distribution and the
+> global model with a Negative Binomial distribution yields a lower AICc value
+> for Poisson.
+
+> Does mean≈variance pass muster? Or do I need to do an official test to
+> justify that there is:
+>
+> A) no overdispersion
+> B) no zero-inflation
+
+Checking that the sample mean approximately equals the sample variance is suggestive that a Poisson GLM may suffice but not sufficient unless you're fitting an intercept-only model.
+
+The *mean* and *variance* here refer to the expected values (the mean model fit) and the variance of the residuals around those expected values. In anything beyond an intercept-only model the expectation is therefore that the mean *scales* with the variance.
+
+One way to check if you have overdispersion is to look at the `summary()` model output and compare the residual deviance to the residual degrees of freedom. The ratio of these two should be ballpark 1. If the residual deviance is much larger than the degrees of freedom then you have evidence of overdispersion. There are statistical tests for this if you want to go that route.
+
+Another quick way to check and potentially fix the issue is to try a quasipoisson family. This will calculate that overdispersion value and scale the standard errors appropriately. But be aware that you aren't in strict likelihood anymore. Among other things, this means you can't just use AIC any more. But there's an appropriate alphabet soup for that too (QAIC). To use a quasipoisson model as a check, compare the standard errors or confidence intervals on your coefficients. If they are much larger in the quasipoisson model then you have overdispersion.
+
+The quasipoisson is a simpler model to fit than the negative binomial because it has one less parameter to estimate. Essentially, the quasipoisson fits a Poisson distribution, calculates the dispersion, and then makes a correction. The negative binomial distribution can scale to represent data that are less or more dispersed than a Poisson distribution, but requires an extra parameter to do so. The Poisson assumes that if you give it a mean at any point in the model, the data will have exactly that same variance around the mean. That's a big assumption that is unlikely to be precisely met, but often it's close enough to be useful.
+
+The lower AIC for the Poisson model over the negative binomial is suggestive that their isn't overdispersion (the data don't support estimating an additional scale parameter), but not necessarily sufficient either. It's still possible that that Poisson (or negative binomial) model doesn't capture some important aspect of your data. The way to check this is to plot, plot, plot. Plot both model fits through the data. Plot residuals vs. fitted and residuals vs. predictors. If you really want to be thorough then simulate data from the models and make sure they create realistic data (see Gelman and Hill 2007 or the big Gelman et al. Bayesian Data Analysis book or Ben Bolker's book).
+
+Let's try a quick example using a model from the help for `glm()`:
+
+```{r}
+counts <- c(18,17,15,20,10,20,25,13,12)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+print(d.AD <- data.frame(treatment, outcome, counts))
+glm.D93 <- glm(counts ~ outcome + treatment, family = poisson())
+summary(glm.D93)
+```
+
+Note that the residual deviance and residual degrees of freedom are pretty close (5.1291 and 4). Let's try adding a single larger count value to create some overdispersion:
+
+```{r}
+counts[7] <- 40
+d.AD <- data.frame(treatment, outcome, counts)
+glm.D93 <- glm(counts ~ outcome + treatment, family = poisson())
+summary(glm.D93)
+```
+
+So, now we have some overdispersion (11.987/4 = 3). Let's try a quasipoisson model:
+
+```{r}
+glm.D93.quasi <- glm(counts ~ outcome + treatment, family = quasipoisson)
+summary(glm.D93.quasi)
+```
+
+Notice how much larger standard errors are in the quasipoisson model. In the first model we were assuming the data had less variability than they did and so underestimating the standard errors. In the plot below, the left panel is the Poisson distribution and the right panel is quasipoisson.
+
+```{r}
+par(mfrow = c(1, 2))
+arm::coefplot(glm.D93)
+arm::coefplot(glm.D93.quasi)
+```
+
+> Follow-up:
+>
+> I can't test quasi-poisson in lme4 because it gave unreliable
+> estimates (so they took it out of the package). No other package seems
+> to allow me to test quasi-poisson with a random effect (in my case
+> Site), although I'm happy to be corrected there.
+
+I think MASS::glmmPQL will.
+
+> When I ran a quasi-poisson on the full model without a random effect,
+> I got similar standard errors to my Poisson model (also tested w/out
+> random effect). My residual deviance was 151.59  on 113  degrees of
+> freedom (seems ok). This may mean nothing given I removed my random
+> effect though.
+
+This is probably conservative (overdispersion in the GLMM is probably
+less) given that the random effect will likely absorb some of the
+added variability, but yes, a bit hard to tell.
+
+> The summary of my full lme4 model (with random effect) gives me
+> deviance (but not residual deviance) and no report of degrees of
+> freedom. Is there a way to extract this from a glmm?
+
+One of the best resources on this issue and just about anything to do
+with GLMMs in R is: <http://glmm.wikidot.com/faq#toc19>
+
+I think that's largely maintained by Ben Bolker and says it better
+than I ever could, so best to just read that. The wiki includes a
+function to give an approximation of whether you have overdispersion
+in a GLMM and advice on fixes. One approach that is mentioned there is
+to try adding an individual (i.e. data-row-level) random effect and
+see how that affects the model. If you think about it a bit this works
+because you're allowing for and estimating some added stochastic
+process that creates extra variability (overdispersion) at the
+individual data point level. If the variance of this random effect is
+zero then you're back to the original Poisson model.
+
+> If I am satisfied that these data are neither overdispersed or require
+> zero-inflation, is it statistically kosher to test all subsets of the
+> global model and compare via AICc to determine the best model.
+
+This is a whole other can of statistical worms. It is something that
+people often do in ecology but it would make Burnam and Anderson,
+among others, pretty squeamish. It also partly depends on how much the
+goal of your modelling is prediction (out-of-sample performance is
+then quite important and AIC or even better cross-validation is very
+useful), how much is exploratory (maybe you can get away with this),
+how much is confirmatory (run away from this), and how much is for
+understanding (fit as complex a model as you can interpret and that a
+power analysis indicates is reasonable).
+
+> I will also then standardize the data to produce an RVI plot.
+
+I don't think there's a need to standardize the data just for a
+relative variable important plot (although there are other good
+reasons to standardize predictors such as for comparing the magnitude
+of effect sizes, for interpreting interactions, for comparing models
+with and without interactions, and for computational reasons).
+
+> How do people generally write about these things in their methods?
+> i.e. We tested for overdispersion and the residual deviance was
+> approximately the residual degrees of freedom.
+
+I don't think people tend to say much more, and often don't say
+anything at all, not that that's a good thing. If possible I would
+probably quantify whatever statement you make so people don't have to
+take your word for it and get an idea of what you mean by
+'approximately'. Alternatively, fit a model with a negative binomial
+distribution (or any of the other strategies mentioned or linked to
+above) and mention if your conclusions were unchanged and the results
+were qualitatively similar.
+
+> There is generally a high chance that "we just don't know what these
+> other processes are and are happy to wash it away in the error term".
+
+Yep, that's true for much of ecology, which is fine as long as we
+represent the uncertainty appropriately. And you're putting lots of
+thought into that aspect, which is good!
