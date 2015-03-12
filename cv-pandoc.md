@@ -8,8 +8,8 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 
 # Education
 
-2011–14
-:    Ph.D. Candidate, Simon Fraser University, Burnaby, Canada\
+2011–15
+:    Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
      Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
      Canadian Fulbright Scholar to the University of Washington in 2012–13
 
