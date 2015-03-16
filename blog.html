@@ -1,0 +1,14 @@
+---
+layout: default
+title: seananderson.ca
+---
+
+<br />
+<ul>
+  {% for post in site.posts %}
+    <li class="blog-archive">
+    <p><a class="archive-title" href="{{ post.url }}">{{ post.title }}</a></p>
+    <p class="archive-subtitle">{{ post.subtitle }}</p>
+    </li>
+  {% endfor %}
+</ul>
