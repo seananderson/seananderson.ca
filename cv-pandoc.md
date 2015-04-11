@@ -41,6 +41,9 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Publications
 
 2015
+:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. In press at Global Change Biology.
+
+2015
 :    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In press. (*\*Authors contributed equally*).
 
 2015
@@ -112,18 +115,13 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2015
-:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Determinants of extinction selectivity over the last 500 million years: a meta-analysis of marine bivalves and gastropods. In revision.
-
-2015
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In revision.
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review.
 
 # Awards and scholarships
 
 2015
 :    David H. Smith Conservation Postdoctoral Research Fellowship
 
-2015
-:    Natural Sciences and Engineering Research Council of Canada Postdoctoral Fellowship
 
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
