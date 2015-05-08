@@ -11,43 +11,47 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 2011–15
 :    Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
      Variance and extreme events in population ecology\
-     Supervisors: Dr. Nicholas K. Dulvy and Dr. Andrew B. Cooper\
-     Canadian Fulbright Scholar to the University of Washington in 2012–13
+     Fulbright Scholar to the University of Washington in 2012–13\
+     Dean of Graduate Studies Convocation Medal
 
 2008--10
 :    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries\
-     Supervisor: Dr. Heike K. Lotze.
-     ([PDF][MSc:Thesis])\
      Canadian [Governor General's Academic Gold Medal][Governor General award]
-     for the top-ranked Master's Natural Sciences and Engineering thesis at
-     Dalhousie University in 2010
 
 2004–07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
      Canada\
-     Thesis title: How sustainable are emerging low-trophic level fisheries
-     on the Scotian Shelf? Supervisors: Dr. Heike K. Lotze and
-     Dr. Ransom A. Myers.
-     ([PDF][HSc:Thesis])\
      First Class Honours & Environmental Programmes Honour Society Medal
 
 2001–03
 :    B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo, Waterloo,
-     Canada Transferred to Dalhousie University in 2004.
+     Canada; transferred to Dalhousie University in 2004.
 
 
 # Publications
 
 2015
-:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. In press at Global Change Biology.
+:    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P.
+     Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R.
+     Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi.
+     Paleontological baselines for evaluating extinction risk in the modern
+     oceans. Science. 348(6234): 567--570.
+     <http://doi.org/10.1126/science.aaa6635> 
+     (*\*Authors contributed equally*).
 
 2015
-:    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. In press. (*\*Authors contributed equally*).
+:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S.
+     Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze,
+     C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P.
+     Tittensor. Marine extinction risk shaped by trait-environment interactions
+     over 500 million years. In press at Global Change Biology.
 
 2015
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Journal of Animal Ecology. In press. <http://doi.org/10.1111/1365-2656.12322>.
+:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces
+     interact at thermal range extremes on American lobster. Journal of Animal
+     Ecology. 83(3):840--850. <http://doi.org/10.1111/1365-2656.12322>.
 
 2015
 :    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Science. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198>.
@@ -115,13 +119,27 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 # Manuscripts in review
 
 2015
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. In review.
+:     Monnahan, C.C., K. Ono, S.C Anderson, M.B. Rudd, A.C. Hicks, F.
+      Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz,
+      I.G. Taylor, J.L. Valero. The effect of length bin structures on growth
+      estimation in integrated age-structured stock assessments. Submitted.
+
+2015
+:    Kuriyamaa, P.T., F. Hurtado-Ferro, K. Ono, A.C. Hicks, I.G. Taylor, R.R.
+     Licandeo, K.F. Johnson, S.C. Anderson, C.C. Monnahan, M.B. Rudd, C.C.
+     Stawitz, J.L. Valero. An empirical weight-at-age approach reduces
+     estimation bias compared to modeling parametric growth in integrated,
+     statistical stock assessment models when growth is time varying.
+     Submitted.
+
+2015
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of
+     inverted biomass pyramids in kelp forest fish communities. In revision.
 
 # Awards and scholarships
 
 2015
 :    David H. Smith Conservation Postdoctoral Research Fellowship
-
 
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
