@@ -65,4 +65,4 @@ A selection of figures created with R. Click on a thumbnail to see the full vers
 
 <a href="figures/instagram.jpg" data-lightbox="instagram"><img  class="portfolio-fig" src="figures/instagram-thumb.jpg" alt="instagram"></img></a>
 
-<p class="caption">An Instagram account. I wrote a series of R functions to read in images, select perceptually dominant colour hues, frame the photos in that hue, and order the photos by that hue.</p>
+<p class="caption">An Instagram account. I wrote a series of R functions to read in images, select perceptually dominant colour hues, frame the photos in that hue, and order the photos.</p>
