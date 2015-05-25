@@ -40,6 +40,7 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
      oceans. Science. 348(6234): 567--570.
      <http://doi.org/10.1126/science.aaa6635> 
      (*\*Authors contributed equally*).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1126/science.aaa6635"></div>
 
 2015
 :    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S.
@@ -388,7 +389,7 @@ Environmental Management, Endangered Species Research, Aquatic Conservation
 [2013 PE safs]: http://seananderson.ca/talks/2013/PE_SAFS_quantsem.pdf
 
 [cv-pdf]: https://dl.dropboxusercontent.com/u/254940/AndersonCV.pdf
-[cv-md]: http://seananderson.ca/AndersonCV.txt
+[cv-md]: AndersonCV.txt
 
 [Fulbright]: http://www.fulbright.ca/programs/canadian-students/2012-2013-canadian-fulbright-students.html
 [Governor General award]: http://goo.gl/nA1zE
