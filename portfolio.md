@@ -3,13 +3,13 @@ layout: default
 title: Data Visualization Portfolio
 ---
 
-A selection of academic and non-academic figures. All figures were created exclusively with R.Click on a thumbnail to see the full version and caption.
+A selection of academic and non-academic figures created with R. Click on a thumbnail to see the full version and caption.
 
 # Academic figures
 
 <a href="figures/science-2015-fig2.jpg" data-lightbox="science-2015-fig2"><img  class="portfolio-fig" src="figures/science-2015-fig2-thumb.jpg" alt="Science 2015"></img></a>
 
-<p class="caption">Geographic distribution of intrinsic extinction risk for present-day genera across coastal biogeographic province. Figure 2 in <a href="http://doi.org/10.1126/science.aaa6635">Finnegan, Anderson, Harnik et al. 2015 Science</a>.</p>
+<p class="caption">Distribution of 'intrinsic' or 'natural' extinction risk for animals in today's oceans. Figure 2 in <a href="http://doi.org/10.1126/science.aaa6635">Finnegan, Anderson, Harnik et al. 2015 Science</a>.</p>
 
 <!------->
 
