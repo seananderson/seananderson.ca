@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Visualization Portfolio
+title: Figures
 ---
 
 A selection of academic and non-academic figures created with R. Click on a thumbnail to see the full version and caption.
