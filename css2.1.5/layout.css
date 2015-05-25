@@ -331,12 +331,15 @@ th {
 }
 
 .portfolio-fig  {
-	border: 1px solid #c0c0c0;
+	border: 1px solid #e7e7e7;
 	margin-bottom: -20px;
 }
 
 .caption {
-	margin-bottom: 40px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 25px;
+	margin-top: -4px;
 }
 
 
