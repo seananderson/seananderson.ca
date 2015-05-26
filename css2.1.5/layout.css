@@ -1,4 +1,7 @@
-/* @override http://localhost:4000/css2.1.4/layout.css */
+/* @override 
+	http://localhost:4000/css2.1.5/layout.css
+	http://seananderson.ca/css2.1.5/layout.css
+*/
 
 /*
 * Skeleton V1.2
@@ -88,21 +91,21 @@ sup {
 .footer {
 	padding-bottom: 18px;
 	text-transform: none;
-	color: #828282;
-	padding-top: 11px;
+	color: #acacac;
+	padding-top: 9px;
 	border-top: 1px solid #ededed;
-	margin-top: 5px;
- 	font-size: 18px;
+	margin-top: 0px;
+ 	font-size: 16px;
 }
 
 .footer a, .footer a:visited {
-	color: #828282;
+	color: #acacac;
 	border-bottom-style: none;
 }
 
 .footer a:hover{
 	border-bottom-style: none;
-	color: #828282;
+	color: #acacac;
 }
 
 
