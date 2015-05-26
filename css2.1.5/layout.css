@@ -144,8 +144,9 @@ img.bigpicture {
 }
 
 .headshot {
-	float: left;
-	margin: 8px 30px 10px 0px;
+	float: right;
+	/*margin: 8px 30px 10px 0px;*/
+	margin: 8px 0px 10px 30px;
 }
 
 /* iPhone Portrait */
