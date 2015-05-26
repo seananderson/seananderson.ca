@@ -5,6 +5,12 @@ a [PDF][cv-pdf] or in [Markdown][cv-md].
 [My Google Scholar citations][citations].
 
 
+# Current position
+
+Postdoctoral Fellow, School of Resource and Environmental Management,
+Simon Fraser University, Burnaby, BC, Canada\
+David H. Smith Conservation Research Fellow in September 2015,
+University of Washington and Northwest Fisheries Science Center, Seattle, WA, USA
 
 # Education
 

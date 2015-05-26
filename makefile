@@ -1,7 +1,7 @@
 all:	server-auto
 
 cv:
-	tail +9 cv-pandoc.md > cv-body.md
+	tail +14 cv-pandoc.md > cv-body.md
 	pandoc -S cv-body.md -o cv-body.tex
 	perl -p -i -e "s/~/\\\ /g" cv-body.tex
 	perl -p -i -e "s/M.Sc./M.Sc.\\\/g" cv-body.tex 
