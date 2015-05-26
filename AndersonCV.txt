@@ -42,8 +42,9 @@ Publications
     Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M.
     Pandolfi. Paleontological baselines for evaluating extinction risk
     in the modern oceans. Science. 348(6234): 567--570.
-    <http://doi.org/10.1126/science.aaa6635> (*\*Authors contributed
-    equally*).
+    <http://doi.org/10.1126/science.aaa6635> ([GitHub
+    repository](https://github.com/seananderson/paleobaselines))
+    (*\*Authors contributed equally*).
     <div class="altmetric-embed" data-badge-type="1"
     data-doi="10.1126/science.aaa6635">
 

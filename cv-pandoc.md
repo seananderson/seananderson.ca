@@ -1,7 +1,7 @@
 # Academic CV
 
 In addition to the HTML version of my CV, you can download a copy as
-a [PDF][cv-pdf] or in [Markdown][cv-md].
+a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 [My Google Scholar citations][citations].
 
 
@@ -44,7 +44,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi.
      Paleontological baselines for evaluating extinction risk in the modern
      oceans. Science. 348(6234): 567--570.
-     <http://doi.org/10.1126/science.aaa6635> 
+     <http://doi.org/10.1126/science.aaa6635> ([GitHub repository](https://github.com/seananderson/paleobaselines)) 
      (*\*Authors contributed equally*).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1126/science.aaa6635"></div>
 
