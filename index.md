@@ -6,11 +6,10 @@ title: seananderson.ca
 I'm a postdoctoral researcher
 in the [School of Resource and Environmental Management](http://www.rem.sfu.ca/)
 at [Simon Fraser University][sfu], Vancouver, Canada. 
-In fall 2015 I will begin a [David H. Smith Conservation Research Fellowship](http://www.conbio.org/mini-sites/smith-fellows) at the University of Washington and Northwest Fisheries Science Center.
+In September 2015 I will begin a [David H. Smith Conservation Research Fellowship](http://www.conbio.org/mini-sites/smith-fellows) at the University of Washington and Northwest Fisheries Science Center.
 I believe that the thoughtful visual display of data and statistical models can
 powerfully inform conservation ecology and help us 
 understand the ecological risks associated with human activities.
-
 
 <img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="321" class="headshot"/>
 
