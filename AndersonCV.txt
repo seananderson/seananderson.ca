@@ -62,7 +62,8 @@ Publications
 :   Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up
     forces interact at thermal range extremes on American lobster.
     Journal of Animal Ecology. 83(3):840--850.
-    <http://doi.org/10.1111/1365-2656.12322>.
+    <http://doi.org/10.1111/1365-2656.12322>. ([GitHub
+    repository](https://github.com/seananderson/lobsters-predators))
 
 2015
 :   Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**,
@@ -78,7 +79,10 @@ Publications
     Cooper. Portfolio conservation of metapopulations under climate
     change. Ecological Applications. 2015. 25(2): 559--572.
     <http://doi.org/10.1890/14-0266.1>
-    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf)).
+    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf),
+    [GitHub repository](https://github.com/seananderson/metafolio),
+    [CRAN R
+    package](http://cran.r-project.org/web/packages/metafolio/index.html)).
 
 2015
 :   Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C.
@@ -87,7 +91,8 @@ Publications
     Punt. Time-varying natural mortality in fisheries stock assessment
     models: identifying a default approach. ICES Journal of Marine
     Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055>
-    ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
+    ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z),
+    [GitHub repository](https://github.com/ss3sim/natural-mortality)).
 
 2015
 :   Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C.
@@ -152,7 +157,8 @@ Publications
 :   **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
     Quantifying metapopulation portfolio effects. Methods in Ecology and
     Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093>
-    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
+    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf),
+    [GitHub R package](https://github.com/seananderson/ecofolio)).
     <div class="altmetric-embed" data-badge-type="1"
     data-doi="10.1111/2041-210X.12093">
 
@@ -174,7 +180,9 @@ Publications
     Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to
     conservation success. Conservation Letters. 6(2): 98--106.
     <http://doi.org/10.1111/j.1755-263X.2012.00294.x>
-    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)).
+    ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf),
+    [GitHub
+    repository](https://github.com/seananderson/conservation_pathways)).
     (\*Authors contributed equally, listed in reverse alphabetical
     order).
     <div class="altmetric-embed" data-badge-type="1"

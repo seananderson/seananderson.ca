@@ -44,7 +44,8 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi.
      Paleontological baselines for evaluating extinction risk in the modern
      oceans. Science. 348(6234): 567--570.
-     <http://doi.org/10.1126/science.aaa6635> ([GitHub repository](https://github.com/seananderson/paleobaselines)) 
+     <http://doi.org/10.1126/science.aaa6635> 
+     ([GitHub repository](https://github.com/seananderson/paleobaselines)) 
      (*\*Authors contributed equally*).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1126/science.aaa6635"></div>
 
@@ -58,16 +59,17 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 2015
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces
      interact at thermal range extremes on American lobster. Journal of Animal
-     Ecology. 83(3):840--850. <http://doi.org/10.1111/1365-2656.12322>.
+     Ecology. 83(3):840--850. <http://doi.org/10.1111/1365-2656.12322>. 
+     ([GitHub repository](https://github.com/seananderson/lobsters-predators))
 
 2015
 :    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Science. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198>.
 
 2015
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 2015. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf)).
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 2015. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf), [GitHub repository](https://github.com/seananderson/metafolio), [CRAN R package](http://cran.r-project.org/web/packages/metafolio/index.html)).
 
 2015
-:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
+:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z), [GitHub repository](https://github.com/ss3sim/natural-mortality)).
 
 2015
 :    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical catch-at-age models for marine species. ICES Journal of Marine Science. 72(1): 31--43. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf)).
@@ -89,7 +91,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <http://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
 
 2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf)).
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf), [GitHub R package](https://github.com/seananderson/ecofolio)).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
 2013
@@ -97,7 +99,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
-:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf)). (\*Authors contributed equally, listed in reverse alphabetical order).
+:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf), [GitHub repository](https://github.com/seananderson/conservation_pathways)). (\*Authors contributed equally, listed in reverse alphabetical order).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
 
 2012
