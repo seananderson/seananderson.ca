@@ -3,11 +3,9 @@ layout: default
 title: seananderson.ca
 ---
 
-I'm a postdoctoral researcher in the [School of Resource and Environmental
-Management][rem] at [Simon Fraser University][sfu], Vancouver, Canada. In
-September 2015 I will begin a [David H. Smith Conservation Research
-Fellowship][smith] at the [University of Washington][safs] and [Northwest
-Fisheries Science Center][nwfsc]. I believe that the thoughtful visual display
+I'm a [David H. Smith Conservation Research
+Fellow][smith] at the [University of Washington][safs] and [Northwest
+Fisheries Science Center][nwfsc] in Seattle, Washington. I believe that the thoughtful visual display
 of data and statistical models can powerfully inform conservation ecology and
 help us understand the ecological risks associated with human activities.
 
