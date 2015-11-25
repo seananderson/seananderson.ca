@@ -4,8 +4,8 @@ title: seananderson.ca
 ---
 
 I'm a [David H. Smith Conservation Research
-Fellow][smith] starting at the [University of Washington][safs] and [Northwest
-Fisheries Science Center][nwfsc] in Seattle, Washington in September. I believe that the thoughtful visual display
+Fellow][smith] at the [University of Washington][safs] and [Northwest
+Fisheries Science Center][nwfsc] in Seattle, Washington. I believe that the thoughtful visual display
 of data and statistical models can powerfully inform conservation ecology and
 help us understand the ecological risks associated with human activities.
 

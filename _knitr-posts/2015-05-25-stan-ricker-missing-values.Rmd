@@ -35,7 +35,7 @@ N <- 50         # number of time steps
 x <- 1:N        # time step values
 y <- rep(NA, N) # vector to hold (scaled) abundance values
 y[1] <- 1       # initial scaled abundance
-sigma_p <- 0.6  # process noise standard deviation
+sigma_p <- 0.3  # process noise standard deviation
 r <- 0.8        # Ricker productivity parameter
 K <- 50         # Carrying capacity
 # Mean-bias corrected process noise:
@@ -187,18 +187,52 @@ model {
 }
 '
 stan_ricker_missing <- stan_model(model_code = stan_model_missing)
+
+stan_model_missing1 <-
+'data {
+  int<lower=0> N; // rows of data
+  vector[N] y; // log(numbers) at time t
+  real<lower=0> K_upper; // upper boundary on K
+  int<lower=1> missing_id; // ID of missing values
+}
+parameters {
+  real<lower=0, upper=K_upper> K;
+  real r;
+  real<lower=0> sigma_proc;
+  real y_missing; // imputed missing values
+}
+transformed parameters {
+  vector[N] y_impute; // y with some imputed
+  for (i in 1:N) {
+    y_impute[i] <- y[i];
+  }
+  y_impute[missing_id] <- y_missing;
+}
+model {
+  sigma_proc ~ cauchy(0, 5);
+  r ~ cauchy(0, 5);
+  for (i in 2:N) {
+   y_impute[i] ~
+     normal(y_impute[i-1] + r * (1 - exp(y_impute[i-1]) / K),
+            sigma_proc);
+  }
+}
+'
+stan_ricker_missing1 <- stan_model(model_code = stan_model_missing1)
+
 ```
 
 ```{r, results="hide"}
-missing_id <- sample(seq_len(N), 4)
+missing_id <- sample(seq_len(N), 1)
 y_missing <- y
 y_missing[missing_id] <- 9999 # Stan can't handle NAs; give it fake data
 m_missing <- sampling(
-  stan_ricker_missing,
+  stan_ricker_missing1,
   data = list(N = N, y = log(y_missing), 
     K_upper = max(y_missing[-missing_id]) * 2, 
-    Nmissing = length(missing_id), missing_id = missing_id),
-  iter = 4000,
+    # Nmissing = length(missing_id), 
+    missing_id = missing_id),
+  iter = 2000,
   pars = c("K", "r", "sigma_proc", "y_impute"))
 ```
 
@@ -215,7 +249,7 @@ pch <- rep(20, N)
 col <- rep("black", N)
 pch[missing_id] <- 21
 col[missing_id] <- "blue"
-plot(x, y, type = "o", pch = pch, ylim = c(0, max(y_missing[-missing_id]) * 1.1), col = col)
+plot(x, y, type = "o", pch = pch, ylim = c(min(y_missing), max(y_missing[-missing_id]) * 1.1), col = col, log = "y")
 imputed <- exp(apply(p$y_impute, 2, median))
 imputed_l <- exp(apply(p$y_impute, 2, quantile, prob = 0.1))
 imputed_u <- exp(apply(p$y_impute, 2, quantile, prob = 0.9))

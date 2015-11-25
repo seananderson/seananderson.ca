@@ -4,12 +4,9 @@ In addition to the HTML version of my CV, you can download a copy as
 a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 [My Google Scholar citations][citations].
 
-
 # Current position
 
-Postdoctoral Fellow, School of Resource and Environmental Management,
-Simon Fraser University, Burnaby, BC, Canada\
-David H. Smith Conservation Research Fellow in September 2015,
+David H. Smith Conservation Research Fellow,
 University of Washington and Northwest Fisheries Science Center, Seattle, WA, USA
 
 # Education
@@ -38,6 +35,21 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 # Publications
 
+2015
+:     Monnahan, C.C., K. Ono, S.C Anderson, M.B. Rudd, A.C. Hicks, F.
+      Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz,
+      I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation 
+      in integrated age-structured stock assessments. In press. 
+      <http://doi.org/10.1016/j.fishres.2015.09.007>
+
+2015
+:    Kuriyamaa, P.T., F. Hurtado-Ferro, K. Ono, A.C. Hicks, I.G. Taylor, R.R.
+     Licandeo, K.F. Johnson, S.C. Anderson, C.C. Monnahan, M.B. Rudd, C.C.
+     Stawitz, J.L. Valero. An empirical weight-at-age approach reduces estimation 
+     bias compared to modeling parametric growth in integrated, statistical stock
+     assessment models when growth is time varying.
+     In press. <http://doi.org/10.1016/j.fishres.2015.11.002>
+     
 2015
 :    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P.
      Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R.
@@ -124,26 +136,6 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <http://doi.org/10.1139/F08-156> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
-
-# Manuscripts in review
-
-2015
-:     Monnahan, C.C., K. Ono, S.C Anderson, M.B. Rudd, A.C. Hicks, F.
-      Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz,
-      I.G. Taylor, J.L. Valero. The effect of length bin structures on growth
-      estimation in integrated age-structured stock assessments. Submitted.
-
-2015
-:    Kuriyamaa, P.T., F. Hurtado-Ferro, K. Ono, A.C. Hicks, I.G. Taylor, R.R.
-     Licandeo, K.F. Johnson, S.C. Anderson, C.C. Monnahan, M.B. Rudd, C.C.
-     Stawitz, J.L. Valero. An empirical weight-at-age approach reduces
-     estimation bias compared to modeling parametric growth in integrated,
-     statistical stock assessment models when growth is time varying.
-     Submitted.
-
-2015
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of
-     inverted biomass pyramids in kelp forest fish communities. In revision.
 
 # Awards and scholarships
 
