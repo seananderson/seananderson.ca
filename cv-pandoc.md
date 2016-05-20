@@ -35,56 +35,37 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 # Publications
 
-2015
-:     Monnahan, C.C., K. Ono, S.C Anderson, M.B. Rudd, A.C. Hicks, F.
-      Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz,
-      I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation 
-      in integrated age-structured stock assessments. In press. 
-      <http://doi.org/10.1016/j.fishres.2015.09.007>
+2016
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. In press.
+
+2016
+:    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet, C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife interactions on land. Scientific Reports. 6: 25936. <http://doi.org/10.1038/srep25936> ([PDF](http://www.nature.com/articles/srep25936.pdf)).
+
+2016
+:    Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor, R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B. Rudd, C.C. Stawitz, J.L. Valero. An empirical weight-at-age approach reduces estimation bias compared to modeling parametric growth in integrated, statistical stock assessment models when growth is time varying. Fisheries Research. 180: 119--127. <http://doi.org/10.1016/j.fishres.2015.09.007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.fishres.2015.09.007"></div>
+
+2016
+:    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <http://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Monnahan_etal_2016_binwidth.pdf)).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.fishres.2015.11.002"></div>
 
 2015
-:    Kuriyamaa, P.T., F. Hurtado-Ferro, K. Ono, A.C. Hicks, I.G. Taylor, R.R.
-     Licandeo, K.F. Johnson, S.C. Anderson, C.C. Monnahan, M.B. Rudd, C.C.
-     Stawitz, J.L. Valero. An empirical weight-at-age approach reduces estimation 
-     bias compared to modeling parametric growth in integrated, statistical stock
-     assessment models when growth is time varying.
-     In press. <http://doi.org/10.1016/j.fishres.2015.11.002>
-     
+:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Journal of Animal Ecology. 84(3): 840--850. <http://doi.org/10.1111/1365-2656.12322> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Boudreau_etal_2015_lobster.pdf)).
+
 2015
-:    Finnegan\*, S., **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P.
-     Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R.
-     Lockwood, H.K. Lotze, C.M. McClain, J.L. McGuire, A. O’Dea, J.M. Pandolfi.
-     Paleontological baselines for evaluating extinction risk in the modern
-     oceans. Science. 348(6234): 567--570.
-     <http://doi.org/10.1126/science.aaa6635> 
-     ([GitHub repository](https://github.com/seananderson/paleobaselines)) 
-     (*\*Authors contributed equally*).
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2015_salmonportfolios.pdf)).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/14-0266.1"></div>
+
+2015
+:    Orzechowski, E.A., R. Lockwood, J.E.K. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. Global Change Biology. 21(10): 3595--3607. <http://doi.org/10.1111/gcb.12963> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Orzechowski_etal_2015_paleometa.pdf)).
+     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/gcb.12963"></div>
+
+2015
+:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. Science. 348(6234): 567--570. <http://doi.org/10.1126/science.aaa6635>
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1126/science.aaa6635"></div>
 
 2015
-:    Orzechowski, E.A., R. Lockwood, J.E. Byrnes, **S.C. Anderson**, S.
-     Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze,
-     C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P.
-     Tittensor. Marine extinction risk shaped by trait-environment interactions
-     over 500 million years. In press at Global Change Biology.
-
-2015
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces
-     interact at thermal range extremes on American lobster. Journal of Animal
-     Ecology. 83(3):840--850. <http://doi.org/10.1111/1365-2656.12322>. 
-     ([GitHub repository](https://github.com/seananderson/lobsters-predators))
-
-2015
-:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Science. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198>.
-
-2015
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 2015. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2014_salmon_portfolios.pdf), [GitHub repository](https://github.com/seananderson/metafolio), [CRAN R package](http://cran.r-project.org/web/packages/metafolio/index.html)).
-
-2015
-:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z), [GitHub repository](https://github.com/ss3sim/natural-mortality)).
-
-2015
-:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical catch-at-age models for marine species. ICES Journal of Marine Science. 72(1): 31--43. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf)).
+:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Sciences. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Hurtado-Ferro_etal_2014_retrospective.pdf)).
 
 2014
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
@@ -93,6 +74,12 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLOS ONE. 9(4): e92725. <http://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim), [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf)).
      <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0092725"></div>
+
+2014
+:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
+
+2015
+:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical age-structured models for marine species. ICES Journal of Marine Science. 72(1): 31--43. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/02/20/icesjms.fsu007.full.pdf)).
 
 2014
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)). [Cover Article](http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf).
@@ -194,6 +181,13 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
+
+2015
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
+     Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I.
+     Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status
+     and trend with superensemble models. American Fisheries Society Annual Meeting,
+     Portland, OR, United States.
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. False prophets: The
@@ -351,7 +345,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 # Reviews
 
-Reviewer for Science, Ecology, Conservation Biology, Fish and Fisheries,
+Reviewer for Science, Ecology, Ecological Applications, Conservation Biology, Fish and Fisheries,
 International Journal of Tropical Biology and Conservation, Journal of
 Environmental Management, Endangered Species Research, Aquatic Conservation
 
