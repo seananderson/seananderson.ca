@@ -245,6 +245,10 @@ pre {
 	padding-top: 5px;
 }
 
+pre.highlight {
+	background-color: #f3f3f3;
+}
+
 
 code,
 pre {
@@ -259,7 +263,6 @@ pre {
 }
 
 li code, table code, h1 code, h2 code, p code {
-  color: #353535;
   white-space: wrap;
   padding: 2px 2px;
   font-size: 14px;
