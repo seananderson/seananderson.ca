@@ -4,10 +4,25 @@ In addition to the HTML version of my CV, you can download a copy as
 a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 [My Google Scholar citations][citations].
 
-# Current position
+# Professional experience
 
-David H. Smith Conservation Research Fellow,
-University of Washington and Northwest Fisheries Science Center, Seattle, WA, USA
+2015--16
+:    David H. Smith Conservation Research Fellow, 
+     School of Aquatic and Fishery Sciences, 
+     University of Washington and 
+     Northwest Fisheries Science Center, Seattle, USA
+
+2015
+:    Post-doctoral Fellow, School of Resource and Environmental Management,
+     Simon Fraser University, Burnaby, Canada
+
+2011--15
+:    Graduate Research Assistant, Department of Biological Sciences,
+     Simon Fraser University, Burnaby, Canada
+
+2008--11
+:    Graduate Research Assistant, Department of Biology,
+     Dalhousie University, Halifax, Canada
 
 # Education
 
@@ -15,13 +30,13 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 :    Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
      Variance and extreme events in population ecology\
      Fulbright Scholar to the University of Washington in 2012–13\
-     Dean of Graduate Studies Convocation Medal
+     [Dean of Graduate Studies Convocation Medal](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html)
 
 2008--10
 :    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries\
-     Canadian [Governor General's Academic Gold Medal][Governor General award]
+     [Canadian Governor General's Academic Gold Medal][Governor General award]
 
 2004–07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
@@ -43,26 +58,21 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 2016
 :    Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor, R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B. Rudd, C.C. Stawitz, J.L. Valero. An empirical weight-at-age approach reduces estimation bias compared to modeling parametric growth in integrated, statistical stock assessment models when growth is time varying. Fisheries Research. 180: 119--127. <http://doi.org/10.1016/j.fishres.2015.09.007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.fishres.2015.09.007"></div>
 
 2016
 :    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <http://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Monnahan_etal_2016_binwidth.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.fishres.2015.11.002"></div>
 
 2015
 :    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Journal of Animal Ecology. 84(3): 840--850. <http://doi.org/10.1111/1365-2656.12322> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Boudreau_etal_2015_lobster.pdf)).
 
 2015
 :    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2015_salmonportfolios.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/14-0266.1"></div>
 
 2015
 :    Orzechowski, E.A., R. Lockwood, J.E.K. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. Global Change Biology. 21(10): 3595--3607. <http://doi.org/10.1111/gcb.12963> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Orzechowski_etal_2015_paleometa.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/gcb.12963"></div>
 
 2015
-:    Finnegan, S., **S.C. Anderson**, P.G. Harnik, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. Science. 348(6234): 567--570. <http://doi.org/10.1126/science.aaa6635>
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1126/science.aaa6635"></div>
+:    Finnegan, S.\*, **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. Science. 348(6234): 567--570. <http://doi.org/10.1126/science.aaa6635> (*\*Authors contributed equally*).
 
 2015
 :    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Sciences. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Hurtado-Ferro_etal_2014_retrospective.pdf)).
@@ -75,15 +85,12 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 2014
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1002/ece3.1101"></div>
 
 2014
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLOS ONE. 9(4): e92725. <http://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim), [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0092725"></div>
 
 2014
-:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)). [Cover Article](http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1890/13-0916.1"></div>
+:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)).
      <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2013
@@ -91,19 +98,15 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf), [GitHub R package](https://github.com/seananderson/ecofolio)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/2041-210X.12093"></div>
 
 2013
 :    Artelle, K.A., **S.C. Anderson**, A.B. Cooper, P.C. Paquet, J.D. Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management: performance of grizzly bear management. PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0078041&representation=PDF)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1371/journal.pone.0078041"></div>
 
 2013
-:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, E.R. Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf), [GitHub repository](https://github.com/seananderson/conservation_pathways)). (\*Authors contributed equally, listed in reverse alphabetical order).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1111/j.1755-263X.2012.00294.x"></div>
+:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf), [GitHub repository](https://github.com/seananderson/conservation_pathways)). (\*Authors contributed equally, listed in reverse alphabetical order).
 
 2012
 :    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient and modern seas. Trends in Ecology and Evolution. 27(11): 608--617. <http://doi.org/10.1016/j.tree.2012.07.010> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
-     <div class='altmetric-embed' data-badge-type='1' data-doi="10.1016/j.tree.2012.07.010"></div>
 
 2012
 :    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global marine fishery status with a revised dynamic catch-based method and stock-assessment reference points. ICES Journal of Marine Science. 69(8): 1491--1500. <http://doi.org/10.1093/icesjms/fss105> ([PDF](http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref)).
@@ -128,6 +131,11 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 2015
 :    David H. Smith Conservation Postdoctoral Research Fellowship
+     ([URL](http://conbio.org/mini-sites/smith-fellows/meet-the-fellows/2015-fellows/sean-anderson))
+
+2015
+:    Simon Fraser University Dean of Graduate Studies Convocation Medal 
+     ([URL](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html))
 
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
@@ -137,7 +145,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 :    Graduate Fellowship (two semesters), Simon Fraser University
 
 2012–13
-:    Canadian Fulbright Scholar award to the University of Washington in 2012–13
+:    Canadian Fulbright Scholar award to the University of Washington
 
 2011
 :    Canadian [Governor General's Academic Gold Medal][Governor General award]
@@ -181,6 +189,13 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
+
+2016
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
+     Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I.
+     Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status
+     and trend with superensemble models. World Fisheries Conference,
+     Busan, South Korea. (Presented *in absentia* by J.T. Thorson.)
 
 2015
 :    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
@@ -237,7 +252,7 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 # Teaching
 
-2014--15
+2014--16
 :    Developed self-directed lecture and exercises on ggplot2 for FISH 554:
      Beautiful graphics in R, School of Aquatic and Fishery Sciences,
      University of Washington, Seattle, WA, United States.\
@@ -300,6 +315,9 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
 
 # Contract employment
 
+2014–15
+:    Data analysis in R and C++ for Ecoscape Environmental Consultants Ltd.
+
 2013
 :    Co-developed global fisheries status maps for the [RAM Legacy Stock
      Assessment Database](http://ramlegacy.org/) for R. Hilborn
@@ -315,6 +333,17 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      Dartmouth, NS, Canada.
 
 # Working groups and workshops
+
+2015-16
+:    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
+     Barbara, CA) "Applying portfolio effects to the Gulf of Alaska ecosystem: Did
+     multi-scale diversity buffer against the Exxon Valdez oil spill?"
+     ([URL](https://www.nceas.ucsb.edu/featured/marshall))
+
+2015-16
+:    Gordon and Betty Moore Foundation funded working group "Applying
+     data-limited stock status models and developing management guidance for
+     unassessed fish stocks".
 
 2011–13
 :    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
@@ -343,26 +372,29 @@ University of Washington and Northwest Fisheries Science Center, Seattle, WA, US
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
+<!-- # Training -->
+
+<!-- Intermedia -->
+<!-- Powerful Presentation Skills -->
+<!-- Teresa Erickson --> 
+<!-- Tim Ward -->
+
+<!-- Media Training -->
+<!-- Intermedia -->
+<!-- Teresa Erickson -->
+<!-- Tim Ward -->
+
+<!-- Diversity In Conservation Biology -->
+<!-- Facilitated by Yolanda L. Comedy is the Director of the American Association for the Advancement of Science (AAAS) Center for Advancing Science & Engineering Capacity -->
+
+<!-- meeting with US congressional representatives --> 
+
 # Reviews
 
-Reviewer for Science, Ecology, Ecological Applications, Conservation Biology, Fish and Fisheries,
-International Journal of Tropical Biology and Conservation, Journal of
-Environmental Management, Endangered Species Research, Aquatic Conservation
-
-[Johnson:2014:TVN]: http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z
-[Ono:2014:ILA]: http://seananderson.ca/papers/Ono_etal_2014_importance_of_length_and_age_composition_data.pdf
-[Harnik:2012:EAM]: http://seananderson.ca/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf
-[Phillis:2012:MPC]: http://seananderson.ca/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf
-[Anderson:2013:QMP]: http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets.pdf
-[Anderson:2013:QMP:SOM]: http://seananderson.ca/papers/Anderson_etal_2013_ecological_prophets_SOM.pdf
-[ecofolio github]: https://github.com/seananderson/ecofolio
-[Anderson:2012:AGM]: http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref
-[Anderson:2011:SEG]: http://seananderson.ca/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf
-[Anderson:2011:CVE]: http://seananderson.ca/papers/Anderson_etal_2011_BioScience_with_supplement.pdf
-[Anderson:2008:EKB]: http://seananderson.ca/papers/Anderson_etal_2008_knowledge.pdf
-
-[MSc:Thesis]: http://seananderson.ca/papers/Anderson_MSc_2010.pdf
-[HSc:Thesis]: http://seananderson.ca/papers/Anderson_HSc_2006.pdf
+Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
+Fish and Fisheries, International Journal of Tropical Biology and Conservation,
+Journal of Environmental Management, Endangered Species Research, Aquatic
+Conservation
 
 [2011 multipanel notes]: http://seananderson.ca/courses/11-multipanel/multipanel.pdf
 [2011 multipanel slides]: http://seananderson.ca/courses/11-multipanel/multipanel-slides.pdf
@@ -385,9 +417,7 @@ Environmental Management, Endangered Species Research, Aquatic Conservation
 [cv-pdf]: https://dl.dropboxusercontent.com/u/254940/AndersonCV.pdf
 [cv-md]: AndersonCV.txt
 
-[Fulbright]: http://www.fulbright.ca/programs/canadian-students/2012-2013-canadian-fulbright-students.html
 [Governor General award]: http://goo.gl/nA1zE
 
 [citations]: http://scholar.google.ca/citations?view_op=list_works&hl=en&user=AGSviU8AAAAJ
 
-[ecology-cover]: http://www.esajournals.org/userimages/ContentEditor/1398099670397/i0012-9658-95-4-cov.pdf
