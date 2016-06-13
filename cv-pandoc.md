@@ -375,7 +375,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Reviews
 
 Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
-Fish and Fisheries, International Journal of Tropical Biology and Conservation,
+Fish and Fisheries, Marine Policy, Population Ecology,
+International Journal of Tropical Biology and Conservation,
 Journal of Environmental Management, Endangered Species Research, Aquatic
 Conservation
 
