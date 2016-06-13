@@ -336,14 +336,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2015-16
 :    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
-     Barbara, CA) "Applying portfolio effects to the Gulf of Alaska ecosystem: Did
-     multi-scale diversity buffer against the Exxon Valdez oil spill?"
+     Barbara, CA) *Applying portfolio effects to the Gulf of Alaska ecosystem: Did
+     multi-scale diversity buffer against the Exxon Valdez oil spill?*
      ([URL](https://www.nceas.ucsb.edu/featured/marshall))
 
 2015-16
-:    Gordon and Betty Moore Foundation funded working group "Applying
+:    Gordon and Betty Moore Foundation funded working group *Applying
      data-limited stock status models and developing management guidance for
-     unassessed fish stocks".
+     unassessed fish stocks*.
 
 2011–13
 :    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
@@ -371,23 +371,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Workshop on Canadian Science and Management Strategies for Atlantic
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
-
-<!-- # Training -->
-
-<!-- Intermedia -->
-<!-- Powerful Presentation Skills -->
-<!-- Teresa Erickson --> 
-<!-- Tim Ward -->
-
-<!-- Media Training -->
-<!-- Intermedia -->
-<!-- Teresa Erickson -->
-<!-- Tim Ward -->
-
-<!-- Diversity In Conservation Biology -->
-<!-- Facilitated by Yolanda L. Comedy is the Director of the American Association for the Advancement of Science (AAAS) Center for Advancing Science & Engineering Capacity -->
-
-<!-- meeting with US congressional representatives --> 
 
 # Reviews
 
