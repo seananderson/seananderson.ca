@@ -7,7 +7,7 @@ A selection of figures created with R. Click on a thumbnail to see the full vers
 
 # Academic figures
 
-<a href="figures/science-2015-fig2.jpg" data-lightbox="science-2015-fig2"><img  class="portfolio-fig" src="figures/science-2015-fig2-thumb.jpg" alt="Science 2015"></img></a>
+<a href="figures/science-2015-fig2.jpg" data-lightbox="science-2015-fig2"><img  class="portfolio-fig" src="figures/science-2015-fig2-thumb.jpg" alt="Science 2015"></a>
 
 <p class="caption">Distribution of 'intrinsic' or 'natural' extinction risk for animals in today's oceans. Figure 2 in <a href="http://doi.org/10.1126/science.aaa6635">Finnegan, Anderson, Harnik et al. 2015 Science</a>.</p>
 
