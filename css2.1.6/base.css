@@ -56,7 +56,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 18px/29px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 18px/29px "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #080808;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -67,7 +67,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #353535;
-		font-family: "Georgia", "Times New Roman", serif;
+		font-family: "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: bold; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited { font-weight: inherit;
 	border-bottom-style: none; color: #353535;

@@ -10,7 +10,7 @@ How do I generate seananderson.ca? Well, this gets geeky.
 The back end is a series of plain-text [Markdown] files and the static site
 generator [Jekyll]. I host this site on [GitHub](http://github.com/). Feel
 free to poke around the [public GitHub repository][github repo].  I provide
-pleasing-to-the-eye fonts with [Typekit]. I write my [CV](/cv.html) in
+pleasing-to-the-eye fonts with [Google Fonts]. I write my [CV](/cv.html) in
 [Pandoc] Markdown and create the synchronized HTML and PDF versions with a
 combination of [XeLaTeX] and a [Makefile]. I generate the list of papers in
 my CV with a [BibTeX file], a [short R script], and the 
@@ -38,7 +38,7 @@ Theme? [Solarized] light or dark.
 [iusethis account]: http://osx.iusethis.com/user/sean_
 [github]: http://github.com/
 [Jekyll]: http://jekyllrb.com/
-[typekit]: https://typekit.com
+[Google Fonts]: https://fonts.google.com/
 [MacVim]: http://code.google.com/p/macvim/
 [Sublime Text]: http://www.sublimetext.com/
 [Markdown]: http://daringfireball.net/projects/markdown/
