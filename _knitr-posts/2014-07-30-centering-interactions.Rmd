@@ -70,7 +70,7 @@ Notice that the intercept, `x1`, and `x2` coefficient estimates are now similar 
 
 Here's an illustration:
 
-<img src="/images/interactions.png" alt="Illustration of centering interactions" width=580 height=436>
+![Illustration of centering interactions](/images/interactions.png)
 
 # A 3-level factor example
 
