@@ -2,7 +2,7 @@
 # TODO J.E. Mills Flemming needs to be fixed throughout refs.bib too
 # TODO Earth2Oceans Derby needs to be manually fixed
 
-# Need to fix all authors contributed equally and asterisks 
+# Need to fix all authors contributed equally and asterisks
 
 library("bibtex")
 d <- read.bib("refs.bib")
@@ -91,3 +91,8 @@ for(i in seq_along(d)) {
 
 ref <- paste(ref, collapse = "\n\n")
 writeLines(ref, con = "papers.md")
+
+# authors:
+library(magrittr)
+lapply(d, function(x) x$author$family) %>% unlist() %>%
+  gsub("\\\\\\*", "", .) %>% unique() %>% sort()

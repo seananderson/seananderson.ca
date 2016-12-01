@@ -51,7 +51,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2016
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. In press.
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press.
+
+2016
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>
 
 2016
 :    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet, C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife interactions on land. Scientific Reports. 6: 25936. <http://doi.org/10.1038/srep25936> ([PDF](http://www.nature.com/articles/srep25936.pdf)).
@@ -191,6 +194,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Invited talks and conference presentations
 
 2016
+:    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
+     events in animal populations. North America Congress for Conservation
+     Biology, Madison, WI, United States.
+
+2016
 :    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
      Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I.
      Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status
@@ -251,6 +259,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 
 # Teaching
+
+2016
+:    Two two-day (14 hour) workshops on advanced generalized linear mixed-effects
+     modeling in R for the Simon Fraser University Library Research Commons.
+     <https://github.com/seananderson/glmm-course>
 
 2014--16
 :    Developed self-directed lecture and exercises on ggplot2 for FISH 554:
@@ -371,6 +384,52 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Workshop on Canadian Science and Management Strategies for Atlantic
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
+
+# Selected courses and training
+
+Present
+:    Proficient in statistical analyses and data management using R,
+     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB. Familiar with 
+     ADMB, PostgreSQL.
+
+2016
+:    Diversity in Conservation Biology,
+     facilitated by Yolanda L. Comedy,
+     Director of the American Association for the Advancement of Science (AAAS)
+     Center for Advancing Science & Engineering Capacity
+
+2015--16
+:    Powerful Presentation Skills and Media Training 
+     with Teresa Erickson and Tim Ward of Intermedia Communications,
+     authors of [*The Master Communicator's Handbook*](https://www.amazon.com/Master-Communicators-Handbook-Teresa-Erickson/dp/1785351532)
+
+2013
+:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
+     School of Aquatic and Fishery Sciences, University of Washington
+     (audited).
+
+2013
+:    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
+     Ward; School of Aquatic and Fishery Sciences, University of
+     Washington (audited).
+
+2012
+:   Numerical Computing for the Natural Resources. A.E. Punt, School of
+    Aquatic and Fishery Sciences, University of Washington (audited).
+
+2012
+:    Risk Assessment and Decision Analysis for Management of Natural
+     Resources. R.M. Peterman, School of Resource and Environmental
+     Management, Simon Fraser University.
+
+2011
+:    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
+
+2009
+:    Technical Expertise in Stock Assessment: Model Fitting and Interpretation.
+     C. Needle, chair of the International Council for the Exploration
+     of the Sea working group on methods of fish stock assessment, Dalhousie
+     University.
 
 # Reviews
 
