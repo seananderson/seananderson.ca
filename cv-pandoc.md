@@ -13,7 +13,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Northwest Fisheries Science Center, Seattle, USA
 
 2015
-:    Post-doctoral Fellow, School of Resource and Environmental Management,
+:    Postdoctoral Fellow, School of Resource and Environmental Management,
      Simon Fraser University, Burnaby, Canada
 
 2011--15

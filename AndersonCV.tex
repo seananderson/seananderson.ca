@@ -17,7 +17,9 @@
 \lhead{\textit{Sean C. Anderson, \headerdate\today}}
 \rhead{\thepage}
 \renewcommand{\headrulewidth}{0mm}
-\def\tightlist{} % http://tex.stackexchange.com/questions/257418/error-tightlist-converting-md-file-into-pdf-using-pandoc
+% http://tex.stackexchange.com/questions/257418/error-tightlist-converting-md-file-into-pdf-using-pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{4pt}\setlength{\parskip}{0pt}}
 
 \titleformat{\section}
   {\bf\Large}{\thesection}{0pt}{}
