@@ -10,7 +10,7 @@ sandrsn at uw.edu
 Professional experience
 =======================
 
-2015--16
+2015--17
 :   David H. Smith Conservation Research Fellow, School of Aquatic and
     Fishery Sciences, University of Washington and Northwest Fisheries
     Science Center, Seattle, USA
@@ -57,6 +57,11 @@ Publications
 ============
 
 2016
+:   **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
+    events in animal populations. Proceedings of the National Academy of
+    Sciences. In press.
+
+2016
 :   **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T.
     Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C.
     Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving
@@ -65,10 +70,9 @@ Publications
 
 2016
 :   Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The
-    paradox of inverted biomass pyramids in kelp forest
-    fish communities. Proceedings of the Royal Society B:
-    Biological Sciences. 283: 20160816.
-    <http://doi.org/10.1098/rspb.2016.0816>
+    paradox of inverted biomass pyramids in kelp forest fish
+    communities. Proceedings of the Royal Society B: Biological
+    Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>
 
 2016
 :   Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C.
@@ -78,12 +82,12 @@ Publications
     ([PDF](http://www.nature.com/articles/srep25936.pdf)).
 
 2016
-:   Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G.
-    Taylor, R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C.
-    Monnahan, M.B. Rudd, C.C. Stawitz, J.L. Valero. An empirical
-    weight-at-age approach reduces estimation bias compared to modeling
-    parametric growth in integrated, statistical stock assessment models
-    when growth is time varying. Fisheries Research. 180: 119--127.
+:   Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor,
+    R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B.
+    Rudd, C.C. Stawitz, J.L. Valero. An empirical weight-at-age approach
+    reduces estimation bias compared to modeling parametric growth in
+    integrated, statistical stock assessment models when growth is time
+    varying. Fisheries Research. 180: 119--127.
     <http://doi.org/10.1016/j.fishres.2015.09.007>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
 
@@ -105,8 +109,8 @@ Publications
 
 2015
 :   **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B.
-    Cooper. Portfolio conservation of metapopulations under
-    climate change. Ecological Applications. 25(2): 559--572.
+    Cooper. Portfolio conservation of metapopulations under climate
+    change. Ecological Applications. 25(2): 559--572.
     <http://doi.org/10.1890/14-0266.1>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2015_salmonportfolios.pdf)).
 
@@ -115,9 +119,8 @@ Publications
     Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K.
     Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C.
     Simpson, D.P. Tittensor. Marine extinction risk shaped by
-    trait-environment interactions over 500 million years. Global
-    Change Biology. 21(10): 3595--3607.
-    <http://doi.org/10.1111/gcb.12963>
+    trait-environment interactions over 500 million years. Global Change
+    Biology. 21(10): 3595--3607. <http://doi.org/10.1111/gcb.12963>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Orzechowski_etal_2015_paleometa.pdf)).
 
 2015
@@ -130,12 +133,12 @@ Publications
     equally*).
 
 2015
-:   Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C.
-    Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R.
-    McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A.
-    Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror:
-    bias and retrospective patterns in integrated, age-structured stock
-    assessment models. ICES Journal of Marine Sciences. 72(1): 99--110.
+:   Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**,
+    C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C.
+    Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E.
+    Punt. Looking in the rear-view mirror: bias and retrospective
+    patterns in integrated, age-structured stock assessment models. ICES
+    Journal of Marine Sciences. 72(1): 99--110.
     <http://doi.org/10.1093/icesjms/fsu198>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Hurtado-Ferro_etal_2014_retrospective.pdf)).
 
@@ -144,25 +147,24 @@ Publications
     Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L.
     Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E.
     Punt. Time-varying natural mortality in fisheries stock assessment
-    models: identifying a default approach. ICES Journal of
-    Marine Science. 72(1): 137--150.
-    <http://doi.org/10.1093/icesjms/fsu055>
+    models: identifying a default approach. ICES Journal of Marine
+    Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055>
     ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
 
 2015
 :   Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C.
     Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C.
-    Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-Pre, A.R.
-    Whitten, A.E. Punt. The importance of length and age composition
-    data in statistical age-structured models for marine species. ICES
-    Journal of Marine Science. 72(1): 31--43.
+    Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-Pre, A.R. Whitten,
+    A.E. Punt. The importance of length and age composition data in
+    statistical age-structured models for marine species. ICES Journal
+    of Marine Science. 72(1): 31--43.
     <http://doi.org/10.1093/icesjms/fsu007>
     ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/02/20/icesjms.fsu007.full.pdf)).
 
 2014
 :   Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**.
-    Observer aging and long-term avian survey data quality. Ecology
-    and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101>
+    Observer aging and long-term avian survey data quality. Ecology and
+    Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101>
     ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)).
     [National Geographic news
     story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
@@ -180,8 +182,8 @@ Publications
 
 2014
 :   O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming
-    mediates negative impacts of rapid pond drying for three
-    amphibian species. Ecology. 95(4): 845--855.
+    mediates negative impacts of rapid pond drying for three amphibian
+    species. Ecology. 95(4): 845--855.
     <http://doi.org/10.1890/13-0916.1>
     ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)).
     <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
@@ -195,17 +197,16 @@ Publications
 
 2013
 :   **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets:
-    Quantifying metapopulation portfolio effects. Methods in Ecology
-    and Evolution. 4(10): 971--981.
-    <http://doi.org/10.1111/2041-210X.12093>
+    Quantifying metapopulation portfolio effects. Methods in Ecology and
+    Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf),
     [GitHub R package](https://github.com/seananderson/ecofolio)).
 
 2013
 :   Artelle, K.A., **S.C. Anderson**, A.B. Cooper, P.C. Paquet, J.D.
     Reynolds, C.T. Darimont. Confronting uncertainty in wildlife
-    management: performance of grizzly bear management. PLOS ONE.
-    8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041>
+    management: performance of grizzly bear management. PLOS ONE. 8(11):
+    e78041. <http://doi.org/10.1371/journal.pone.0078041>
     ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0078041&representation=PDF)).
 
 2013
@@ -216,24 +217,23 @@ Publications
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf),
     [GitHub
     repository](https://github.com/seananderson/conservation_pathways)).
-    (\*Authors contributed equally, listed in reverse
-    alphabetical order).
+    (\*Authors contributed equally, listed in reverse alphabetical
+    order).
 
 2012
 :   Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S.
     Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L.
     McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor.
-    Extinctions in ancient and modern seas. Trends in Ecology
-    and Evolution. 27(11): 608--617.
+    Extinctions in ancient and modern seas. Trends in Ecology and
+    Evolution. 27(11): 608--617.
     <http://doi.org/10.1016/j.tree.2012.07.010>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
 
 2012
 :   **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing
     global marine fishery status with a revised dynamic catch-based
-    method and stock-assessment reference points. ICES Journal of
-    Marine Science. 69(8): 1491--1500.
-    <http://doi.org/10.1093/icesjms/fss105>
+    method and stock-assessment reference points. ICES Journal of Marine
+    Science. 69(8): 1491--1500. <http://doi.org/10.1093/icesjms/fss105>
     ([PDF](http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref)).
 
 2011
@@ -245,8 +245,8 @@ Publications
 
 2011
 :   **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze.
-    Serial exploitation of global sea cucumber fisheries. Fish
-    and Fisheries. 12(3): 317--339.
+    Serial exploitation of global sea cucumber fisheries. Fish and
+    Fisheries. 12(3): 317--339.
     <http://doi.org/10.1111/j.1467-2979.2010.00397.x>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)).
     [Featured in
@@ -269,9 +269,9 @@ Publications
 
 2008
 :   **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the
-    knowledge base for expanding low-trophic-level fisheries in
-    Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences.
-    65(12): 2553--2571. <http://doi.org/10.1139/F08-156>
+    knowledge base for expanding low-trophic-level fisheries in Atlantic
+    Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12):
+    2553--2571. <http://doi.org/10.1139/F08-156>
     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2008_knowledge.pdf)).
     Eighth most-read CJFAS article in 2008.
 
@@ -360,8 +360,8 @@ Invited talks and conference presentations
     Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C.
     Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving
     estimates of population status and trend with superensemble models.
-    American Fisheries Society Annual Meeting, Portland, OR,
-    United States.
+    American Fisheries Society Annual Meeting, Portland, OR, United
+    States.
 
 2013
 :   **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. False prophets: The
@@ -403,9 +403,9 @@ Invited talks and conference presentations
 
 2009
 :   **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the
-    knowledge base for expanding low-trophic level fisheries in
-    Atlantic Canada. Harvest Fisheries Seminar Series. Bedford Institute
-    of Oceanography, Fisheries and Oceans, Dartmouth, NS, Canada.
+    knowledge base for expanding low-trophic level fisheries in Atlantic
+    Canada. Harvest Fisheries Seminar Series. Bedford Institute of
+    Oceanography, Fisheries and Oceans, Dartmouth, NS, Canada.
 
 2008
 :   **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the
@@ -431,8 +431,8 @@ Teaching
 :   Organizer of Stats Beerz --- a statistical help group attended by
     graduate students and postdocs primarily in the Earth to Oceans
     research group, but also the wider SFU Biology and Geography
-    Departments, and the School of Resource and Environmental
-    Management (REM).
+    Departments, and the School of Resource and Environmental Management
+    (REM).
 
 2013
 :   Two-part workshop on data manipulation for Stats Beerz and Earth to
@@ -470,37 +470,37 @@ Teaching
 :   Multipanel plotting in R with base graphics.
     ([notes](http://seananderson.ca/courses/11-multipanel/multipanel.pdf),
     [slides](http://seananderson.ca/courses/11-multipanel/multipanel-slides.pdf)).
-    Earth2Ocean Research Group, Simon Fraser University, Burnaby,
-    BC, Canada.
+    Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC,
+    Canada.
 
 2011
 :   A brief introduction to R.
     ([notes](http://seananderson.ca/courses/11-rintro/RIntro.pdf),
     [workshop code](http://seananderson.ca/courses/11-rintro/RIntro.R)).
-    Earth2Ocean Research Group, Simon Fraser University, Burnaby,
-    BC, Canada.
+    Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC,
+    Canada.
 
 2011
 :   Workshop on the R package plyr
     ([notes](http://seananderson.ca/courses/11-plyr/plyr.pdf),
     [slides](http://seananderson.ca/courses/11-plyr/plyr-slides.pdf)).
-    Earth2Ocean Research Group, Simon Fraser University, Burnaby,
-    BC, Canada.
+    Earth2Ocean Research Group, Simon Fraser University, Burnaby, BC,
+    Canada.
 
 2007--08
 :   Teaching Assistant, Organismal Biology and Ecology, Dalhousie
     University, two semesters (BIOL 1021).
 
 2007--08
-:   Teaching Assistant, Marine Mammology, Dalhousie University
-    (BIOL 4060).
+:   Teaching Assistant, Marine Mammology, Dalhousie University (BIOL
+    4060).
 
 Contract employment
 ===================
 
 2014--15
-:   Data analysis in R and C++ for Ecoscape Environmental
-    Consultants Ltd.
+:   Data analysis in R and C++ for Ecoscape Environmental Consultants
+    Ltd.
 
 2013
 :   Co-developed global fisheries status maps for the [RAM Legacy Stock
@@ -508,8 +508,8 @@ Contract employment
 
 2010
 :   Assessment of Arctic surfclam on Banquereau Bank using
-    industry-collected data for Clearwater Seafoods, Bedford,
-    NS, Canada.
+    industry-collected data for Clearwater Seafoods, Bedford, NS,
+    Canada.
 
 2010
 :   Modelling length-frequency distribution changes of Atlantic halibut
@@ -579,26 +579,26 @@ Present
 
 2013
 :   Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
-    School of Aquatic and Fishery Sciences, University of
-    Washington (audited).
+    School of Aquatic and Fishery Sciences, University of Washington
+    (audited).
 
 2013
 :   Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E. Ward;
-    School of Aquatic and Fishery Sciences, University of
-    Washington (audited).
+    School of Aquatic and Fishery Sciences, University of Washington
+    (audited).
 
 2012
 :   Numerical Computing for the Natural Resources. A.E. Punt, School of
     Aquatic and Fishery Sciences, University of Washington (audited).
 
 2012
-:   Risk Assessment and Decision Analysis for Management of
-    Natural Resources. R.M. Peterman, School of Resource and
-    Environmental Management, Simon Fraser University.
+:   Risk Assessment and Decision Analysis for Management of Natural
+    Resources. R.M. Peterman, School of Resource and Environmental
+    Management, Simon Fraser University.
 
 2011
-:   Presenting Data and Information. Edward Tufte, Seattle, WA,
-    United States.
+:   Presenting Data and Information. Edward Tufte, Seattle, WA, United
+    States.
 
 2009
 :   Technical Expertise in Stock Assessment: Model Fitting and

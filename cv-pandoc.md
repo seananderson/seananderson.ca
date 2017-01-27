@@ -6,7 +6,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2015--16
+2015--17
 :    David H. Smith Conservation Research Fellow, 
      School of Aquatic and Fishery Sciences, 
      University of Washington and 
@@ -49,6 +49,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 
 # Publications
+
+2016
+:    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
+     events in animal populations. Proceedings of the National Academy of
+     Sciences. In press.
 
 2016
 :    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press.
