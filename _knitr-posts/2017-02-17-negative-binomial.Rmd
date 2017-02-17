@@ -1,0 +1,107 @@
+---
+layout: post
+title: 
+subtitle: 
+published: false
+---
+
+> A group of us [...] are in a "Bayesian club" and trying to use our collective
+> intelligence to learn more about Bayesian modelling. [...] Today we decided to
+> overview probability distributions [...] identifying the different main
+> distribution types and how they are parameterized. It all went pretty good and
+> we were all pretty clear on things... until we got to the negative binomial
+> distribution. The bit of research/reading and googling that we had done
+> suggested this is a notoriously nebulous distribution in that there are
+> multiple ways it can be parameterized? [...]
+
+There certainly are a lot of ways to parameterize the negative binomial. I've
+seen claims of up to 7 parameterizations. Not only are there different ways to
+parameterize it but there are at least 2 different versions of the negative
+binomial distribution itself. One where the variance scales quadratically with
+the mean and another where it scales linearly. By far the most common in
+ecology is the version where the variance scales quadratically with the mean.
+This is often referred to as the NB2 in negative binomial. I think that name
+was coined in this book:
+https://books.google.com/books/about/Negative_Binomial_Regression.html?id=DDxEGQuqkJoC
+
+The other version where the variance and mean scale linearly is sometimes
+called NB1. In general, I wouldn't worry too much about this besides being able
+to describe the version of the distribution that you have used. I'd focus on
+the NB2.
+
+As with any distribution, you need to read the manual or help files if you are
+using a probability density function written by someone else. A common
+parameterization in ecology is one that is parameterized in terms of a mean and
+a dispersion parameter, sometimes called phi, theta, or size.
+
+In that case, you have NB2(mu, phi), and the mean and the variance at a given
+mean value are:
+mean = mu
+variance = mu + (mu^2)/phi
+
+So as phi becomes large the variance approaches the mean and the distribution
+approaches the Poisson distribution.
+
+This is how MASS::rnegbin is parameterized. Although they call the dispersion
+parameter theta.
+
+stats::dnbinom() can also be parameterized this way. Although they call the
+dispersion parameter size.
+
+This is also how the negative binomial is parameterized in glmmTMB and
+glmmADMB.
+
+And this is one of the ways it is parameterized in Stan:
+neg_binomial_2(mu, phi)
+
+Note that sometimes the distribution is parameterized as:
+variance = mu + (mu^2) * phi
+
+In which case, phi has simply been inverted so that as phi become small, the
+variance approaches the mean and the distribution approaches the Poisson
+distribution.
+
+It's been a while since I worked in JAGS/BUGS, but after a quick look it seems
+like JAGS is parameterized with 2 parameters we will call p and r. Then:
+dnegbin(p, r)
+mean = r(1-p)/p
+variance = r(1-p)/p^2
+
+Simple, right? :)  This matches the stats::dnbinom distribution if you use the
+size and prob arguments... except that the order of the 2 parameters is
+reversed. They wouldn't want to make it too easy after all. Details here:
+https://journal.r-project.org/archive/2013-1/lebauer-dietze-bolker.pdf
+
+Now if you want to write a GLM or GLMM yourself, you'll be working with a log
+link and then exponentiating before passing the values to the density function.
+
+I think, based on a bit of Googling, you could fit a model in JAGS with
+something like this:
+
+mu[i] <- b0 + b1 * x1[i] ...
+lambda[i] <- exp(mu[i])
+p[i] <- r/(r+lambda[i])
+y[i] ~ dnegbin(p[i],r)
+
+Then,
+mean = lambda
+variance = lambda + (lambda^2)/r
+
+Stan has a built in parameterization on the log scale so that you can avoid the
+exponentiating. This is a bit faster, cleaner, and less likely to run into
+numerical issues with big or small numbers:
+
+mu = b0 + b1 * x1...
+y ~ neg_binomial_2_log(mu, phi)
+
+If you're interested in fitting negative binomial GLMs and GLMMs in Stan,
+I wrote these examples a couple years ago:
+https://github.com/seananderson/negbin-stan/blob/master/negbin-glm.md
+
+(You can also now fit these easily with the rstanarm package.)
+
+As with any model you write yourself, it's important to check your model by
+either comparing it with some other version that you trust from a different
+package or software or by simulating some data and recovering the true values
+with your model (as I was doing in the above link). This is especially so if
+you're unsure about the the parameterization of a distribution.
