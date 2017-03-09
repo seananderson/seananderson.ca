@@ -50,13 +50,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Publications
 
-2016
+2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
      events in animal populations. Proceedings of the National Academy of
-     Sciences. In press.
+     Sciences. In press. <http://doi.org/10.1073/pnas.1611525114> (Open access).
 
-2016
-:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press.
+2017
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press. <http://doi.org/10.1111/faf.12200>.
 
 2016
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>
