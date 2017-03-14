@@ -56,8 +56,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      K.J.W. Hyde, E. Jardim, O.P. Jensen, T. Kristiansen, C. Longo, C.V.
      Minte-Vera, C. Minto, I. Mosqueira, G.C. Osio, D. Ovando, E.R. Selig, J.T.
      Thorson, J.C. Walsh, Y. Ye. Applying a new ensemble approach to estimating
-     stock status of marine fisheries around the world. In press at
-     Conservation Letters.
+     stock status of marine fisheries around the world. Conservation Letters.
+     In press.
 
 2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
