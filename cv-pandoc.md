@@ -146,6 +146,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Awards and scholarships
 
+2017
+:    Canadian Society for Ecology and Evolution (CSEE) Early Career Award 
+     ([URL](http://csee-scee.ca/?p=5183))
+
 2015
 :    David H. Smith Conservation Postdoctoral Research Fellowship
      ([URL](http://conbio.org/mini-sites/smith-fellows/meet-the-fellows/2015-fellows/sean-anderson))
