@@ -6,23 +6,28 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
+2017--present
+:    Aquatic Science Biologist, Offshore Section, Aquatic Resource Research and
+     Assessment Division, Pacific Biological Station, Fisheries and Oceans Canada,
+     Nanaimo, BC, Canada
+
 2015--17
 :    David H. Smith Conservation Research Fellow, 
      School of Aquatic and Fishery Sciences, 
      University of Washington and 
-     Northwest Fisheries Science Center, Seattle, USA
+     Northwest Fisheries Science Center, Seattle, WA, USA
 
 2015
 :    Postdoctoral Fellow, School of Resource and Environmental Management,
-     Simon Fraser University, Burnaby, Canada
+     Simon Fraser University, Burnaby, BC, Canada
 
 2011--15
 :    Graduate Research Assistant, Department of Biological Sciences,
-     Simon Fraser University, Burnaby, Canada
+     Simon Fraser University, Burnaby, BC, Canada
 
 2008--11
 :    Graduate Research Assistant, Department of Biology,
-     Dalhousie University, Halifax, Canada
+     Dalhousie University, Halifax, NS, Canada
 
 # Education
 
@@ -62,13 +67,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
      events in animal populations. Proceedings of the National Academy of
-     Sciences. In press. <http://doi.org/10.1073/pnas.1611525114> (Open access).
+     Sciences. 114(12): 3252–-3257. <http://doi.org/10.1073/pnas.1611525114>
+     (Open access).
 
 2017
 :    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press. <http://doi.org/10.1111/faf.12200>.
 
 2016
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>.
 
 2016
 :    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet, C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife interactions on land. Scientific Reports. 6: 25936. <http://doi.org/10.1038/srep25936> ([PDF](http://www.nature.com/articles/srep25936.pdf)).
@@ -191,6 +197,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Software
 
+2017
+:    rrfields: Robust random fields for spatiotemporal modelling.
+     <https://github.com/seananderson/rrfields>
+
+2017
+:    datalimited: Stock assessment methods for data-limited fisheries.
+     <https://github.com/datalimited/datalimited>
+
 2014
 :    **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B. Cooper.\
      metafolio: Metapopulation simulations for conserving salmon
@@ -210,6 +224,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
+
+2017
+:    **Anderson, S.C.** Data-driven approaches to quantifying population status
+     and extremes. Early Career Award keynote lecture at the Canadian Society
+     for Ecology and Evolution (CSEE), Victoria, BC, Canada.
 
 2016
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
@@ -277,6 +296,16 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 
 # Teaching
+
+2017
+:    Half-day workshop on generalized linear modeling in R for the David H.
+     Smith Conservation Postdoctoral Research Fellows.
+     <https://github.com/seananderson/glmm-course>
+
+2017
+:    One-day workshop on linear mixed-effects modeling in R for the David H.
+     Smith Conservation Postdoctoral Research Fellows.
+     <https://github.com/seananderson/glmm-course>
 
 2016
 :    Two two-day (14 hour) workshops on advanced generalized linear mixed-effects
@@ -407,8 +436,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 Present
 :    Proficient in statistical analyses and data management using R,
-     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB. Familiar with 
-     ADMB, PostgreSQL.
+     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB, SQL. Familiar with 
+     ADMB.
 
 2016
 :    Diversity in Conservation Biology,
@@ -443,16 +472,10 @@ Present
 2011
 :    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
 
-2009
-:    Technical Expertise in Stock Assessment: Model Fitting and Interpretation.
-     C. Needle, chair of the International Council for the Exploration
-     of the Sea working group on methods of fish stock assessment, Dalhousie
-     University.
-
 # Reviews
 
 Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
-Fish and Fisheries, Marine Policy, Population Ecology,
+Fish and Fisheries, Marine Policy, Population Ecology, Journal of Applied Ecology,
 International Journal of Tropical Biology and Conservation,
 Journal of Environmental Management, Endangered Species Research, Aquatic
 Conservation
