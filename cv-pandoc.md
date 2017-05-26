@@ -225,7 +225,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Invited talks and conference presentations
 
-
 2017
 :    **Anderson, S.C.** Data-driven approaches to quantifying population status
      and extremes. Early Career Award keynote lecture at the Canadian Society
