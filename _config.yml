@@ -1,7 +1,5 @@
-    destination: ./_site
     lsi:         false
-    port:        4000
-    highlighter:  'rouge'
+    highlighter:  rouge
     permalink:   date
     name: Sean Anderson
     description: seananderson.ca
