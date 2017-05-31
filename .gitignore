@@ -23,3 +23,5 @@ papers.md
 *.espressostorage
 
 cv-body.md
+
+*.lock
