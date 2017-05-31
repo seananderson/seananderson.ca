@@ -6,7 +6,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2017--present
+2017
 :    Aquatic Science Biologist, Offshore Section, Aquatic Resource Research and
      Assessment Division, Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
