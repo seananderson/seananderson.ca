@@ -3,7 +3,7 @@ layout: default
 title: seananderson.ca
 ---
 
-I am a biologist at the Pacific Biological Station with
+I am a biologist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
 Fisheries and Oceans Canada in Nanaimo, British Columbia. 
 Until recently, I was a [David H. Smith Conservation Research
 Fellow][smith] at the [University of Washington][safs] and [Northwest
