@@ -67,7 +67,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
      events in animal populations. Proceedings of the National Academy of
-     Sciences. 114(12): 3252–-3257. <http://doi.org/10.1073/pnas.1611525114>
+     Sciences. 114(12): 3252–3257. <http://doi.org/10.1073/pnas.1611525114>
      (Open access).
 
 2017
