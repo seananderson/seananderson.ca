@@ -3,9 +3,12 @@ layout: default
 title: seananderson.ca
 ---
 
-I'm a [David H. Smith Conservation Research
+I am a biologist at the Pacific Biological Station with
+Fisheries and Oceans Canada in Nanaimo, British Columbia. 
+Until recently, I was a [David H. Smith Conservation Research
 Fellow][smith] at the [University of Washington][safs] and [Northwest
-Fisheries Science Center][nwfsc] in Seattle, Washington. I believe that the thoughtful visual display
+Fisheries Science Center][nwfsc] in Seattle, Washington. 
+I believe that the thoughtful visual display
 of data and statistical models can powerfully inform conservation ecology and
 help us understand the ecological risks associated with human activities.
 
@@ -27,10 +30,11 @@ periods (modern, historical, paleontological).
 
 I [teach workshops](/cv.html#teaching) on data visualization and manipulation
 for scientists. I also develop a number of R packages. With collaborators, I'm
-developing packages to run fisheries stock assessment simulations with 
-[Stock Synthesis][nefsc] software ([ss3sim]), measure ecological portfolio
-effects ([ecofolio]), and simulate salmon metapopulation portfolios
-([metafolio]).
+developing packages to run fisheries stock assessment simulations with [Stock
+Synthesis][nefsc] software ([ss3sim]), fit Bayesian spatiotemporal models that
+allow for extremes ([rrfields](https://github.com/seananderson/rrfields)), and
+fit stock assessment models to data-limited fisheries
+([datalimited](https://github.com/datalimited/datalimited)).
 
 [earth2ocean]: http://earth2ocean.org
 [gg]: http://www.gg.ca/honour.aspx?id=75057&t=1&;ln=Anderson
