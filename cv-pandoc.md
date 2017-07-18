@@ -7,14 +7,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Professional experience
 
 2017
-:    Aquatic Science Biologist, Offshore Section, Aquatic Resource Research and
-     Assessment Division, Pacific Biological Station, Fisheries and Oceans Canada,
-     Nanaimo, BC, Canada
+:    Aquatic Science Biologist and Program Head in Spatial Stock Assessment,
+     Offshore Section, Aquatic Resource Research and Assessment Division, Pacific
+     Biological Station, Fisheries and Oceans Canada, Nanaimo, BC, Canada
 
 2015--17
-:    David H. Smith Conservation Research Fellow, 
-     School of Aquatic and Fishery Sciences, 
-     University of Washington and 
+:    David H. Smith Conservation Research Fellow,
+     School of Aquatic and Fishery Sciences,
+     University of Washington and
      Northwest Fisheries Science Center, Seattle, WA, USA
 
 2015
@@ -56,13 +56,28 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2017
+:    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
+     resilience of a seagrass system exposed to multiple stressors. Global
+     Change Biology. In press.
+
+2017
+:    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
+     the impact of media on demand for wildlife: a case study of Harry Potter
+     and the UK trade in owls. PLOS ONE. In press.
+
+2017
+:    Chezik, K.A., **S.C. Anderson**, J.W. Moore. River networks dampen
+     long-term hydrological signals of climate change. Geophysical Research
+     Letters. In press. <http://doi.org/10.1002/2017GL074376>
+
+2017
 :    Rosenberg, A.A., K.M. Kleisner, J. Afflerbach, **S.C. Anderson**, M.
      Dickey-Collas, A.B. Cooper, M.J. Fogarty, E.A. Fulton, N.L. Gutiérrez,
      K.J.W. Hyde, E. Jardim, O.P. Jensen, T. Kristiansen, C. Longo, C.V.
      Minte-Vera, C. Minto, I. Mosqueira, G.C. Osio, D. Ovando, E.R. Selig, J.T.
      Thorson, J.C. Walsh, Y. Ye. Applying a new ensemble approach to estimating
      stock status of marine fisheries around the world. Conservation Letters.
-     In press.
+     In press. <http://doi.org/10.1111/conl.12363>
 
 2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
@@ -71,16 +86,33 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      (Open access).
 
 2017
-:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C. Walsh, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C. Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving estimates of population status and trend with superensemble models. Fish and Fisheries. In press. <http://doi.org/10.1111/faf.12200>.
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
+     Walsh, J. Afflerbach, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C.
+     Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving
+     estimates of population status and trend with superensemble models. Fish
+     and Fisheries. 18(4): 732--741. <http://doi.org/10.1111/faf.12200>
 
 2016
-:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of inverted biomass pyramids in kelp forest fish communities. Proceedings of the Royal Society B: Biological Sciences. 283: 20160816. <http://doi.org/10.1098/rspb.2016.0816>.
+:    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of
+     inverted biomass pyramids in kelp forest fish communities. Proceedings of the
+     Royal Society B: Biological Sciences. 283: 20160816.
+     <http://doi.org/10.1098/rspb.2016.0816>.
 
 2016
-:    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet, C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife interactions on land. Scientific Reports. 6: 25936. <http://doi.org/10.1038/srep25936> ([PDF](http://www.nature.com/articles/srep25936.pdf)).
+:    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet,
+     C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife
+     interactions on land. Scientific Reports. 6: 25936.
+     <http://doi.org/10.1038/srep25936>
+     ([PDF](http://www.nature.com/articles/srep25936.pdf)).
 
 2016
-:    Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor, R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B. Rudd, C.C. Stawitz, J.L. Valero. An empirical weight-at-age approach reduces estimation bias compared to modeling parametric growth in integrated, statistical stock assessment models when growth is time varying. Fisheries Research. 180: 119--127. <http://doi.org/10.1016/j.fishres.2015.09.007> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
+:    Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor, R.R.
+     Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B. Rudd, C.C.
+     Stawitz, J.L. Valero. An empirical weight-at-age approach reduces
+     estimation bias compared to modeling parametric growth in integrated,
+     statistical stock assessment models when growth is time varying. Fisheries
+     Research. 180: 119--127. <http://doi.org/10.1016/j.fishres.2015.09.007>
+     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
 
 2016
 :    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <http://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Monnahan_etal_2016_binwidth.pdf)).
@@ -153,7 +185,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Awards and scholarships
 
 2017
-:    Canadian Society for Ecology and Evolution (CSEE) Early Career Award 
+:    Canadian Society for Ecology and Evolution (CSEE) Early Career Award
      ([URL](http://csee-scee.ca/?p=5183))
 
 2015
@@ -161,7 +193,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      ([URL](http://conbio.org/mini-sites/smith-fellows/meet-the-fellows/2015-fellows/sean-anderson))
 
 2015
-:    Simon Fraser University Dean of Graduate Studies Convocation Medal 
+:    Simon Fraser University Dean of Graduate Studies Convocation Medal
      ([URL](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html))
 
 2014
@@ -383,7 +415,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Assessment Database](http://ramlegacy.org/) for R. Hilborn
 
 2010
-:    Assessment of Arctic surfclam on Banquereau Bank using 
+:    Assessment of Arctic surfclam on Banquereau Bank using
      industry-collected data for Clearwater Seafoods, Bedford, NS, Canada.
 
 2010
@@ -436,7 +468,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 Present
 :    Proficient in statistical analyses and data management using R,
-     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB, SQL. Familiar with 
+     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB, SQL. Familiar with
      ADMB.
 
 2016
@@ -446,7 +478,7 @@ Present
      Center for Advancing Science & Engineering Capacity
 
 2015--16
-:    Powerful Presentation Skills and Media Training 
+:    Powerful Presentation Skills and Media Training
      with Teresa Erickson and Tim Ward of Intermedia Communications,
      authors of [*The Master Communicator's Handbook*](https://www.amazon.com/Master-Communicators-Handbook-Teresa-Erickson/dp/1785351532)
 

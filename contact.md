@@ -5,6 +5,6 @@ title: Contact
 
 # Contact
 
-E-mail: sean<span style="display:none">ignorethis</span>@seananderson.ca / sandrsn<span style="display:none">ignorethis</span>@uw.edu
+E-mail: sean<span style="display:none">ignorethis</span>@seananderson.ca (personal) / sean.anderson<span style="display:none">ignorethis</span>@dfo-mpo.gc.ca (work)
 
 Twitter: [sean_anderson](https://twitter.com/sean_anderson)
