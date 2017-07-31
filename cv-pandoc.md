@@ -58,7 +58,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2017
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
      resilience of a seagrass system exposed to multiple stressors. Global
-     Change Biology. In press.
+     Change Biology. In press. <http://doi.org/10.1111/gcb.13854>
 
 2017
 :    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
