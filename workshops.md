@@ -3,6 +3,21 @@ layout: default
 title: Workshops
 ---
 
+# Teaching
+
+I give workshops in R on data visualization, data manipulation, and statistical
+modelling. Some of my recent workshop material is available on
+[GitHub](https://github.com/seananderson/glmm-course).
+
+Some testimonials from recent courses:
+
+> I found Sean to be incredibly knowledgeable about statistical models and their
+> application to ecological questions using R. Moreover, Sean is up-to-date with
+> the most current, "cutting edge" techniques and tools in the field. Lastly,
+> I found Sean to be a friendly, funny, open and approachable instructor
+> --- personality traits that are absolutely essential to effectively convey
+> information to students in a supportive, non-threatening environment.
+
 > Sean is the most patient and thoughtful instructor I've ever had. He is willing
 > to spend extra time to ensure the participants understand the concepts. He uses
 > examples that are relevant to the participants and the R files are very
@@ -22,9 +37,3 @@ title: Workshops
 > understand for years. In just a few sentences he makes the concept seem so
 > simple. Many light-bulb moments!
 
-> I found Sean to be incredibly knowledgeable about statistical models and their
-> application to ecological questions using R. Moreover, Sean is up-to-date with
-> the most current, "cutting edge" techniques and tools in the field. Lastly,
-> I found Sean to be a friendly, funny, open and approachable instructor
-> --- personality traits that are absolutely essential to effectively convey
-> information to students in a supportive, non-threatening environment.

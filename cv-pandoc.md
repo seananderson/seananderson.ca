@@ -59,7 +59,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H. Beaudreau,
      R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson, B.C. Williams.
      Benefits and risks of diversification for individual fishers. In press
-     at Proceedings of the National Academy of Sciences.
+     at Proceedings of the National Academy of Sciences. <http://doi.org/10.1073/pnas.1702506114>
 
 2017
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
