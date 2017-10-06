@@ -120,8 +120,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Research. 180: 119--127. <https://doi.org/10.1016/j.fishres.2015.09.007>
      ([PDF](https://sean.updog.co/papers/Kuriyama_etal_2016_empirical.pdf)).
 
-     ;drop
-
 2016
 :    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <https://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://sean.updog.co/papers/Monnahan_etal_2016_binwidth.pdf)).
 

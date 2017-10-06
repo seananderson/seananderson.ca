@@ -128,7 +128,6 @@ Publications
     ([PDF](http://www.nature.com/articles/srep25936.pdf)).
 
 2016
-
 :   Kuriyama, P.T., K. Ono, F. Hurtado-Ferro, A.C. Hicks, I.G. Taylor,
     R.R. Licandeo, K.F. Johnson, **S.C. Anderson**, C.C. Monnahan, M.B.
     Rudd, C.C. Stawitz, J.L. Valero. An empirical weight-at-age approach
@@ -137,8 +136,6 @@ Publications
     varying. Fisheries Research. 180: 119--127.
     <https://doi.org/10.1016/j.fishres.2015.09.007>
     ([PDF](https://sean.updog.co/papers/Kuriyama_etal_2016_empirical.pdf)).
-
-    ;drop
 
 2016
 :   Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F.
