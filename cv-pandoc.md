@@ -59,22 +59,22 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H. Beaudreau,
      R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson, B.C. Williams.
      Benefits and risks of diversification for individual fishers. In press
-     at Proceedings of the National Academy of Sciences. <http://doi.org/10.1073/pnas.1702506114>
+     at Proceedings of the National Academy of Sciences. <https://doi.org/10.1073/pnas.1702506114> (Open access).
 
 2017
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
      resilience of a seagrass system exposed to multiple stressors. Global
-     Change Biology. In press. <http://doi.org/10.1111/gcb.13854>
+     Change Biology. In press. <https://doi.org/10.1111/gcb.13854>
 
 2017
 :    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
      the impact of media on demand for wildlife: a case study of Harry Potter
-     and the UK trade in owls. PLOS ONE. In press.
+     and the UK trade in owls. PLoS ONE. 12(10): e0182368. <https://doi.org/10.1371/journal.pone.0182368> (Open access).
 
 2017
 :    Chezik, K.A., **S.C. Anderson**, J.W. Moore. River networks dampen
      long-term hydrological signals of climate change. Geophysical Research
-     Letters. In press. <http://doi.org/10.1002/2017GL074376>
+     Letters. 44(14):7256–7264. <https://doi.org/10.1002/2017GL074376>
 
 2017
 :    Rosenberg, A.A., K.M. Kleisner, J. Afflerbach, **S.C. Anderson**, M.
@@ -83,12 +83,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Minte-Vera, C. Minto, I. Mosqueira, G.C. Osio, D. Ovando, E.R. Selig, J.T.
      Thorson, J.C. Walsh, Y. Ye. Applying a new ensemble approach to estimating
      stock status of marine fisheries around the world. Conservation Letters.
-     In press. <http://doi.org/10.1111/conl.12363>
+     In press. <https://doi.org/10.1111/conl.12363>
 
 2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Black-swan
      events in animal populations. Proceedings of the National Academy of
-     Sciences. 114(12): 3252–3257. <http://doi.org/10.1073/pnas.1611525114>
+     Sciences. 114(12): 3252–3257. <https://doi.org/10.1073/pnas.1611525114>
      (Open access).
 
 2017
@@ -96,19 +96,19 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Walsh, J. Afflerbach, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C.
      Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig. Improving
      estimates of population status and trend with superensemble models. Fish
-     and Fisheries. 18(4): 732--741. <http://doi.org/10.1111/faf.12200>
+     and Fisheries. 18(4): 732--741. <https://doi.org/10.1111/faf.12200>
 
 2016
 :    Trebilco, R., N.K. Dulvy, **S.C. Anderson**, A.K. Salomon. The paradox of
      inverted biomass pyramids in kelp forest fish communities. Proceedings of the
      Royal Society B: Biological Sciences. 283: 20160816.
-     <http://doi.org/10.1098/rspb.2016.0816>.
+     <https://doi.org/10.1098/rspb.2016.0816>.
 
 2016
 :    Artelle, K.A., **S.C. Anderson**, J.D. Reynolds, A.B. Cooper, P.C. Paquet,
      C.T. Darimont. Ecology of conflict: marine food supply affects human-wildlife
      interactions on land. Scientific Reports. 6: 25936.
-     <http://doi.org/10.1038/srep25936>
+     <https://doi.org/10.1038/srep25936>
      ([PDF](http://www.nature.com/articles/srep25936.pdf)).
 
 2016
@@ -117,76 +117,78 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Stawitz, J.L. Valero. An empirical weight-at-age approach reduces
      estimation bias compared to modeling parametric growth in integrated,
      statistical stock assessment models when growth is time varying. Fisheries
-     Research. 180: 119--127. <http://doi.org/10.1016/j.fishres.2015.09.007>
-     ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Kuriyama_etal_2016_empirical.pdf)).
+     Research. 180: 119--127. <https://doi.org/10.1016/j.fishres.2015.09.007>
+     ([PDF](https://sean.updog.co/papers/Kuriyama_etal_2016_empirical.pdf)).
+
+     ;drop
 
 2016
-:    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <http://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Monnahan_etal_2016_binwidth.pdf)).
+:    Monnahan, C.C., K. Ono, **S.C. Anderson**, M.B. Rudd, A.C. Hicks, F. Hurtado-Ferro, K.F. Johnson, P.T. Kuriyama, R.R. Licandeo, C.C. Stawitz, I.G. Taylor, J.L. Valero. The effect of length bin width on growth estimation in integrated age-structured stock assessments. Fisheries Research. 180: 103--112. <https://doi.org/10.1016/j.fishres.2015.11.002> ([PDF](https://sean.updog.co/papers/Monnahan_etal_2016_binwidth.pdf)).
 
 2015
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Journal of Animal Ecology. 84(3): 840--850. <http://doi.org/10.1111/1365-2656.12322> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Boudreau_etal_2015_lobster.pdf)).
+:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down and bottom-up forces interact at thermal range extremes on American lobster. Journal of Animal Ecology. 84(3): 840--850. <https://doi.org/10.1111/1365-2656.12322> ([PDF](https://sean.updog.co/papers/Boudreau_etal_2015_lobster.pdf)).
 
 2015
-:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 25(2): 559--572. <http://doi.org/10.1890/14-0266.1> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2015_salmonportfolios.pdf)).
+:    **Anderson, S.C.**, J.W. Moore, M.M. McClure, N.K. Dulvy, A.B. Cooper. Portfolio conservation of metapopulations under climate change. Ecological Applications. 25(2): 559--572. <https://doi.org/10.1890/14-0266.1> ([PDF](https://sean.updog.co/papers/Anderson_etal_2015_salmonportfolios.pdf)).
 
 2015
-:    Orzechowski, E.A., R. Lockwood, J.E.K. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. Global Change Biology. 21(10): 3595--3607. <http://doi.org/10.1111/gcb.12963> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Orzechowski_etal_2015_paleometa.pdf)).
+:    Orzechowski, E.A., R. Lockwood, J.E.K. Byrnes, **S.C. Anderson**, S. Finnegan, Z.V. Finkel, P.G. Harnik, D.R. Lindberg, L.H. Liow, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Marine extinction risk shaped by trait-environment interactions over 500 million years. Global Change Biology. 21(10): 3595--3607. <https://doi.org/10.1111/gcb.12963> ([PDF](https://sean.updog.co/papers/Orzechowski_etal_2015_paleometa.pdf)).
 
 2015
-:    Finnegan, S.\*, **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. Science. 348(6234): 567--570. <http://doi.org/10.1126/science.aaa6635> (*\*Authors contributed equally*).
+:    Finnegan, S.\*, **S.C. Anderson**\*, P.G. Harnik\*, C. Simpson, D.P. Tittensor, J.E. Byrnes, Z.V. Finkel, D.R. Lindberg, L.H. Liow, R. Lockwood, H.K. Lotze, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi. Paleontological baselines for evaluating extinction risk in the modern oceans. Science. 348(6234): 567--570. <https://doi.org/10.1126/science.aaa6635> (*\*Authors contributed equally*).
 
 2015
-:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Sciences. 72(1): 99--110. <http://doi.org/10.1093/icesjms/fsu198> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Hurtado-Ferro_etal_2014_retrospective.pdf)).
+:    Hurtado-Ferro, F., C.S. Szuwalski, J.L. Valero, **S.C. Anderson**, C.J. Cunningham, K.F. Johnson, R.R. Licandeo, C.R. McGilliard, C.C. Monnahan, M.L. Muradian, K. Ono, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. Looking in the rear-view mirror: bias and retrospective patterns in integrated, age-structured stock assessment models. ICES Journal of Marine Sciences. 72(1): 99--110. <https://doi.org/10.1093/icesjms/fsu198> ([PDF](https://sean.updog.co/papers/Hurtado-Ferro_etal_2014_retrospective.pdf)).
 
 2015
-:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <http://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
+:    Johnson, K.F., C.C. Monnahan, C.R. McGilliard, K.A. Vert-pre, **S.C. Anderson**, C.J. Cunningham, F. Hurtado-Ferro, R.R. Licandeo, M.L. Muradian, K. Ono, C.S. Szuwalski, J.L. Valero, A.R. Whitten, A.E. Punt. Time-varying natural mortality in fisheries stock assessment models: identifying a default approach. ICES Journal of Marine Science. 72(1): 137--150. <https://doi.org/10.1093/icesjms/fsu055> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/04/09/icesjms.fsu055.full.pdf?keytype=ref&ijkey=NEXmZIkz3289u3z)).
 
 2015
-:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical age-structured models for marine species. ICES Journal of Marine Science. 72(1): 31--43. <http://doi.org/10.1093/icesjms/fsu007> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/02/20/icesjms.fsu007.full.pdf)).
+:    Ono, K., R. Licandeo, M.L. Muradian, C.J. Cunningham, **S.C. Anderson**, F. Hurtado-Ferro, K.F. Johnson, C.R. McGilliard, C.C. Monnahan, C.S. Szuwalski, J.L. Valero, K.A. Vert-Pre, A.R. Whitten, A.E. Punt. The importance of length and age composition data in statistical age-structured models for marine species. ICES Journal of Marine Science. 72(1): 31--43. <https://doi.org/10.1093/icesjms/fsu007> ([PDF](http://icesjms.oxfordjournals.org/content/early/2014/02/20/icesjms.fsu007.full.pdf)).
 
 2014
-:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <http://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
+:    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <https://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
 
 2014
-:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLOS ONE. 9(4): e92725. <http://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim), [vignette](https://dl.dropboxusercontent.com/u/254940/ss3sim-vignette.pdf)).
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLoS ONE. 9(4): e92725. <https://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim), [vignette](https://sean.updog.co/ss3sim-vignette.pdf)).
 
 2014
-:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <http://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)).
+:    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <https://doi.org/10.1890/13-0916.1> ([PDF](http://www.esajournals.org/doi/pdf/10.1890/13-0916.1)).
      <a href="http://f1000.com/prime/http://f1000.com/prime/718158688?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2013
-:    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <http://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
+:    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <https://doi.org/10.4033/iee.2013.6.9.n> ([PDF](http://library.queensu.ca/ojs/index.php/IEE/article/download/4931/4899)).
 
 2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <http://doi.org/10.1111/2041-210X.12093> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf), [GitHub R package](https://github.com/seananderson/ecofolio)).
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Ecological prophets: Quantifying metapopulation portfolio effects. Methods in Ecology and Evolution. 4(10): 971--981. <https://doi.org/10.1111/2041-210X.12093> ([PDF](https://sean.updog.co/papers/Anderson_etal_2013_ecological_prophets_with_SOM.pdf), [GitHub R package](https://github.com/seananderson/ecofolio)).
 
 2013
-:    Artelle, K.A., **S.C. Anderson**, A.B. Cooper, P.C. Paquet, J.D. Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management: performance of grizzly bear management. PLOS ONE. 8(11): e78041. <http://doi.org/10.1371/journal.pone.0078041> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0078041&representation=PDF)).
+:    Artelle, K.A., **S.C. Anderson**, A.B. Cooper, P.C. Paquet, J.D. Reynolds, C.T. Darimont. Confronting uncertainty in wildlife management: performance of grizzly bear management. PLoS ONE. 8(11): e78041. <https://doi.org/10.1371/journal.pone.0078041> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0078041&representation=PDF)).
 
 2013
-:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <http://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf), [GitHub repository](https://github.com/seananderson/conservation_pathways)). (\*Authors contributed equally, listed in reverse alphabetical order).
+:    Phillis\*, C.C., S.M. O'Regan\*, S.J. Green\*, J.E. Bruce\*, **S.C. Anderson**, J.N. Linton, Earth2Ocean Research Derby, B. Favaro. Multiple pathways to conservation success. Conservation Letters. 6(2): 98--106. <https://doi.org/10.1111/j.1755-263X.2012.00294.x> ([PDF](https://sean.updog.co/papers/Phillis_etal_2012_Multiple_pathways_to_conservation_success.pdf), [GitHub repository](https://github.com/seananderson/conservation_pathways)). (\*Authors contributed equally, listed in reverse alphabetical order).
 
 2012
-:    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient and modern seas. Trends in Ecology and Evolution. 27(11): 608--617. <http://doi.org/10.1016/j.tree.2012.07.010> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
+:    Harnik, P.G., H.K. Lotze, **S.C. Anderson**, Z.V. Finkel, S. Finnegan, D.R. Lindberg, L.H. Liow, R. Lockwood, C.R. McClain, J.L. McGuire, A. O'Dea, J.M. Pandolfi, C. Simpson, D.P. Tittensor. Extinctions in ancient and modern seas. Trends in Ecology and Evolution. 27(11): 608--617. <https://doi.org/10.1016/j.tree.2012.07.010> ([PDF](https://sean.updog.co/papers/Harnik_etal_2012_Extinctions_in_ancient_and_modern_seas.pdf)).
 
 2012
-:    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global marine fishery status with a revised dynamic catch-based method and stock-assessment reference points. ICES Journal of Marine Science. 69(8): 1491--1500. <http://doi.org/10.1093/icesjms/fss105> ([PDF](http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref)).
+:    **Anderson, S.C.**, T.A. Branch, D. Ricard, H.K. Lotze. Assessing global marine fishery status with a revised dynamic catch-based method and stock-assessment reference points. ICES Journal of Marine Science. 69(8): 1491--1500. <https://doi.org/10.1093/icesjms/fss105> ([PDF](http://icesjms.oxfordjournals.org/cgi/reprint/fss105?ijkey=pFRzMGEDycomI3X&keytype=ref)).
 
 2011
-:    **Anderson, S.C.**, R.G. Farmer, F. Ferretti, A.L.S. Houde, J.A. Hutchings. Correlates of vertebrate extinction risk in Canada. BioScience. 61(7): 538--549. <http://doi.org/10.1525/bio.2011.61.7.8> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_BioScience_with_supplement.pdf)).
+:    **Anderson, S.C.**, R.G. Farmer, F. Ferretti, A.L.S. Houde, J.A. Hutchings. Correlates of vertebrate extinction risk in Canada. BioScience. 61(7): 538--549. <https://doi.org/10.1525/bio.2011.61.7.8> ([PDF](https://sean.updog.co/papers/Anderson_etal_2011_BioScience_with_supplement.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <http://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
+:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Serial exploitation of global sea cucumber fisheries. Fish and Fisheries. 12(3): 317--339. <https://doi.org/10.1111/j.1467-2979.2010.00397.x> ([PDF](https://sean.updog.co/papers/Anderson_etal_2011_seacucumbers_with_supplement.pdf)). [Featured in Science](http://www.sciencemag.org/content/331/6014/129.1.full).
 
 2011
-:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down interactions and temperature control of snow crab abundance in the northwest Atlantic Ocean. Marine Ecology Progress Series. 429: 169--183. <http://doi.org/10.3354/meps09081> ([PDF](http://www.int-res.com/articles/meps_oa/m429p169.pdf)).
+:    Boudreau, S.A., **S.C. Anderson**, B. Worm. Top-down interactions and temperature control of snow crab abundance in the northwest Atlantic Ocean. Marine Ecology Progress Series. 429: 169--183. <https://doi.org/10.3354/meps09081> ([PDF](http://www.int-res.com/articles/meps_oa/m429p169.pdf)).
 
 2011
-:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLOS ONE. 6(3): e14735. <http://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
+:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLoS ONE. 6(3): e14735. <https://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
      <a href="http://f1000.com/prime/http://f1000.com/prime/9542957?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <http://doi.org/10.1139/F08-156> ([PDF](https://dl.dropboxusercontent.com/u/254940/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
+:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
 
 # Awards and scholarships
 
@@ -536,7 +538,7 @@ Conservation
 
 [2013 PE safs]: http://seananderson.ca/talks/2013/PE_SAFS_quantsem.pdf
 
-[cv-pdf]: https://dl.dropboxusercontent.com/u/254940/AndersonCV.pdf
+[cv-pdf]: https://sean.updog.co/AndersonCV.pdf
 [cv-md]: AndersonCV.txt
 
 [Governor General award]: http://goo.gl/nA1zE
