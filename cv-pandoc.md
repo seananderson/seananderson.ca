@@ -7,7 +7,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Professional experience
 
 2017
-:    Aquatic Science Biologist and Program Head in Spatial Stock Assessment,
+:    Senior Aquatic Science Biologist and Program Head in Spatial Stock Assessment,
      Offshore Section, Aquatic Resource Research and Assessment Division, Pacific
      Biological Station, Fisheries and Oceans Canada, Nanaimo, BC, Canada
 
@@ -56,6 +56,18 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2017
+:    Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner, M.D. Adkison,
+     A.H. Beaudreau,.T. Watson, J.C. Shriver, A.C. Haynie, B.C. Williams. Effects of
+     increased specialization and hatchery production on revenue variability of
+     Alaskan salmon fishers. In press at Journal of Applied Ecology.
+
+2017
+:    **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H. Beaudreau,
+     R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson, B.C. Williams.
+     Benefits and risks of diversification for individual fishers. In press
+     at Proceedings of the National Academy of Sciences. <https://doi.org/10.1073/pnas.1702506114> (Open access).
+
+2017
 :    **Anderson, S.C.**, T.A. Branch, A.B. Cooper, N.K. Dulvy. Reply to
      Youngflesh and Lynch: Migration and population growth rate in animal black-swan
      events. Proceedings of the National Academy of Sciences. In press at
@@ -70,8 +82,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2017
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
-     resilience of a seagrass system exposed to multiple stressors. Global
-     Change Biology. In press. <https://doi.org/10.1111/gcb.13854>
+     resilience of a seagrass system exposed to multiple stressors. In press at Global
+     Change Biology. <https://doi.org/10.1111/gcb.13854>
 
 2017
 :    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
@@ -193,7 +205,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <a href="https://f1000.com/prime/9542957" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
+:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)).
 
 # Awards and scholarships
 
@@ -243,11 +255,18 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Software
 
 2017
-:    rrfields: Robust random fields for spatiotemporal modelling.
-     <https://github.com/seananderson/rrfields>
+:    E.J. Ward, **Anderson, S.C.** bayesdfa: Bayesian Dynamic Factor Analysis
+     (DFA) with Stan. <https://github.com/fate-ewi/bayesdfa>
 
 2017
-:    datalimited: Stock assessment methods for data-limited fisheries.
+:    **Anderson, S.C.**, E.J. Ward. glmmfields: GLMMs with robust random fields for spatial and spatiotemporal modelling.
+     <https://github.com/seananderson/glmmfields>
+
+2016
+:    **Anderson, S.C.**, A.B. Cooper, O.P. Jensen, C. Minto, J.T. Thorson, J.C.
+     Walsh, J. Afflerbach, M. Dickey-Collas, K.M. Kleisner, C. Longo, G.C.
+     Osio, D. Ovando, I. Mosqueira, A.A. Rosenberg, E.R. Selig.
+     datalimited: Stock Assessment Methods for Data-limited Fisheries.
      <https://github.com/datalimited/datalimited>
 
 2014
@@ -261,7 +280,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Cunningham, F. Hurtado-Ferro, R. Licandeo, C.R. McGilliard, C.S.
      Szuwalski, K.A. Vert-pre, A.R. Whitten. ss3sim: Fisheries stock
      assessment simulation testing with Stock Synthesis.
-     <http://cran.r-project.org/package=ss3sim>
+     <http://cran.r-project.org/package=ss3sim>, <https://github.com/ss3sim/ss3sim>
 
 2013
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. ecofolio: Tools to
@@ -269,6 +288,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
+
+2017
+:    **Anderson, S.C.**, E.J. Ward, A.O. Shelton. Benefits and risks of
+     diversification for individual fishers in Alaska, 1975--2015. NOAA National
+     Ocean Service Science Seminar. Presented remotely to Washington, DC and
+     other NOAA participants.
 
 2017
 :    **Anderson, S.C.** Data-driven approaches to quantifying population status
@@ -338,7 +363,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge
      base for expanding low-trophic level fisheries in Atlantic Canada.
      Departmental Seminar, Biology Department, Dalhousie University, Canada.
-
 
 # Teaching
 
@@ -439,6 +463,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Working groups and workshops
 
+2016–17
+:     NOAA Fisheries and the Environment (FATE) working group
+      *An early-warning index for abrupt change in northeast Pacific ecosystems*.
+
 2015-16
 :    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
      Barbara, CA) *Applying portfolio effects to the Gulf of Alaska ecosystem: Did
@@ -479,11 +507,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Selected courses and training
 
-Present
-:    Proficient in statistical analyses and data management using R,
-     Stan, JAGS, Sweave, knitr, Shiny, LaTeX, Git, TMB, SQL. Familiar with
-     ADMB.
-
 2016
 :    Diversity in Conservation Biology,
      facilitated by Yolanda L. Comedy,
@@ -494,11 +517,6 @@ Present
 :    Powerful Presentation Skills and Media Training
      with Teresa Erickson and Tim Ward of Intermedia Communications,
      authors of [*The Master Communicator's Handbook*](https://www.amazon.com/Master-Communicators-Handbook-Teresa-Erickson/dp/1785351532)
-
-2013
-:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
-     School of Aquatic and Fishery Sciences, University of Washington
-     (audited).
 
 2013
 :    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
@@ -521,6 +539,7 @@ Present
 
 Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
 Fish and Fisheries, Marine Policy, Population Ecology, Journal of Applied Ecology,
+ICES Journal of Marine Science,
 International Journal of Tropical Biology and Conservation,
 Journal of Environmental Management, Endangered Species Research, Aquatic
 Conservation
