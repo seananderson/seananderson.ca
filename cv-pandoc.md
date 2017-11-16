@@ -75,10 +75,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <https://doi.org/10.1073/pnas.1714157114>
 
 2017
+:    Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner, M.D. Adkison,
+     A.H. Beaudreau, J.T. Watson, J.C. Shriver, A.C. Haynie, B.C. Williams.
+     Effects of increased specialization on revenue of Alaskan salmon fishers
+     over four decades. In press at Journal of Applied Ecology.
+
+2017
 :    **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H. Beaudreau,
      R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson, B.C. Williams.
      Benefits and risks of diversification for individual fishers. In press
-     at Proceedings of the National Academy of Sciences. <https://doi.org/10.1073/pnas.1702506114> (Open access).
+     at Proceedings of the National Academy of Sciences.
+     <https://doi.org/10.1073/pnas.1702506114> (Open access).
 
 2017
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
@@ -88,7 +95,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2017
 :    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
      the impact of media on demand for wildlife: a case study of Harry Potter
-     and the UK trade in owls. PLoS ONE. 12(10): e0182368. <https://doi.org/10.1371/journal.pone.0182368> (Open access).
+     and the UK trade in owls. PLoS ONE. 12(10): e0182368.
+     <https://doi.org/10.1371/journal.pone.0182368> (Open access).
 
 2017
 :    Chezik, K.A., **S.C. Anderson**, J.W. Moore. River networks dampen
