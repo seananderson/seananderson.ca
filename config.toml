@@ -9,6 +9,7 @@ rssLimit = 20
 [outputFormats]
 
 [outputFormats.RSS]
+mediatype = "application/rss"
 baseName = "feed"
 
 uglyurls = false
