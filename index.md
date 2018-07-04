@@ -32,7 +32,7 @@ I [teach workshops](/cv.html#teaching) on data visualization and manipulation
 for scientists. I also develop a number of R packages. With collaborators, I'm
 developing packages to run fisheries stock assessment simulations with [Stock
 Synthesis][nefsc] software ([ss3sim]), fit Bayesian spatiotemporal models that
-allow for extremes ([rrfields](https://github.com/seananderson/rrfields)), and
+allow for extremes ([glmmfields](https://github.com/seananderson/glmmfields)), and
 fit stock assessment models to data-limited fisheries
 ([datalimited](https://github.com/datalimited/datalimited)).
 

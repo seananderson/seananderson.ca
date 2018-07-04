@@ -40,7 +40,7 @@ Education
 =========
 
 2011--15
-:   Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
+:   Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
     Variance and extreme events in population ecology\
     Fulbright Scholar to the University of Washington in 2012--13\
     [Dean of Graduate Studies Convocation
@@ -73,14 +73,14 @@ Publications
     <https://doi.org/10.1073/pnas.1714157114>
 
 2017
-:   Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner, M.D.
-    Adkison, A.H. Beaudreau, J.T. Watson, J.C. Shriver, A.C. Haynie,
-    B.C. Williams. Effects of increased specialization on revenue of
-    Alaskan salmon fishers over four decades. In press at Journal of
-    Applied Ecology.
+:   Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner,
+    M.D. Adkison, A.H. Beaudreau, J.T. Watson, J.C. Shriver, A.C.
+    Haynie, B.C. Williams. Effects of increased specialization on
+    revenue of Alaskan salmon fishers over four decades. In press at
+    Journal of Applied Ecology.
 
 2017
-:   **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H.
+:   **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H.
     Beaudreau, R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson,
     B.C. Williams. Benefits and risks of diversification for individual
     fishers. In press at Proceedings of the National Academy of
@@ -350,7 +350,7 @@ Awards and scholarships
     ([URL](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html))
 
 2014
-:   Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
+:   Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
     Marine Sciences
 
 2014
@@ -600,7 +600,7 @@ Contract employment
 
 2010
 :   Modelling length-frequency distribution changes of Atlantic halibut
-    for NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population
+    for NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population
     Ecology Division, Bedford Institute of Oceanography, Fisheries and
     Oceans, Dartmouth, NS, Canada.
 

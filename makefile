@@ -2,7 +2,7 @@ all:	server-auto
 
 cv:
 	tail +7 cv-pandoc.md > cv-body.md
-	pandoc -S cv-body.md -o cv-body.tex
+	pandoc cv-body.md -o cv-body.tex
 	perl -p -i -e "s/~/\\\ /g" cv-body.tex
 	perl -p -i -e "s/M.Sc./M.Sc.\\\/g" cv-body.tex
 	perl -p -i -e "s/B.Sc./B.Sc.\\\/g" cv-body.tex
