@@ -284,7 +284,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
      spatiotemporal processes with extremes. International Statistical Ecology
      Conference, St. Andrews, Scotland.
-     [slides](https://www.dropbox.com/s/z61ssz9xgymtzsg/anderson-ward-isec-2018.pdf?dl=1)
+     ([slides](https://www.dropbox.com/s/ufce52ocpycftk1/anderson-ward-isec-2018.pdf?dl=1))
 
 2017
 :    **Anderson, S.C.** Data-driven approaches to quantifying population status
