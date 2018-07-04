@@ -1,0 +1,235 @@
+---
+title: The TMB R package
+subtitle: Life beyond ADMB?
+date: '2014-10-17'
+slug: tmb
+---
+
+
+
+<pre class="r"><code>knitr::opts_chunk$set(cache = FALSE, autodep = TRUE)</code></pre>
+<p>I’d heard whispers of this new R package <a href="https://github.com/kaskr/adcomp">TMB</a> and finally spent some time playing with it in the last few days. It’s incredible — fast like ADMB (faster?), has built-in parallel functionality, has other advanced <a href="https://github.com/kaskr/adcomp/wiki">statistical niceties</a>, and it’s built around R. What more could you ask for? (Well better documenation and the option to switch on Bayesian MCMC like you can in ADMB would be nice.) This post just represents some of my initial steps as I learned and played with the package.</p>
+<p>The basic idea with TMB is to write a C++ template file and then compile and run it with some R functions. If you’ve used ADMB then the format will look similar. If you haven’t, it’s not too hard to pick up. It helps to <a href="http://adv-r.had.co.nz/Rcpp.html">know a bit about C++</a>, but for the most part it shouldn’t be that hard for anyone familiar with R to pick it up.</p>
+<p>The steps to running a TMB model are:</p>
+<ol style="list-style-type: decimal">
+<li><p>Write a C++ model template (a <code>.cpp</code> file).</p></li>
+<li><p>Compile the model with <code>TMB::compile()</code>.</p></li>
+<li><p>Load the model object with <code>dyn.load(TMB::dynlib())</code></p></li>
+<li><p>Make an object with data and parameters to pass to the TMB model with
+<code>TMB::MakeADFun()</code>. If there are random effects / latent variables / unobserved
+states / coefficients that are allowed to vary (choose your preferred
+terminology) then set the <code>random</code> argument in <code>TMB::MakeADFun()</code> to specify
+the name(s) of the parameters to integrate out of the likelihood.</p></li>
+<li><p>Minimize the objective function with something like <code>stats::optim()</code> or <code>stats::nlminb()</code>.</p></li>
+<li><p>Extract the estimates and standard errors from the model fit with
+<code>TMB::sdreport()</code> and <code>TMB::summary.sdreport()</code>.</p></li>
+</ol>
+<p>You can install the TMB package from GitHub. You’ll need a C++ compiler installed. If you’re on Windows then you’ll also need Rtools. See specific instructions on the <a href="https://github.com/kaskr/adcomp">TMB GitHub page</a>.</p>
+<pre class="r"><code># install.packages(&quot;devtools&quot;) # if needed
+devtools::install_github(&quot;kaskr/adcomp&quot;, subdir = &quot;TMB&quot;)</code></pre>
+<p>The documentation is still very sparse, but you can find some instructions on <a href="https://github.com/kaskr/adcomp/wiki">the R package GitHub wiki</a> and documentation of the underlying C++ functions and classes <a href="http://folk.uib.no/hsk021/tmbdoc/">here</a>.</p>
+<div id="a-linear-regression-example" class="section level2">
+<h2>A linear regression example</h2>
+<p>Let’s start with a really simple linear regression model.</p>
+<p>We’ll start by writing the TMB template file. Here, I’ve written it as inline R code that I then <code>write()</code> to a <code>.cpp</code> file. I have only done this so the code shows up here.</p>
+<pre class="r"><code>tmb_model &lt;- &quot;
+// linear regression
+#include &lt;TMB.hpp&gt;
+
+template&lt;class Type&gt;
+Type objective_function&lt;Type&gt;::operator() () {
+// data:
+DATA_VECTOR(x);
+DATA_VECTOR(y);
+
+// parameters:
+PARAMETER(a); // intercept
+PARAMETER(b); // slope
+PARAMETER(log_sigma); // log(residual SD)
+// we fit sigma on a log scale to keep it &gt; 0
+
+// procedures: (transformed parameters)
+Type sigma = exp(log_sigma);
+
+int n = y.size(); // get number of data points to loop over
+
+Type nll = 0.0; // initialize negative log likelihood
+
+for(int i = 0; i &lt; n; i++){ // C++ starts loops at 0!
+  // get negative log likelihood (last argument is log = TRUE)
+  nll -= dnorm(y[i], a + b * x[i], sigma, true);
+}
+
+return nll;
+}&quot;
+write(tmb_model, file = &quot;regression.cpp&quot;)</code></pre>
+<p>We’ll load the model template:</p>
+<pre class="r"><code>library(TMB)
+compile(&quot;regression.cpp&quot;)
+dyn.load(dynlib(&quot;regression&quot;))</code></pre>
+<p>And simulate some data:</p>
+<pre class="r"><code>set.seed(123)
+x &lt;- runif(20, 1, 10)
+y &lt;- rnorm(20, mean = 1.8 + 2.4 * x, sd = exp(0.3))
+plot(x, y)</code></pre>
+<p><img src="/blog/2014-10-17-tmb_files/figure-html/tmb1-1.png" width="672" /></p>
+<p>Then we’ll fit the model:</p>
+<pre class="r"><code>obj &lt;- MakeADFun(
+  data = list(x = x, y = y), 
+  parameters = list(a = 0, b = 0, log_sigma = 0),
+  DLL = &quot;regression&quot;)
+opt &lt;- nlminb(start = obj$par, obj = obj$fn, gr = obj$gr)
+rep &lt;- sdreport(obj)</code></pre>
+<p>We can check the estimates against the true values above (<code>a = 1.8, b = 2.4, log_sigma = 0.3</code>):</p>
+<pre class="r"><code>rep</code></pre>
+<pre><code>## sdreport(.) result
+##            Estimate Std. Error
+## a         2.8291076 0.64964407
+## b         2.2027874 0.09901161
+## log_sigma 0.1968775 0.15811383
+## Maximum gradient component: 3.910297e-05</code></pre>
+<p>Which is about the same as we’d get from <code>lm()</code>:</p>
+<pre class="r"><code>arm::display(lm(y ~ x))</code></pre>
+<pre><code>## lm(formula = y ~ x)
+##             coef.est coef.se
+## (Intercept) 2.83     0.68   
+## x           2.20     0.10   
+## ---
+## n = 20, k = 2
+## residual sd = 1.28, R-Squared = 0.96</code></pre>
+</div>
+<div id="gompertz-state-space-model" class="section level2">
+<h2>Gompertz state space model</h2>
+<p>Now let’s try something a bit more exciting — a state space Gompertz population dynamics model. We’ll have TMB integrate out the unobserved “true” state that is masked by observation error. You can represent the Gompertz model as:</p>
+<p><span class="math display">\[
+\begin{aligned}
+y_t &amp;= \ln N_t\\      
+U_t &amp;= a + b U_{t-1} + \epsilon_t\\
+\epsilon_t &amp;\sim \mathrm{Normal}(0, \sigma^2_\mathrm{proc})\\\
+y_t &amp;\sim \mathrm{Normal}(U_t, \sigma^2_\mathrm{obs}),
+\end{aligned}
+\]</span></p>
+<p>where <span class="math inline">\(y_t\)</span> is the observed <span class="math inline">\(\ln\)</span> abundance (<span class="math inline">\(N\)</span>) at time <span class="math inline">\(t\)</span>. The model is density independent if <span class="math inline">\(b = 1\)</span>, maximally density dependent if <span class="math inline">\(b = 0\)</span>, and inversely density dependence if <span class="math inline">\(b &lt; 0\)</span>. The parameter <span class="math inline">\(a\)</span> represents the expected ln abundance at the next time step when <span class="math inline">\(y_t = 0\)</span>. The process noise is modelled as a normal distribution with mean of <span class="math inline">\(0\)</span>, and a standard deviation of <span class="math inline">\(\sigma_\mathrm{proc}\)</span>. <span class="math inline">\(U\)</span> represents the unobserved state vector, and <span class="math inline">\(\sigma_\mathrm{obs}\)</span> represents the standard deviation of observation error (on a log scale).</p>
+<p>The TMB model for this state-space Gompertz model is:</p>
+<pre class="r"><code>tmb_model &lt;- &quot;
+// State-space Gompertz model
+#include &lt;TMB.hpp&gt;
+
+template&lt;class Type&gt;
+Type objective_function&lt;Type&gt;::operator() () {
+// data:
+DATA_VECTOR(y);
+
+// parameters:
+PARAMETER(a); // population growth rate parameter
+PARAMETER(b); // density dependence parameter
+PARAMETER(log_sigma_proc); // log(process SD)
+PARAMETER(log_sigma_obs); // log(observation SD)
+PARAMETER_VECTOR(u); // unobserved state vector
+
+// procedures: (transformed parameters)
+Type sigma_proc = exp(log_sigma_proc);
+Type sigma_obs = exp(log_sigma_obs);
+
+// reports on transformed parameters:
+ADREPORT(sigma_proc)
+ADREPORT(sigma_obs)
+
+int n = y.size(); // get time series length
+
+Type nll = 0.0; // initialize negative log likelihood
+
+// process model:
+for(int i = 1; i &lt; n; i++){
+  Type m = a + b * u[i - 1]; // Gompertz
+  nll -= dnorm(u[i], m, sigma_proc, true);
+}
+
+// observation model:
+for(int i = 0; i &lt; n; i++){
+  nll -= dnorm(y[i], u[i], sigma_obs, true);
+}
+
+return nll;
+}&quot;
+write(tmb_model, file = &quot;gompertztmb.cpp&quot;)</code></pre>
+<p>We’ll compile the model:</p>
+<pre class="r"><code>compile(&quot;gompertztmb.cpp&quot;)
+dyn.load(dynlib(&quot;gompertztmb&quot;))</code></pre>
+<p>And write a function that simulates some data, fits the model, and plots the estimates:</p>
+<pre class="r"><code>sim_gomp &lt;- function(N = 100, seed = 123, sigma_obs = 0.2,
+  sigma_proc = 0.2, a = 1.4, b = 0.7, y1 = 4) {
+  
+  set.seed(seed)
+  N &lt;- N
+  ytrue &lt;- numeric(length = N)
+  ytrue[1] &lt;- y1
+  log_sigma_proc &lt;- log(sigma_proc)
+  proc_error &lt;- rnorm(N, mean = 0, sd = sigma_proc)
+  log_sigma_obs &lt;- log(sigma_obs)
+  for(i in 2:N) {
+    ytrue[i] &lt;- a + b * ytrue[i-1] + proc_error[i-1]
+    }
+  x &lt;- seq_len(N)
+  y &lt;- rnorm(N, mean = ytrue, sd = sigma_obs)
+  
+  data &lt;- list(y = y)
+  parameters &lt;- list(a = 1, b = 0.5, log_sigma_proc = -1,
+    log_sigma_obs = -1, u = rep(mean(y), N))
+  obj &lt;- MakeADFun(data, parameters, random = &quot;u&quot;, DLL = &quot;gompertztmb&quot;)
+  obj$hessian &lt;- FALSE
+  opt &lt;- nlminb(start = obj$par, obj = obj$fn, gr = obj$gr)
+  rep &lt;- sdreport(obj)
+  
+  # extract estimated process:
+  u &lt;- summary(rep, &quot;random&quot;)[, &quot;Estimate&quot;]
+  u_se &lt;- summary(rep, &quot;random&quot;)[, &quot;Std. Error&quot;]
+  # extract fixed effects:
+  fixed &lt;- summary(rep, &quot;fixed&quot;)
+  
+  # We&#39;ll write a little helper function to plot fixed effect 
+  # estimates:
+  plot_fixed &lt;- function(par, y, mat, trans = I) {
+    points(trans(eval(parse(text = par))), y, pch = 21,
+      bg = &quot;#00000030&quot;, col = &quot;#00000080&quot;)
+    f &lt;- mat[par, &quot;Estimate&quot;]
+    se &lt;- mat[par, &quot;Std. Error&quot;]
+    points(trans(f), y, pch = 19, col = &quot;red&quot;)
+    segments(trans(f - 2 * se), y, trans(f + 2 * se), y, pch = 19,
+      col = &quot;red&quot;)
+    }
+  
+  par(mfrow = c(2, 1), mar = c(4, 6, 0, 0), oma = c(.5, .5, .5, .5),
+    mgp = c(2, 0.5, 0), cex = 1, tck = -0.02)
+  plot(1, 1, xlim = c(0, 2), ylim = c(1, 4), type = &quot;n&quot;,
+    xlab = &quot;Coefficient value&quot;, ylab = &quot;&quot;, yaxt = &quot;n&quot;)
+  axis(2, at = 1:4, labels = c(&quot;a&quot;, &quot;b&quot;, &quot;sigma_obs&quot;, &quot;sigma_proc&quot;),
+    las = 1)
+  
+  plot_fixed(&quot;a&quot;, 1, fixed)
+  plot_fixed(&quot;b&quot;, 2, fixed)
+  plot_fixed(&quot;log_sigma_obs&quot;, 3, fixed, trans = function(z) exp(z))
+  plot_fixed(&quot;log_sigma_proc&quot;, 4, fixed, trans = function(z) exp(z))
+  
+  plot(x, y, col = &quot;#00000080&quot;, pch = 21, bg = &quot;#00000030&quot;, las = 1,
+    ylab = &quot;log(abundance)&quot;, xlab = &quot;time&quot;)
+  lines(x, ytrue, lty = 2, lwd = 2)
+  lines(x, u, col = &quot;red&quot;, lty = 1, lwd = 1.5)
+  polygon(c(x, rev(x)), c(u - 2 * u_se, rev(u + 2 * u_se)), 
+    border = NA, col = &quot;#FF000050&quot;)
+  legend(&quot;bottomright&quot;, legend = c(&quot;Observed&quot;, &quot;True&quot;, &quot;Estimated&quot;),
+    pch = c(21, NA, NA), lty = c(NA, 2, 1), lwd = c(NA, 2, 1.5),
+    col = c(&quot;#00000080&quot;, &quot;black&quot;, &quot;red&quot;), 
+    pt.bg = c(&quot;#00000030&quot;, NA, NA))
+  }</code></pre>
+<p>One good test that you’ve coded a model correctly is to throw a boat-load of data at it and make sure it comes back with unbiased parameter estimates. In the following plots, the first panel shows the coefficient estimates (“fixed effects”) +/- two standard errors. The red dots are our estimates and the shaded grey dots are the true values. In the lower panels, the red lines are our estimated states, the black line (hidden behind the red in the first plot) is the true underlying state, and the grey dots are our observations.</p>
+<pre class="r"><code>sim_gomp(N = 5000, sigma_obs = 0.1, sigma_proc = 0.2, b = 0.7, a = 1.4)</code></pre>
+<p><img src="/blog/2014-10-17-tmb_files/figure-html/tmb-test1-1.png" width="672" /></p>
+<p>We just modelled a 5000 time step state space model in a couple seconds!</p>
+<p>Now we can try a more realistic 50 data points:</p>
+<pre class="r"><code>sim_gomp(N = 50)</code></pre>
+<p><img src="/blog/2014-10-17-tmb_files/figure-html/tmb-short-1.png" width="672" /></p>
+<p>And with a different seed value but more data:</p>
+<pre class="r"><code>sim_gomp(N = 100, seed = 999)</code></pre>
+<p><img src="/blog/2014-10-17-tmb_files/figure-html/tmb-seed2-1.png" width="672" /></p>
+</div>

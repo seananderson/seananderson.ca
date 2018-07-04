@@ -1,0 +1,13 @@
+<nav class="nav">
+
+    {{ range first 7 .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        <span class="mastdiv">/</span>
+    {{ end }}
+
+    {{ range last 1 .Site.Menus.main }}
+       <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+
+
+</nav>

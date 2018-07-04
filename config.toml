@@ -1,0 +1,54 @@
+baseurl = "http://seananderson.ca"
+languageCode = "en-us"
+title = "seananderson.ca"
+theme = "hugo-sca"
+googleAnalytics = "UA-11566420-4"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+rssLimit = 20
+
+[outputFormats]
+
+[outputFormats.RSS]
+baseName = "feed"
+
+uglyurls = false
+enableEmoji = true
+
+[permalinks]
+    blog = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/"
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+[[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/seananderson"
+[[menu.main]]
+    name = "Photos"
+    url = "http://www.flickr.com/photos/seananderson/"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/sean_anderson"
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+
+[params]
+    description = ""
+
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "tex"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"

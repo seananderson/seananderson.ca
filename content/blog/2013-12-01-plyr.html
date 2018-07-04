@@ -1,0 +1,312 @@
+---
+title: 'plyr: Split-Apply-Combine for Mortals'
+subtitle: An introduction to the plyr R package.
+date: '2013-12-01'
+slug: plyr
+---
+
+
+
+<p><em>Along with my <a href="http://seananderson.ca/2013/10/19/reshape.html">earlier post</a> on the <code>reshape2</code> package, I will continue to post my course notes from Data Wrangling and Visualization in R, a graduate-level course I co-taught last semester at Simon Fraser University.</em></p>
+<p><code>plyr</code> is an <code>R</code> package that makes it simple to split data apart, do
+stuff to it, and mash it back together. This is a common
+data-manipulation step. Importantly, <code>plyr</code> makes it easy to control the
+input and output data format with a consistent syntax.</p>
+<p>Or, from the documentation:</p>
+<p>“<code>plyr</code> is a set of tools that solves a common set of problems: you need
+to break a big problem down into manageable pieces, operate on each
+piece and then put all the pieces back together. It’s already possible
+to do this with split and the apply functions, but <code>plyr</code> just makes it
+all a bit easier…”</p>
+<p>This is a very quick introduction to <code>plyr</code>. For more details see Hadley
+Wickham’s introductory guide <a href="http://www.jstatsoft.org/v40/i01">The split-apply-combine strategy for data
+analysis</a>. There’s quite a bit of discussion
+online in general, and especially on
+<a href="http://stackoverflow.com/questions/tagged/plyr">stackoverflow.com</a>.</p>
+<div id="why-use-apply-functions-instead-of-for-loops" class="section level1">
+<h1>Why use <code>apply</code> functions instead of <code>for</code> loops?</h1>
+<ol style="list-style-type: decimal">
+<li><p>The code is cleaner (once you’re familiar with the concept). The
+code can be easier to code and read, and less error prone because you
+don’t have to deal with subsetting and you don’t have to deal with saving
+your results.</p></li>
+<li><p><code>apply</code> functions can be faster than <code>for</code> loops, sometimes dramatically.</p></li>
+</ol>
+</div>
+<div id="plyr-basics" class="section level1">
+<h1><code>plyr</code> basics</h1>
+<p><code>plyr</code> builds on the built-in <code>apply</code> functions by giving you control
+over the input and output formats and keeping the syntax consistent
+across all variations. It also adds some niceties like error processing,
+parallel processing, and progress bars.</p>
+<p>The basic format is two letters followed by <code>ply()</code>. The first letter
+refers to the format in and the second to the format out.</p>
+<p>The three main letters are:</p>
+<ol style="list-style-type: decimal">
+<li><p><code>d</code> = data frame</p></li>
+<li><p><code>a</code> = array (includes matrices)</p></li>
+<li><p><code>l</code> = list</p></li>
+</ol>
+<p>So, <code>ddply</code> means: take a data frame, split it up, do something to it,
+and return a data frame. I find I use this the majority of the time
+since I often work with data frames. <code>ldply</code> means: take a list, split
+it up, do something to it, and return a data frame. This extends to all
+combinations. In the following table, the columns are the input formats
+and the rows are the output format:</p>
+<table>
+<thead>
+<tr class="header">
+<th>object type</th>
+<th>data frame</th>
+<th>list</th>
+<th>array</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>data frame</td>
+<td><code>ddply</code></td>
+<td><code>ldply</code></td>
+<td><code>adply</code></td>
+</tr>
+<tr class="even">
+<td>list</td>
+<td><code>dlply</code></td>
+<td><code>llply</code></td>
+<td><code>alply</code></td>
+</tr>
+<tr class="odd">
+<td>array</td>
+<td><code>daply</code></td>
+<td><code>laply</code></td>
+<td><code>aaply</code></td>
+</tr>
+</tbody>
+</table>
+<p>I’ve ignored some less common format options:</p>
+<ol style="list-style-type: decimal">
+<li><code>m</code> = multi-argument function input</li>
+<li><code>r</code> = replicate a function <code>n</code> times.</li>
+<li><code>_</code> = throw away the output</li>
+</ol>
+<p>For plotting, you might find the underscore (<code>_</code>) option useful. It will
+do something with the data (say add line segments to a plot) and then
+throw away the output (e.g., <code>d_ply()</code>).</p>
+</div>
+<div id="base-r-apply-functions-and-plyr" class="section level1">
+<h1>Base R <code>apply</code> functions and <code>plyr</code></h1>
+<p><code>plyr</code> provides a consistent and easy-to-work-with format for <code>apply</code>
+functions with control over the input and output formats. Some of the
+functionality can be duplicated with base <code>R</code> functions (but with less
+consistent syntax). Also, few <code>R</code> <code>apply</code> functions work directly with
+data frames as input and output and data frames are a common object
+class to work with.</p>
+<p>Base <code>R</code> <code>apply</code> functions (from a presentation given by Hadley Wickham):</p>
+<table>
+<thead>
+<tr class="header">
+<th>object type</th>
+<th>array</th>
+<th>data frame</th>
+<th>list</th>
+<th>nothing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>array</td>
+<td><code>apply</code></td>
+<td>.</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr class="even">
+<td>data frame</td>
+<td>.</td>
+<td><code>aggregate</code></td>
+<td><code>by</code></td>
+<td>.</td>
+</tr>
+<tr class="odd">
+<td>list</td>
+<td><code>sapply</code></td>
+<td>.</td>
+<td><code>lapply</code></td>
+<td>.</td>
+</tr>
+<tr class="even">
+<td>n replicates</td>
+<td><code>replicate</code></td>
+<td>.</td>
+<td><code>replicate</code></td>
+<td>.</td>
+</tr>
+<tr class="odd">
+<td>function arguments</td>
+<td><code>mapply</code></td>
+<td>.</td>
+<td><code>mapply</code></td>
+<td>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="a-general-example-with-plyr" class="section level1">
+<h1>A general example with <code>plyr</code></h1>
+<p>Let’s take a simple example. We’ll take a data frame, split it up by
+<code>year</code>, calculate the coefficient of variation of the <code>count</code>, and
+return a data frame. This could easily be done on one line, but I’m
+expanding it here to show the format a more complex function could take.</p>
+<pre class="r"><code>set.seed(1)
+d &lt;- data.frame(year = rep(2000:2002, each = 3),
+  count = round(runif(9, 0, 20)))
+print(d)</code></pre>
+<pre><code>##   year count
+## 1 2000     5
+## 2 2000     7
+## 3 2000    11
+## 4 2001    18
+## 5 2001     4
+## 6 2001    18
+## 7 2002    19
+## 8 2002    13
+## 9 2002    13</code></pre>
+<pre class="r"><code>library(plyr)
+ddply(d, &quot;year&quot;, function(x) {
+  mean.count &lt;- mean(x$count)
+  sd.count &lt;- sd(x$count)
+  cv &lt;- sd.count/mean.count
+  data.frame(cv.count = cv)
+})</code></pre>
+<pre><code>##   year  cv.count
+## 1 2000 0.3984848
+## 2 2001 0.6062178
+## 3 2002 0.2309401</code></pre>
+</div>
+<div id="transform-and-summarise" class="section level1">
+<h1><code>transform</code> and <code>summarise</code></h1>
+<p>It is often convenient to use these functions within one of the <code>**ply</code>
+functions. <code>transform</code> acts as it would normally as the base <code>R</code> function and
+modifies an existing data frame. <code>summarise</code> creates a new condensed data
+frame.</p>
+<pre class="r"><code>ddply(d, &quot;year&quot;, summarise, mean.count = mean(count))</code></pre>
+<pre><code>##   year mean.count
+## 1 2000   7.666667
+## 2 2001  13.333333
+## 3 2002  15.000000</code></pre>
+<pre class="r"><code>ddply(d, &quot;year&quot;, transform, total.count = sum(count))</code></pre>
+<pre><code>##   year count total.count
+## 1 2000     5          23
+## 2 2000     7          23
+## 3 2000    11          23
+## 4 2001    18          40
+## 5 2001     4          40
+## 6 2001    18          40
+## 7 2002    19          45
+## 8 2002    13          45
+## 9 2002    13          45</code></pre>
+<p>Bonus function: <code>mutate</code>. <code>mutate</code> works like <code>transform</code> but lets you
+build on columns.</p>
+<pre class="r"><code>ddply(d, &quot;year&quot;, mutate, mu = mean(count), sigma = sd(count),
+  cv = sigma/mu)</code></pre>
+<pre><code>##   year count        mu    sigma        cv
+## 1 2000     5  7.666667 3.055050 0.3984848
+## 2 2000     7  7.666667 3.055050 0.3984848
+## 3 2000    11  7.666667 3.055050 0.3984848
+## 4 2001    18 13.333333 8.082904 0.6062178
+## 5 2001     4 13.333333 8.082904 0.6062178
+## 6 2001    18 13.333333 8.082904 0.6062178
+## 7 2002    19 15.000000 3.464102 0.2309401
+## 8 2002    13 15.000000 3.464102 0.2309401
+## 9 2002    13 15.000000 3.464102 0.2309401</code></pre>
+</div>
+<div id="plotting-with-plyr" class="section level1">
+<h1>Plotting with <code>plyr</code></h1>
+<p>You can use <code>plyr</code> to plot data by throwing away the output with an
+underscore (<code>_</code>). This is a bit cleaner than a for loop since you don’t
+have to subset the data manually.</p>
+<pre class="r"><code>par(mfrow = c(1, 3), mar = c(2, 2, 1, 1), oma = c(3, 3, 0, 0))
+d_ply(d, &quot;year&quot;, transform, plot(count, main = unique(year), type = &quot;o&quot;))
+mtext(&quot;count&quot;, side = 1, outer = TRUE, line = 1)
+mtext(&quot;frequency&quot;, side = 2, outer = TRUE, line = 1)</code></pre>
+<p><img src="/blog/2013-12-01-plyr_files/figure-html/d_ply_plot-1.png" width="576" /></p>
+</div>
+<div id="nested-chunking-of-the-data" class="section level1">
+<h1>Nested chunking of the data</h1>
+<p>The basic syntax can be easily extended to break apart the data based on
+multiple columns:</p>
+<pre class="r"><code>baseball.dat &lt;- subset(baseball, year &gt; 2000) # data from the plyr package
+x &lt;- ddply(baseball.dat, c(&quot;year&quot;, &quot;team&quot;), summarize,
+  homeruns = sum(hr))
+head(x)</code></pre>
+<pre><code>##   year team homeruns
+## 1 2001  ANA        4
+## 2 2001  ARI      155
+## 3 2001  ATL       63
+## 4 2001  BAL       58
+## 5 2001  BOS       77
+## 6 2001  CHA       63</code></pre>
+</div>
+<div id="other-useful-options" class="section level1">
+<h1>Other useful options</h1>
+<div id="dealing-with-errors" class="section level2">
+<h2>Dealing with errors</h2>
+<p>You can use the <code>failwith</code> function to control how errors are dealt
+with.</p>
+<pre class="r"><code>f &lt;- function(x) if (x == 1) stop(&quot;Error!&quot;) else 1
+safe.f &lt;- failwith(NA, f, quiet = TRUE)
+# llply(1:2, f)
+llply(1:2, safe.f)</code></pre>
+<pre><code>## [[1]]
+## [1] NA
+## 
+## [[2]]
+## [1] 1</code></pre>
+</div>
+<div id="parallel-processing" class="section level2">
+<h2>Parallel processing</h2>
+<p>In conjunction with a package such as <code>doParallel</code> you can run your function
+separately on each core of your computer. On a dual core machine this make
+your code up to twice as fast. Simply register the cores and then set
+<code>.parallel = TRUE</code>. Look at the <code>elapsed</code> time in these examples:</p>
+<pre class="r"><code>x &lt;- c(1:10)
+wait &lt;- function(i) Sys.sleep(0.1)
+system.time(llply(x, wait))</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.002   0.000   1.043</code></pre>
+<pre class="r"><code>system.time(sapply(x, wait))</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.000   0.000   1.022</code></pre>
+<pre class="r"><code>library(doParallel)</code></pre>
+<pre><code>## Loading required package: foreach</code></pre>
+<pre><code>## Loading required package: iterators</code></pre>
+<pre><code>## Loading required package: parallel</code></pre>
+<pre class="r"><code>registerDoParallel(cores = 2)
+system.time(llply(x, wait, .parallel = TRUE))</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.095   0.014   0.625</code></pre>
+</div>
+</div>
+<div id="so-why-would-i-not-want-to-use-plyr" class="section level1">
+<h1>So, why would I <em>not</em> want to use <code>plyr</code>?</h1>
+<p><code>plyr</code> can be slow — particularly if you are working with very large
+datasets that involve a lot of subsetting. Hadley is working on this and
+an in-development version of <code>plyr</code>, <code>dplyr</code>, can run much faster (<a href="https://github.com/hadley/dplyr" class="uri">https://github.com/hadley/dplyr</a>).
+However, it’s important to remember that typically the speed that you
+can write code and understand it later is the rate-limiting step.</p>
+<p>A couple faster options:</p>
+<p>Use a base <code>R</code> <code>apply</code> function:</p>
+<pre class="r"><code>system.time(ddply(baseball, &quot;id&quot;, summarize, length(year)))</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.271   0.002   0.276</code></pre>
+<pre class="r"><code>system.time(tapply(baseball$year, baseball$id,
+  function(x) length(x)))</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.006   0.000   0.007</code></pre>
+<p>Use the <code>data.table</code> package:</p>
+<pre class="r"><code>library(data.table)
+dt &lt;- data.table(baseball, key = &quot;id&quot;)
+system.time(dt[, length(year), by = list(id)])</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.077   0.001   0.010</code></pre>
+</div>

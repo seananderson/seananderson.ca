@@ -1,7 +1,0 @@
-    lsi:         false
-    highlighter:  rouge
-    permalink:   date
-    name: Sean Anderson
-    description: seananderson.ca
-    url: http://seananderson.ca
-    safe: true

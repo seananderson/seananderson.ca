@@ -1,0 +1,90 @@
+---
+title: Labelling Panels in R
+subtitle: Strategies for placing letters in figure panels.
+date: '2013-10-21'
+slug: panel-letters
+---
+
+
+
+<p>Cole Monnahan writes:</p>
+<blockquote>
+<p>I’ve got a multipanel plot and simply want to add “(a)”, “(b)”, etc. to it.
+I’ve always cheated and used legend:</p>
+<pre><code>add.label &lt;- function(label, ...) legend(&quot;topleft&quot;, legend=&quot; &quot;, title=label,
+bty=&#39;n&#39;, ...)</code></pre>
+<p>which works great for a topleft position. But for bottomright it isn’t
+right. I can adapt, and that works great, but then it doesn’t
+work for topleft!</p>
+<p>There has got to be a non-hack way to do this simple (and common) task.</p>
+</blockquote>
+<p>I’d never thought of using <code>legend()</code> for that purpose, but that’s a neat
+hack. If you wanted to stick with <code>legend()</code>, you could just
+pass the position to the function:</p>
+<pre class="r"><code>add_label_legend &lt;- function(pos = &quot;topleft&quot;, label, ...) {
+  legend(pos, label, bty = &quot;n&quot;, ...)
+}
+
+par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  add_label_legend(&quot;topleft&quot;, paste0(&quot;(&quot;, letters[i], &quot;)&quot;))
+  add_label_legend(&quot;topright&quot;, paste0(&quot;(&quot;, letters[i], &quot;)&quot;))
+  add_label_legend(&quot;bottomright&quot;, paste0(&quot;(&quot;, letters[i],
+      &quot;)&quot;))
+  add_label_legend(&quot;bottomleft&quot;, paste0(&quot;(&quot;, letters[i], &quot;)&quot;))
+}</code></pre>
+<p><img src="/blog/2013-10-21-panel-letters_files/figure-html/panel_letters5-1.png" width="576" /></p>
+<p>But, you don’t get a lot of control over precisely how the
+label is positioned.</p>
+<p>I tend to use <code>mtext()</code> for quick cases where the labels are all the same
+width. For example if they’re single letters, then you can align the labels
+like this:</p>
+<pre class="r"><code>par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  mtext(paste0(&quot;(&quot;, letters[i], &quot;)&quot;), side = 3, adj = 0.05, 
+    line = -1.3)
+}</code></pre>
+<p><img src="/blog/2013-10-21-panel-letters_files/figure-html/panel_letters1-1.png" width="576" /></p>
+<p>But the labels won’t align if they are different widths:</p>
+<pre class="r"><code>labels &lt;- c(&quot;Short label&quot;, &quot;A longer unaligned panel label&quot;)
+par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  mtext(labels[i], side = 3, adj = 0.05, line = -1.3)
+}</code></pre>
+<p><img src="/blog/2013-10-21-panel-letters_files/figure-html/panel_letters2-1.png" width="576" /></p>
+<p>You can use <code>text()</code> combined with <code>par(&quot;usr&quot;)</code> to align these labels.
+<code>par(&quot;usr&quot;)</code> gives us the coordinates of the plotting region in the order <code>x1, x2, y1, y2</code>. Therefore, we can do the following to place the labels 2% over
+from the left and 7% down from the top:</p>
+<pre class="r"><code>labels &lt;- c(&quot;Short label&quot;, &quot;A longer panel label aligned&quot;)
+par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  u &lt;- par(&quot;usr&quot;)
+  x &lt;- u[1] + 0.02 * (u[2] - u[1])
+  y &lt;- u[4] - 0.07 * (u[4] - u[3])
+  text(x, y, labels[i], pos = 4)
+}</code></pre>
+<p><img src="/blog/2013-10-21-panel-letters_files/figure-html/panel_letters3-1.png" width="576" /></p>
+<p>And we could turn that into a little function:</p>
+<pre class="r"><code>#&#39; @param xfrac The fraction over from the left side.
+#&#39; @param yfrac The fraction down from the top.
+#&#39; @param label The text to label with.
+#&#39; @param pos Position to pass to text()
+#&#39; @param ... Anything extra to pass to text(), e.g. cex, col.
+add_label &lt;- function(xfrac, yfrac, label, pos = 4, ...) {
+  u &lt;- par(&quot;usr&quot;)
+  x &lt;- u[1] + xfrac * (u[2] - u[1])
+  y &lt;- u[4] - yfrac * (u[4] - u[3])
+  text(x, y, label, pos = pos, ...)
+}</code></pre>
+<p>And then use it like this:</p>
+<pre class="r"><code>labels &lt;- c(&quot;Short&quot;, &quot;A longer panel label&quot;)
+par(mfrow = c(1, 2), mar = c(2, 2.5, 0, 0))
+for(i in 1:2) {
+  plot(1)
+  add_label(0.02, 0.07, labels[i])
+}</code></pre>
+<p><img src="/blog/2013-10-21-panel-letters_files/figure-html/panel_letters4-1.png" width="576" /></p>

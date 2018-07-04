@@ -1,3 +1,0 @@
-#!/bin/bash
-
-rsync -avzh --progress --rsh="ssh -p42" --no-p --delete --exclude=stats --exclude=.DS_Store --exclude=.git ~/Dropbox/seananderson.github.com/_site/ sean@173.230.131.228:/home/sean/public_html/

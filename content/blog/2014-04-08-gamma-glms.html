@@ -1,0 +1,182 @@
+---
+title: Fitting Gamma GLMs Multiple Ways
+subtitle: Understanding GLMs through simulation
+date: '2014-04-08'
+slug: gamma-glms
+---
+
+
+
+<p>A <a href="http://en.wikipedia.org/wiki/Gamma_distribution">Gamma error distribution</a> with a log link is a common family to fit <a href="http://en.wikipedia.org/wiki/Generalized_linear_model">GLMs</a> with in ecology. It works well for positive-only data with positively-skewed errors. The Gamma distribution is flexible and can mimic, among other shapes, a <a href="http://en.wikipedia.org/wiki/Log-normal_distribution">log-normal</a> shape. The log link can represent an underlying multiplicate process, which is common in ecology.</p>
+<p>Here, I’ll fit a GLM with Gamma errors and a log link in four different ways. (1) With the built-in <code>glm()</code> function in <code>R</code>, (2) by optimizing our own likelihood function, (3) by the MCMC Gibbs sampler with <a href="http://mcmc-jags.sourceforge.net/">JAGS</a>, and (4) by the MCMC No U-Turn Sampler in <a href="http://mc-stan.org/">Stan</a> (the shiny new Bayesian toolbox toy).</p>
+<p>I wrote this code for myself to make sure I understood what was going on during the fitting process, but I thought I’d share it here. When I’m learning a new method, I often find it useful to see the same problem solved using a method I know along with a method I’m learning.</p>
+<p>There are <a href="http://stat.ethz.ch/R-manual/R-patched/library/stats/html/GammaDist.html">multiple ways</a> to parameterize the Gamma distribution in <code>R</code>. Here I’ve chosen to use the “rate” and “shape” parameters to match how it is parameterized in JAGS.</p>
+<p>We’ll start by simulating some data:</p>
+<pre class="r"><code>set.seed(999)
+N &lt;- 100
+x &lt;- runif(N, -1, 1)
+a &lt;- 0.5
+b &lt;- 1.2
+y_true &lt;- exp(a + b * x)
+shape &lt;- 10
+y &lt;- rgamma(N, rate = shape / y_true, shape = shape)</code></pre>
+<p>Let’s look at what we just simulated:</p>
+<pre class="r"><code>plot(x, y)
+lines(sort(x), y_true[order(x)])</code></pre>
+<p><img src="/blog/2014-04-08-gamma-glms_files/figure-html/plot-gamma-sim-data-1.png" width="384" /></p>
+<p>First, we’ll fit a model to our data with <code>glm()</code> to make sure we can recover the parameters underlying our simulated data:</p>
+<pre class="r"><code>m_glm &lt;- glm(y ~ x, family = Gamma(link = &quot;log&quot;))
+m_glm_ci &lt;- confint(m_glm)
+coef(m_glm)</code></pre>
+<pre><code>## (Intercept)           x 
+##   0.4355899   1.1652181</code></pre>
+<p>That’s pretty close to our “true” simulated values. We’ll use these values as a reference for our methods below.</p>
+<p>To make sure we understand what’s going on, we’ll write our own likelihood function and optimize the fit to the data ourselves with Ben Bolker’s <code>mle2()</code> function. You’ll need the <code>bbmle</code> library.</p>
+<pre class="r"><code>library(&quot;bbmle&quot;)</code></pre>
+<pre><code>## Loading required package: stats4</code></pre>
+<pre class="r"><code>nll_gamma &lt;- function(a, b, logshape) {
+  linear_predictor &lt;- a + b * x
+  # rate = shape / mean:
+  rate &lt;- exp(logshape) / exp(linear_predictor)
+  # sum of negative log likelihoods:
+  -sum(dgamma(y, rate = rate, shape = exp(logshape),
+      log = TRUE))
+}
+(m_mle2 &lt;- bbmle::mle2(nll_gamma,
+  start = list(a = rnorm(1), b = rnorm(1),
+    logshape = rlnorm(1))))</code></pre>
+<pre><code>## 
+## Call:
+## bbmle::mle2(minuslogl = nll_gamma, start = list(a = rnorm(1), 
+##     b = rnorm(1), logshape = rlnorm(1)))
+## 
+## Coefficients:
+##         a         b  logshape 
+## 0.4356475 1.1651330 2.2458513 
+## 
+## Log-likelihood: -66.55</code></pre>
+<p>One of the niceties built into <code>mle2()</code> is the ability to estimate profile likelihood intervals with a <code>confint()</code> function:</p>
+<pre class="r"><code>(m_mle2_ci &lt;- confint(m_mle2))</code></pre>
+<pre><code>##              2.5 %    97.5 %
+## a        0.3718561 0.5007131
+## b        1.0506891 1.2794035
+## logshape 1.9612353 2.5069835</code></pre>
+<p>Now, we’ll use the same approach to fit our model, but this time via MCMC with JAGS:</p>
+<pre class="r"><code>library(&quot;R2jags&quot;)
+m &lt;- function() {
+  # Priors:
+  a ~ dnorm(0, 0.0001) # mean, precision = N(0, 10^4)
+  b ~ dnorm(0, 0.0001)
+  shape ~ dunif(0, 100)
+
+  # Likelihood data model:
+  for (i in 1:N) {
+    linear_predictor[i] &lt;- a + b * x[i]
+    # dgamma(shape, rate) in JAGS:
+    y[i] ~ dgamma(shape, shape / exp(linear_predictor[i]))
+  }
+}
+
+m_jags &lt;- R2jags::jags(data = list(N = N, y = y, x = x),
+  parameters.to.save = c(&quot;a&quot;, &quot;b&quot;, &quot;shape&quot;), model.file = m)</code></pre>
+<p>It’s important to inspect the output from any MCMC simulation to make sure the chains are mixing well and have converged. Rest assured that I have. Let’s extract the mean estimates:</p>
+<pre class="r"><code>m_jags_sims &lt;- m_jags$BUGSoutput$sims.list
+lapply(m_jags_sims, mean)[c(1, 2, 4)]</code></pre>
+<pre><code>## $a
+## [1] 0.436478
+## 
+## $b
+## [1] 1.163562
+## 
+## $shape
+## [1] 9.446129</code></pre>
+<p>And plot, as an example, the density of MCMC samples for the parameter <em>b</em>:</p>
+<pre class="r"><code>plot(density(m_jags_sims$b), main = &quot;&quot;)</code></pre>
+<p><img src="/blog/2014-04-08-gamma-glms_files/figure-html/jags-gamma-density-b-1.png" width="384" /></p>
+<p>We’ll also calculate 95% credible intervals. We’ll use HPD intervals (<a href="http://en.wikipedia.org/wiki/Credible_interval">highest probability density</a>):</p>
+<pre class="r"><code>(m_jags_ci &lt;- coda::HPDinterval(coda::as.mcmc(m_jags_sims$b)))</code></pre>
+<pre><code>##         lower    upper
+## var1 1.045871 1.277708
+## attr(,&quot;Probability&quot;)
+## [1] 0.95</code></pre>
+<p>Now with Stan:</p>
+<pre class="r"><code>library(rstan)
+stan_code &lt;- &quot;
+data {
+  int&lt;lower=0&gt; N;
+  vector[N] x;
+  vector[N] y;
+}
+parameters {
+  real a;
+  real b;
+  real&lt;lower=0.001,upper=100&gt; shape;
+}
+model {
+  a ~ normal(0,100);
+  b ~ normal(0,100);
+  for(i in 1:N)
+    y[i] ~ gamma(shape, (shape / exp(a + b * x[i])));
+}
+&quot;
+m_stan &lt;- stan(model_code = stan_code,
+    data = list(x = x, y = y, N = N))</code></pre>
+<p>We’ll look at the means of each estimated parameter:</p>
+<pre class="r"><code>lapply(extract(m_stan), mean)[c(1, 2, 3)]</code></pre>
+<pre><code>## $a
+## [1] 0.4368692
+## 
+## $b
+## [1] 1.16558
+## 
+## $shape
+## [1] 9.470829</code></pre>
+<p>And we’ll extract the 95% HPD interval again:</p>
+<pre class="r"><code>stan_b &lt;- extract(m_stan)$b
+(m_stan_ci &lt;- coda::HPDinterval(coda::as.mcmc(as.vector(stan_b))))</code></pre>
+<pre><code>##        lower    upper
+## var1 1.04786 1.280054
+## attr(,&quot;Probability&quot;)
+## [1] 0.95</code></pre>
+<p>Finally, we’ll plot the four fits to show that they are all qualitatively the same:</p>
+<pre class="r"><code>par(mfrow = c(1, 2), las = 1, mgp = c(2, 0.5, 0),
+  tcl = -0.15, mar = c(4, 3, 0, 0.5), oma = c(0, 0, 1, 1))
+
+# left panel:
+plot(x, y)
+lines(x[order(x)], y_true[order(x)], col = &quot;#00000050&quot;,
+  lty = 2, lwd = 2)
+X &lt;- seq(min(x), max(x), length.out = 100)
+lines(X, exp(coef(m_glm)[1] + coef(m_glm)[2] * X),
+  col = &quot;red&quot;)
+lines(X, exp(coef(m_mle2)[1] + coef(m_mle2)[2] * X),
+  col = &quot;blue&quot;)
+lines(X, exp(mean(m_jags_sims$a) + mean(m_jags_sims$b) * X),
+  col = &quot;green&quot;)
+lines(X, exp(get_posterior_mean(m_stan)[1,5] +
+    get_posterior_mean(m_stan)[2,5] * X), col = &quot;black&quot;)
+
+# right panel:
+plot(1, 1, xlim = c(1, 4), ylim = c(0.5, 2), type = &quot;n&quot;,
+  xaxt = &quot;n&quot;, xlab = &quot;&quot;, ylab = &quot;Estimate of b&quot;)
+abline(h = b, col = &quot;#00000050&quot;, lwd = 2, lty = 2)
+points(1, coef(m_glm)[2])
+segments(1, m_glm_ci[2, 1], 1, m_glm_ci[2, 2])
+points(2, coef(m_mle2)[2])
+segments(2, m_mle2_ci[2, 1], 2, m_mle2_ci[2, 2])
+points(3, mean(m_jags_sims$b))
+segments(3, m_jags_ci[1, 1], 3, m_jags_ci[1, 2])
+points(4, get_posterior_mean(m_stan)[&quot;b&quot;, &quot;mean-all chains&quot;])
+segments(4, m_stan_ci[1, 1], 4, m_stan_ci[1, 2])
+
+axis(1, at = c(1, 2, 3, 4), labels = c(&quot;glm()&quot;, &quot;mle2()&quot;,
+    &quot;JAGS&quot;, &quot;Stan&quot;))</code></pre>
+<p><img src="/blog/2014-04-08-gamma-glms_files/figure-html/compare-gamma-fits-1.png" width="720" /></p>
+<div id="take-home-messages" class="section level1">
+<h1>Take home messages</h1>
+<p>As expected, all four methods give us a similar result (although some with different interpretations — Bayesian vs. frequentist).</p>
+<p>Simulation, as always, is a great way to understand statistical models.</p>
+<p>Although we call it a “log link”, if we’re working with the Gamma distribution directly, we exponentiate the linear predictor instead of logging the data. This ensures that we don’t propose negative mean values to the Gamma distribution.</p>
+<p>There are multiple ways to parameterize the Gamma distribution, so it’s important to pay attention when moving between languages and functions.</p>
+<p>As with many optimization exercises, we can force a term (here <code>shape</code>) to be positive by fitting in log-space. Hence, using <code>logshape</code> and exponentiating within the optimization function for some of the examples. This creates a smooth likelihood or probability surface near the boundaries that optimization algorithms can better navigate.</p>
+</div>
