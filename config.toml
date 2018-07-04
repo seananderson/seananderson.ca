@@ -6,11 +6,13 @@ googleAnalytics = "UA-11566420-4"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 rssLimit = 20
 
-[outputFormats]
+[outputs]
+  home = [ "HTML", "RSS" ]
 
+[outputFormats]
 [outputFormats.RSS]
-mediatype = "application/rss"
-baseName = "feed"
+  mediatype = "application/rss"
+  baseName = "feed"
 
 uglyurls = false
 enableEmoji = true
@@ -45,6 +47,7 @@ enableEmoji = true
 
 [params]
     description = ""
+    author = "Sean C. Anderson"
 
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdn.bootcss.com"
