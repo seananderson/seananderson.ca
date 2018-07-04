@@ -5,22 +5,17 @@ slug: colophon
 
 # Colophon
 
-How do I generate seananderson.ca? Well, this gets geeky. 
-
-The back end is a series of plain-text [Markdown] files and the static site
-generator [Hugo] combined with [blogdown]. It used to be based on [Jekyll].
-I host this site on [GitHub](http://github.com/). Feel
-free to poke around the [public GitHub repository][github repo].  I provide
-pleasing-to-the-eye fonts with [Google Fonts]. I write my [CV](/cv/) in
-[Pandoc] Markdown and create the synchronized HTML and PDF versions with a
-combination of [LaTeX] and a [Makefile]. I generate the list of papers in
-my CV with a [BibTeX file], a [short R script], and the 
-[bibtex][bibtex-package] R package.
-
-I designed the layout around the [Skeleton] CSS framework using [Neovim],
-[CSSEdit], and [xScope]. I now swear by the [Text Triumvirate] of [zsh],
-[Vim], and [tmux]. In [iTerm2] of course. Font? Usually Menlo 14pt. 
-Theme? Usually [seoul256] or [solarized] in light or dark. 
+How do I generate seananderson.ca? Well, this gets geeky. The back end is
+a series of plain-text [Markdown] files and the static site generator [Hugo]
+combined with [blogdown]. It used to be based on [Jekyll]. I host this site on
+[Netifly](https://www.netlify.com/). Feel free to poke around the [public
+GitHub repository][github repo]. I provide pleasing-to-the-eye fonts with
+[Google Fonts]. I write my [CV](/cv/) in [Pandoc] Markdown and create the
+synchronized HTML and PDF versions with a combination of [LaTeX] and
+a [Makefile]. I generate the list of papers in my CV with a [BibTeX file],
+a [short R script], and the [bibtex][bibtex-package] R package. I designed the
+layout around the [Skeleton] CSS framework using [Neovim], [CSSEdit], and
+[xScope].
 
 <!--I frequently add [web bookmarks][my pinboard] to [pinboard.in].-->
 
@@ -29,8 +24,8 @@ Theme? Usually [seoul256] or [solarized] in light or dark.
 [seoul256]: https://github.com/junegunn/seoul256.vim
 [blogdown]: https://github.com/rstudio/blogdown
 [knitr]: http://yihui.name/knitr/
-[BibTeX file]: https://github.com/seananderson/seananderson.github.com/blob/master/refs.bib
-[short R script]: https://github.com/seananderson/seananderson.github.com/blob/master/refs.R
+[BibTeX file]: https://github.com/seananderson/seananderson.ca/blob/master/refs.bib
+[short R script]: https://github.com/seananderson/seananderson.ca/blob/master/refs.R
 [bibtex-package]: http://cran.r-project.org/web/packages/bibtex/index.html
 [CSSEdit]: http://macrabbit.com/
 [xScope]: http://iconfactory.com/software/xscope
@@ -47,9 +42,9 @@ Theme? Usually [seoul256] or [solarized] in light or dark.
 [Flickr]: http://flickr.com/
 [my flickr]: http://flickr.com/photos/seananderson
 [Pandoc]: http://johnmacfarlane.net/pandoc/
-[LaTeX]: https://github.com/seananderson/seananderson.github.com/blob/master/AndersonCV.tex
-[Makefile]: https://github.com/seananderson/seananderson.github.com/blob/master/cv/makefile
-[github repo]: https://github.com/seananderson/seananderson.github.com
+[LaTeX]: https://github.com/seananderson/seananderson.ca/blob/master/AndersonCV.tex
+[Makefile]: https://github.com/seananderson/seananderson.ca/blob/master/cv/makefile
+[github repo]: https://github.com/seananderson/seananderson.ca
 
 [Linode]: http://www.linode.com/?r=b679b2fb740948a30f90e35cd99f8f38b9ced103
 [Text Triumvirate]: http://www.drbunsen.org/the-text-triumvirate/
