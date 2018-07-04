@@ -1,0 +1,11 @@
+cache
+figure/*.pdf
+.Rapp.history
+*.aux
+*.log
+*.tex
+*.html
+wingl-violin.pdf
+.Rproj.user
+index_cache/
+index_files/
