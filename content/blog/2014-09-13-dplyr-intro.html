@@ -1,9 +1,9 @@
 ---
-draft: yes
 title: 'dplyr and pipes: the basics'
 subtitle: Revolutionize your data analysis with dplyr and pipes
 date: '2014-09-13'
 slug: dplyr-intro
+draft: no
 ---
 
 
@@ -347,10 +347,10 @@ head(summarise(group_by(mammals, order),
 <p>Pipes can work with nearly any functions. Let’s start with a non-dplyr example:</p>
 <pre class="r"><code>x &lt;- rnorm(10)
 x %&gt;% max</code></pre>
-<pre><code>## [1] 0.8509455</code></pre>
+<pre><code>## [1] 1.468213</code></pre>
 <pre class="r"><code># is the same thing as:
 max(x)</code></pre>
-<pre><code>## [1] 0.8509455</code></pre>
+<pre><code>## [1] 1.468213</code></pre>
 <p>So, we took the value of <code>x</code> (what would have been printed on the console), captured it, and fed it to the first argument of <code>max()</code>. It’s probably not clear why this is cool yet, but hang on.</p>
 </div>
 <div id="a-silly-dplyr-example-with-pipes" class="section level1">

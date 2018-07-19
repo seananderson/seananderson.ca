@@ -3,6 +3,7 @@ title: 'dplyr and pipes: the basics'
 subtitle: Revolutionize your data analysis with dplyr and pipes
 date: '2014-09-13'
 slug: dplyr-intro
+draft: no
 ---
 
 The [dplyr](http://cran.r-project.org/package=dplyr) R package is awesome. Pipes from the [magrittr](http://cran.r-project.org/package=magrittr) R package are awesome. Put the two together and you have one of the most exciting things to happen to R in a long time.
