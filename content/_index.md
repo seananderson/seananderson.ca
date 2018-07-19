@@ -46,7 +46,7 @@ Canada through
 (Strategic Program for Ecosystem-Based Research and Advice) and
 [ACCASP](http://www.dfo-mpo.gc.ca/science/rp-pr/accasp-psaccma/index-eng.html)
 (Aquatic Climate Change Adaptation Services Program). Other excellent postdoc
-funding oppportunities are through the [Liber Ero](http://liberero.ca/) and the
+funding opportunities are through the [Liber Ero](http://liberero.ca/) and the
 [Smith Fellows](https://conbio.org/mini-sites/smith-fellows) programs. If you
 have a topic of interest, get in touch and we may be able to write a joint
 proposal.
