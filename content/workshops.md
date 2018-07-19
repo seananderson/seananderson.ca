@@ -34,6 +34,4 @@ Some testimonials from recent courses:
 > detailed and helpful. I've attend similar workshops where the instructor talks
 > above the participants and it seems like a chore for them to be there, Sean is
 > just the opposite. He is able to break complicated concepts down into tangible
-> pieces. I benefited from having the time to work on the problems myself during
-> the course, even if I needed a little help to make it all the way to the
-> light-bulb moment.
+> pieces.
