@@ -1,4 +1,4 @@
-/* @override 
+/* @override
 	http://localhost:4000/css2.1.5/layout.css
 	http://seananderson.ca/css2.1.5/layout.css
 */
@@ -283,10 +283,23 @@ li.blog-archive {
 	padding-bottom: 20px;
 }
 
+
 ul {
-	margin-left: 0;
-	list-style-type: none;
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+    list-style-position: outside;
+
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+    margin-bottom: 18px;
 }
+
 
 ol, table {
 	margin-bottom: 20px;

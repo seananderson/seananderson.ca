@@ -8,38 +8,54 @@ I am a biologist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.c
 Fisheries and Oceans Canada in Nanaimo, British Columbia. 
 Until recently, I was a [David H. Smith Conservation Research
 Fellow][smith] at the [University of Washington][safs] and [Northwest
-Fisheries Science Center][nwfsc] in Seattle, Washington. 
-I believe that the thoughtful visual display
-of data and statistical models can powerfully inform conservation ecology and
-help us understand the ecological risks associated with human activities.
+Fisheries Science Center][nwfsc] in Seattle, Washington.
+
+I link theory with data through statistical and simulation models to improve predictions about ecological systems and inform management and policy decisions.
+In particular, I am interested in how we can estimate population status with limited data and in the role of variance, risk, and extreme events in population dynamics. Because these problems are complex, a large part of my work involves method and software development.
 
 <img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="321" class="headshot"/>
-
-In my [Ph.D. thesis][] at [Simon Fraser University][sfu], I examined the role
-of variability and extreme events in population ecology. In my [M.Sc. thesis][]
-at [Dalhousie University][dal], I explored patterns of expansion and serial
-exploitation in global invertebrate fisheries. I also work on extinction risk:
-I recently co-led [a study published in Science][paleobaselines] that used 23
-million years of fossil data to ask what extinction risk in today's oceans
-would look like without humans.
-
 My [research](/cv.html#publications) broadly spans the field of quantitative
-ecology across taxa (e.g. sea cucumbers, reef fish, salmon, moths, grizzly
-bears), ecosystems (marine, freshwater, terrestrial), methods (empirical,
-simulation, theoretical), spatial scale (regional, national, global), and time
-periods (modern, historical, paleontological).
+ecology. In my role at Fisheries and Oceans Canada, I am now mainly focussed on marine fish and fisheries. My current areas of research include:
 
-I [teach workshops](/cv.html#teaching) on data visualization and manipulation
-for scientists. I also develop a number of R packages. With collaborators, I'm
-developing packages to run fisheries stock assessment simulations with [Stock
-Synthesis][nefsc] software ([ss3sim]), fit Bayesian spatiotemporal models that
-allow for extremes ([glmmfields](https://github.com/seananderson/glmmfields)), and
-fit stock assessment models to data-limited fisheries
-([datalimited](https://github.com/datalimited/datalimited)).
+- Ecological extremes in time or space, e.g. [black-swan events](http://www.pnas.org/content/114/12/3252)
+- [Ensemble approaches](https://doi.org/10.1073/pnas.1702506114) in fisheries stock assessment
+- Fisheries stock assessment, especially data-limited management-procedure approaches
+- [Spatiotemporal modelling](https://doi.org/10.1002/ecy.2403) of fish biomass and other ecological processes, especially to investigate effects of climate change
+- Ecological portfolio effects, e.g. [the benefits and risks of diversification for fishers](https://doi.org/10.1073/pnas.1702506114) or [fish populations](https://doi.org/10.1890/14-0266.1)
+
+I [teach workshops](/workshops) on statistical modelling and data science
+in R including multiday workshops on [Generalized Linear Mixed Effects
+Models](https://github.com/seananderson/glmm-course) (GLMMs) and [Bayesian data
+analysis in R and Stan]( https://github.com/seananderson/bayes-course).
+
+I develop a number of R packages. For example, with collaborators, I'm developing
+packages to run fisheries stock assessment simulations with [Stock
+Synthesis][nefsc] software ([ss3sim](https://github.com/ss3sim/ss3sim)), fit
+Bayesian spatial and spatiotemporal models
+([glmmfields](https://github.com/seananderson/glmmfields)), and fit Bayesian
+Dynamic Factor Analysis time series models
+([bayesdfa](https://github.com/fate-ewi/bayesdfa)). Much of my recent work has
+been on [developing R packages](https://github.com/pbs-assess) to facilitate rapid
+data processing, model fitting, and visualization for groundfish stocks in
+British Columbia, Canada.
+
+I am interested in taking on postdoctoral researchers and co-supervising
+graduate students. There are funding opportunities with Fisheries and Oceans
+Canada through
+[SPERA](http://www.dfo-mpo.gc.ca/science/rp-pr/spera-psrafe/index-eng.html)
+(Strategic Program for Ecosystem-Based Research and Advice) and
+[ACCASP](http://www.dfo-mpo.gc.ca/science/rp-pr/accasp-psaccma/index-eng.html)
+(Aquatic Climate Change Adaptation Services Program). Other excellent postdoc
+funding oppportunities are through the [Liber Ero](http://liberero.ca/) and the
+[Smith Fellows](https://conbio.org/mini-sites/smith-fellows) programs. If you
+have a topic of interest, get in touch and we may be able to write a joint
+proposal.
+
+
+
 
 [earth2ocean]: http://earth2ocean.org
 [gg]: http://www.gg.ca/honour.aspx?id=75057&t=1&;ln=Anderson
-[ss3sim]: http://cran.r-project.org/package=ss3sim
 [ecofolio]: https://github.com/seananderson/ecofolio
 [robustmeta]: https://github.com/seananderson/robustmeta
 [my github]: https://github.com/seananderson
@@ -56,4 +72,3 @@ fit stock assessment models to data-limited fisheries
 [safs]: http://fish.washington.edu/
 [paleobaselines]: http://doi.org/10.1126/science.aaa6635
 [nwfsc]: www.nwfsc.noaa.gov/
-

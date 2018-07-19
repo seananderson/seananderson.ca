@@ -23,27 +23,39 @@ enableEmoji = true
 [[menu.main]]
     name = "About"
     url = "/"
+    weight = 1
 [[menu.main]]
     name = "Blog"
     url = "/blog/"
+    weight = 2
 [[menu.main]]
     name = "CV"
     url = "/cv/"
-[[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio/"
+    weight = 3
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/seananderson"
+    weight = 4
+[[menu.main]]
+    name = "Workshops"
+    url = "/workshops/"
+    weight = 5
+[[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 6
 [[menu.main]]
     name = "Photos"
     url = "http://www.flickr.com/photos/seananderson/"
+    weight = 7
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/sean_anderson"
+    weight = 8
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
+    weight = 9
 
 [params]
     description = ""
