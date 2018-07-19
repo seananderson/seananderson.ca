@@ -1,4 +1,5 @@
 ---
+draft: yes
 title: 'dplyr and pipes: the basics'
 subtitle: Revolutionize your data analysis with dplyr and pipes
 date: '2014-09-13'
@@ -8,7 +9,7 @@ slug: dplyr-intro
 
 
 <p>The <a href="http://cran.r-project.org/package=dplyr">dplyr</a> R package is awesome. Pipes from the <a href="http://cran.r-project.org/package=magrittr">magrittr</a> R package are awesome. Put the two together and you have one of the most exciting things to happen to R in a long time.</p>
-<p>dplyr is <a href="http://had.co.nz/">Hadley Wickham’s</a> re-imagined plyr package (with underlying C++ secret sauce co-written by <a href="http://blog.r-enthusiasts.com/">Romain Francois</a>). plyr 2.0 if you will. It does less than dplyr, but what it does it does more elegantly and much more quickly.</p>
+<p>dplyr is <a href="http://had.co.nz/">Hadley Wickham’s</a> re-imagined plyr package (with underlying C++ secret sauce co-written by <a href="http://blog.r-enthusiasts.com/">Romain Francois</a>). plyr 2.0 if you will. It does less than plyr, but what it does it does more elegantly and much more quickly.</p>
 <p>dplyr is built around 5 verbs. These verbs make up the majority of the data manipulation you tend to do. You might need to:</p>
 <p><em>Select</em> certain columns of data.</p>
 <p><em>Filter</em> your data to select specific rows.</p>
@@ -50,10 +51,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  2 Carnivo… Canis adus…           10392.               745.           1.01
 ##  3 Carnivo… Canis aure…            9659.               828.           2.95
 ##  4 Carnivo… Canis latr…           11989.               872.          18.9 
-##  5 Carnivo… Canis lupus           31757.              1055.         160.  
-##  6 Artioda… Bos fronta…          800143.              2700.          NA   
-##  7 Artioda… Bos grunni…          500000.                NA           NA   
-##  8 Artioda… Bos javani…          635974.              2075.          NA   
+##  5 Carnivo… Canis lupus           31757.              1055          160.  
+##  6 Artioda… Bos fronta…          800143.              2700           NA   
+##  7 Artioda… Bos grunni…          500000                 NA           NA   
+##  8 Artioda… Bos javani…          635974.              2075           NA   
 ##  9 Primates Callicebus…            1117.               355.          NA   
 ## 10 Primates Callicebus…              NA                 NA           NA   
 ## # ... with 5,406 more rows, and 1 more variable: litter_size &lt;dbl&gt;</code></pre>
@@ -79,10 +80,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  2                   745.
 ##  3                   828.
 ##  4                   872.
-##  5                  1055.
-##  6                  2700.
+##  5                  1055 
+##  6                  2700 
 ##  7                    NA 
-##  8                  2075.
+##  8                  2075 
 ##  9                   355.
 ## 10                    NA 
 ## # ... with 5,406 more rows</code></pre>
@@ -90,46 +91,46 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 <pre><code>## # A tibble: 5,416 x 2
 ##    adult_head_body_len_mm litter_size
 ##                     &lt;dbl&gt;       &lt;dbl&gt;
-##  1                    NA        0.980
-##  2                   745.       4.50 
-##  3                   828.       3.74 
-##  4                   872.       5.72 
-##  5                  1055.       4.98 
-##  6                  2700.       1.22 
-##  7                    NA        1.00 
-##  8                  2075.       1.22 
-##  9                   355.       1.01 
-## 10                    NA       NA    
+##  1                    NA         0.98
+##  2                   745.        4.5 
+##  3                   828.        3.74
+##  4                   872.        5.72
+##  5                  1055         4.98
+##  6                  2700         1.22
+##  7                    NA         1   
+##  8                  2075         1.22
+##  9                   355.        1.01
+## 10                    NA        NA   
 ## # ... with 5,406 more rows</code></pre>
 <pre class="r"><code>select(mammals, adult_head_body_len_mm:litter_size)</code></pre>
 <pre><code>## # A tibble: 5,416 x 3
 ##    adult_head_body_len_mm home_range_km2 litter_size
 ##                     &lt;dbl&gt;          &lt;dbl&gt;       &lt;dbl&gt;
-##  1                    NA          196.         0.980
-##  2                   745.           1.01       4.50 
-##  3                   828.           2.95       3.74 
-##  4                   872.          18.9        5.72 
-##  5                  1055.         160.         4.98 
-##  6                  2700.          NA          1.22 
-##  7                    NA           NA          1.00 
-##  8                  2075.          NA          1.22 
-##  9                   355.          NA          1.01 
-## 10                    NA           NA         NA    
+##  1                    NA          196.          0.98
+##  2                   745.           1.01        4.5 
+##  3                   828.           2.95        3.74
+##  4                   872.          18.9         5.72
+##  5                  1055          160.          4.98
+##  6                  2700           NA           1.22
+##  7                    NA           NA           1   
+##  8                  2075           NA           1.22
+##  9                   355.          NA           1.01
+## 10                    NA           NA          NA   
 ## # ... with 5,406 more rows</code></pre>
 <pre class="r"><code>select(mammals, -adult_head_body_len_mm)</code></pre>
 <pre><code>## # A tibble: 5,416 x 5
 ##    order        species        adult_body_mass… home_range_km2 litter_size
 ##    &lt;chr&gt;        &lt;chr&gt;                     &lt;dbl&gt;          &lt;dbl&gt;       &lt;dbl&gt;
-##  1 Artiodactyla Camelus drome…          492714.         196.         0.980
-##  2 Carnivora    Canis adustus            10392.           1.01       4.50 
-##  3 Carnivora    Canis aureus              9659.           2.95       3.74 
-##  4 Carnivora    Canis latrans            11989.          18.9        5.72 
-##  5 Carnivora    Canis lupus              31757.         160.         4.98 
-##  6 Artiodactyla Bos frontalis           800143.          NA          1.22 
-##  7 Artiodactyla Bos grunniens           500000.          NA          1.00 
-##  8 Artiodactyla Bos javanicus           635974.          NA          1.22 
-##  9 Primates     Callicebus cu…            1117.          NA          1.01 
-## 10 Primates     Callicebus di…              NA           NA         NA    
+##  1 Artiodactyla Camelus drome…          492714.         196.          0.98
+##  2 Carnivora    Canis adustus            10392.           1.01        4.5 
+##  3 Carnivora    Canis aureus              9659.           2.95        3.74
+##  4 Carnivora    Canis latrans            11989.          18.9         5.72
+##  5 Carnivora    Canis lupus              31757.         160.          4.98
+##  6 Artiodactyla Bos frontalis           800143.          NA           1.22
+##  7 Artiodactyla Bos grunniens           500000           NA           1   
+##  8 Artiodactyla Bos javanicus           635974.          NA           1.22
+##  9 Primates     Callicebus cu…            1117.          NA           1.01
+## 10 Primates     Callicebus di…              NA           NA          NA   
 ## # ... with 5,406 more rows</code></pre>
 <pre class="r"><code>select(mammals, contains(&quot;body&quot;))</code></pre>
 <pre><code>## # A tibble: 5,416 x 2
@@ -139,10 +140,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  2            10392.                   745.
 ##  3             9659.                   828.
 ##  4            11989.                   872.
-##  5            31757.                  1055.
-##  6           800143.                  2700.
-##  7           500000.                    NA 
-##  8           635974.                  2075.
+##  5            31757.                  1055 
+##  6           800143.                  2700 
+##  7           500000                     NA 
+##  8           635974.                  2075 
 ##  9             1117.                   355.
 ## 10               NA                     NA 
 ## # ... with 5,406 more rows</code></pre>
@@ -154,10 +155,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  2            10392.                   745.
 ##  3             9659.                   828.
 ##  4            11989.                   872.
-##  5            31757.                  1055.
-##  6           800143.                  2700.
-##  7           500000.                    NA 
-##  8           635974.                  2075.
+##  5            31757.                  1055 
+##  6           800143.                  2700 
+##  7           500000                     NA 
+##  8           635974.                  2075 
 ##  9             1117.                   355.
 ## 10               NA                     NA 
 ## # ... with 5,406 more rows</code></pre>
@@ -171,7 +172,7 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  4            11989.
 ##  5            31757.
 ##  6           800143.
-##  7           500000.
+##  7           500000 
 ##  8           635974.
 ##  9             1117.
 ## 10               NA 
@@ -186,7 +187,7 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  4 Carnivora    Canis latrans                  11989.
 ##  5 Carnivora    Canis lupus                    31757.
 ##  6 Artiodactyla Bos frontalis                 800143.
-##  7 Artiodactyla Bos grunniens                 500000.
+##  7 Artiodactyla Bos grunniens                 500000 
 ##  8 Artiodactyla Bos javanicus                 635974.
 ##  9 Primates     Callicebus cupreus              1117.
 ## 10 Primates     Callicebus discolor               NA 
@@ -221,9 +222,9 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 <pre><code>## # A tibble: 3 x 6
 ##   order    species     adult_body_mass… adult_head_body_le… home_range_km2
 ##   &lt;chr&gt;    &lt;chr&gt;                  &lt;dbl&gt;               &lt;dbl&gt;          &lt;dbl&gt;
-## 1 Carnivo… Mustela al…            180.                 244.        NA     
-## 2 Carnivo… Mustela fr…            190.                 229.         0.210 
-## 3 Carnivo… Mustela ni…             78.4                188.         0.0700
+## 1 Carnivo… Mustela al…            180.                 244.          NA   
+## 2 Carnivo… Mustela fr…            190.                 229.           0.21
+## 3 Carnivo… Mustela ni…             78.4                188.           0.07
 ## # ... with 1 more variable: litter_size &lt;dbl&gt;</code></pre>
 </div>
 <div id="arranging-rows" class="section level1">
@@ -239,10 +240,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 ##  4 Soricomorpha Sorex minutissimus                       2.46
 ##  5 Soricomorpha Suncus madagascariensis                  2.47
 ##  6 Soricomorpha Crocidura lusitania                      2.48
-##  7 Soricomorpha Crocidura planiceps                      2.50
+##  7 Soricomorpha Crocidura planiceps                      2.5 
 ##  8 Chiroptera   Pipistrellus nanulus                     2.51
 ##  9 Soricomorpha Sorex nanus                              2.57
-## 10 Soricomorpha Sorex arizonae                           2.70
+## 10 Soricomorpha Sorex arizonae                           2.7 
 ## # ... with 5,406 more rows</code></pre>
 <pre class="r"><code>arrange(mammals, desc(adult_body_mass_g))[ , 1:3]</code></pre>
 <pre><code>## # A tibble: 5,416 x 3
@@ -263,10 +264,10 @@ mammals &lt;- dplyr::tbl_df(mammals) # for prettier printing</code></pre>
 <pre><code>## # A tibble: 5,416 x 3
 ##    order        species                adult_body_mass_g
 ##    &lt;chr&gt;        &lt;chr&gt;                              &lt;dbl&gt;
-##  1 Afrosoricida Microgale pusilla                   3.40
+##  1 Afrosoricida Microgale pusilla                   3.4 
 ##  2 Afrosoricida Microgale parvula                   3.53
 ##  3 Afrosoricida Geogale aurita                      6.69
-##  4 Afrosoricida Microgale fotsifotsy                7.70
+##  4 Afrosoricida Microgale fotsifotsy                7.7 
 ##  5 Afrosoricida Microgale longicaudata              8.08
 ##  6 Afrosoricida Microgale brevicaudata              8.99
 ##  7 Afrosoricida Microgale principula               10.2 
@@ -346,10 +347,10 @@ head(summarise(group_by(mammals, order),
 <p>Pipes can work with nearly any functions. Let’s start with a non-dplyr example:</p>
 <pre class="r"><code>x &lt;- rnorm(10)
 x %&gt;% max</code></pre>
-<pre><code>## [1] 1.546282</code></pre>
+<pre><code>## [1] 0.8509455</code></pre>
 <pre class="r"><code># is the same thing as:
 max(x)</code></pre>
-<pre><code>## [1] 1.546282</code></pre>
+<pre><code>## [1] 0.8509455</code></pre>
 <p>So, we took the value of <code>x</code> (what would have been printed on the console), captured it, and fed it to the first argument of <code>max()</code>. It’s probably not clear why this is cool yet, but hang on.</p>
 </div>
 <div id="a-silly-dplyr-example-with-pipes" class="section level1">
@@ -365,10 +366,10 @@ max(x)</code></pre>
 ##  4 Sorico… Sorex minuti…             2.46              52.0             NA
 ##  5 Sorico… Suncus madag…             2.47              NA               NA
 ##  6 Sorico… Crocidura lu…             2.48              31.0             NA
-##  7 Sorico… Crocidura pl…             2.50              NA               NA
+##  7 Sorico… Crocidura pl…             2.5               NA               NA
 ##  8 Chirop… Pipistrellus…             2.51              NA               NA
-##  9 Sorico… Sorex nanus               2.57              52.0             NA
-## 10 Sorico… Sorex arizon…             2.70              58.0             NA
+##  9 Sorico… Sorex nanus               2.57              52               NA
+## 10 Sorico… Sorex arizon…             2.7               58.0             NA
 ## # ... with 5,406 more rows, and 1 more variable: litter_size &lt;dbl&gt;</code></pre>
 </div>
 <div id="an-awesome-example" class="section level1">

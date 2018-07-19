@@ -7,7 +7,7 @@ slug: dplyr-intro
 
 The [dplyr](http://cran.r-project.org/package=dplyr) R package is awesome. Pipes from the [magrittr](http://cran.r-project.org/package=magrittr) R package are awesome. Put the two together and you have one of the most exciting things to happen to R in a long time.
 
-dplyr is [Hadley Wickham's](http://had.co.nz/) re-imagined plyr package (with underlying C++ secret sauce co-written by [Romain Francois](http://blog.r-enthusiasts.com/)). plyr 2.0 if you will. It does less than dplyr, but what it does it does more elegantly and much more quickly.
+dplyr is [Hadley Wickham's](http://had.co.nz/) re-imagined plyr package (with underlying C++ secret sauce co-written by [Romain Francois](http://blog.r-enthusiasts.com/)). plyr 2.0 if you will. It does less than plyr, but what it does it does more elegantly and much more quickly.
 
 dplyr is built around 5 verbs. These verbs make up the majority of the data manipulation you tend to do. You might need to:
 
