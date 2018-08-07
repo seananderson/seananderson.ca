@@ -24,8 +24,8 @@ layout around the [Skeleton] CSS framework using [Neovim], [CSSEdit], and
 [seoul256]: https://github.com/junegunn/seoul256.vim
 [blogdown]: https://github.com/rstudio/blogdown
 [knitr]: http://yihui.name/knitr/
-[BibTeX file]: https://github.com/seananderson/seananderson.ca/blob/master/refs.bib
-[short R script]: https://github.com/seananderson/seananderson.ca/blob/master/refs.R
+[BibTeX file]: https://github.com/seananderson/seananderson.ca/blob/master/cv/refs.bib
+[short R script]: https://github.com/seananderson/seananderson.ca/blob/master/cv/refs.R
 [bibtex-package]: http://cran.r-project.org/web/packages/bibtex/index.html
 [CSSEdit]: http://macrabbit.com/
 [xScope]: http://iconfactory.com/software/xscope
