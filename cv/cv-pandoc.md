@@ -57,6 +57,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2018
+:    Walsh, J.C., C. Minto, E. Jardim, **S.C. Anderson**, O.P. Jensen, J.
+     Afflerbach, K.M. Kleisner, M. Dickey-Collas, C. Longo1, G.C. Osio, E.R.
+     Selig, J.T. Thorson, M.B. Rudd, K.J. Papacostas, J.N. Kittinger, A.A.
+     Rosenberg, A.B. Cooper. Trade-offs for data-limited fisheries when using
+     harvest strategies based on catch-only models. Fish and Fisheries. In
+     press.
+
+2018
 :    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
      spatiotemporal processes with extremes. In press at Ecology. <https://doi.org/10.1002/ecy.2403>.
      glmmfields R package: [CRAN](https://cran.r-project.org/package=glmmfields), [GitHub](https://github.com/seananderson/glmmfields).
@@ -318,8 +326,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2012
 :    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy.  False prophets: The
-     ecological portfolio effect overestimates the benefit of diversity. Branch
-     Lab, School of Aquatic and Fishery Sciences, University of
+     ecological portfolio effect overestimates the benefit of diversity. School of Aquatic and Fishery Sciences, University of
      Washington, Seattle, WA, United States.
 
 2012
