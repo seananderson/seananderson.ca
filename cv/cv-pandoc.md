@@ -293,8 +293,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2018
 :    **gfplot** & **gfsynopsis**: R packages to generate an annual Research
-     Document 'synopsis report' showing all available fishery and biological data
-     and basic model fits for 108 Pacific groundfish species for publication through
+     Document synopsis report showing all available fishery and biological data
+     and basic model fits for 109 Pacific groundfish species for publication through
      the Canadian Science Advisory Secretariat (CSAS). To be reviewed via regional
      peer-review meeting November 22--23 2018.\
      <https://github.com/pbs-assess/gfplot> and
