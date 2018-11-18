@@ -228,7 +228,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <a href="https://f1000.com/prime/9542957" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
 
 2008
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
+:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)).
 # Peer-reviewed reports
 
 2018
