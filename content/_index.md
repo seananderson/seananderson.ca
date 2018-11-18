@@ -4,18 +4,15 @@ aliases: index.html
 layout: index
 ---
 
-I am a biologist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
-Fisheries and Oceans Canada in Nanaimo, British Columbia. 
-Until recently, I was a [David H. Smith Conservation Research
-Fellow][smith] at the [University of Washington][safs] and [Northwest
-Fisheries Science Center][nwfsc] in Seattle, Washington.
-
+I'm a biologist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
+Fisheries and Oceans Canada in Nanaimo, British Columbia.
 I link theory with data through statistical and simulation models to improve predictions about ecological systems and inform management and policy decisions.
-In particular, I am interested in how we can estimate population status with limited data and in the role of variance, risk, and extreme events in population dynamics. Because these problems are complex, a large part of my work involves method and software development.
+In particular, I am interested in how we can estimate population status with limited data and in the role of variance, risk, and extreme events in population dynamics.
 
-<img src="images/sean_anderson_2014.jpg" alt="Sean C. Anderson" width="220" height="321" class="headshot"/>
+<img src="images/seananderson2018@2x.jpg" alt="Sean C. Anderson" width="700" height="419" class="headshot"/>
+
 My [research](/cv.html#publications) broadly spans the field of quantitative
-ecology. In my role at Fisheries and Oceans Canada, I am now mainly focussed on marine fish and fisheries. My current areas of research include:
+ecology. In my role at Fisheries and Oceans Canada, I am focussed on marine fish and fisheries. My current areas of research include:
 
 - Ecological extremes in time or space, e.g. [black-swan events](http://www.pnas.org/content/114/12/3252)
 - [Ensemble approaches](https://doi.org/10.1073/pnas.1702506114) in fisheries stock assessment
