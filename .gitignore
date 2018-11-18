@@ -30,3 +30,4 @@ cv-body.md
 *.lock
 blogdown/post/*_cache/
 blogdown/blog/*_cache/
+.Rhistory
