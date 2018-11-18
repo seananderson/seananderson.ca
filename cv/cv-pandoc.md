@@ -6,7 +6,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2017-18
+2017--18
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
@@ -57,17 +57,31 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2018
+:    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
+     Halpern. Uncertainty in a global fisheries indicator. In press at Fish and
+     Fisheries.
+
+2018
+:    Marshall, K.N., J.T. Duffy-Anderson, E.J. Ward, **S.C. Anderson**, M.E.
+     Hunsicker, B.C. Williams. Long-term trends in ichthyoplankton assemblage
+     structure, biodiversity, and synchrony in the Gulf of Alaska and their
+     relationships to climate. In press at Progress in Oceanography.
+     <https://doi.org/10.1016/j.pocean.2018.11.002>.
+
+2018
 :    Walsh, J.C., C. Minto, E. Jardim, **S.C. Anderson**, O.P. Jensen, J.
      Afflerbach, K.M. Kleisner, M. Dickey-Collas, C. Longo1, G.C. Osio, E.R.
      Selig, J.T. Thorson, M.B. Rudd, K.J. Papacostas, J.N. Kittinger, A.A.
      Rosenberg, A.B. Cooper. Trade-offs for data-limited fisheries when using
-     harvest strategies based on catch-only models. Fish and Fisheries. In
-     press.
+     harvest strategies based on catch-only models. In press at Fish and Fisheries.
+     <https://doi.org/10.1111/faf.12316>.
 
 2018
 :    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
-     spatiotemporal processes with extremes. In press at Ecology. <https://doi.org/10.1002/ecy.2403>.
-     glmmfields R package: [CRAN](https://cran.r-project.org/package=glmmfields), [GitHub](https://github.com/seananderson/glmmfields).
+     spatiotemporal processes with extremes. In press at Ecology.
+     <https://doi.org/10.1002/ecy.2403>. glmmfields R package:
+     [CRAN](https://cran.r-project.org/package=glmmfields),
+     [GitHub](https://github.com/seananderson/glmmfields).
 
 2018
 :    Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner, M.D. Adkison,
@@ -78,7 +92,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2018
 :    Hughes, B., S. Lummis, **S.C. Anderson**, K. Kroeker. Unexpected
-     resilience of a seagrass system exposed to multiple stressors. Global Change Biology. 24(1) 224--234. <https://doi.org/10.1111/gcb.13854>.
+     resilience of a seagrass system exposed to multiple stressors. Global
+     Change Biology. 24(1) 224--234. <https://doi.org/10.1111/gcb.13854>.
 
 2018
 :    Rosenberg, A.A., K.M. Kleisner, J. Afflerbach, **S.C. Anderson**, M.
@@ -98,7 +113,9 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2017
 :    **Anderson, S.C.**, E.J. Ward, A.O. Shelton, M.D. Adkison, A.H. Beaudreau,
      R.E. Brenner, A.C. Haynie, J.C. Shriver, J.T. Watson, B.C. Williams.
-     Benefits and risks of diversification for individual fishers. Proceedings of the National Academy of Sciences. 114(40):10797--10802. <https://doi.org/10.1073/pnas.1702506114>.
+     Benefits and risks of diversification for individual fishers. Proceedings
+     of the National Academy of Sciences. 114(40):10797--10802.
+     <https://doi.org/10.1073/pnas.1702506114>.
 
 2017
 :    Megias, D.A., **S.C. Anderson**, R.J. Smith, D. Veríssimo. Investigating
@@ -212,20 +229,34 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)). Eighth most-read CJFAS article in 2008.
+# Peer-reviewed reports
+
+2018
+:    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
+     Pacific Cod (*Gadus macrocephalus*) for Hecate Strait and Queen Charlotte Sound
+     (Area 5ABCD), and West Coast Vancouver Island (Area 3CD) in 2018. Canadian
+     Science Advisory Secretariat (CSAS) Research Document. Accepted at
+     regional peer-review meeting October 2018.
 
 # Awards and scholarships
 
+2018--20
+:    Principal Investigator of a two-year grant from Fisheries and Oceans
+     Canada's Aquatic Climate Change Adaptation Services Program (ACCASP). Project
+     title: Characterizing range shifts in British Columbia groundfish species in
+     response to local climate velocities.
+
 2017
-:    Canadian Society for Ecology and Evolution (CSEE) Early Career Award
-     ([URL](http://csee-scee.ca/?p=5183))
+:    Canadian Society for Ecology and Evolution (CSEE) Early Career Award.\
+     <http://csee-scee.ca/2017-early-career-awards/>
 
 2015
-:    David H. Smith Conservation Postdoctoral Research Fellowship
-     ([URL](http://conbio.org/mini-sites/smith-fellows/meet-the-fellows/2015-fellows/sean-anderson))
+:    David H. Smith Conservation Postdoctoral Research Fellowship\
+     <http://conbio.org/mini-sites/smith-fellows/meet-the-fellows/2015-fellows/sean-anderson>
 
 2015
-:    Simon Fraser University Dean of Graduate Studies Convocation Medal
-     ([URL](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html))
+:    Simon Fraser University Dean of Graduate Studies Convocation Medal\
+     <https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html>
 
 2014
 :    Garfield Weston Foundation / BC Packers Ltd. Graduate Fellowship in
@@ -234,7 +265,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2014
 :    Graduate Fellowship (two semesters), Simon Fraser University
 
-2012–13
+2012--13
 :    Canadian Fulbright Scholar award to the University of Washington
 
 2011
@@ -260,29 +291,43 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Software
 
-2017
-:    glmmfields: Generalized linear mixed models with robust random fields for spatiotemporal modeling.
-     <https://github.com/seananderson/glmmfields>
+2018
+:    **gfplot** & **gfsynopsis**: R packages to generate an annual Research
+     Document 'synopsis report' showing all available fishery and biological data
+     and basic model fits for 108 Pacific groundfish species for publication through
+     the Canadian Science Advisory Secretariat (CSAS). To be reviewed via regional
+     peer-review meeting November 22--23 2018.\
+     <https://github.com/pbs-assess/gfplot> and
+     <https://github.com/pbs-assess/gfsynopsis>
+
+2018
+:    **csasdown**: Reproducible Canadian Science Advisory Secretariat
+     Research Documents via R Markdown.\
+     <https://github.com/pbs-assess/csasdown>
 
 2017
-:    datalimited: Stock assessment methods for data-limited fisheries.
+:    **glmmfields**: Generalized linear mixed models with robust random fields for spatiotemporal modeling.\
+     <https://cran.r-project.org/package=glmmfields>
+
+2017
+:    **datalimited**: Stock assessment methods for data-limited fisheries.
      <https://github.com/datalimited/datalimited>
 
 2014
 :    **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B. Cooper.\
-     metafolio: Metapopulation simulations for conserving salmon
+     **metafolio**: Metapopulation simulations for conserving salmon
      through portfolio optimization.
      <http://cran.r-project.org/package=metafolio>
 
 2013
 :    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero, C.J
      Cunningham, F. Hurtado-Ferro, R. Licandeo, C.R. McGilliard, C.S.
-     Szuwalski, K.A. Vert-pre, A.R. Whitten. ss3sim: Fisheries stock
+     Szuwalski, K.A. Vert-pre, A.R. Whitten. **ss3sim**: Fisheries stock
      assessment simulation testing with Stock Synthesis.
      <http://cran.r-project.org/package=ss3sim>
 
 2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. ecofolio: Tools to
+:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. **ecofolio**: Tools to
      quantify metapopulation portfolio effects.
      <https://github.com/seananderson/ecofolio>
 
@@ -467,23 +512,23 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Working groups and workshops
 
-2016-17
+2016--17
 :    NOAA (National Oceanic and Atmospheric Administration) FATE
      (Fisheries and the Environment) working group *An early-warning index for
      abrupt change in northeast Pacific ecosystems*
 
-2015-16
+2015--16
 :    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
      Barbara, CA) *Applying portfolio effects to the Gulf of Alaska ecosystem: Did
      multi-scale diversity buffer against the Exxon Valdez oil spill?*
      ([URL](https://www.nceas.ucsb.edu/featured/marshall))
 
-2015-16
+2015--16
 :    Gordon and Betty Moore Foundation funded working group *Applying
      data-limited stock status models and developing management guidance for
      unassessed fish stocks*.
 
-2011–13
+2011--13
 :    NESCent (National Evolutionary Synthesis Center, Durham, NC) Working
      Group *Determinants of Extinction in Ancient and Modern Seas* led by
      Paul Harnik, Seth Finnegan, and Rowan Lockwood.
@@ -493,7 +538,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Atlantic Halibut Assessment Science Peer Review Meeting, Fisheries and
      Oceans, Dartmouth, NS, Canada.
 
-2007–09
+2007--09
 :    NCEAS (National Center for Ecological Analysis and Synthesis, Santa
      Barbara, CA) Distributed Graduate Seminar, in association with the
      Working Group *Finding Common Ground in Marine Conservation and
@@ -552,8 +597,9 @@ Present
 # Reviews
 
 Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
-Fish and Fisheries, Marine Policy,
 Canadian Journal of Fisheries and Aquatic Sciences,
+Proceedings B,
+Fish and Fisheries, Marine Policy,
 Population Ecology,
 Journal of Applied Ecology,
 International Journal of Tropical Biology and Conservation,
