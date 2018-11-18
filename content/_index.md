@@ -9,7 +9,7 @@ Fisheries and Oceans Canada in Nanaimo, British Columbia.
 I link theory with data through statistical and simulation models to improve predictions about ecological systems and inform management and policy decisions.
 In particular, I am interested in how we can estimate population status with limited data and in the role of variance, risk, and extreme events in population dynamics.
 
-<img src="images/seananderson2018@2x.jpg" alt="Sean C. Anderson" width="700" height="419" class="headshot"/>
+<img src="images/seananderson2018@2x.jpg" alt="Sean C. Anderson" class="headshot"/>
 
 My [research](/cv.html#publications) broadly spans the field of quantitative
 ecology. In my role at Fisheries and Oceans Canada, I am focussed on marine fish and fisheries. My current areas of research include:
