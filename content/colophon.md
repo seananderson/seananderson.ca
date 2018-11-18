@@ -1,7 +1,6 @@
 ---
 layout: single
 slug: colophon
-title: colophon
 ---
 
 # Colophon
