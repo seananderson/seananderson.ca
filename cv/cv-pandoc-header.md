@@ -1,3 +1,4 @@
 ---
 slug: cv
+title: cv
 ---
