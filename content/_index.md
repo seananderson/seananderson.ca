@@ -15,7 +15,7 @@ My [research](/cv.html#publications) broadly spans the field of quantitative
 ecology. In my role at Fisheries and Oceans Canada, I am focussed on marine fish and fisheries. My current areas of research include:
 
 - Ecological extremes in time or space, e.g. [black-swan events](http://www.pnas.org/content/114/12/3252)
-- [Ensemble approaches](https://doi.org/10.1073/pnas.1702506114) in fisheries stock assessment
+- [Ensemble approaches](https://doi.org/10.1111/faf.12200) in fisheries stock assessment
 - Fisheries stock assessment, especially data-limited management-procedure approaches
 - [Spatiotemporal modelling](https://doi.org/10.1002/ecy.2403) of fish biomass and other ecological processes, especially to investigate effects of climate change
 - Ecological portfolio effects, e.g. [the benefits and risks of diversification for fishers](https://doi.org/10.1073/pnas.1702506114) or [fish populations](https://doi.org/10.1890/14-0266.1)
