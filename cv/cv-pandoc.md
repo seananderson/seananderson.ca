@@ -70,7 +70,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2018
 :    Walsh, J.C., C. Minto, E. Jardim, **S.C. Anderson**, O.P. Jensen, J.
-     Afflerbach, K.M. Kleisner, M. Dickey-Collas, C. Longo1, G.C. Osio, E.R.
+     Afflerbach, K.M. Kleisner, M. Dickey-Collas, C. Longo, G.C. Osio, E.R.
      Selig, J.T. Thorson, M.B. Rudd, K.J. Papacostas, J.N. Kittinger, A.A.
      Rosenberg, A.B. Cooper. Trade-offs for data-limited fisheries when using
      harvest strategies based on catch-only models. In press at Fish and Fisheries.
