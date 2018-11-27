@@ -229,7 +229,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://sean.updog.co/papers/Anderson_etal_2008_knowledge.pdf)).
+
 # Peer-reviewed reports
+
+2018
+:    **Anderson, S.C.**, E.A. Keppel, and A.M. Edwards. A reproducible data
+     synopsis for over 100 species of British Columbia groundfish. Canadian
+     Science Advisory Secretariat (CSAS) Research Document. Accepted at
+     regional peer-review meeting November 2018.
 
 2018
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of

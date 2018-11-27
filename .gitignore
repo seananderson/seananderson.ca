@@ -31,3 +31,4 @@ cv-body.md
 blogdown/post/*_cache/
 blogdown/blog/*_cache/
 .Rhistory
+cv-pandoc.md
