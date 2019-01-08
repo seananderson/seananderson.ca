@@ -6,7 +6,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2017--18
+2017--19
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
@@ -56,32 +56,37 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Publications
 
-2018
+2019
+:    Harvey, B.J., R.A. Andrus, **S.C. Anderson**. Incorporating biophysical
+     gradients and uncertainty into burn severity maps in a temperate fire-prone
+     forested region. In press at Ecosphere.
+
+2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
      Halpern. Uncertainty in a global fisheries indicator. In press at Fish and
      Fisheries.
 
-2018
+2019
 :    Marshall, K.N., J.T. Duffy-Anderson, E.J. Ward, **S.C. Anderson**, M.E.
      Hunsicker, B.C. Williams. Long-term trends in ichthyoplankton assemblage
      structure, biodiversity, and synchrony in the Gulf of Alaska and their
-     relationships to climate. In press at Progress in Oceanography.
+     relationships to climate. Progress in Oceanography. 170:134--145.
      <https://doi.org/10.1016/j.pocean.2018.11.002>.
+
+2019
+:    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
+     spatiotemporal processes with extremes. Ecology. 100(1):e02403.
+     <https://doi.org/10.1002/ecy.2403>. glmmfields R package:
+     [CRAN](https://cran.r-project.org/package=glmmfields),
+     [GitHub](https://github.com/seananderson/glmmfields).
 
 2018
 :    Walsh, J.C., C. Minto, E. Jardim, **S.C. Anderson**, O.P. Jensen, J.
      Afflerbach, K.M. Kleisner, M. Dickey-Collas, C. Longo, G.C. Osio, E.R.
      Selig, J.T. Thorson, M.B. Rudd, K.J. Papacostas, J.N. Kittinger, A.A.
      Rosenberg, A.B. Cooper. Trade-offs for data-limited fisheries when using
-     harvest strategies based on catch-only models. In press at Fish and Fisheries.
-     <https://doi.org/10.1111/faf.12316>.
-
-2018
-:    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
-     spatiotemporal processes with extremes. In press at Ecology.
-     <https://doi.org/10.1002/ecy.2403>. glmmfields R package:
-     [CRAN](https://cran.r-project.org/package=glmmfields),
-     [GitHub](https://github.com/seananderson/glmmfields).
+     harvest strategies based on catch-only models. Fish and Fisheries.
+     19(6):1130--1146. <https://doi.org/10.1111/faf.12316>.
 
 2018
 :    Ward, E.J., **S.C. Anderson**, A.O. Shelton, R.E. Brenner, M.D. Adkison,
@@ -246,6 +251,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      regional peer-review meeting October 2018.
 
 # Awards and scholarships
+
+2019
+:    Canadian Journal of Fisheries and Aquatic Sciences Stevenson Lectureship.
+     <http://www.nrcresearchpress.com/page/cjfas/award>
 
 2018--20
 :    Principal Investigator of a two-year grant from Fisheries and Oceans
