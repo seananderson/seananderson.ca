@@ -65,14 +65,15 @@ Publications
 ============
 
 2019
-:   Harvey, B.J., R.A. Andrus, **S.C. Anderson**. Incorporating
-    biophysical gradients and uncertainty into burn severity maps in a
-    temperate fire-prone forested region. In press at Ecosphere.
-
-2019
 :   Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**,
     B.S. Halpern. Uncertainty in a global fisheries indicator. In press
     at Fish and Fisheries.
+
+2019
+:   Harvey, B.J., R.A. Andrus, **S.C. Anderson**. Incorporating
+    biophysical gradients and uncertainty into burn severity maps in a
+    temperate fire-prone forested region. Ecosphere. 10(2):02600.
+    <https://doi.org/10.1002/ecs2.2600>.
 
 2019
 :   Marshall, K.N., J.T. Duffy-Anderson, E.J. Ward, **S.C. Anderson**,

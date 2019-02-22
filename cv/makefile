@@ -8,6 +8,7 @@ cv:
 	perl -p -i -e "s/B.Sc./B.Sc.\\\/g" cv-body.tex
 	# perl -p -i -e "s/itemsep1pt/itemsep3pt/g" cv-body.tex
 	latexmk -pdf AndersonCV.tex
+	# Rscript -e "tinytex::latexmk('AndersonCV.tex')"
 	pandoc cv-body.md -o cv-body-clean.md
 	cat cv-header.txt cv-body-clean.md > AndersonCV.txt
 	perl -p -i -e "s/–/--/g" AndersonCV.txt
