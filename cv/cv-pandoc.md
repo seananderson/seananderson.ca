@@ -58,7 +58,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2019
 :    Beaudreau, A.H., E.J. Ward, R.E. Brenner, A.O. Shelton, J.T. Watson, J.C.
-     Womack, *S.C. Anderson*, A.C. Haynie, K.N. Marshall, B.C. Williams. Thirty years
+     Womack, **S.C. Anderson**, A.C. Haynie, K.N. Marshall, B.C. Williams. Thirty years
      of change and the future of Alaskan fisheries: Shifts in fishing participation
      and diversification in response to environmental, regulatory, and economic
      pressures. In press at Fish and Fisheries.
