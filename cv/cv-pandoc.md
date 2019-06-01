@@ -578,56 +578,28 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
-# Selected courses and training
+# Editing and Reviewing
 
-Present
-:    Proficient in statistical analyses and data management using R,
-     Stan, JAGS, knitr, Shiny, Git, LaTeX, TMB, SQL.
+[Associate Editor](https://www.nrcresearchpress.com/page/cjfas/editors) at Canadian Journal of Fisheries and Aquatic Sciences (2019--present)
 
-2016
-:    Diversity in Conservation Biology,
-     facilitated by Yolanda L. Comedy,
-     Director of the American Association for the Advancement of Science (AAAS)
-     Center for Advancing Science & Engineering Capacity
+\vspace{4mm}
 
-2015--16
-:    Powerful Presentation Skills and Media Training
-     with Teresa Erickson and Tim Ward of Intermedia Communications,
-     authors of [*The Master Communicator's Handbook*](https://www.amazon.com/Master-Communicators-Handbook-Teresa-Erickson/dp/1785351532)
-
-2013
-:    Quantitative Modelling in Ecosystem Based Management. R. Hilborn,
-     School of Aquatic and Fishery Sciences, University of Washington
-     (audited).
-
-2013
-:    Applied Time Series Analysis. E. Holmes, M. Scheuerell, and E.
-     Ward; School of Aquatic and Fishery Sciences, University of
-     Washington (audited).
-
-2012
-:   Numerical Computing for the Natural Resources. A.E. Punt, School of
-    Aquatic and Fishery Sciences, University of Washington (audited).
-
-2012
-:    Risk Assessment and Decision Analysis for Management of Natural
-     Resources. R.M. Peterman, School of Resource and Environmental
-     Management, Simon Fraser University.
-
-2011
-:    Presenting Data and Information. Edward Tufte, Seattle, WA, United States.
-
-# Reviews
-
-Reviewer for Science, Ecology, Ecological Applications, Conservation Biology,
+Reviewer for Science, 
+Ecology, 
 Canadian Journal of Fisheries and Aquatic Sciences,
+Fish and Fisheries, 
+Ecological Applications, 
+Conservation Biology,
 Proceedings B,
-Fish and Fisheries, Marine Policy,
+Marine Policy,
 Population Ecology,
 Journal of Applied Ecology,
 International Journal of Tropical Biology and Conservation,
-Journal of Environmental Management, Endangered Species Research, Aquatic
-Conservation
+Biological Conservation,
+Oikos,
+Journal of Environmental Management, 
+Endangered Species Research, 
+Aquatic Conservation
 
 [2011 multipanel notes]: http://seananderson.ca/courses/11-multipanel/multipanel.pdf
 [2011 multipanel slides]: http://seananderson.ca/courses/11-multipanel/multipanel-slides.pdf
