@@ -57,16 +57,22 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2019
-:    Beaudreau, A.H., E.J. Ward, R.E. Brenner, A.O. Shelton, J.T. Watson, J.C.
-     Womack, **S.C. Anderson**, A.C. Haynie, K.N. Marshall, B.C. Williams. Thirty years
-     of change and the future of Alaskan fisheries: Shifts in fishing participation
-     and diversification in response to environmental, regulatory, and economic
-     pressures. In press at Fish and Fisheries.
+:    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt. Weakened portfolio effects constrain management effectiveness for population aggregates. In press at Ecological Applications.
+
+2019
+:    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow. Modeling regimes with extremes: the 'bayesdfa' package for identifying and forecasting common trends and anomalies in multivariate time-series data. In press at The R Journal.
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
      Halpern. Uncertainty in a global fisheries indicator. In press at Fish and
      Fisheries.
+
+2019
+:    Beaudreau, A.H., E.J. Ward, R.E. Brenner, A.O. Shelton, J.T. Watson, J.C.
+     Womack, **S.C. Anderson**, A.C. Haynie, K.N. Marshall, B.C. Williams. Thirty years
+     of change and the future of Alaskan fisheries: Shifts in fishing participation
+     and diversification in response to environmental, regulatory, and economic
+     pressures. In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12364>.
 
 2019
 :    Harvey, B.J., R.A. Andrus, **S.C. Anderson**. Incorporating biophysical
@@ -247,8 +253,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2018
 :    **Anderson, S.C.**, E.A. Keppel, and A.M. Edwards. A reproducible data
      synopsis for over 100 species of British Columbia groundfish. Canadian
-     Science Advisory Secretariat (CSAS) Research Document. Accepted at
-     regional peer-review meeting November 2018.
+     Science Advisory Secretariat (CSAS) Research Document 2019/041. In press.
 
 2018
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
