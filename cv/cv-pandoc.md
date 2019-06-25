@@ -266,7 +266,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2019
 :    Canadian Journal of Fisheries and Aquatic Sciences Stevenson Lectureship.
-     <http://www.nrcresearchpress.com/page/cjfas/award>
+     <http://www.nrcresearchpress.com/page/cjfas/award> A "lectureship conferred upon a young, energetic and creative researcher at the cutting edge of an aquatic discipline".
 
 2018--20
 :    Principal Investigator of a two-year grant from Fisheries and Oceans
@@ -539,6 +539,16 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Dartmouth, NS, Canada.
 
 # Working groups and workshops
+
+2019
+:    NOAA (National Oceanic and Atmospheric Administration) FATE
+     (Fisheries and the Environment) working group 
+     *Spatial ecosystem state and pressure indicators and the 
+     scale-dependence of temporal indicator performance in the 
+     California Current and beyond*
+
+2018--19
+:    European Commission Joint Research Council working group *A new approach to strengthen evidence-based fisheries management* investigating approaches to providing fisheries management scientific advice based on model ensembles.
 
 2016--17
 :    NOAA (National Oceanic and Atmospheric Administration) FATE
