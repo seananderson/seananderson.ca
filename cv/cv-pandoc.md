@@ -1,16 +1,17 @@
 # Academic CV
 
-In addition to the HTML version of my CV, you can download a copy as
+In addition to this HTML version of my CV, you can download a copy as
 a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 [My Google Scholar citations][citations].
 
 # Professional experience
 
-2017--19
+2017--present
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
-     Nanaimo, BC, Canada
+     Nanaimo, BC, Canada\
+     Associate Editor at the Canadian Journal of Fisheries and Aquatic Sciences
 
 2015--17
 :    David H. Smith Conservation Research Fellow,
@@ -57,10 +58,21 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2019
-:    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt. Weakened portfolio effects constrain management effectiveness for population aggregates. In press at Ecological Applications.
+:    Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding Dory 
+     increase demand for blue tang fish? In press at Ambio.
+     <https://doi.org/10.1007/s13280-019-01233-7>.
 
 2019
-:    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow. Modeling regimes with extremes: the 'bayesdfa' package for identifying and forecasting common trends and anomalies in multivariate time-series data. In press at The R Journal.
+:    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt. 
+     Weakened portfolio effects constrain management effectiveness for 
+     population aggregates. In press at Ecological Applications.
+     <https://doi.org/10.1002/eap.1966>.
+
+2019
+:    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow.
+     Modeling regimes with extremes: the 'bayesdfa' package for identifying and
+     forecasting common trends and anomalies in multivariate time-series data.
+     In press at The R Journal. <https://doi.org/10.32614/RJ-2019-007>.
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
@@ -319,7 +331,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Software
 
-2018
+2019
+:   **rosettafish**: An R package for translating fish- and fisheries-related terms.\
+    <https://github.com/pbs-assess/rosettafish>
+
+2019
+:   **sdmTMB**: An R package for fitting spatiotemporal species distribution 9GLMMs (generalized linear mixed effects models) with TMB (Template Model Builder)\
+    <https://github.com/pbs-assess/sdmTMB>
+
+2019
 :    **gfplot** & **gfsynopsis**: R packages to generate an annual Research
      Document synopsis report showing all available fishery and biological data
      and basic model fits for 109 Pacific groundfish species for publication through
@@ -328,12 +348,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <https://github.com/pbs-assess/gfplot> and
      <https://github.com/pbs-assess/gfsynopsis>
 
-2018
+2019
 :    **csasdown**: Reproducible Canadian Science Advisory Secretariat
      Research Documents via R Markdown.\
      <https://github.com/pbs-assess/csasdown>
 
-2017
+2018
 :    **glmmfields**: Generalized linear mixed models with robust random fields for spatiotemporal modeling.\
      <https://cran.r-project.org/package=glmmfields>
 
@@ -360,6 +380,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      <https://github.com/seananderson/ecofolio>
 
 # Invited talks and conference presentations
+
+2019
+:    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards, P.A. English, E.J. Ward.
+     An automated synopsis of the state of Pacific Canadian groundfish and
+     climate impacts. North Pacific Marine Science Organization (PICES)
+     conference. Victoria, BC, Canada. Invited talk to plenary session 
+     (to be given October 2019).
 
 2018
 :    **Anderson, S.C.**, Ward, E. J. Black swans in space: modelling
@@ -593,11 +620,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
      ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
 
-# Editing and Reviewing
-
-[Associate Editor](https://www.nrcresearchpress.com/page/cjfas/editors) at Canadian Journal of Fisheries and Aquatic Sciences (2019--present)
-
-\vspace{4mm}
+# Reviewing
 
 Reviewer for Science, 
 Ecology, 
