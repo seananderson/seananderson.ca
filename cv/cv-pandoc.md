@@ -72,7 +72,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow.
      Modeling regimes with extremes: the 'bayesdfa' package for identifying and
      forecasting common trends and anomalies in multivariate time-series data.
-     In press at The R Journal. <https://doi.org/10.32614/RJ-2019-007>.
+     In press at The R Journal. [https://doi.org/10.32614/RJ-2019-007](http://rjournal.github.io/archive/2019/RJ-2019-007/index.html).
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
