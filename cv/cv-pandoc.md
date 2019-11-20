@@ -58,6 +58,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2019
+:    Free, C.M., O.P. Jensen, **S.C. Anderson**, N.L. Gutierrez, K.M. Kleisner,
+     C. Longo, C. Minto, G.C. Osio, J.C. Walsh. Blood from a stone: performance
+     of catch-only methods in estimating stock biomass status. In press at
+     Fisheries Research.
+
+2019
 :    Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding Dory 
      increase demand for blue tang fish? In press at Ambio.
      <https://doi.org/10.1007/s13280-019-01233-7>.
@@ -72,12 +78,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow.
      Modeling regimes with extremes: the 'bayesdfa' package for identifying and
      forecasting common trends and anomalies in multivariate time-series data.
-     In press at The R Journal. [https://doi.org/10.32614/RJ-2019-007](http://rjournal.github.io/archive/2019/RJ-2019-007/index.html).
+     In press at The R Journal.
+     [https://doi.org/10.32614/RJ-2019-007](http://rjournal.github.io/archive/2019/RJ-2019-007/index.html).
+
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
-     Halpern. Uncertainty in a global fisheries indicator. In press at Fish and
-     Fisheries.
+     Halpern. Quantifying uncertainty in the wild-caught fisheries goal of the
+     Ocean Health Index. In press at Fish and Fisheries.
+     <https://doi.org/10.1111/faf.12346>.
 
 2019
 :    Beaudreau, A.H., E.J. Ward, R.E. Brenner, A.O. Shelton, J.T. Watson, J.C.
@@ -569,9 +578,9 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2019
 :    NOAA (National Oceanic and Atmospheric Administration) FATE
-     (Fisheries and the Environment) working group 
-     *Spatial ecosystem state and pressure indicators and the 
-     scale-dependence of temporal indicator performance in the 
+     (Fisheries and the Environment) working group
+     *Spatial ecosystem state and pressure indicators and the
+     scale-dependence of temporal indicator performance in the
      California Current and beyond*
 
 2018--19
@@ -622,11 +631,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Reviewing
 
-Reviewer for Science, 
-Ecology, 
+Reviewer for Science,
+Ecology,
 Canadian Journal of Fisheries and Aquatic Sciences,
-Fish and Fisheries, 
-Ecological Applications, 
+Fish and Fisheries,
+Ecological Applications,
 Conservation Biology,
 Proceedings B,
 Marine Policy,
@@ -635,8 +644,8 @@ Journal of Applied Ecology,
 International Journal of Tropical Biology and Conservation,
 Biological Conservation,
 Oikos,
-Journal of Environmental Management, 
-Endangered Species Research, 
+Journal of Environmental Management,
+Endangered Species Research,
 Aquatic Conservation
 
 [2011 multipanel notes]: http://seananderson.ca/courses/11-multipanel/multipanel.pdf

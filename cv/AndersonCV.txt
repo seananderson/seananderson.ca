@@ -68,6 +68,12 @@ Publications
 ============
 
 2019
+:   Free, C.M., O.P. Jensen, **S.C. Anderson**, N.L. Gutierrez, K.M.
+    Kleisner, C. Longo, C. Minto, G.C. Osio, J.C. Walsh. Blood from a
+    stone: performance of catch-only methods in estimating stock biomass
+    status. In press at Fisheries Research.
+
+2019
 :   Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding
     Dory increase demand for blue tang fish? In press at Ambio.
     <https://doi.org/10.1007/s13280-019-01233-7>.
@@ -87,8 +93,9 @@ Publications
 
 2019
 :   Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**,
-    B.S. Halpern. Uncertainty in a global fisheries indicator. In press
-    at Fish and Fisheries.
+    B.S. Halpern. Quantifying uncertainty in the wild-caught fisheries
+    goal of the Ocean Health Index. In press at Fish and Fisheries.
+    <https://doi.org/10.1111/faf.12346>.
 
 2019
 :   Beaudreau, A.H., E.J. Ward, R.E. Brenner, A.O. Shelton, J.T. Watson,
