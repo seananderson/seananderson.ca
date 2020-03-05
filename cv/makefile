@@ -21,8 +21,7 @@ cv:
 	pandoc cv-pandoc.md -o cv-temp.html
 	cat cv-pandoc-header.md cv-temp.html > cv.html
 	rm cv-temp.html
-	cp AndersonCV.pdf ~/Dropbox/apps/updog/sean/anderson-cv.pdf
-	cp AndersonCV.pdf ~/Dropbox/apps/updog/sean/AndersonCV.pdf
+	cp AndersonCV.pdf ~/Dropbox/CV/anderson-cv.pdf
 	cp AndersonCV.txt ../content/anderson-cv.txt
 	cp cv.html ../content/cv.html
 

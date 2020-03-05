@@ -57,21 +57,27 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Publications
 
-2019
+2020
+:    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**, 
+     T.R. Carruthers. The interim management procedure approach for 
+     assessed stocks: Responsive management advice and lower assessment frequency. 
+     In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12453>.
+
+2020
 :    Free, C.M., O.P. Jensen, **S.C. Anderson**, N.L. Gutierrez, K.M. Kleisner,
      C. Longo, C. Minto, G.C. Osio, J.C. Walsh. Blood from a stone: performance
-     of catch-only methods in estimating stock biomass status. In press at
-     Fisheries Research.
+     of catch-only methods in estimating stock biomass status. Fisheries Research.
+     223:105452. <https://doi.org/10.1016/j.fishres.2019.105452>.
 
-2019
+2020
 :    Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding Dory 
-     increase demand for blue tang fish? In press at Ambio.
+     increase demand for blue tang fish? Ambio. 49:903--911.
      <https://doi.org/10.1007/s13280-019-01233-7>.
 
 2019
 :    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt. 
      Weakened portfolio effects constrain management effectiveness for 
-     population aggregates. In press at Ecological Applications.
+     population aggregates. Ecological Applications. 29(7):e01966.
      <https://doi.org/10.1002/eap.1966>.
 
 2019
@@ -79,13 +85,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Modeling regimes with extremes: the 'bayesdfa' package for identifying and
      forecasting common trends and anomalies in multivariate time-series data.
      In press at The R Journal.
-     [https://doi.org/10.32614/RJ-2019-007](http://rjournal.github.io/archive/2019/RJ-2019-007/index.html).
+     [https://doi.org/10.32614/RJ-2019-007](https://journal.r-project.org/archive/2019/RJ-2019-007/RJ-2019-007.pdf).
 
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
      Halpern. Quantifying uncertainty in the wild-caught fisheries goal of the
-     Ocean Health Index. In press at Fish and Fisheries.
+     Ocean Health Index. Fish and Fisheries. 20(2):343--354.
      <https://doi.org/10.1111/faf.12346>.
 
 2019
@@ -93,7 +99,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Womack, **S.C. Anderson**, A.C. Haynie, K.N. Marshall, B.C. Williams. Thirty years
      of change and the future of Alaskan fisheries: Shifts in fishing participation
      and diversification in response to environmental, regulatory, and economic
-     pressures. In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12364>.
+     pressures. Fish and Fisheries. 20(4):601--619. <https://doi.org/10.1111/faf.12364>.
 
 2019
 :    Harvey, B.J., R.A. Andrus, **S.C. Anderson**. Incorporating biophysical
@@ -666,7 +672,7 @@ Aquatic Conservation
 
 [2013 PE safs]: http://seananderson.ca/talks/2013/PE_SAFS_quantsem.pdf
 
-[cv-pdf]: https://sean.updog.co/anderson-cv.pdf
+[cv-pdf]: https://www.dropbox.com/s/8v32rotpsxhw8p8/anderson-cv.pdf?dl=1
 [cv-md]: /anderson-cv.txt
 
 [Governor General award]: http://goo.gl/nA1zE
