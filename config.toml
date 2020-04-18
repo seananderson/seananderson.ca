@@ -45,13 +45,17 @@ enableEmoji = true
     url = "/portfolio/"
     weight = 6
 [[menu.main]]
+    name = "Photos"
+    url = "http://www.flickr.com/photos/seananderson/"
+    weight = 7
+[[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/sean_anderson"
-    weight = 7
+    weight = 8
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 8
+    weight = 9
 
 [params]
     description = ""
