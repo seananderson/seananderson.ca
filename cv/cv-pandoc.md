@@ -61,7 +61,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards.
      Reproducible visualization of raw fisheries data for 
      113 species improves transparency, assessment efficiency, and monitoringy. 
-     In press at Fisheries.
+     In press at Fisheries. <https://doi.org/10.1002/fsh.10441>.
 
 2020
 :    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**, 

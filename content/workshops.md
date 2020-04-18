@@ -4,9 +4,10 @@ slug: workshops
 ---
 
 I teach workshops on statistical modelling and data science
-in R including multiday courses on [Generalized Linear Mixed Effects
-Models](https://github.com/seananderson/glmm-course) (GLMMs) and [Bayesian data
-analysis in R and Stan]( https://github.com/seananderson/bayes-course). Please [get in touch](/contact) if you are interested in hosting one of 
+in R including multiday courses on [generalized linear mixed effects
+models](https://github.com/seananderson/glmm-course) (GLMMs), [advanced R](https://github.com/seananderson/adv-r-course) (incuding debugging strategies, parallel processing, and Rcpp/C++), and [Bayesian data
+analysis in R and Stan]( https://github.com/seananderson/bayes-course). 
+Please [get in touch](/contact) if you are interested in hosting one of 
 these.
 
 Some testimonials from recent courses:

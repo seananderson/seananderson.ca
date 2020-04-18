@@ -22,8 +22,9 @@ ecology. In my role at Fisheries and Oceans Canada, I am focussed on marine fish
 
 I [teach workshops](/workshops) on statistical modelling and data science
 in R including multiday workshops on [Generalized Linear Mixed Effects
-Models](https://github.com/seananderson/glmm-course) (GLMMs) and [Bayesian data
-analysis in R and Stan]( https://github.com/seananderson/bayes-course).
+Models](https://github.com/seananderson/glmm-course) (GLMMs), [Bayesian data
+analysis in R and Stan]( https://github.com/seananderson/bayes-course), and
+[advanced R](https://github.com/seananderson/adv-r-course).
 
 I develop a number of R packages. For example, with collaborators, I'm developing
 packages to run fisheries stock assessment simulations with [Stock
