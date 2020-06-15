@@ -57,10 +57,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Preprints
 
 2020
-:    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry, 
+:    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
+     Iyaniwura, S.A., Falcao, R.C., Otterstatter, M.C., Janjua, N.Z., Coombs,
+     D., and Colijn, C. 2020. How much leeway is there to relax COVID-19
+     control measures? medRxiv 2020.06.12.20129833.
+     <https://doi.org/10.1101/2020.06.12.20129833>.
+
+2020
+:    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry,
      J. Stockdale, S.A. Iyaniwura, R.C. Falcao, M.C. Otterstatter,
      M.A. Irvine, N.Z. Janjua, D. Coombs, C. Colijn.
-     Estimating the impact of COVID-19 control measures using a Bayesian model 
+     Estimating the impact of COVID-19 control measures using a Bayesian model
      of physical distancing. medRxiv 2020.04.17.20070086.
      <https://doi.org/10.1101/2020.04.17.20070086>.
 
