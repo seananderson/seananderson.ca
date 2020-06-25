@@ -6,17 +6,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2017--present
+2017--20
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
 
-2020--present
-     Adjunct Professor, Department of Mathematics, Simon Fraser University
+2020--20
+:     Adjunct Professor, Department of Mathematics, Simon Fraser University\
 
-2019--present
-     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
+2019--20
+:     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
 
 2015--17
 :    David H. Smith Conservation Research Fellow,
