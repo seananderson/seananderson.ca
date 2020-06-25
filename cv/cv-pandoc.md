@@ -10,26 +10,31 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
-     Nanaimo, BC, Canada\
-     Associate Editor at the Canadian Journal of Fisheries and Aquatic Sciences
+     Nanaimo, BC, Canada
+
+2020--present
+     Adjunct Professor, Department of Mathematics, Simon Fraser University
+
+2019--present
+     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
 
 2015--17
 :    David H. Smith Conservation Research Fellow,
      School of Aquatic and Fishery Sciences,
      University of Washington and
-     Northwest Fisheries Science Center, Seattle, WA, USA
+     Northwest Fisheries Science Center, Seattle, WA
 
 2015
 :    Postdoctoral Fellow, School of Resource and Environmental Management,
-     Simon Fraser University, Burnaby, BC, Canada
+     Simon Fraser University
 
 2011--15
 :    Graduate Research Assistant, Department of Biological Sciences,
-     Simon Fraser University, Burnaby, BC, Canada
+     Simon Fraser University
 
 2008--11
 :    Graduate Research Assistant, Department of Biology,
-     Dalhousie University, Halifax, NS, Canada
+     Dalhousie University
 
 # Education
 
@@ -53,7 +58,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2001–03
 :    B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo, Waterloo,
      Canada; transferred to Dalhousie University in 2004.
-     
+
 # Preprints
 
 2020
@@ -75,14 +80,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2020
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards.
-     Reproducible visualization of raw fisheries data for 
-     113 species improves transparency, assessment efficiency, and monitoringy. 
+     Reproducible visualization of raw fisheries data for
+     113 species improves transparency, assessment efficiency, and monitoringy.
      In press at Fisheries. <https://doi.org/10.1002/fsh.10441>.
 
 2020
-:    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**, 
-     T.R. Carruthers. The interim management procedure approach for 
-     assessed stocks: Responsive management advice and lower assessment frequency. 
+:    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**,
+     T.R. Carruthers. The interim management procedure approach for
+     assessed stocks: Responsive management advice and lower assessment frequency.
      In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12453>.
 
 2020
@@ -92,13 +97,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      223:105452. <https://doi.org/10.1016/j.fishres.2019.105452>.
 
 2020
-:    Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding Dory 
+:    Veríssimo, D., **S.C. Anderson**, M. Tlusty. Did the movie Finding Dory
      increase demand for blue tang fish? Ambio. 49:903--911.
      <https://doi.org/10.1007/s13280-019-01233-7>.
 
 2019
-:    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt. 
-     Weakened portfolio effects constrain management effectiveness for 
+:    Freshwater, C., **S.C. Anderson**, K.R. Holt, A.-M. Huang, C.A. Holt.
+     Weakened portfolio effects constrain management effectiveness for
      population aggregates. Ecological Applications. 29(7):e01966.
      <https://doi.org/10.1002/eap.1966>.
 
@@ -300,7 +305,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Peer-reviewed reports
 
 2019
-:    **Anderson, S.C.**, Keppel, E.A., Edwards, A.M. 2019. A reproducible data synopsis 
+:    **Anderson, S.C.**, Keppel, E.A., Edwards, A.M. 2019. A reproducible data synopsis
      for over 100 species of British Columbia groundfish. DFO Can. Sci. Advis. Sec.
      Res. Doc. 2019/041. vii + 321 p.
      ([English version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-eng.html),
@@ -424,7 +429,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards, P.A. English, E.J. Ward.
      An automated synopsis of the state of Pacific Canadian groundfish and
      climate impacts. North Pacific Marine Science Organization (PICES)
-     conference. Victoria, BC, Canada. Invited talk to plenary session 
+     conference. Victoria, BC, Canada. Invited talk to plenary session
      (to be given October 2019).
 
 2018
@@ -504,8 +509,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Teaching
 
+2019
+:    Two-day workshop on Advanced R topics (functional programming, debugging,
+     profiling, benchmarking, parallel processing, integrating C++ with R). University of British Columbia.
+     <https://github.com/seananderson/adv-r-course>
+
 2018
-:    One-day workshop on Bayesian data analysis for ecologists with Stan.
+:    One-day workshop on Bayesian data analysis for ecologists with Stan for the David H. Smith Conservation Research Fellowship Program.
      <https://github.com/seananderson/bayes-course>
 
 2018

@@ -16,27 +16,30 @@ Professional experience
 2017--present
 :   Program Head in Analytical Approaches and Spatial Stock Assessment,
     Groundfish Section, Stock Assessment and Research Division, Pacific
-    Biological Station, Fisheries and Oceans Canada, Nanaimo, BC,
-    Canada\
-    Associate Editor at the Canadian Journal of Fisheries and Aquatic
-    Sciences
+    Biological Station, Fisheries and Oceans Canada, Nanaimo, BC, Canada
+
+2020--present Adjunct Professor, Department of Mathematics, Simon Fraser
+University
+
+2019--present Associate Editor, the Canadian Journal of Fisheries and
+Aquatic Sciences
 
 2015--17
 :   David H. Smith Conservation Research Fellow, School of Aquatic and
     Fishery Sciences, University of Washington and Northwest Fisheries
-    Science Center, Seattle, WA, USA
+    Science Center, Seattle, WA
 
 2015
 :   Postdoctoral Fellow, School of Resource and Environmental
-    Management, Simon Fraser University, Burnaby, BC, Canada
+    Management, Simon Fraser University
 
 2011--15
 :   Graduate Research Assistant, Department of Biological Sciences,
-    Simon Fraser University, Burnaby, BC, Canada
+    Simon Fraser University
 
 2008--11
 :   Graduate Research Assistant, Department of Biology, Dalhousie
-    University, Halifax, NS, Canada
+    University
 
 Education
 =========
@@ -665,8 +668,15 @@ Invited talks and conference presentations
 Teaching
 ========
 
+2019
+:   Two-day workshop on Advanced R topics (functional programming,
+    debugging, profiling, benchmarking, parallel processing, integrating
+    C++ with R). University of British Columbia.
+    <https://github.com/seananderson/adv-r-course>
+
 2018
-:   One-day workshop on Bayesian data analysis for ecologists with Stan.
+:   One-day workshop on Bayesian data analysis for ecologists with Stan
+    for the David H. Smith Conservation Research Fellowship Program.
     <https://github.com/seananderson/bayes-course>
 
 2018
