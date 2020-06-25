@@ -266,7 +266,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2014
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <https://doi.org/10.1890/13-0916.1> ([PDF](http://onlinelibrary.wiley.com/doi/10.1890/13-0916.1/epdf)).
-     <a href="https://f1000.com/prime/718158688" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
+[F1000 Prime recommended](https://facultyopinions.com/prime/718498042).
 
 2013
 :    Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research Derby: A pressure cooker for creative collaborative science. Ideas in Ecology and Evolution. Ideas in Ecology and Evolution. 6: 40--46. <https://doi.org/10.4033/iee.v6i1.4931> (Open access).
@@ -297,7 +297,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2011
 :    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Rapid global expansion of invertebrate fisheries: trends, drivers, and ecosystem effects. PLoS ONE. 6(3): e14735. <https://doi.org/10.1371/journal.pone.0014735> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
-     <a href="https://f1000.com/prime/9542957" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/></a>
+[F1000 Prime recommended](https://f1000.com/prime/9542957).
 
 2008
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://www.dropbox.com/s/b0la81jbqitib6u/Anderson_etal_2008_knowledge.pdf?dl=1)).

@@ -351,7 +351,8 @@ Publications
     species. Ecology. 95(4): 845--855.
     <https://doi.org/10.1890/13-0916.1>
     ([PDF](http://onlinelibrary.wiley.com/doi/10.1890/13-0916.1/epdf)).
-    `<a href="https://f1000.com/prime/718158688" target="_blank">`{=html}`<img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/>`{=html}`</a>`{=html}
+    [F1000 Prime
+    recommended](https://facultyopinions.com/prime/718498042).
 
 2013
 :   Favaro, B., D.C. Braun, **Earth2Ocean Research Derby**. Research
@@ -430,7 +431,7 @@ Publications
     and ecosystem effects. PLoS ONE. 6(3): e14735.
     <https://doi.org/10.1371/journal.pone.0014735>
     ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0014735&representation=PDF)).
-    `<a href="https://f1000.com/prime/9542957" target="_blank">`{=html}`<img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" id="bg"/>`{=html}`</a>`{=html}
+    [F1000 Prime recommended](https://f1000.com/prime/9542957).
 
 2008
 :   **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the
