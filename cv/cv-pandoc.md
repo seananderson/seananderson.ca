@@ -79,6 +79,14 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2020
+:    Litzow, M.A., M.E. Hunsicker, E.J. Ward, **S.C. Anderson**, J. Gao, S. Zador, 
+     S. Batten, S. Dressel, J. Duffy-Anderson, E. Fergusson, R. Hopcroft, 
+     B.J. Laurel, and R. O’Malley. Evaluating ecosystem change as 
+     Gulf of Alaska temperature exceeds the limits of preindustrial variability. 
+     Progress in Oceanography. 186:102393.
+     <https://doi.org/10.1016/j.pocean.2020.102393>.
+
+2020
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards.
      Reproducible visualization of raw fisheries data for
      113 species improves transparency, assessment efficiency, and monitoring.
