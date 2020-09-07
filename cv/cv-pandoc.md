@@ -68,15 +68,23 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      control measures? medRxiv 2020.06.12.20129833.
      <https://doi.org/10.1101/2020.06.12.20129833>.
 
+# Publications
+
 2020
 :    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry,
      J. Stockdale, S.A. Iyaniwura, R.C. Falcao, M.C. Otterstatter,
      M.A. Irvine, N.Z. Janjua, D. Coombs, C. Colijn.
      Estimating the impact of COVID-19 control measures using a Bayesian model
-     of physical distancing. medRxiv 2020.04.17.20070086.
+     of physical distancing. In press at PLOS Computational Biology.
+     Preprint: medRxiv 2020.04.17.20070086.
      <https://doi.org/10.1101/2020.04.17.20070086>.
-
-# Publications
+     
+2020
+:     Cahill, C.L., **S.C. Anderson**, A.J. Paul, L. MacPherson, M.G. Sullivan, 
+      B.T. van Poorten, C.J. Walters, and J.R. Post.
+      A spatial-temporal approach to modeling somatic growth across inland
+      recreational fisheries landscapes. In press at Canadian Journal of
+      Fisheries and Aquatic Sciences. <https://doi.org/10.1139/cjfas-2019-0434>.
 
 2020
 :    Litzow, M.A., M.E. Hunsicker, E.J. Ward, **S.C. Anderson**, J. Gao, S. Zador, 
