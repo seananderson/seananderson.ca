@@ -35,7 +35,7 @@ and fit Bayesian
 Dynamic Factor Analysis time series models
 ([bayesdfa](https://github.com/fate-ewi/bayesdfa)). 
 I also maintain [R packages](https://github.com/pbs-assess) to facilitate rapid
-data processing, model fitting, and visualization for groundfish stocks on Canada's West Coast and to facilitate the reproducible data-to-document workflows for CSAS (Canadian Science Advisory Secretariat Research) reports ([csasdown](https://github.com/pbs-assess/csasdown)).
+data processing, model fitting, and visualization for groundfish stocks on Canada's West Coast and to facilitate reproducible data-to-document workflows for CSAS (Canadian Science Advisory Secretariat Research) reports ([csasdown](https://github.com/pbs-assess/csasdown)).
 
 I am interested in taking on postdoctoral researchers and co-supervising
 graduate students. There are funding opportunities with Fisheries and Oceans
