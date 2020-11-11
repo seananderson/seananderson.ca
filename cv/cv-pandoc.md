@@ -12,11 +12,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
 
-2020--20
-:     Adjunct Professor, Department of Mathematics, Simon Fraser University\
-
 2019--20
 :     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
+
+2020--20
+:     Adjunct Professor, Department of Mathematics, Simon Fraser University
 
 2015--17
 :    David H. Smith Conservation Research Fellow,
@@ -68,21 +68,54 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      control measures? medRxiv 2020.06.12.20129833.
      <https://doi.org/10.1101/2020.06.12.20129833>.
 
+# Publications
+
+2020
+:    **Anderson, S.C.**, P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C. Bletz,
+     D.A. Gill, M.A. Holgerson, S.E. Kuebbing,
+     C. McDonough MacKenzie, M.H. Meek, D. Veríssimo.
+     Trends in ecology and conservation over eight decades.
+     In press at Frontiers in Ecology and the Environment.
+
 2020
 :    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry,
      J. Stockdale, S.A. Iyaniwura, R.C. Falcao, M.C. Otterstatter,
      M.A. Irvine, N.Z. Janjua, D. Coombs, C. Colijn.
-     Estimating the impact of COVID-19 control measures using a Bayesian model
-     of physical distancing. medRxiv 2020.04.17.20070086.
-     <https://doi.org/10.1101/2020.04.17.20070086>.
+     Quantifying the impact of COVID-19 control measures using a Bayesian model
+     of physical distancing. In press at PLOS Computational Biology.
+     medRxiv preprint: <https://doi.org/10.1101/2020.04.17.20070086>.
 
-# Publications
+2020
+:    Maureaud, A., R. Frelat, L. Pecuchet, N.L. Shackell, B. Merigot, M.L.
+     Pinsky, K. Amador, **S.C. Anderson**, ... (67 co-authors), J.T. Thorson.
+     Are we ready to track climate-driven shifts in marine species across
+     international boundaries? A global survey of scientific bottom trawl data.
+     In press at Global Change Biology.
+     <https://doi.org/10.1111/gcb.15404>.
+
+2020
+:    Cahill, C.L., **S.C. Anderson**, A.J. Paul. L. Macphearson,
+     M.G. Sullivan, B. van Poorten, C. Walters, J.R. Post.
+     A spatial-temporal approach to modeling somatic growth
+     across recreational fisheries landscapes.
+     Canadian Journal of Fisheries and Aquatic Science. 77(11):1822--1835.
+     <https://doi.org/10.1139/cjfas-2019-0434>.
+
+2020
+:    Litzow, M.A., M.E. Hunsicker, E.J. Ward, **S.C. Anderson**, J. Gao , S.
+     Zador, S. Batten , S. Dressel, J. Duffy-Anderson, E. Fergusson, R.
+     Hopcroft, B.J. Laurel, R. O'Malley
+     Evaluating ecosystem change as Gulf of Alaska temperature exceeds the
+     limits of preindustrial variability.
+     Progress in Oceanography. 186:102393.
+     <https://doi.org/10.1016/j.pocean.2020.102393>
 
 2020
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards.
      Reproducible visualization of raw fisheries data for
      113 species improves transparency, assessment efficiency, and monitoringy.
-     In press at Fisheries. <https://doi.org/10.1002/fsh.10441>.
+     Fisheries. 45:535--543. <https://doi.org/10.1002/fsh.10441>.
+     ([PDF](https://www.dropbox.com/s/y8b0rlxvnodngf8/Anderson_etal_2020_reproducible_visualization.pdf?dl=1))
 
 2020
 :    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**,
@@ -111,9 +144,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Ward, E.J., **S.C. Anderson**, L.A. Damiano, M.E. Hunsicker, M.A. Litzow.
      Modeling regimes with extremes: the 'bayesdfa' package for identifying and
      forecasting common trends and anomalies in multivariate time-series data.
-     In press at The R Journal.
-     [https://doi.org/10.32614/RJ-2019-007](https://journal.r-project.org/archive/2019/RJ-2019-007/RJ-2019-007.pdf).
-
+     The R Journal. 11(2):46--55.
+     <https://doi.org/10.32614/RJ-2019-007>.
 
 2019
 :    Afflerbach, J.C., M. Frazier, H.E. Froehlich, **S.C. Anderson**, B.S.
@@ -304,21 +336,80 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Peer-reviewed reports
 
-2019
-:    **Anderson, S.C.**, Keppel, E.A., Edwards, A.M. 2019. A reproducible data synopsis
-     for over 100 species of British Columbia groundfish. DFO Can. Sci. Advis. Sec.
-     Res. Doc. 2019/041. vii + 321 p.
-     ([English version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-eng.html),
-     [French version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-fra.html))
+2020
+:    Haggarty D.R., Q.C. Huynh, R.E. Forrest,
+     **S.C. Anderson**, M.J. Bresch, E.A. Keppel.
+     Evaluation of potential rebuilding strategies
+     for Inside Yelloweye Rockﬁsh
+     (*Sebastes ruberrimus*) in British Columbia.
+     Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 11 2020.
+     ([English version](https://www.dropbox.com/s/pll8axzsxqka8j8/resdoc-iye.pdf?dl=1)).
 
-2018
+
+2020
+:    **Anderson, S.C.**, R.E. Forrest, Q.C. Huynh, E.A. Keppel.
+     A management procedure framework for groundﬁsh in British Columbia.
+     Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 9 2020.
+     ([English version](https://www.dropbox.com/s/rgxk2wco5v5zp0e/gfmp-2020-03-13.pdf?dl=1)).
+
+2020
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
      Pacific Cod (*Gadus macrocephalus*) for Hecate Strait and Queen Charlotte Sound
-     (Area 5ABCD), and West Coast Vancouver Island (Area 3CD) in 2018. Canadian
-     Science Advisory Secretariat (CSAS) Research Document. Accepted at
-     regional peer-review meeting October 2018. In press.
+     (Area 5ABCD), and West Coast Vancouver Island (Area 3CD) in 2018.
+     DFO Can. Sci. Advis. Sec. Res. Doc. 2020/070 iv + 204 p.
+     ([English version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2020/2020_070-eng.html),
+     [French version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2020/2020_070-fra.html)).
+
+2019
+:    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards, 2019. A reproducible data synopsis
+     for over 100 species of British Columbia groundfish. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/041. vii + 321 p.
+     ([English version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-eng.html),
+     [French version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-fra.html)).
+
+# DFO Technical Reports
+
+2019
+:     **Anderson, S.C.**, and Workman, G.D. A review of groundfish surveys in 2018
+      and an introduction to the groundfish data synopsis report. In State of the
+      physical, biological and selected fishery resources of Pacific Canadian marine
+      ecosystems in 2018. Edited by J.L. Boldt, J. Leonard, and P.C. Chandler. pp.
+      90--94.
+      Can. Tech. Rep. Fish. Aquat. Sci. 3314, Sidney, BC.
+      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2018/index-eng.html))
+
+2020
+:     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
+      surveys in 2019. In State of the physical, biological and selected fishery
+      resources of Pacific Canadian Marine Ecosystems in 2019. Edited by J.L. Boldt,
+      A. Javorski, and P.C. Chandler. pp. 102--106.
+      Can. Tech. Rep. Fish. Aquat. Sci. 3377, Sidney, BC.
+      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2019/index-eng.html))
+
+2018
+:     Edwards, A.M., Duplisea, D.E., Grinnell, M.H., **Anderson, S.C.**, Grandin,
+      C.J., Ricard, D., Keppel, E.A., Anderson, E.D., Baker, K.D., Benoit, H.P.,
+      Cleary, J.S., Connors, B.M., Desgagnes, M., English, P.A., Fishman, D.F.,
+      Freshwater, C., Hedges, K.J., Holt, C.A., Holt, K.R., Kronlund, R., Mariscak,
+      A., Obradovich, S.G., Patten, B.A., Rogers, B., Rooper, C.N., Simpson, M.R.,
+      Surette, T.J., Tallman, R.F., Wheeland, L.J., Wor, C., and Zhu, X. 2018.
+      Proceedings of the Technical Expertise in Stock Assessment (TESA) national
+      workshop on "Tools for transparent, traceable, and transferable assessments"
+      27--30 November 2018 in Nanaimo, British Columbia. Can. Tech. Rep. Fish. Aquat.
+      Sci. 3290, Nanaimo, BC.
+      ([English version](https://waves-vagues.dfo-mpo.gc.ca/Library/40750152.pdf))
 
 # Awards and scholarships
+
+2020--21
+:    Co-principal Investigator on NOAA Office of Science and Technology NMFS-DFO grant
+     "Characterizing range shifts in groundfish species in response to local climate
+     velocities". An extension to apply methods from a similarly titled ACCASP grant
+     below to NOAA waters. ($30K USD)
+
+2020--21
+:    Collaborator on NOAA Office of Science and Technology NMFS-DFO grant
+     "Groundfish distribution shifts between British Columbia, Canada, and Southeast
+     Alaska, USA: climate drivers, ecosystem impacts and management implications". ($30K USD)
 
 2019
 :    Canadian Journal of Fisheries and Aquatic Sciences Stevenson Lectureship.
@@ -375,55 +466,73 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Software
 
-2019
-:   **rosettafish**: An R package for translating fish- and fisheries-related terms.\
-    <https://github.com/pbs-assess/rosettafish>
+\setlist[itemize]{topsep=2pt}
 
-2019
-:   **sdmTMB**: An R package for fitting spatiotemporal species distribution 9GLMMs (generalized linear mixed effects models) with TMB (Template Model Builder)\
-    <https://github.com/pbs-assess/sdmTMB>
+**covidseir**: <https://github.com/seananderson/covidseir>
 
-2019
-:    **gfplot** & **gfsynopsis**: R packages to generate an annual Research
-     Document synopsis report showing all available fishery and biological data
-     and basic model fits for 109 Pacific groundfish species for publication through
-     the Canadian Science Advisory Secretariat (CSAS). To be reviewed via regional
-     peer-review meeting November 22--23 2018.\
-     <https://github.com/pbs-assess/gfplot> and
-     <https://github.com/pbs-assess/gfsynopsis>
+* Primary statistical model for COVID-19 forecasts for Canada (Public Health
+  Agency of Canada) since August 2020 and British Columbia since April 2020
+* Fits a Bayesian SEIR (Susceptible, Exposed, Infectious, Recovered) model to
+  daily COVID-19 case data
+* Can accommodate multiple types of case data at once (e.g., reported
+  cases, hospitalizations, ICU admissions) and accounts for delays between
+  symptom onset and case appearance.
+* Can evaluate epidemic forecasts given changes to population contact rates (e.g.,
+  levels of social distancing)
+* Published: Anderson et al. (2020; PLOS Computational Biology)
 
-2019
-:    **csasdown**: Reproducible Canadian Science Advisory Secretariat
-     Research Documents via R Markdown.\
-     <https://github.com/pbs-assess/csasdown>
+**sdmTMB**: <https://github.com/pbs-assess/sdmTMB>
 
-2018
-:    **glmmfields**: Generalized linear mixed models with robust random fields for spatiotemporal modeling.\
-     <https://cran.r-project.org/package=glmmfields>
+* An R package for fitting spatiotemporal species distribution GLMMs
+  (generalized linear mixed effects models) with TMB (Template Model Builder)
 
-2017
-:    **datalimited**: Stock assessment methods for data-limited fisheries.
-     <https://github.com/datalimited/datalimited>
+**glmmfields**: <https://cran.r-project.org/package=glmmfields>
 
-2014
-:    **Anderson, S.C.**, J.W. Moore, M.M McClure, N.K. Dulvy, A.B. Cooper.\
-     **metafolio**: Metapopulation simulations for conserving salmon
-     through portfolio optimization.
-     <http://cran.r-project.org/package=metafolio>
+* Bayesian generalized linear mixed models (GLMMs) with robust random fields
+  for spatiotemporal modeling
+* Allows identification of extreme changes in spatial distribution (e.g., rapid
+  range contractions)
+* Published: Anderson and Ward (2019; Ecology)
 
-2013
-:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero, C.J
-     Cunningham, F. Hurtado-Ferro, R. Licandeo, C.R. McGilliard, C.S.
-     Szuwalski, K.A. Vert-pre, A.R. Whitten. **ss3sim**: Fisheries stock
-     assessment simulation testing with Stock Synthesis.
-     <http://cran.r-project.org/package=ss3sim>
+**bayesdfa**: <https://cran.r-project.org/package=bayesdfa>
 
-2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. **ecofolio**: Tools to
-     quantify metapopulation portfolio effects.
-     <https://github.com/seananderson/ecofolio>
+* R package to fit Bayesian Dynamic Factor Analysis (DFA) time series
+  models (co-developed with E.J. Ward)
+* Can identify common trends, extreme events, or regime shifts in multiple ecological timeseries
+* Published: Ward et al. (2019; The R Journal)
 
-# Invited talks and conference presentations
+**csasdown**: <https://github.com/pbs-assess/csasdown>
+
+* R package for reproducible Canadian Science Advisory Secretariat Research
+  Documents, Science Responses, and Technical Reports via R Markdown
+* Enables fully reproducible CSAS reports going directly from databases to
+  analysis to written reports to bring CSAS reports in line with modern data
+  analysis best practices
+
+**rosettafish**: <https://github.com/pbs-assess/rosettafish>
+
+* Enables the seamless translation of fish- and fisheries-related terms in R
+  code to enable reproducible and efficient production of bilingual CSAS
+  Research Documents and Science Responses
+
+**gfplot, gfdata, gfsynopsis, and gfdlm**: <https://github.com/pbs-assess/>
+
+* R packages to facilitate rapid and reproducible data extraction, model
+  fitting, and plotting of BC groundfish data
+* gfsynopsis is used to generate an annual Research Document synopsis report
+  showing all available fishery and biological data and model fits for 113
+  species
+* gfdlm facilitates applying the management strategy evaluation toolkit
+  'MSEtool' to BC groundfish
+
+**ss3sim**: <https://github.com/ss3sim/ss3sim>
+
+* R package for flexible, rapid, and reproducible fisheries stock assessment
+  simulation testing with the widely used Stock Synthesis statistical
+  age-structured stock assessment framework
+* Published: Anderson et al. (2014; PLOS ONE)
+
+# Selected first-author invited conference presentations
 
 2019
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards, P.A. English, E.J. Ward.
@@ -462,57 +571,20 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      and trend with superensemble models. American Fisheries Society Annual Meeting,
      Portland, OR, United States.
 
-2013
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. False prophets: The
-     challenges of quantifying ecological portfolios ([slides][2013 PE
-     safs]), Quantitative Seminar, School of Aquatic and Fishery
-     Sciences, University of Washington, Seattle, WA, United States.
-
-2012
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy.  False prophets: The
-     ecological portfolio effect overestimates the benefit of diversity. School of Aquatic and Fishery Sciences, University of
-     Washington, Seattle, WA, United States.
-
-2012
-:    **Anderson, S.C.**, A.B. Cooper, N.K. Dulvy. Metapopulation dynamics and
-     the generality of the ecological portfolio effect. Les Ecologistes
-     Departmental Seminar, Simon Fraser University, Burnaby, BC, Canada.
-
-2010
-:    **Anderson, S.C.** The rise of invertebrates, the fall of sea cucumbers,
-     and the risk of maturing late. Earth2Ocean Research Group, Simon Fraser
-     University, Burnaby, BC, Canada.
-
-2009
-:    **Anderson, S.C.**, J.E. Mills Flemming, R. Watson, H.K. Lotze. Ecosystem
-     impacts of the global expansion of invertebrate fisheries. International
-     Oceans Past II Conference *Multidisciplinary Perspectives on the History
-     and Future of Marine Animal Populations*. Vancouver, BC, Canada.
-
-2009
-:    **Anderson, S.C.**, J.E Mills Flemming, R. Watson, H.K. Lotze. Global
-     invertebrate fisheries: trends and consequences. NCEAS (National Center
-     for Ecological Analysis and Synthesis) Working Group *Finding Common
-     Ground in Marine Conservation and Management*. Santa Barbara, CA, USA.
-
-2009
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge
-     base for expanding low-trophic level fisheries in Atlantic Canada. Harvest
-     Fisheries Seminar Series. Bedford Institute of Oceanography, Fisheries and
-     Oceans, Dartmouth, NS, Canada.
-
-2008
-:    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge
-     base for expanding low-trophic level fisheries in Atlantic Canada.
-     Departmental Seminar, Biology Department, Dalhousie University, Canada.
-
-
 # Teaching
+
+2020
+:    Two webinars for the national TESA (Technical Expertise in Stock Assessment) 2019--2020 webinar series: (1) data visualization with ggplot2 and (2) efficiently iterating with code using the purrr package
 
 2019
 :    Two-day workshop on Advanced R topics (functional programming, debugging,
      profiling, benchmarking, parallel processing, integrating C++ with R). University of British Columbia.
      <https://github.com/seananderson/adv-r-course>
+
+2019
+:    Organizer of [Advanced R](https://adv-r.hadley.nz/) book club at Pacific Biological Station.
+     Organized seven twice-a-month meetings of DFO Biologists and Research Scientists
+     to work through the book and clarify exercise material.
 
 2018
 :    One-day workshop on Bayesian data analysis for ecologists with Stan for the David H. Smith Conservation Research Fellowship Program.
@@ -595,6 +667,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2007–08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
 
+<!--
 # Contract employment
 
 2014–15
@@ -613,10 +686,24 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population Ecology
      Division, Bedford Institute of Oceanography, Fisheries and Oceans,
      Dartmouth, NS, Canada.
+-->
 
 # Working groups and workshops
 
-2019
+2020--23
+:    Joint ICES/PICES Working Group on impacts of warming on growth rates and
+     fisheries yields (WGGRAFY).
+
+2020--22
+:    TNC (The Nature Conservancy, based in the California office) working group
+     on climate change impacts on North American west coast fisheries
+
+2020
+:    Ocean Frontier Institute/Canadian Statistical Sciences Institute (CANSSI)
+     working group on *Spatial Modelling of Fishery Survey Data to Improve Stock
+     Assessment*; invited keynote speaker
+
+2019--20
 :    NOAA (National Oceanic and Atmospheric Administration) FATE
      (Fisheries and the Environment) working group
      *Spatial ecosystem state and pressure indicators and the
@@ -625,6 +712,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2018--19
 :    European Commission Joint Research Council working group *A new approach to strengthen evidence-based fisheries management* investigating approaches to providing fisheries management scientific advice based on model ensembles.
+
+2018
+:    Galway-Mayo Institute of Technology (Ireland) working group on ecosystem
+     tipping points
 
 2016--17
 :    NOAA (National Oceanic and Atmospheric Administration) FATE
@@ -659,34 +750,28 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Management* led by Ray Hilborn and Boris Worm.
      ([URL](http://www.nceas.ucsb.edu/projects/12307))
 
-2008
-:    Workshop on Canadian Science and Management Strategies for Sea Cucumber
-     (*Cucumaria frondosa*), Fisheries and Oceans, Dartmouth, NS, Canada
-     (work presented *in absentia*).
-
-2007
-:    Workshop on Canadian Science and Management Strategies for Atlantic
-     Hagfish, Fisheries and Oceans, Dartmouth, NS, Canada.
-     ([URL](http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/Pro-CR/2009/2009_009_e.htm))
-
 # Reviewing
 
 Reviewer for Science,
-Ecology,
 Canadian Journal of Fisheries and Aquatic Sciences,
 Fish and Fisheries,
+Fisheries Research,
+ICES Journal of Marine Science,
 Ecological Applications,
 Conservation Biology,
 Proceedings B,
+Ecology,
 Marine Policy,
 Population Ecology,
 Journal of Applied Ecology,
 International Journal of Tropical Biology and Conservation,
 Biological Conservation,
+Diversity and Distributions,
 Oikos,
 Journal of Environmental Management,
 Endangered Species Research,
-Aquatic Conservation
+Aquatic Conservation,
+NSERC Discovery Grants
 
 [2011 multipanel notes]: http://seananderson.ca/courses/11-multipanel/multipanel.pdf
 [2011 multipanel slides]: http://seananderson.ca/courses/11-multipanel/multipanel-slides.pdf
