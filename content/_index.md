@@ -7,12 +7,12 @@ layout: index
 I'm a biologist at the [Pacific Biological Station](http://www.pac.dfo-mpo.gc.ca/science/facilities-installations/pbs-sbp/index-eng.html) with
 Fisheries and Oceans Canada in Nanaimo, British Columbia.
 I link theory with data through statistical and simulation models to improve predictions about ecological systems and inform management and policy decisions.
-In particular, I am interested in how we can estimate population status with limited data and in the role of variance, risk, and extreme events in population dynamics.
+In particular, I am interested in spatiotemporal species distribution modelling, how we can estimate population status with limited data, and in the role of variance, risk, and extreme events in population dynamics.
 
 <img src="images/seananderson2018@2x.jpg" alt="Sean C. Anderson" class="headshot"/>
 
 My [research](/cv.html#publications) broadly spans the field of quantitative
-ecology. In my role at Fisheries and Oceans Canada, I am focussed on marine fish and fisheries. My current areas of research include:
+ecology. In my role at Fisheries and Oceans Canada, I am focused on marine fish and fisheries. My current areas of research include:
 
 - Ecological extremes in time or space, e.g. [black-swan events](http://www.pnas.org/content/114/12/3252)
 - [Ensemble approaches](https://doi.org/10.1111/faf.12200) in fisheries stock assessment
@@ -26,31 +26,24 @@ Models](https://github.com/seananderson/glmm-course) (GLMMs), [Bayesian data
 analysis in R and Stan]( https://github.com/seananderson/bayes-course), and
 [advanced R](https://github.com/seananderson/adv-r-course).
 
-I develop a number of R packages. For example, with collaborators, I'm developing
-packages to run fisheries stock assessment simulations with [Stock
-Synthesis][nefsc] software ([ss3sim](https://github.com/ss3sim/ss3sim)), fit
-Bayesian spatial and spatiotemporal models
-([glmmfields](https://github.com/seananderson/glmmfields)), and fit Bayesian
+I develop a number of R packages. For example, with collaborators, I'm developing packages to fit predictive process spatiotemporal GLMMs (generalized linear mixed effect models)
+([sdmTMB](https://pbs-assess.github.io/sdmTMB/index.html) and [glmmfields](https://github.com/seananderson/glmmfields)), 
+fit Bayesian statistical models used for COVID-19 forecasts for British Columia and Canada ([covidseir](https://github.com/seananderson/covidseir)),
+run fisheries stock assessment simulations with [Stock
+Synthesis][nefsc] software ([ss3sim](https://github.com/ss3sim/ss3sim)),
+and fit Bayesian
 Dynamic Factor Analysis time series models
-([bayesdfa](https://github.com/fate-ewi/bayesdfa)). Much of my recent work has
-been on [developing R packages](https://github.com/pbs-assess) to facilitate rapid
-data processing, model fitting, and visualization for groundfish stocks in
-British Columbia, Canada.
+([bayesdfa](https://github.com/fate-ewi/bayesdfa)). 
+I also maintain [R packages](https://github.com/pbs-assess) to facilitate rapid
+data processing, model fitting, and visualization for groundfish stocks on Canada's West Coast and to facilitate the reproducible data-to-document workflows for CSAS (Canadian Science Advisory Secretariat Research) reports ([csasdown](https://github.com/pbs-assess/csasdown)).
 
 I am interested in taking on postdoctoral researchers and co-supervising
 graduate students. There are funding opportunities with Fisheries and Oceans
-Canada through
-[SPERA](http://www.dfo-mpo.gc.ca/science/rp-pr/spera-psrafe/index-eng.html)
-(Strategic Program for Ecosystem-Based Research and Advice) and
-[ACCASP](http://www.dfo-mpo.gc.ca/science/rp-pr/accasp-psaccma/index-eng.html)
-(Aquatic Climate Change Adaptation Services Program). Other excellent postdoc
-funding opportunities are through the [Liber Ero](http://liberero.ca/) and the
-[Smith Fellows](https://conbio.org/mini-sites/smith-fellows) programs. If you
+Canada. Other excellent
+funding opportunities are through NSERC/Mitacs, [Liber Ero](http://liberero.ca/), and the
+[Smith Fellows](https://conbio.org/mini-sites/smith-fellows). If you
 have a topic of interest, get in touch and we may be able to write a joint
 proposal.
-
-
-
 
 [earth2ocean]: http://earth2ocean.org
 [gg]: http://www.gg.ca/honour.aspx?id=75057&t=1&;ln=Anderson
