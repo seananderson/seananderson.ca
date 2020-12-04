@@ -73,7 +73,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2020
 :    Barnett, L.A.K., E.J. Ward, **S.C. Anderson**.
      Improving estimates of species distribution change by incorporating local trends.
-     In press at Ecography.
+     In press at Ecography. <https://doi.org/10.1111/ecog.05176>.
 
 2020
 :    **Anderson, S.C.**, P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C. Bletz,
