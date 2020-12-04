@@ -87,7 +87,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      J. Stockdale, S.A. Iyaniwura, R.C. Falcao, M.C. Otterstatter,
      M.A. Irvine, N.Z. Janjua, D. Coombs, C. Colijn.
      Quantifying the impact of COVID-19 control measures using a Bayesian model
-     of physical distancing. In press at PLOS Computational Biology.
+     of physical distancing. In press at PLOS Computational Biology:
+     <https://doi.org/10.1371/journal.pcbi.1008274>.
      medRxiv preprint: <https://doi.org/10.1101/2020.04.17.20070086>.
 
 2020
