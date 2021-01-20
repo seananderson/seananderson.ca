@@ -357,6 +357,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      A management procedure framework for groundﬁsh in British Columbia.
      Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 9 2020.
      ([English version](https://www.dropbox.com/s/rgxk2wco5v5zp0e/gfmp-2020-03-13.pdf?dl=1)).
+     [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html).
 
 2020
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
