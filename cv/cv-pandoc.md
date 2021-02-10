@@ -61,6 +61,10 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
+2021
+:    Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A., Mulberry, N., Otterstatter, M.C., Janjua, N.Z., Coombs, D., Colijn, C., and Irvine, M.A. 2021. Quantifying transmissibility of COVID-19 and impact of intervention within long-term health care facilities. medRxiv: 2021.02.01.21249903. <https://doi.org/10.1101/2021.02.01.21249903>.
+
+
 2020
 :    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
      Iyaniwura, S.A., Falcao, R.C., Otterstatter, M.C., Janjua, N.Z., Coombs,
