@@ -6,6 +6,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
+2021
+:    Research Scientist, Stock Assessment and Research Division,
+     Pacific Biological Station, Fisheries and Oceans Canada,
+     Nanaimo, BC, Canada
+
 2017--20
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
@@ -42,13 +47,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
      Variance and extreme events in population ecology\
      Fulbright Scholar to the University of Washington in 2012–13\
-     [Dean of Graduate Studies Convocation Medal](https://www.sfu.ca/dean-gradstudies/blog/year/2015/06/SeanAnderson.html)
+     Dean of Graduate Studies Convocation Medal
 
 2008--10
 :    M.Sc. Biology, Dalhousie University, Halifax, Canada\
      Trends, drivers, and ecosystem effects of expanding global
      invertebrate fisheries\
-     [Canadian Governor General's Academic Gold Medal][Governor General award]
+     Canadian Governor General's Academic Gold Medal
 
 2004–07
 :    B.Sc. (Hons.) Environmental Science, Dalhousie University, Halifax,
