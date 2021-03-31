@@ -69,27 +69,34 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2021
 :    Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A., Mulberry, N., Otterstatter, M.C., Janjua, N.Z., Coombs, D., Colijn, C., and Irvine, M.A. 2021. Quantifying transmissibility of COVID-19 and impact of intervention within long-term health care facilities. medRxiv: 2021.02.01.21249903. <https://doi.org/10.1101/2021.02.01.21249903>.
 
-
-2020
-:    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
-     Iyaniwura, S.A., Falcao, R.C., Otterstatter, M.C., Janjua, N.Z., Coombs,
-     D., and Colijn, C. 2020. How much leeway is there to relax COVID-19
-     control measures? medRxiv 2020.06.12.20129833.
-     <https://doi.org/10.1101/2020.06.12.20129833>.
-
 # Publications
 
-2020
-:    Barnett, L.A.K., E.J. Ward, **S.C. Anderson**.
-     Improving estimates of species distribution change by incorporating local trends.
-     In press at Ecography. <https://doi.org/10.1111/ecog.05176>.
-
-2020
+2021
 :    **Anderson, S.C.**, P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C. Bletz,
      D.A. Gill, M.A. Holgerson, S.E. Kuebbing,
      C. McDonough MacKenzie, M.H. Meek, D. Veríssimo.
      Trends in ecology and conservation over eight decades.
      In press at Frontiers in Ecology and the Environment.
+
+2021
+:    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
+     Iyaniwura, S.A., Falcao, R.C., Otterstatter, M.C., Janjua, N.Z., Coombs,
+     D., and Colijn, C. 2020. How much leeway is there to relax COVID-19
+     control measures? In press at Epidemics.
+     <https://doi.org/10.1016/j.epidem.2021.100453>.
+
+<!--
+2021
+:    Freshwater, C., *S.C. Anderson*, T.D. Beacham, W. Luedke, C. Wor, J. King.
+     An integrated model of seasonal changes in stock composition and abundance
+     with an application to Chinook salmon.
+     In press at PeerJ.
+-->
+
+2020
+:    Barnett, L.A.K., E.J. Ward, **S.C. Anderson**.
+     Improving estimates of species distribution change by incorporating local trends.
+     In press at Ecography. <https://doi.org/10.1111/ecog.05176>.
 
 2020
 :    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry,
