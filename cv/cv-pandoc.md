@@ -77,6 +77,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      C. McDonough MacKenzie, M.H. Meek, D. Veríssimo.
      Trends in ecology and conservation over eight decades.
      In press at Frontiers in Ecology and the Environment.
+     <http://doi.org/10.1002/fee.2320>.
 
 2021
 :    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,

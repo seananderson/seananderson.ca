@@ -10,8 +10,7 @@ Canada
 
 sean.anderson "at" dfo-mpo.gc.ca
 
-Professional experience
-=======================
+# Professional experience
 
 2021
 :   Research Scientist, Stock Assessment and Research Division, Pacific
@@ -47,8 +46,7 @@ Professional experience
 :   Graduate Research Assistant, Department of Biology, Dalhousie
     University
 
-Education
-=========
+# Education
 
 2011--15
 :   Ph.D. Biology, Simon Fraser University, Burnaby, Canada\
@@ -71,8 +69,7 @@ Education
 :   B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo,
     Waterloo, Canada; transferred to Dalhousie University in 2004.
 
-Preprints
-=========
+# Preprints
 
 2021
 :   Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A.,
@@ -82,15 +79,14 @@ Preprints
     medRxiv: 2021.02.01.21249903.
     <https://doi.org/10.1101/2021.02.01.21249903>.
 
-Publications
-============
+# Publications
 
 2021
 :   **Anderson, S.C.**, P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C.
     Bletz, D.A. Gill, M.A. Holgerson, S.E. Kuebbing, C. McDonough
     MacKenzie, M.H. Meek, D. Veríssimo. Trends in ecology and
     conservation over eight decades. In press at Frontiers in Ecology
-    and the Environment.
+    and the Environment. <http://doi.org/10.1002/fee.2320>.
 
 2021
 :   **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
@@ -497,8 +493,7 @@ Publications
     2553--2571. <https://doi.org/10.1139/F08-156>
     ([PDF](https://www.dropbox.com/s/b0la81jbqitib6u/Anderson_etal_2008_knowledge.pdf?dl=1)).
 
-Peer-reviewed reports
-=====================
+# Peer-reviewed reports
 
 2020
 :   Haggarty D.R., Q.C. Huynh, R.E. Forrest, **S.C. Anderson**, M.J.
@@ -535,8 +530,7 @@ Peer-reviewed reports
     [French
     version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-fra.html)).
 
-DFO Technical Reports
-=====================
+# DFO Technical Reports
 
 2019
 :   **Anderson, S.C.**, and Workman, G.D. A review of groundfish surveys
@@ -571,8 +565,7 @@ DFO Technical Reports
     ([English
     version](https://waves-vagues.dfo-mpo.gc.ca/Library/40750152.pdf))
 
-Awards and scholarships
-=======================
+# Awards and scholarships
 
 2020--21
 :   Co-principal Investigator on NOAA Office of Science and Technology
@@ -643,8 +636,7 @@ Awards and scholarships
 2007
 :   Environmental Programmes Honour Society Medal, Dalhousie University
 
-Software
-========
+# Software
 
 ```{=tex}
 \setlist[itemize]{topsep=2pt}
@@ -718,8 +710,7 @@ Software
     statistical age-structured stock assessment framework
 -   Published: Anderson et al. (2014; PLOS ONE)
 
-Selected first-author invited conference presentations
-======================================================
+# Selected first-author invited conference presentations
 
 2019
 :   **Anderson, S.C.**, E.A. Keppel, A.M. Edwards, P.A. English, E.J.
@@ -761,8 +752,7 @@ Selected first-author invited conference presentations
     American Fisheries Society Annual Meeting, Portland, OR, United
     States.
 
-Teaching
-========
+# Teaching
 
 2020
 :   Two webinars for the national TESA (Technical Expertise in Stock
@@ -899,8 +889,7 @@ Teaching
      Dartmouth, NS, Canada.
 -->
 ```
-Working groups and workshops
-============================
+# Working groups and workshops
 
 2020--23
 :   Joint ICES/PICES Working Group on impacts of warming on growth rates
@@ -965,8 +954,7 @@ Working groups and workshops
     Management* led by Ray Hilborn and Boris Worm.
     ([URL](http://www.nceas.ucsb.edu/projects/12307))
 
-Reviewing
-=========
+# Reviewing
 
 Reviewer for Science, Canadian Journal of Fisheries and Aquatic
 Sciences, Fish and Fisheries, Fisheries Research, ICES Journal of Marine
