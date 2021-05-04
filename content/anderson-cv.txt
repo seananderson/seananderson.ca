@@ -72,14 +72,27 @@ sean.anderson "at" dfo-mpo.gc.ca
 # Preprints
 
 2021
+:   English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L.
+    Hunter, A.M. Edwards, B.M. Connors, S.C. Anderson. Contrasting
+    climate velocity impacts in warm and cool locations: A meta-analysis
+    across 38 demersal fish species in the northeast Pacific.
+    EcoEvoRxiv. <https://doi.org/10.32942/osf.io/b87ng>.
+
+2021
 :   Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A.,
     Mulberry, N., Otterstatter, M.C., Janjua, N.Z., Coombs, D., Colijn,
-    C., and Irvine, M.A. 2021. Quantifying transmissibility of COVID-19
-    and impact of intervention within long-term health care facilities.
+    C., and Irvine, M.A. Quantifying transmissibility of COVID-19 and
+    impact of intervention within long-term health care facilities.
     medRxiv: 2021.02.01.21249903.
     <https://doi.org/10.1101/2021.02.01.21249903>.
 
 # Publications
+
+2021
+:   Freshwater C., **S.C. Anderson**, T.D. Beacham, W. Luedke, C.
+    Wor, J. King. An integrated model of seasonal changes in stock
+    composition and abundance with an application to Chinook salmon.
+    PeerJ 9:e11163. <https://doi.org/10.7717/peerj.11163>.
 
 2021
 :   **Anderson, S.C.**, P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C.
