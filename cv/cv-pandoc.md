@@ -67,12 +67,19 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Preprints
 
 2021
-:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L. Hunter, A.M. Edwards, B.M. Connors, S.C. Anderson. Contrasting climate velocity impacts in warm and cool locations: A meta-analysis across 38 demersal fish species in the northeast Pacific. EcoEvoRxiv. <https://doi.org/10.32942/osf.io/b87ng>.
+:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L. Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate velocity impacts in warm and cool locations: A meta-analysis across 38 demersal fish species in the northeast Pacific. EcoEvoRxiv. <https://doi.org/10.32942/osf.io/b87ng>.
 
 2021
 :    Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A., Mulberry, N., Otterstatter, M.C., Janjua, N.Z., Coombs, D., Colijn, C., and Irvine, M.A. Quantifying transmissibility of COVID-19 and impact of intervention within long-term health care facilities. medRxiv: 2021.02.01.21249903. <https://doi.org/10.1101/2021.02.01.21249903>.
 
 # Publications
+
+2021 
+:    Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K. Robinson. 
+     Factors affecting the seasonal distribution and biomass of *E. pacifica*
+     and *T. spinifera* along the Pacific coast of Canada: A spatiotemporal 
+     modelling approach. PLOS ONE. 2021 May 14;16(5):e0249818.
+     <https://doi.org/10.1371/journal.pone.0249818>.
 
 2021
 :    Freshwater C., **S.C. Anderson**, T.D. Beacham, W. Luedke, C. Wor, J. King. 
@@ -94,14 +101,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      D., and Colijn, C. 2020. How much leeway is there to relax COVID-19
      control measures? In press at Epidemics.
      <https://doi.org/10.1016/j.epidem.2021.100453>.
-
-<!--
-2021
-:    Freshwater, C., *S.C. Anderson*, T.D. Beacham, W. Luedke, C. Wor, J. King.
-     An integrated model of seasonal changes in stock composition and abundance
-     with an application to Chinook salmon.
-     In press at PeerJ.
--->
 
 2020
 :    Barnett, L.A.K., E.J. Ward, **S.C. Anderson**.
