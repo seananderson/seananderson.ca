@@ -69,24 +69,16 @@ sean.anderson "at" dfo-mpo.gc.ca
 :   B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo,
     Waterloo, Canada; transferred to Dalhousie University in 2004.
 
-# Preprints
+# Publications
 
 2021
 :   English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L.
     Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting
-    climate velocity impacts in warm and cool locations: A meta-analysis
-    across 38 demersal fish species in the northeast Pacific.
-    EcoEvoRxiv. <https://doi.org/10.32942/osf.io/b87ng>.
-
-2021
-:   Stockdale, J.E., **Anderson, S.C.**, Edwards, A.M., Iyaniwura, S.A.,
-    Mulberry, N., Otterstatter, M.C., Janjua, N.Z., Coombs, D., Colijn,
-    C., and Irvine, M.A. Quantifying transmissibility of COVID-19 and
-    impact of intervention within long-term health care facilities.
-    medRxiv: 2021.02.01.21249903.
-    <https://doi.org/10.1101/2021.02.01.21249903>.
-
-# Publications
+    climate velocity impacts in warm and cool locations show that
+    effects of marine warming are worse in already warmer temperate
+    waters. In press at Fish and Fisheries.
+    <https://doi.org/10.1111/faf.12613>. Open access preprint:
+    <https://doi.org/10.32942/osf.io/b87ng>.
 
 2021
 :   Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K.
