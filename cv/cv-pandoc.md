@@ -6,23 +6,23 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2021
+2021--22
 :    Research Scientist, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
+
+2019--22
+:     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
+
+2020--22
+:     Adjunct Professor, Department of Mathematics, Simon Fraser University
 
 2017--20
 :    Program Head in Analytical Approaches and Spatial Stock Assessment,
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
-
-2019--21
-:     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
-
-2020--21
-:     Adjunct Professor, Department of Mathematics, Simon Fraser University
-
+     
 2015--17
 :    David H. Smith Conservation Research Fellow,
      School of Aquatic and Fishery Sciences,
