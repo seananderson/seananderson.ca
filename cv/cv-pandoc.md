@@ -63,11 +63,26 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2001–03
 :    B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo, Waterloo,
      Canada; transferred to Dalhousie University in 2004.
+     
+# Preprints
+
+2021
+:    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh, K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv 2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
 
+2022
+:    Stockdale, J.E., **S.C. Anderson**, A.M Edwards, S.A. Iyaniwura, N. Mulberry, M.C. Otterstatter, N.Z. Janjua, D. Coombs, C. Colijn, and M.A. Irvine. Quantifying transmissibility of SARS-CoV-2 and impact of intervention within long-term healthcare facilities. Royal Society Open Science 9(1): 211710. <https://doi.org/10.1098/rsos.211710>.
+
+2022
+:    Commander C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E. Essington.
+     The shadow model: how and why small choices in spatially explicit species distribution models affect prediction. In press at PeerJ.
+
+2022
+:    Ward, E.J., **S.C. Anderson**, M.D. Hunsicker, and M.A. Litzow. Smoothed dynamic factor analysis for identifying trends in multivariate time series. Methods in Ecology and Evolution. In press. <https://doi.org/10.1111/2041-210X.13788>.
+
 2021
-:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L. Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate velocity impacts in warm and cool locations show that effects of marine warming are worse in already warmer temperate waters. In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12613>. Open access preprint: <https://doi.org/10.32942/osf.io/b87ng>.
+:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L. Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate velocity impacts in warm and cool locations show that effects of marine warming are worse in already warmer temperate waters. Fish and Fisheries. 23(1) 239--255. <https://doi.org/10.1111/faf.12613>. Open access preprint: <https://doi.org/10.32942/osf.io/b87ng>.
 
 2021 
 :    Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K. Robinson. 
@@ -87,7 +102,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      D.A. Gill, M.A. Holgerson, S.E. Kuebbing,
      C. McDonough MacKenzie, M.H. Meek, D. Veríssimo.
      Trends in ecology and conservation over eight decades.
-     In press at Frontiers in Ecology and the Environment.
+     Frontiers in Ecology and the Environment. 19(5): 274--282.
      <http://doi.org/10.1002/fee.2320>.
 
 2021
@@ -97,17 +112,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      control measures? In press at Epidemics.
      <https://doi.org/10.1016/j.epidem.2021.100453>.
 
-2020
+2021
 :    Barnett, L.A.K., E.J. Ward, **S.C. Anderson**.
      Improving estimates of species distribution change by incorporating local trends.
-     In press at Ecography. <https://doi.org/10.1111/ecog.05176>.
+     Ecography. 44: 427--439. <https://doi.org/10.1111/ecog.05176>.
 
 2020
 :    **Anderson, S.C.**, A.M. Edwards, M. Yerlanov, N. Mulberry,
      J. Stockdale, S.A. Iyaniwura, R.C. Falcao, M.C. Otterstatter,
      M.A. Irvine, N.Z. Janjua, D. Coombs, C. Colijn.
      Quantifying the impact of COVID-19 control measures using a Bayesian model
-     of physical distancing. In press at PLOS Computational Biology:
+     of physical distancing. PLOS Computational Biology. 16(12): e1008274.
      <https://doi.org/10.1371/journal.pcbi.1008274>.
      medRxiv preprint: <https://doi.org/10.1101/2020.04.17.20070086>.
 
@@ -116,7 +131,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Pinsky, K. Amador, **S.C. Anderson**, ... (67 co-authors), J.T. Thorson.
      Are we ready to track climate-driven shifts in marine species across
      international boundaries? A global survey of scientific bottom trawl data.
-     In press at Global Change Biology.
+     Global Change Biology. 27: 220--236.
      <https://doi.org/10.1111/gcb.15404>.
 
 2020
@@ -362,6 +377,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Peer-reviewed reports
 
+2021
+:    **Anderson, S.C.**, R.E. Forrest, Q.C. Huynh, E.A. Keppel.
+     A management procedure framework for groundﬁsh in British Columbia.
+     DFO Can. Sci. Advis. Sec. Res. Doc. 2021/007.
+     ([Research Document](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-eng.html)).
+     [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html).
+
 2020
 :    Haggarty D.R., Q.C. Huynh, R.E. Forrest,
      **S.C. Anderson**, M.J. Bresch, E.A. Keppel.
@@ -370,14 +392,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      (*Sebastes ruberrimus*) in British Columbia.
      Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 11 2020.
      ([English version](https://www.dropbox.com/s/pll8axzsxqka8j8/resdoc-iye.pdf?dl=1)).
-
-
-2020
-:    **Anderson, S.C.**, R.E. Forrest, Q.C. Huynh, E.A. Keppel.
-     A management procedure framework for groundﬁsh in British Columbia.
-     Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 9 2020.
-     ([English version](https://www.dropbox.com/s/rgxk2wco5v5zp0e/gfmp-2020-03-13.pdf?dl=1)).
-     [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html).
 
 2020
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
@@ -395,6 +409,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # DFO Technical Reports
 
+2020
+:     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
+      surveys in 2019. In State of the physical, biological and selected fishery
+      resources of Pacific Canadian Marine Ecosystems in 2019. Edited by J.L. Boldt,
+      A. Javorski, and P.C. Chandler. pp. 102--106.
+      Can. Tech. Rep. Fish. Aquat. Sci. 3377, Sidney, BC.
+      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2019/index-eng.html))
+
+
 2019
 :     **Anderson, S.C.**, and Workman, G.D. A review of groundfish surveys in 2018
       and an introduction to the groundfish data synopsis report. In State of the
@@ -403,14 +426,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
       90--94.
       Can. Tech. Rep. Fish. Aquat. Sci. 3314, Sidney, BC.
       ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2018/index-eng.html))
-
-2020
-:     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
-      surveys in 2019. In State of the physical, biological and selected fishery
-      resources of Pacific Canadian Marine Ecosystems in 2019. Edited by J.L. Boldt,
-      A. Javorski, and P.C. Chandler. pp. 102--106.
-      Can. Tech. Rep. Fish. Aquat. Sci. 3377, Sidney, BC.
-      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2019/index-eng.html))
 
 2018
 :     Edwards, A.M., Duplisea, D.E., Grinnell, M.H., **Anderson, S.C.**, Grandin,
