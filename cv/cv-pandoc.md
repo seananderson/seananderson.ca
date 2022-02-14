@@ -22,7 +22,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Groundfish Section, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
-     
+
 2015--17
 :    David H. Smith Conservation Research Fellow,
      School of Aquatic and Fishery Sciences,
@@ -63,36 +63,52 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2001–03
 :    B.Sc. Candidate (Hons.) Kinesiology, University of Waterloo, Waterloo,
      Canada; transferred to Dalhousie University in 2004.
-     
+
 # Preprints
 
 2021
-:    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh, K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv 2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
+:    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh,
+     K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv
+     2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
 
 2022
-:    Stockdale, J.E., **S.C. Anderson**, A.M Edwards, S.A. Iyaniwura, N. Mulberry, M.C. Otterstatter, N.Z. Janjua, D. Coombs, C. Colijn, and M.A. Irvine. Quantifying transmissibility of SARS-CoV-2 and impact of intervention within long-term healthcare facilities. Royal Society Open Science 9(1): 211710. <https://doi.org/10.1098/rsos.211710>.
+:    Commander, C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
+     Essington. The shadow model: how and why small choices in spatially
+     explicit species distribution models affect predictions. PeerJ 10: e12783.
+     <https://doi.org/10.7717/peerj.12783>.
 
 2022
-:    Commander C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E. Essington.
-     The shadow model: how and why small choices in spatially explicit species distribution models affect prediction. In press at PeerJ.
+:    Stockdale, J.E., **S.C. Anderson**, A.M Edwards, S.A. Iyaniwura, N.
+     Mulberry, M.C. Otterstatter, N.Z. Janjua, D. Coombs, C. Colijn, and M.A.
+     Irvine. Quantifying transmissibility of SARS-CoV-2 and impact of
+     intervention within long-term healthcare facilities. Royal Society Open
+     Science 9(1): 211710. <https://doi.org/10.1098/rsos.211710>.
 
 2022
-:    Ward, E.J., **S.C. Anderson**, M.D. Hunsicker, and M.A. Litzow. Smoothed dynamic factor analysis for identifying trends in multivariate time series. Methods in Ecology and Evolution. In press. <https://doi.org/10.1111/2041-210X.13788>.
+:    Ward, E.J., **S.C. Anderson**, M.D. Hunsicker, and M.A. Litzow. Smoothed
+     dynamic factor analysis for identifying trends in multivariate time
+     series. Methods in Ecology and Evolution. In press.
+     <https://doi.org/10.1111/2041-210X.13788>.
 
 2021
-:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L. Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate velocity impacts in warm and cool locations show that effects of marine warming are worse in already warmer temperate waters. Fish and Fisheries. 23(1) 239--255. <https://doi.org/10.1111/faf.12613>. Open access preprint: <https://doi.org/10.32942/osf.io/b87ng>.
+:    English, P., E.J. Ward, C.N. Rooper, R.E. Forrest, L.A. Rogers, K.L.
+     Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate
+     velocity impacts in warm and cool locations show that effects of marine
+     warming are worse in already warmer temperate waters. Fish and Fisheries.
+     23(1) 239--255. <https://doi.org/10.1111/faf.12613>. Open access preprint:
+     <https://doi.org/10.32942/osf.io/b87ng>.
 
-2021 
-:    Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K. Robinson. 
+2021
+:    Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K. Robinson.
      Factors affecting the seasonal distribution and biomass of *E. pacifica*
-     and *T. spinifera* along the Pacific coast of Canada: A spatiotemporal 
+     and *T. spinifera* along the Pacific coast of Canada: A spatiotemporal
      modelling approach. PLOS ONE. 2021 May 14;16(5):e0249818.
      <https://doi.org/10.1371/journal.pone.0249818>.
 
 2021
-:    Freshwater C., **S.C. Anderson**, T.D. Beacham, W. Luedke, C. Wor, J. King. 
+:    Freshwater C., **S.C. Anderson**, T.D. Beacham, W. Luedke, C. Wor, J. King.
      An integrated model of seasonal changes in stock composition and abundance
      with an application to Chinook salmon. PeerJ 9:e11163.
      <https://doi.org/10.7717/peerj.11163>.

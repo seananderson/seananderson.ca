@@ -80,18 +80,18 @@ sean.anderson "at" dfo-mpo.gc.ca
 # Publications
 
 2022
+:   Commander, C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
+    Essington. The shadow model: how and why small choices in spatially
+    explicit species distribution models affect predictions. PeerJ 10:
+    e12783. <https://doi.org/10.7717/peerj.12783>.
+
+2022
 :   Stockdale, J.E., **S.C. Anderson**, A.M Edwards, S.A. Iyaniwura, N.
     Mulberry, M.C. Otterstatter, N.Z. Janjua, D. Coombs, C. Colijn, and
-    M.A. Irvine. Quantifying transmissibility of SARS-CoV-2 and impact
+    M.A. Irvine. Quantifying transmissibility of SARS-CoV-2 and impact
     of intervention within long-term healthcare facilities. Royal
     Society Open Science 9(1): 211710.
     <https://doi.org/10.1098/rsos.211710>.
-
-2022
-:   Commander C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
-    Essington. The shadow model: how and why small choices in spatially
-    explicit species distribution models affect prediction. In press at
-    PeerJ.
 
 2022
 :   Ward, E.J., **S.C. Anderson**, M.D. Hunsicker, and M.A. Litzow.
