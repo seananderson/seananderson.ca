@@ -66,12 +66,26 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
+2022
+:    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett. sdmTMB: an R
+     package for fast, flexible, and user-friendly generalized linear mixed effects
+     models with spatial and spatiotemporal random fields.
+     bioRxiv 2022.03.24.485545. <https://doi.org/10.1101/2022.03.24.485545>.
+
 2021
 :    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh,
      K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv
      2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
+
+2022
+:    Essington, T. E. **S.C. Anderson**, L.A.K. Barnett, H.M. Berger, S.A.
+     Siedlecki, E.J. Ward. Advancing statistical models to reveal the effect of
+     dissolved oxygen on the spatial distribution of marine taxa using
+     thresholds and a physiologically based index.
+     In press at Ecography.
+     <https://doi.org/10.1111/ecog.06249>.
 
 2022
 :    Commander, C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
@@ -394,6 +408,11 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Peer-reviewed reports
 
 2021
+:    DFO. Status Update of Pacifc Cod (*Gadus macrocephalus*) for West Coast
+     Vancouver Island (Area 3CD), and Hecate Strait and Queen Charlotte Sound (Area
+     5ABCD) in 2020. DFO Can. Sci. Advis. Sec. Sci. Resp. 2021/002. ([English version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-eng.html), [French version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-fra.html)).
+
+2021
 :    **Anderson, S.C.**, R.E. Forrest, Q.C. Huynh, E.A. Keppel.
      A management procedure framework for groundﬁsh in British Columbia.
      DFO Can. Sci. Advis. Sec. Res. Doc. 2021/007.
@@ -404,10 +423,9 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Haggarty D.R., Q.C. Huynh, R.E. Forrest,
      **S.C. Anderson**, M.J. Bresch, E.A. Keppel.
      Evaluation of potential rebuilding strategies
-     for Inside Yelloweye Rockﬁsh
+     for Inside Yelloweye Rockfish
      (*Sebastes ruberrimus*) in British Columbia.
-     Accepted as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 11 2020.
-     ([English version](https://www.dropbox.com/s/pll8axzsxqka8j8/resdoc-iye.pdf?dl=1)).
+     In Press. Accepected as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 11 2020.
 
 2020
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
@@ -425,13 +443,21 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # DFO Technical Reports
 
+2021
+:     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
+      surveys in 2019. In State of the physical, biological and selected fishery
+      resources of Pacific Canadian Marine Ecosystems in 2019. Edited by J.L. Boldt,
+      A. Javorski, and P.C. Chandler. pp. 127--133.
+      Can. Tech. Rep. Fish. Aquat. Sci. 3434, Sidney, BC.
+      ([English version](https://publications.gc.ca/site/eng/9.900827/publication.html)).
+
 2020
 :     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
       surveys in 2019. In State of the physical, biological and selected fishery
       resources of Pacific Canadian Marine Ecosystems in 2019. Edited by J.L. Boldt,
       A. Javorski, and P.C. Chandler. pp. 102--106.
       Can. Tech. Rep. Fish. Aquat. Sci. 3377, Sidney, BC.
-      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2019/index-eng.html))
+      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2019/index-eng.html)).
 
 
 2019
@@ -441,7 +467,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
       ecosystems in 2018. Edited by J.L. Boldt, J. Leonard, and P.C. Chandler. pp.
       90--94.
       Can. Tech. Rep. Fish. Aquat. Sci. 3314, Sidney, BC.
-      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2018/index-eng.html))
+      ([English version](https://www.dfo-mpo.gc.ca/oceans/publications/soto-rceo/2018/index-eng.html)).
 
 2018
 :     Edwards, A.M., Duplisea, D.E., Grinnell, M.H., **Anderson, S.C.**, Grandin,
@@ -454,7 +480,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
       workshop on "Tools for transparent, traceable, and transferable assessments"
       27--30 November 2018 in Nanaimo, British Columbia. Can. Tech. Rep. Fish. Aquat.
       Sci. 3290, Nanaimo, BC.
-      ([English version](https://waves-vagues.dfo-mpo.gc.ca/Library/40750152.pdf))
+      ([English version](https://waves-vagues.dfo-mpo.gc.ca/Library/40750152.pdf)).
 
 # Awards and scholarships
 
@@ -631,8 +657,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Teaching
 
+2022
+:    Two workshops on geostatistical modelling with sdmTMB for the NOAA
+     (National Oceanic and Atmospheric Administration) PSAW (Protected Species
+     Assessment Workshop) series.
+     [Slides and exercises](https://pbs-assess.github.io/sdmTMB-teaching/noaa-psaw-2022/),
+     Lecture recordings: [Week 1](https://youtu.be/DIXa7ngVVL0), [Week 2](https://youtu.be/VxnqgiAAjfk).
+
 2020
-:    Two webinars for the national TESA (Technical Expertise in Stock Assessment) 2019--2020 webinar series: (1) data visualization with ggplot2 and (2) efficiently iterating with code using the purrr package
+:    Two webinars for the national TESA (Technical Expertise in Stock
+     Assessment) 2019--2020 webinar series: (1) data visualization with ggplot2 and
+     (2) efficiently iterating with code using the purrr package
 
 2019
 :    Two-day workshop on Advanced R topics (functional programming, debugging,
