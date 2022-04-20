@@ -67,6 +67,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Preprints
 
 2022
+:    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
+     drivers of spatiotemporal individual condition of a bottom-associated
+     marine fish. bioRxiv 2022.04.19.488709.
+     <https://doi.org/10.1101/2022.04.19.488709>.
+
+2022
 :    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett. sdmTMB: an R
      package for fast, flexible, and user-friendly generalized linear mixed effects
      models with spatial and spatiotemporal random fields.
@@ -80,7 +86,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2022
-:    Essington, T. E. **S.C. Anderson**, L.A.K. Barnett, H.M. Berger, S.A.
+:    Essington, T.E. **S.C. Anderson**, L.A.K. Barnett, H.M. Berger, S.A.
      Siedlecki, E.J. Ward. Advancing statistical models to reveal the effect of
      dissolved oxygen on the spatial distribution of marine taxa using
      thresholds and a physiologically based index.
