@@ -92,6 +92,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      thresholds and a physiologically based index.
      In press at Ecography.
      <https://doi.org/10.1111/ecog.06249>.
+     
+2022
+:    Hunsicker, M.E., E.J. Ward, M.A. Litzow, **S.C. Anderson**, C.J. Harvey,
+     J.C. Field, J. Gao, M.G. Jacox, S. Melin, A.R. Thompson, P. Warzybok.
+     Tracking and forecasting community responses to climate perturbations in
+     the California Current Ecosystem. PLOS Clim 1(3): e0000014.
+     <https://doi.org/10.1371/journal.pclm.0000014>.
 
 2022
 :    Commander, C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
