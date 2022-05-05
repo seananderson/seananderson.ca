@@ -92,6 +92,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      thresholds and a physiologically based index.
      In press at Ecography.
      <https://doi.org/10.1111/ecog.06249>.
+
+2022
+:    Thompson, P.L., **S.C. Anderson**, J. Nephin, D.R. Haggarty, M. Angelica
+     Peña, P.A. English, K.S.P. Gale, E. Rubidge. Disentangling the impacts of
+     environmental change and commercial fishing on demersal fish biodiversity
+     in a northeast Pacific ecosystem.
+     In press at Marine Ecology Progress Series. <https://doi.org/10.3354/meps14034>.
      
 2022
 :    Hunsicker, M.E., E.J. Ward, M.A. Litzow, **S.C. Anderson**, C.J. Harvey,
