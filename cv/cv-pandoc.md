@@ -6,15 +6,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2021--22
+2021--23
 :    Research Scientist, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
 
-2019--22
+2019--23
 :     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
 
-2020--22
+2020--23
 :     Adjunct Professor, Department of Mathematics, Simon Fraser University
 
 2017--20
@@ -66,6 +66,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
+
 2022
 :    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
      drivers of spatiotemporal individual condition of a bottom-associated
@@ -86,11 +87,18 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2022
+:    Ward, E.J., L.A.K. Barnett, **S.C. Anderson**, C.J.C. Commander, T.E.
+     Essington. Incorporating non-stationary spatial variability into dynamic
+     species distribution models. 
+     ICES Journal of Marine Science. 79(9): 2422-2429.
+     <https://doi.org/10.1093/icesjms/fsac179>.
+
+2022
 :    Essington, T.E. **S.C. Anderson**, L.A.K. Barnett, H.M. Berger, S.A.
      Siedlecki, E.J. Ward. Advancing statistical models to reveal the effect of
      dissolved oxygen on the spatial distribution of marine taxa using
      thresholds and a physiologically based index.
-     In press at Ecography.
+     Ecography 2022(8): e06249.
      <https://doi.org/10.1111/ecog.06249>.
 
 2022
@@ -98,19 +106,19 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Peña, P.A. English, K.S.P. Gale, E. Rubidge. Disentangling the impacts of
      environmental change and commercial fishing on demersal fish biodiversity
      in a northeast Pacific ecosystem.
-     In press at Marine Ecology Progress Series. <https://doi.org/10.3354/meps14034>.
+     Marine Ecology Progress Series. 689:137-154. <https://doi.org/10.3354/meps14034>.
      
 2022
 :    Hunsicker, M.E., E.J. Ward, M.A. Litzow, **S.C. Anderson**, C.J. Harvey,
      J.C. Field, J. Gao, M.G. Jacox, S. Melin, A.R. Thompson, P. Warzybok.
      Tracking and forecasting community responses to climate perturbations in
-     the California Current Ecosystem. PLOS Clim 1(3): e0000014.
+     the California Current Ecosystem. PLOS Climate. 1(3): e0000014.
      <https://doi.org/10.1371/journal.pclm.0000014>.
 
 2022
 :    Commander, C.J.C, L.A.K. Barnett, E.J. Ward, **S.C. Anderson**, T.E.
      Essington. The shadow model: how and why small choices in spatially
-     explicit species distribution models affect predictions. PeerJ 10: e12783.
+     explicit species distribution models affect predictions. PeerJ. 10: e12783.
      <https://doi.org/10.7717/peerj.12783>.
 
 2022
@@ -118,12 +126,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Mulberry, M.C. Otterstatter, N.Z. Janjua, D. Coombs, C. Colijn, and M.A.
      Irvine. Quantifying transmissibility of SARS-CoV-2 and impact of
      intervention within long-term healthcare facilities. Royal Society Open
-     Science 9(1): 211710. <https://doi.org/10.1098/rsos.211710>.
+     Science. 9(1): 211710. <https://doi.org/10.1098/rsos.211710>.
 
 2022
 :    Ward, E.J., **S.C. Anderson**, M.D. Hunsicker, and M.A. Litzow. Smoothed
      dynamic factor analysis for identifying trends in multivariate time
-     series. Methods in Ecology and Evolution. In press.
+     series. Methods in Ecology and Evolution. 13(4):908-918.
      <https://doi.org/10.1111/2041-210X.13788>.
 
 2021
@@ -131,8 +139,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Hunter, A.M. Edwards, B.M. Connors, **S.C. Anderson**. Contrasting climate
      velocity impacts in warm and cool locations show that effects of marine
      warming are worse in already warmer temperate waters. Fish and Fisheries.
-     23(1) 239--255. <https://doi.org/10.1111/faf.12613>. Open access preprint:
-     <https://doi.org/10.32942/osf.io/b87ng>.
+     23(1) 239--255. <https://doi.org/10.1111/faf.12613>. [[PDF](https://www.dropbox.com/s/cmkzlxgiez6rzc0/English_etal_2022_contrasting_climate_velocity.pdf?dl=1)] 
 
 2021
 :    Evans R., P.A. English , **S.C. Anderson**, S. Gauthier, C.L.K. Robinson.
@@ -159,7 +166,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, Mulberry, N., Edwards, A.M., Stockdale, J.E.,
      Iyaniwura, S.A., Falcao, R.C., Otterstatter, M.C., Janjua, N.Z., Coombs,
      D., and Colijn, C. 2020. How much leeway is there to relax COVID-19
-     control measures? In press at Epidemics.
+     control measures? Epidemics. 35: 100453.
      <https://doi.org/10.1016/j.epidem.2021.100453>.
 
 2021
@@ -212,7 +219,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Huynh, Q.C., A.R. Hordyk, R.E. Forrest, C.E. Porch, **S.C. Anderson**,
      T.R. Carruthers. The interim management procedure approach for
      assessed stocks: Responsive management advice and lower assessment frequency.
-     In press at Fish and Fisheries. <https://doi.org/10.1111/faf.12453>.
+     Fish and Fisheries. 21(3):663-679. <https://doi.org/10.1111/faf.12453>.
 
 2020
 :    Free, C.M., O.P. Jensen, **S.C. Anderson**, N.L. Gutierrez, K.M. Kleisner,
@@ -385,7 +392,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Farmer, R.G., M.L. Leonard, J.E. Mills Flemming, **S.C. Anderson**. Observer aging and long-term avian survey data quality. Ecology and Evolution. 4(12): 2563--2576. <https://doi.org/10.1002/ece3.1101> ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1101/pdf)). [National Geographic news story](http://news.nationalgeographic.com/news/2014/08/140805-aging-birders-breeding-bird-survey-volunteers-science/).
 
 2014
-:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLoS ONE. 9(4): e92725. <https://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim).
+:    **Anderson, S.C.**, C.C. Monnahan, K.F. Johnson, K. Ono, J.L. Valero. ss3sim: An R package for fisheries stock assessment simulation with Stock Synthesis. PLoS ONE. 9(4): e92725. <https://doi.org/10.1371/journal.pone.0092725> ([PDF](http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0092725&representation=PDF)). ([R package](http://cran.r-project.org/web/packages/ss3sim/index.html), [code](https://github.com/ss3sim/ss3sim)).
 
 2014
 :    O'Regan, S.M., W.J. Palen, **S.C. Anderson**. Climate warming mediates negative impacts of rapid pond drying for three amphibian species. Ecology. 95(4): 845--855. <https://doi.org/10.1890/13-0916.1> ([PDF](http://onlinelibrary.wiley.com/doi/10.1890/13-0916.1/epdf)).
@@ -427,6 +434,17 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Peer-reviewed reports
 
+2022
+     Grandin, C.J., **S.C. Anderson**, P.A. English. Arrowtooth Flounder
+     (*Atheresthes stomias*) Stock Assessment for the West Coast of British
+     Columbia in 2021.
+     Accepted DFO Can. Sci. Advis. Sec. Res. Doc.
+
+2022
+     DFO. A data synopsis for British Columbia groundfish: 2021 data update.
+     DFO Can. Sci. Advis. Sec. Sci. Resp. 2022/020. 
+     ([English version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ScR-RS/2022/2022_020-eng.html), [French version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ScR-RS/2022/2022_020-fra.html)).
+
 2021
 :    DFO. Status Update of Pacifc Cod (*Gadus macrocephalus*) for West Coast
      Vancouver Island (Area 3CD), and Hecate Strait and Queen Charlotte Sound (Area
@@ -439,13 +457,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      ([Research Document](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-eng.html)).
      [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html).
 
-2020
+2021
 :    Haggarty D.R., Q.C. Huynh, R.E. Forrest,
      **S.C. Anderson**, M.J. Bresch, E.A. Keppel.
-     Evaluation of potential rebuilding strategies
-     for Inside Yelloweye Rockfish
-     (*Sebastes ruberrimus*) in British Columbia.
-     In Press. Accepected as a DFO Can. Sci. Advis. Sec. Res. Doc. on June 11 2020.
+     Evaluation of potential rebuilding strategies for Inside Yelloweye
+     Rockfish (*Sebastes ruberrimus*) in British Columbia.
+     DFO Can. Sci. Advis. Sec. Res. Doc. 2021/008.
+     ([Research Document](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_008-eng.html)).
 
 2020
 :    Forrest, R.E., **S.C. Anderson**, C.J. Grandin, P.J. Starr. Assessment of
@@ -508,12 +526,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Co-principal Investigator on NOAA Office of Science and Technology NMFS-DFO grant
      "Characterizing range shifts in groundfish species in response to local climate
      velocities". An extension to apply methods from a similarly titled ACCASP grant
-     below to NOAA waters. ($30K USD)
+     below to NOAA waters.
 
 2020--21
 :    Collaborator on NOAA Office of Science and Technology NMFS-DFO grant
      "Groundfish distribution shifts between British Columbia, Canada, and Southeast
-     Alaska, USA: climate drivers, ecosystem impacts and management implications". ($30K USD)
+     Alaska, USA: climate drivers, ecosystem impacts and management implications".
 
 2019
 :    Canadian Journal of Fisheries and Aquatic Sciences Stevenson Lectureship.
@@ -572,6 +590,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 \setlist[itemize]{topsep=2pt}
 
+**sdmTMB**: <https://github.com/pbs-assess/sdmTMB>
+
+* An R package for fitting spatiotemporal species distribution GLMMs
+  (generalized linear mixed effects models) with TMB (Template Model Builder)
+
+
 **covidseir**: <https://github.com/seananderson/covidseir>
 
 * Primary statistical model for COVID-19 forecasts for Canada (Public Health
@@ -584,11 +608,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 * Can evaluate epidemic forecasts given changes to population contact rates (e.g.,
   levels of social distancing)
 * Published: Anderson et al. (2020; PLOS Computational Biology)
-
-**sdmTMB**: <https://github.com/pbs-assess/sdmTMB>
-
-* An R package for fitting spatiotemporal species distribution GLMMs
-  (generalized linear mixed effects models) with TMB (Template Model Builder)
 
 **glmmfields**: <https://cran.r-project.org/package=glmmfields>
 
@@ -780,26 +799,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2007–08
 :    Teaching Assistant, Marine Mammology, Dalhousie University (BIOL 4060).
 
-<!--
-# Contract employment
-
-2014–15
-:    Data analysis in R and C++ for Ecoscape Environmental Consultants Ltd.
-
-2013
-:    Co-developed global fisheries status maps for the [RAM Legacy Stock
-     Assessment Database](http://ramlegacy.org/) for R. Hilborn
-
-2010
-:    Assessment of Arctic surfclam on Banquereau Bank using
-     industry-collected data for Clearwater Seafoods, Bedford, NS, Canada.
-
-2010
-:    Modelling length-frequency distribution changes of Atlantic halibut for
-     NAFO Divisions 4VWX5Z and 3NOP for Dr. K. Trzcinski, Population Ecology
-     Division, Bedford Institute of Oceanography, Fisheries and Oceans,
-     Dartmouth, NS, Canada.
--->
 
 # Working groups and workshops
 
