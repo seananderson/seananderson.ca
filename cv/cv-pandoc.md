@@ -432,16 +432,16 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2008
 :    **Anderson, S.C.**, H.K. Lotze, N.L. Shackell. Evaluating the knowledge base for expanding low-trophic-level fisheries in Atlantic Canada. Canadian Journal of Fisheries and Aquatic Sciences. 65(12): 2553--2571. <https://doi.org/10.1139/F08-156> ([PDF](https://www.dropbox.com/s/b0la81jbqitib6u/Anderson_etal_2008_knowledge.pdf?dl=1)).
 
-# Peer-reviewed reports
+# Peer-reviewed government reports
 
 2022
-     Grandin, C.J., **S.C. Anderson**, P.A. English. Arrowtooth Flounder
+:    Grandin, C.J., **S.C. Anderson**, P.A. English. Arrowtooth Flounder
      (*Atheresthes stomias*) Stock Assessment for the West Coast of British
      Columbia in 2021.
      Accepted DFO Can. Sci. Advis. Sec. Res. Doc.
 
 2022
-     DFO. A data synopsis for British Columbia groundfish: 2021 data update.
+:    DFO. A data synopsis for British Columbia groundfish: 2021 data update.
      DFO Can. Sci. Advis. Sec. Sci. Resp. 2022/020. 
      ([English version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ScR-RS/2022/2022_020-eng.html), [French version](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ScR-RS/2022/2022_020-fra.html)).
 
@@ -454,8 +454,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    **Anderson, S.C.**, R.E. Forrest, Q.C. Huynh, E.A. Keppel.
      A management procedure framework for groundﬁsh in British Columbia.
      DFO Can. Sci. Advis. Sec. Res. Doc. 2021/007.
-     ([Research Document](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-eng.html)).
-     [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html).
+     ([Research Document](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2021/2021_007-eng.html),
+     [Associated Science Advisory Report](https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2021/2021_002-eng.html)).
 
 2021
 :    Haggarty D.R., Q.C. Huynh, R.E. Forrest,
@@ -479,7 +479,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      ([English version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-eng.html),
      [French version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-fra.html)).
 
-# DFO Technical Reports
+# Government Technical Reports
 
 2021
 :     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
