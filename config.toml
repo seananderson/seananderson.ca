@@ -49,13 +49,9 @@ enableEmoji = true
     url = "http://www.flickr.com/photos/seananderson/"
     weight = 7
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/sean_anderson"
-    weight = 8
-[[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 9
+    weight = 8
 
 [params]
     description = ""
