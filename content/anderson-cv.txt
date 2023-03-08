@@ -92,6 +92,13 @@ sean.anderson "at" dfo-mpo.gc.ca
 
 # Publications
 
+2023
+:   Thompson, P.L., **S.C. Anderson**, J. Nephin, C.K. Robb, B.
+    Proudfoot, A.E. Park, D.R. Haggarty, E.M. Rubidge. Integrating trawl
+    and longline surveys across British Columbia improves groundfish
+    distribution predictions. Can. J. Fish. Aquat. Sci. 80(1): 195--210.
+    <https://doi.org/10.1139/cjfas-2022-0108>.
+
 2022
 :   Ward, E.J., L.A.K. Barnett, **S.C. Anderson**, C.J.C. Commander,
     T.E. Essington. Incorporating non-stationary spatial variability
