@@ -66,12 +66,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
-
-2022
-:    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
-     drivers of spatiotemporal individual condition of a bottom-associated
-     marine fish. bioRxiv 2022.04.19.488709.
-     <https://doi.org/10.1101/2022.04.19.488709>.
+2023
+:   Liu, O.R. E.J. Ward, **S.C. Anderson**, K.S. Andrews, L.A.K. Barnett, S.
+    Brodie, G. Carroll, J. Fiechter, M.A. Haltuch, C.J. Harvey, E.L. Hazen, P.Y.
+    Hernvann, M. Jacox, I.C. Kaplan, S. Matson, K. Norman, M.P. Buil, R.L. Selden,
+    A.O. Shelton, J.F. Samhouri. Species redistribution creates unequal
+    outcomes for multispecies fisheries under projected climate change.
+    <https://doi.org/10.21203/rs.3.rs-2399110/v1>.
 
 2022
 :    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett. sdmTMB: an R
@@ -79,12 +80,28 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      models with spatial and spatiotemporal random fields.
      bioRxiv 2022.03.24.485545. <https://doi.org/10.1101/2022.03.24.485545>.
 
+
+2022
+:    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
+     drivers of spatiotemporal individual condition of a bottom-associated
+     marine fish. bioRxiv 2022.04.19.488709.
+     <https://doi.org/10.1101/2022.04.19.488709>.
+
 2021
 :    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh,
      K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv
      2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
+
+2023
+:    Free, C.M., **S.C. Anderson**, E.A. Hellmers, B.A. Muhling, M.O. Navarro,
+     K. Richerson, L.A. Rogers, W.H. Satterthwaite, A.R. Thompson, J.M. Burt,
+     S.D. Gaines, K.N. Marshall, J.W. White, and L.F. Bellquist.
+     Impact of the 2014--2016 marine heatwave on US and Canada West
+     Coast fisheries: Surprises and lessons from key case studies. Fish and
+     Fisheries. In press.
+     <https://doi.org/10.1111/faf.12753>.
 
 2023
 :    Thompson, P.L., **S.C. Anderson**, J. Nephin, C.K. Robb, B. Proudfoot,
@@ -213,7 +230,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Evaluating ecosystem change as Gulf of Alaska temperature exceeds the
      limits of preindustrial variability.
      Progress in Oceanography. 186:102393.
-     <https://doi.org/10.1016/j.pocean.2020.102393>
+     <https://doi.org/10.1016/j.pocean.2020.102393>.
 
 2020
 :    **Anderson, S.C.**, E.A. Keppel, A.M. Edwards.
@@ -441,6 +458,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Peer-reviewed government reports
 
+2023
+:    Barrett, T.J., J.R. Marentette, R.E. Forrest, S.C. Anderson, C.A. Holt,
+     D.W. Ings, M.E. Thiess. Technical Considerations for Stock Status and
+     Limit Reference Points under the Fish Stocks Provisions.
+     Accepted DFO Can. Sci. Advis. Sec. Res. Doc.
+
 2022
 :    Grandin, C.J., **S.C. Anderson**, P.A. English. Arrowtooth Flounder
      (*Atheresthes stomias*) Stock Assessment for the West Coast of British
@@ -486,7 +509,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      ([English version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-eng.html),
      [French version](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/ResDocs-DocRech/2019/2019_041-fra.html)).
 
-# Government Technical Reports
+# Technical Reports
+
+2023
+:     ICES. Workshop on Unavoidable Survey Effort Reduction 2 (WKUSER2). ICES
+      Scientific Report, 5(13). <https://doi.org/10.17895/ices.pub.22086845.v1>.
+      Co-lead author of chapter "TOR III. Modeling and simulations: Further
+      develop model performance evaluation through simulations, use of
+      auxiliary information to improve survey data products, including
+      appropriate propagation of uncertainty"
 
 2021
 :     English, P.A., **Anderson, S.C.**, and Workman, G.D. A review of groundfish
@@ -542,7 +573,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2019
 :    Canadian Journal of Fisheries and Aquatic Sciences Stevenson Lectureship.
-     <http://www.nrcresearchpress.com/page/cjfas/award> A "lectureship conferred upon a young, energetic and creative researcher at the cutting edge of an aquatic discipline".
+     <https://cdnsciencepub.com/journal/cjfas/about> A "lectureship conferred upon a young, energetic and creative researcher at the cutting edge of an aquatic discipline".
 
 2018--20
 :    Principal Investigator of a two-year grant from Fisheries and Oceans

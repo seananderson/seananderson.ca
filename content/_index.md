@@ -1,6 +1,6 @@
 ---
 title: seananderson.ca
-aliases: index.html
+alias: index.html
 layout: index
 ---
 
