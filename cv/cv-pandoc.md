@@ -80,19 +80,19 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      models with spatial and spatiotemporal random fields.
      bioRxiv 2022.03.24.485545. <https://doi.org/10.1101/2022.03.24.485545>.
 
-
-2022
-:    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
-     drivers of spatiotemporal individual condition of a bottom-associated
-     marine fish. bioRxiv 2022.04.19.488709.
-     <https://doi.org/10.1101/2022.04.19.488709>.
-
 2021
 :    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh,
      K.R. Holt. Trends in Pacific Canadian groundfish stock status. bioRxiv
      2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
+
+2023
+:    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
+     drivers of spatiotemporal variability in individual condition of a
+     bottom-associated marine fish, Atlantic cod (*Gadus morhua*). 
+     ICES Journal of Marine Science. In press. Preprint:
+     <https://doi.org/10.1101/2022.04.19.488709>.
 
 2023
 :    Free, C.M., **S.C. Anderson**, E.A. Hellmers, B.A. Muhling, M.O. Navarro,
