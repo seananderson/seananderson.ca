@@ -91,8 +91,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
      drivers of spatiotemporal variability in individual condition of a
      bottom-associated marine fish, Atlantic cod (*Gadus morhua*). 
-     ICES Journal of Marine Science. In press. Preprint:
-     <https://doi.org/10.1101/2022.04.19.488709>.
+     ICES Journal of Marine Science. In press. 
+     <https://doi.org/10.1093/icesjms/fsad084>.
 
 2023
 :    Free, C.M., **S.C. Anderson**, E.A. Hellmers, B.A. Muhling, M.O. Navarro,
