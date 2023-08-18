@@ -66,14 +66,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
-2023
-:   Liu, O.R. E.J. Ward, **S.C. Anderson**, K.S. Andrews, L.A.K. Barnett, S.
-    Brodie, G. Carroll, J. Fiechter, M.A. Haltuch, C.J. Harvey, E.L. Hazen, P.Y.
-    Hernvann, M. Jacox, I.C. Kaplan, S. Matson, K. Norman, M.P. Buil, R.L. Selden,
-    A.O. Shelton, J.F. Samhouri. Species redistribution creates unequal
-    outcomes for multispecies fisheries under projected climate change.
-    <https://doi.org/10.21203/rs.3.rs-2399110/v1>.
-
 2022
 :    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett. sdmTMB: an R
      package for fast, flexible, and user-friendly generalized linear mixed effects
@@ -86,6 +78,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
+
+2023
+:   Liu, O.R. E.J. Ward, **S.C. Anderson**, K.S. Andrews, L.A.K. Barnett, S.
+    Brodie, G. Carroll, J. Fiechter, M.A. Haltuch, C.J. Harvey, E.L. Hazen, P.Y.
+    Hernvann, M. Jacox, I.C. Kaplan, S. Matson, K. Norman, M.P. Buil, R.L. Selden,
+    A.O. Shelton, J.F. Samhouri. Species redistribution creates unequal
+    outcomes for multispecies fisheries under projected climate change.
+    Science Advances 9(33): eadg5468.
+    <https://doi.org/10.1126/sciadv.adg5468>.
 
 2023
 :    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
