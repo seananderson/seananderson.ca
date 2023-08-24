@@ -87,6 +87,22 @@ sean.anderson "at" dfo-mpo.gc.ca
 # Publications
 
 2023
+:   J. Nephin, P.L. Thompson, **S.C. Anderson**, A.E. Park, C.N.
+    Rooper, B. Aulthouse, J. Watson. Integrating disparate survey data
+    in species distribution models demonstrates the need for robust
+    model evaluation. In press at Canadian Journal of Fisheries and
+    Aquatic Science.
+
+2023
+:   Davies S.C., P.L. Thompson, C. Gomez, J. Nephin, A. Knudby, A.E.
+    Park, S. Friesen, L. Pollock, E. Rubidge, **S.C. Anderson**, J.
+    Iacarella, D.A. Lyons, A.A. MacDonald, A. McMillan, E.J. Ward, A.
+    Holdsworth, N. Swart, J. Price, K.L. Hunter. Addressing uncertainty
+    when projecting marine species distributions under climate change.
+    In press at Ecography. Preprint:
+    <https://doi.org/10.22541/au.167161533.36921011/v1>
+
+2023
 :   Liu, O.R. E.J. Ward, **S.C. Anderson**, K.S. Andrews, L.A.K.
     Barnett, S. Brodie, G. Carroll, J. Fiechter, M.A. Haltuch, C.J.
     Harvey, E.L. Hazen, P.Y. Hernvann, M. Jacox, I.C. Kaplan, S.
