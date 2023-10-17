@@ -83,7 +83,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Yalcin, S., **S.C. Anderson**, P.M. Regular, P.A. English. 
      Exploring the limits of spatiotemporal and design-based index
      standardization under reduced survey coverage. In press at ICES Journal of
-     Marine Science.
+     Marine Science. <https://doi.org/10.1093/icesjms/fsad155>.
 
 2023
 :    K.L. Blake, D. Veríssimo, **S.C. Anderson**, A. Gleave.
