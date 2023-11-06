@@ -80,6 +80,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2023
+:    Baker, K.D., **S.C. Anderson**, D.R.J. Mullowney, W. Walkusz, and K.R. Skanes.
+     Moving away from a scale mismatch: Spatiotemporal modelling of
+     striped shrimp (*Pandalus montagui*) density in Canada's subarctic.
+     Fisheries Research. 270: 106898. <https://doi.org/10.1016/j.fishres.2023.106898>.
+
+2023
 :    Yalcin, S., **S.C. Anderson**, P.M. Regular, P.A. English. 
      Exploring the limits of spatiotemporal and design-based index
      standardization under reduced survey coverage. In press at ICES Journal of
@@ -88,8 +94,8 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 2023
 :    K.L. Blake, D. Veríssimo, **S.C. Anderson**, A. Gleave.
      Do species receive more attention when named after celebrities? In press
-     at Conservation Biology. Preprint:
-     <https://doi.org/10.31235/osf.io/wgbpv>.
+     at Conservation Biology.
+     <https://doi.org/10.1111/cobi.14184>.
 
 2023
 :    J. Nephin, P.L. Thompson, **S.C. Anderson**, A.E.
