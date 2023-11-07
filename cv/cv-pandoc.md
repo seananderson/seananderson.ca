@@ -80,6 +80,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2023
+:    Nephin, J., P.L. Thompson, **S.C. Anderson**, A.E. Park, C.N. Rooper,
+     B. Aulthouse, and J. Watson. Integrating disparate survey data in species
+     distribution models demonstrate the need for robust model evaluation.
+     In press at Can. J. Fish. Aquat. Sci. 
+     <https://doi.org/10.1139/cjfas-2022-0279>.
+
+2023
 :    Baker, K.D., **S.C. Anderson**, D.R.J. Mullowney, W. Walkusz, and K.R. Skanes.
      Moving away from a scale mismatch: Spatiotemporal modelling of
      striped shrimp (*Pandalus montagui*) density in Canada's subarctic.
@@ -96,12 +103,6 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      Do species receive more attention when named after celebrities? In press
      at Conservation Biology.
      <https://doi.org/10.1111/cobi.14184>.
-
-2023
-:    J. Nephin, P.L. Thompson, **S.C. Anderson**, A.E.
-     Park, C.N. Rooper, B. Aulthouse, J. Watson. Integrating disparate survey
-     data in species distribution models demonstrates the need for robust model
-     evaluation. In press at Canadian Journal of Fisheries and Aquatic Science.
 
 2023
 :    Davies S.C., P.L. Thompson, C. Gomez, J. Nephin, A. Knudby, 
