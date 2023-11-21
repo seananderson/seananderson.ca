@@ -81,7 +81,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2023
 :    English, P.A., C.M. Picco, J.C. Edwards, D.R. Haggarty, R.E. Forrest,
-     **S.C. Anderson**.Spatial restrictions hinder avoidance of choke species
+     **S.C. Anderson**. Spatial restrictions hinder avoidance of choke species
      in an Indigenous rights-based fishery. People and Nature. In press.
      <https://doi.org/10.1002/pan3.10554>.
 
