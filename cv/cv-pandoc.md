@@ -66,8 +66,15 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Preprints
 
+2024
+:    Thorson, J.T., **S.C. Anderson**, P. Goddard, C.N. Rooper. 
+     tinyVAST: R package with an expressive interface to specify lagged and
+     simultaneous effects in multivariate spatio-temporal models. 
+     arXiv. <https://doi.org/10.48550/arXiv.2401.10193>.
+
 2022
-:    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett. sdmTMB: an R
+:    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett, J.T. Thorson.
+     sdmTMB: an R
      package for fast, flexible, and user-friendly generalized linear mixed effects
      models with spatial and spatiotemporal random fields.
      bioRxiv 2022.03.24.485545. <https://doi.org/10.1101/2022.03.24.485545>.
@@ -79,35 +86,50 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Publications
 
-2023
+2024
+:    **Anderson, S.C.**, P.A. English, K.S.P. Gale, D.R. Haggarty, C.K. Robb,
+     E.M. Rubidge, P.L. Thompson. Impacts on population indices if
+     scientific surveys are excluded from marine protected areas. ICES Journal
+     of Marine Science. fsae009. <https://doi.org/10.1093/icesjms/fsae009>.
+     
+2024
+:    Hughes, B.B., Beheshti, K.M., Tinker, M.T., Angelini, C., Endris, 
+     C., Murai, L., **Anderson, S.C.**, Espinosa, S., Staedler, M., Tomoleoni,
+     J.A., Sanchez, M., and Silliman, B.R. Top-predator recovery abates
+     geomorphic decline of a coastal ecosystem. Nature 626(7997): 111–118.
+     <https://doi.org/10.1038/s41586-023-06959-9>.
+
+2024
 :    English, P.A., C.M. Picco, J.C. Edwards, D.R. Haggarty, R.E. Forrest,
      **S.C. Anderson**. Spatial restrictions hinder avoidance of choke species
-     in an Indigenous rights-based fishery. People and Nature. In press.
+     in an Indigenous rights-based fishery. People and Nature. 6: 75--90.
      <https://doi.org/10.1002/pan3.10554>.
 
 2023
 :    Nephin, J., P.L. Thompson, **S.C. Anderson**, A.E. Park, C.N. Rooper,
      B. Aulthouse, and J. Watson. Integrating disparate survey data in species
      distribution models demonstrate the need for robust model evaluation.
-     In press at Can. J. Fish. Aquat. Sci. 
+     Can. J. Fish. Aquat. Sci. 80(12): 1869-1889.
      <https://doi.org/10.1139/cjfas-2022-0279>.
 
-2023
+2024
 :    Baker, K.D., **S.C. Anderson**, D.R.J. Mullowney, W. Walkusz, and K.R. Skanes.
      Moving away from a scale mismatch: Spatiotemporal modelling of
      striped shrimp (*Pandalus montagui*) density in Canada's subarctic.
-     Fisheries Research. 270: 106898. <https://doi.org/10.1016/j.fishres.2023.106898>.
+     Fisheries Research. 270: 106898.
+     <https://doi.org/10.1016/j.fishres.2023.106898>.
 
 2023
 :    Yalcin, S., **S.C. Anderson**, P.M. Regular, P.A. English. 
      Exploring the limits of spatiotemporal and design-based index
-     standardization under reduced survey coverage. In press at ICES Journal of
-     Marine Science. <https://doi.org/10.1093/icesjms/fsad155>.
+     standardization under reduced survey coverage. ICES Journal of
+     Marine Science. 80(9): 2368--2379.
+     <https://doi.org/10.1093/icesjms/fsad155>.
 
 2023
 :    K.L. Blake, D. Veríssimo, **S.C. Anderson**, A. Gleave.
-     Do species receive more attention when named after celebrities? In press
-     at Conservation Biology.
+     Do species receive more attention when named after celebrities?
+     Conservation Biology. e14184.
      <https://doi.org/10.1111/cobi.14184>.
 
 2023
@@ -131,7 +153,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 :    Lindmark, M.,  **S.C. Anderson**,  M. Gogina,  M. Casini. Evaluating
      drivers of spatiotemporal variability in individual condition of a
      bottom-associated marine fish, Atlantic cod (*Gadus morhua*). 
-     ICES Journal of Marine Science. In press. 
+     ICES Journal of Marine Science. 80(5): 1539--1550.
      <https://doi.org/10.1093/icesjms/fsad084>.
 
 2023
@@ -140,7 +162,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      S.D. Gaines, K.N. Marshall, J.W. White, and L.F. Bellquist.
      Impact of the 2014--2016 marine heatwave on US and Canada West
      Coast fisheries: Surprises and lessons from key case studies. Fish and
-     Fisheries. In press.
+     Fisheries. 24: 652--674.
      <https://doi.org/10.1111/faf.12753>.
 
 2023
