@@ -72,7 +72,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      simultaneous effects in multivariate spatio-temporal models. 
      arXiv. <https://doi.org/10.48550/arXiv.2401.10193>.
 
-2022
+2024
 :    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett, J.T. Thorson.
      sdmTMB: an R
      package for fast, flexible, and user-friendly generalized linear mixed effects
@@ -85,6 +85,13 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
      2021.12.13.472502. <https://doi.org/10.1101/2021.12.13.472502>.
 
 # Publications
+
+2024
+:    Freshwater, C., **S.C. Anderson**, D.D. Huff, J.M. Smith, D. Jackson, B.
+     Hendriks, S.G. Hinch, S. Johnston, A.W. Trites, and J. King. Chinook salmon
+     depth distributions on the continental shelf are shaped by interactions between
+     location, season, and individual condition. Movement Ecology 12(1): 21.
+     <https://doi.org/10.1186/s40462-024-00464-y>.
 
 2024
 :    **Anderson, S.C.**, P.A. English, K.S.P. Gale, D.R. Haggarty, C.K. Robb,
