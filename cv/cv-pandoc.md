@@ -6,12 +6,12 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 # Professional experience
 
-2021--23
+2021--24
 :    Research Scientist, Stock Assessment and Research Division,
      Pacific Biological Station, Fisheries and Oceans Canada,
      Nanaimo, BC, Canada
 
-2019--23
+2019--24
 :     Associate Editor, the Canadian Journal of Fisheries and Aquatic Sciences
 
 2020--23
@@ -67,17 +67,26 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Preprints
 
 2024
+:    Ward, E.J., **S.C. Anderson**, L.A.K. Barnett, P.A. English, H.M. Berger, 
+     C.J.C. Commander, T.E Essington, C.J Harvey,
+     M.E. Hunsicker, M. Jacox, K.F Johnson, S. Large, O.R. Liu,
+     K. Richerson, J.F. Samhouri, S.A. Siedlecki, A.O. Shelton,
+     K.A. Somers, and J.T. Watson.
+     Win, lose, or draw: evaluating dynamic thermal niches of northeast Pacific
+     groundfish.
+     EarthArXiv Preprint. <https://doi.org/10.31223/X5J113>.
+
+2024
+:    Indivero, J., **S.C. Anderson**, L.A.K. Barnett, T.E. Essington, and E.J.
+     Ward. Estimating physiological mechanisms from monitoring data reveals
+     challenges and opportunities for forecasting distribution shifts.
+     Authorea Preprint. <https://doi.org/10.22541/au.172446072.20202938/v1>.
+
+2024
 :    Thorson, J.T., **S.C. Anderson**, P. Goddard, C.N. Rooper. 
      tinyVAST: R package with an expressive interface to specify lagged and
      simultaneous effects in multivariate spatio-temporal models. 
      arXiv. <https://doi.org/10.48550/arXiv.2401.10193>.
-
-2024
-:    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett, J.T. Thorson.
-     sdmTMB: an R
-     package for fast, flexible, and user-friendly generalized linear mixed effects
-     models with spatial and spatiotemporal random fields.
-     bioRxiv 2022.03.24.485545. <https://doi.org/10.1101/2022.03.24.485545>.
 
 2021
 :    **Anderson, S.C**, B.M. Connors, P.A. English, R.E. Forrest, R. Haigh,
@@ -87,10 +96,33 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 # Publications
 
 2024
+:    **Anderson, S.C.**, E.J. Ward, P.A. English, L.A.K. Barnett, and J.T. Thorson.
+     sdmTMB: an R package for fast, flexible, and user-friendly generalized
+     linear mixed effects models with spatial and spatiotemporal random fields.
+     In press at Journal of Statistical Software.
+     Preprint: bioRxiv 2022.03.24.485545.
+     <https://doi.org/10.1101/2022.03.24.485545>.
+
+2024
+:    Freshwater, C., **S.C. Anderson**, and J. King.
+     Model-based indices of juvenile Pacific salmon abundance highlight
+     species-specific seasonal distributions and impacts of changes to survey
+     design. Fisheries Research. 277: 107063.
+     <https://doi.org/10.1016/j.fishres.2024.107063>.
+
+2024
+:    Bass, A.L., Anderson, S.C., Bateman, A.W., Connors, B.M., Peña, M.A., Li,
+     S., Kaukinen, K.H., Patterson, D.A., Hinch, 
+     S. G., and Miller, K.M. 2024. 
+     Intrinsic and extrinsic factors associated with the spatio-temporal
+     distribution of infectious agents in early marine Chinook and coho salmon.
+     Marine Ecology Progress Series. 736: 107–127. <https://doi.org/10.3354/meps14581>.
+
+2024
 :    Freshwater, C., **S.C. Anderson**, D.D. Huff, J.M. Smith, D. Jackson, B.
      Hendriks, S.G. Hinch, S. Johnston, A.W. Trites, and J. King. Chinook salmon
      depth distributions on the continental shelf are shaped by interactions between
-     location, season, and individual condition. Movement Ecology 12(1): 21.
+     location, season, and individual condition. Movement Ecology. 12(1): 21.
      <https://doi.org/10.1186/s40462-024-00464-y>.
 
 2024
@@ -135,7 +167,7 @@ a [PDF][cv-pdf] or in [plain-text Markdown][cv-md].
 
 2023
 :    K.L. Blake, D. Veríssimo, **S.C. Anderson**, A. Gleave.
-     Do species receive more attention when named after celebrities?
+     Impact on species' online attention when named after celebrities.
      Conservation Biology. e14184.
      <https://doi.org/10.1111/cobi.14184>.
 
